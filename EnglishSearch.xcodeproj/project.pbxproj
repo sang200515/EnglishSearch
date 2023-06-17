@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		94EBDF6F2A3D88CD0095C776 /* transcript2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94EBDF6E2A3D88CD0095C776 /* transcript2.txt */; };
 		94EBDF712A3D8A3C0095C776 /* transcript.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 94EBDF702A3D8A3C0095C776 /* transcript.pdf */; };
+		94EBDF752A3D8CB20095C776 /* transcript2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 94EBDF742A3D8CB20095C776 /* transcript2.pdf */; };
+		94EBDF772A3D8E1F0095C776 /* transcript.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94EBDF762A3D8E1F0095C776 /* transcript.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94EBDF4F2A3D73A70095C776 /* EnglishSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EBDF6E2A3D88CD0095C776 /* transcript2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transcript2.txt; sourceTree = "<group>"; };
 		94EBDF702A3D8A3C0095C776 /* transcript.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = transcript.pdf; sourceTree = "<group>"; };
+		94EBDF742A3D8CB20095C776 /* transcript2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = transcript2.pdf; sourceTree = "<group>"; };
+		94EBDF762A3D8E1F0095C776 /* transcript.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transcript.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,16 +51,26 @@
 		94EBDF512A3D73A70095C776 /* EnglishSearch */ = {
 			isa = PBXGroup;
 			children = (
-				94EBDF722A3D8A530095C776 /* (49) Let's Build Twitter with SwiftUI (iOS 15, Xcode 13, Firebase, SwiftUI 3.0) - YouTube */,
+				94EBDF732A3D8C5D0095C776 /* (49) Let's Build Twitter with SwiftUI (iOS 15, Xcode 13, Firebase, SwiftUI 3.0) - YouTube */,
+				94EBDF722A3D8A530095C776 /* abc */,
 			);
 			path = EnglishSearch;
 			sourceTree = "<group>";
 		};
-		94EBDF722A3D8A530095C776 /* (49) Let's Build Twitter with SwiftUI (iOS 15, Xcode 13, Firebase, SwiftUI 3.0) - YouTube */ = {
+		94EBDF722A3D8A530095C776 /* abc */ = {
 			isa = PBXGroup;
 			children = (
-				94EBDF702A3D8A3C0095C776 /* transcript.pdf */,
 				94EBDF6E2A3D88CD0095C776 /* transcript2.txt */,
+				94EBDF742A3D8CB20095C776 /* transcript2.pdf */,
+			);
+			path = abc;
+			sourceTree = "<group>";
+		};
+		94EBDF732A3D8C5D0095C776 /* (49) Let's Build Twitter with SwiftUI (iOS 15, Xcode 13, Firebase, SwiftUI 3.0) - YouTube */ = {
+			isa = PBXGroup;
+			children = (
+				94EBDF762A3D8E1F0095C776 /* transcript.txt */,
+				94EBDF702A3D8A3C0095C776 /* transcript.pdf */,
 			);
 			path = "(49) Let's Build Twitter with SwiftUI (iOS 15, Xcode 13, Firebase, SwiftUI 3.0) - YouTube";
 			sourceTree = "<group>";
@@ -119,7 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94EBDF752A3D8CB20095C776 /* transcript2.pdf in Resources */,
 				94EBDF712A3D8A3C0095C776 /* transcript.pdf in Resources */,
+				94EBDF772A3D8E1F0095C776 /* transcript.txt in Resources */,
 				94EBDF6F2A3D88CD0095C776 /* transcript2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
