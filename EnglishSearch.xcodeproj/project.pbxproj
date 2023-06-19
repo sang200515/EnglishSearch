@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */; };
+		942F0A092A409E9B00E50FDE /* [English]1.5 HOUR English Conversation Lesson[Checksub.com] (2).txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A082A409E9B00E50FDE /* [English]1.5 HOUR English Conversation Lesson[Checksub.com] (2).txt */; };
+		942F0A0B2A409F1A00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com] (1).txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A0A2A409F1A00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com] (1).txt */; };
+		942F0A0D2A40A05400E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 1[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A0C2A40A05400E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 1[Checksub.com].txt */; };
+		942F0A0F2A40A11800E50FDE /* [English] Speak With Me_ 2 Hour English Speaking Practice [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A0E2A40A11800E50FDE /* [English] Speak With Me_ 2 Hour English Speaking Practice [DownSub.com].txt */; };
+		942F0A132A40A1BD00E50FDE /* [English (auto-generated)] English Conversation and Listening Practice, Learn While You Sleep [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A122A40A1BD00E50FDE /* [English (auto-generated)] English Conversation and Listening Practice, Learn While You Sleep [DownSub.com].txt */; };
+		942F0A152A40A3C000E50FDE /* [English (auto-generated)] English Conversation; Learn while you Sleep with 5000 words [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A142A40A3C000E50FDE /* [English (auto-generated)] English Conversation; Learn while you Sleep with 5000 words [DownSub.com].txt */; };
+		942F0A172A40A66A00E50FDE /* trash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942F0A162A40A66A00E50FDE /* trash.swift */; };
+		942F0A192A40A96700E50FDE /* [English] 1.5 Hour English Conversation Lesson [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A182A40A96700E50FDE /* [English] 1.5 Hour English Conversation Lesson [DownSub.com].txt */; };
+		942F0A1B2A40AAB400E50FDE /* [English] Advanced English Conversation_ Talking Jobs and Time Off (British & American English with subtitles) [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A1A2A40AAB400E50FDE /* [English] Advanced English Conversation_ Talking Jobs and Time Off (British & American English with subtitles) [DownSub.com].txt */; };
+		942F0A1D2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */; };
+		942F0A1F2A40ACBE00E50FDE /* [English] Clara is back! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A1E2A40ACBE00E50FDE /* [English] Clara is back! - Conversation in English - English Communication Lesson [DownSub.com].txt */; };
+		942F0A212A40AD3E00E50FDE /* [English] Lisas real Sister! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A202A40AD3E00E50FDE /* [English] Lisas real Sister! - Conversation in English - English Communication Lesson [DownSub.com].txt */; };
 		94779E8D2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E8C2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt */; };
 		94779E912A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E902A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt */; };
 		94779E952A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */; };
@@ -17,6 +30,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt"; sourceTree = "<group>"; };
+		942F0A082A409E9B00E50FDE /* [English]1.5 HOUR English Conversation Lesson[Checksub.com] (2).txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]1.5 HOUR English Conversation Lesson[Checksub.com] (2).txt"; sourceTree = "<group>"; };
+		942F0A0A2A409F1A00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com] (1).txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com] (1).txt"; sourceTree = "<group>"; };
+		942F0A0C2A40A05400E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 1[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Learn English Conversation - Oxford English Daily Conversation Part 1[Checksub.com].txt"; sourceTree = "<group>"; };
+		942F0A0E2A40A11800E50FDE /* [English] Speak With Me_ 2 Hour English Speaking Practice [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Speak With Me_ 2 Hour English Speaking Practice [DownSub.com].txt"; sourceTree = "<group>"; };
+		942F0A122A40A1BD00E50FDE /* [English (auto-generated)] English Conversation and Listening Practice, Learn While You Sleep [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English (auto-generated)] English Conversation and Listening Practice, Learn While You Sleep [DownSub.com].txt"; sourceTree = "<group>"; };
+		942F0A142A40A3C000E50FDE /* [English (auto-generated)] English Conversation; Learn while you Sleep with 5000 words [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English (auto-generated)] English Conversation; Learn while you Sleep with 5000 words [DownSub.com].txt"; sourceTree = "<group>"; };
+		942F0A162A40A66A00E50FDE /* trash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trash.swift; sourceTree = "<group>"; };
+		942F0A182A40A96700E50FDE /* [English] 1.5 Hour English Conversation Lesson [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] 1.5 Hour English Conversation Lesson [DownSub.com].txt"; sourceTree = "<group>"; };
+		942F0A1A2A40AAB400E50FDE /* [English] Advanced English Conversation_ Talking Jobs and Time Off (British & American English with subtitles) [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Advanced English Conversation_ Talking Jobs and Time Off (British & American English with subtitles) [DownSub.com].txt"; sourceTree = "<group>"; };
+		942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt"; sourceTree = "<group>"; };
+		942F0A1E2A40ACBE00E50FDE /* [English] Clara is back! - Conversation in English - English Communication Lesson [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Clara is back! - Conversation in English - English Communication Lesson [DownSub.com].txt"; sourceTree = "<group>"; };
+		942F0A202A40AD3E00E50FDE /* [English] Lisas real Sister! - Conversation in English - English Communication Lesson [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Lisas real Sister! - Conversation in English - English Communication Lesson [DownSub.com].txt"; sourceTree = "<group>"; };
 		94779E8C2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt"; sourceTree = "<group>"; };
 		94779E902A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt"; sourceTree = "<group>"; };
 		94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt"; sourceTree = "<group>"; };
@@ -61,6 +87,19 @@
 		94E751832A407A7100F20840 /* Conversation */ = {
 			isa = PBXGroup;
 			children = (
+				942F0A202A40AD3E00E50FDE /* [English] Lisas real Sister! - Conversation in English - English Communication Lesson [DownSub.com].txt */,
+				942F0A1E2A40ACBE00E50FDE /* [English] Clara is back! - Conversation in English - English Communication Lesson [DownSub.com].txt */,
+				942F0A1A2A40AAB400E50FDE /* [English] Advanced English Conversation_ Talking Jobs and Time Off (British & American English with subtitles) [DownSub.com].txt */,
+				942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */,
+				942F0A182A40A96700E50FDE /* [English] 1.5 Hour English Conversation Lesson [DownSub.com].txt */,
+				942F0A142A40A3C000E50FDE /* [English (auto-generated)] English Conversation; Learn while you Sleep with 5000 words [DownSub.com].txt */,
+				942F0A122A40A1BD00E50FDE /* [English (auto-generated)] English Conversation and Listening Practice, Learn While You Sleep [DownSub.com].txt */,
+				942F0A0E2A40A11800E50FDE /* [English] Speak With Me_ 2 Hour English Speaking Practice [DownSub.com].txt */,
+				942F0A0C2A40A05400E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 1[Checksub.com].txt */,
+				942F0A162A40A66A00E50FDE /* trash.swift */,
+				942F0A0A2A409F1A00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com] (1).txt */,
+				942F0A082A409E9B00E50FDE /* [English]1.5 HOUR English Conversation Lesson[Checksub.com] (2).txt */,
+				942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */,
 			);
 			path = Conversation;
 			sourceTree = "<group>";
@@ -140,6 +179,7 @@
 				TargetAttributes = {
 					94EBDF4E2A3D73A70095C776 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -166,13 +206,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */,
 				94779E952A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt in Resources */,
+				942F0A0F2A40A11800E50FDE /* [English] Speak With Me_ 2 Hour English Speaking Practice [DownSub.com].txt in Resources */,
+				942F0A0D2A40A05400E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 1[Checksub.com].txt in Resources */,
+				942F0A132A40A1BD00E50FDE /* [English (auto-generated)] English Conversation and Listening Practice, Learn While You Sleep [DownSub.com].txt in Resources */,
+				942F0A212A40AD3E00E50FDE /* [English] Lisas real Sister! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */,
 				94779E8D2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt in Resources */,
+				942F0A1B2A40AAB400E50FDE /* [English] Advanced English Conversation_ Talking Jobs and Time Off (British & American English with subtitles) [DownSub.com].txt in Resources */,
+				942F0A0B2A409F1A00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com] (1).txt in Resources */,
+				942F0A192A40A96700E50FDE /* [English] 1.5 Hour English Conversation Lesson [DownSub.com].txt in Resources */,
 				94EBDF752A3D8CB20095C776 /* transcript2.pdf in Resources */,
+				942F0A1F2A40ACBE00E50FDE /* [English] Clara is back! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */,
+				942F0A152A40A3C000E50FDE /* [English (auto-generated)] English Conversation; Learn while you Sleep with 5000 words [DownSub.com].txt in Resources */,
 				94EBDF712A3D8A3C0095C776 /* transcript.pdf in Resources */,
 				94EBDF772A3D8E1F0095C776 /* transcript.txt in Resources */,
 				94EBDF6F2A3D88CD0095C776 /* transcript2.txt in Resources */,
 				94779E912A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt in Resources */,
+				942F0A1D2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */,
+				942F0A092A409E9B00E50FDE /* [English]1.5 HOUR English Conversation Lesson[Checksub.com] (2).txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942F0A172A40A66A00E50FDE /* trash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EnglishSearch/Preview Content\"";
@@ -329,6 +383,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sangtruong.text.EnglishSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EnglishSearch/Preview Content\"";
