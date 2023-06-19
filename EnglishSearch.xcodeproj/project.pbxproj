@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		94779E8D2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E8C2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt */; };
+		94779E912A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E902A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt */; };
+		94779E952A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */; };
 		94EBDF6F2A3D88CD0095C776 /* transcript2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94EBDF6E2A3D88CD0095C776 /* transcript2.txt */; };
 		94EBDF712A3D8A3C0095C776 /* transcript.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 94EBDF702A3D8A3C0095C776 /* transcript.pdf */; };
 		94EBDF752A3D8CB20095C776 /* transcript2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 94EBDF742A3D8CB20095C776 /* transcript2.pdf */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		94779E8C2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt"; sourceTree = "<group>"; };
+		94779E902A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt"; sourceTree = "<group>"; };
+		94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt"; sourceTree = "<group>"; };
 		94EBDF4F2A3D73A70095C776 /* EnglishSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EBDF6E2A3D88CD0095C776 /* transcript2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transcript2.txt; sourceTree = "<group>"; };
 		94EBDF702A3D8A3C0095C776 /* transcript.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = transcript.pdf; sourceTree = "<group>"; };
@@ -37,6 +41,8 @@
 		94779E842A3DD6EE001DEFEA /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */,
+				94779E902A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt */,
 				94779E852A3F44AB001DEFEA /* How to Network Like A Pro - Async-Await - Pagination - Error Handling - From A Meta Enginee */,
 				94EBDF722A3D8A530095C776 /* (49) COMPLETE User Login - Sign Up App - Swift UI + Firebase - Async  Await - YouTube */,
 				94EBDF732A3D8C5D0095C776 /* (49) Let's Build Twitter with SwiftUI (iOS 15, Xcode 13, Firebase, SwiftUI 3.0) - YouTube */,
@@ -152,11 +158,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94779E952A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt in Resources */,
 				94779E8D2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt in Resources */,
 				94EBDF752A3D8CB20095C776 /* transcript2.pdf in Resources */,
 				94EBDF712A3D8A3C0095C776 /* transcript.pdf in Resources */,
 				94EBDF772A3D8E1F0095C776 /* transcript.txt in Resources */,
 				94EBDF6F2A3D88CD0095C776 /* transcript2.txt in Resources */,
+				94779E912A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

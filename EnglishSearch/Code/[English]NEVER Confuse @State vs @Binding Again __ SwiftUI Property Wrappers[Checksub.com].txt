@@ -1,0 +1,491 @@
+what's going on everybody welcome back  ➤  chuyện gì đang xảy ra, chào mừng mọi người quay trở
+to the channel hope you are doing  ➤  lại kênh, hy vọng hôm nay bạn đang làm
+amazing today in this video we're going  ➤  rất tốt. Trong video này, chúng ta sẽ
+to be covering the difference between  ➤  đề cập đến sự khác biệt giữa
+State and binding properties in Swift UI  ➤  các thuộc tính Trạng thái và ràng buộc trong Swift UI,
+so let's go ahead and get started now  ➤  vì vậy hãy tiếp tục và bắt đầu ngay bây giờ
+[Music]  ➤  [Âm nhạc]
+so to start things off guys we're going  ➤  để bắt đầu mọi thứ  xin chào các bạn, chúng ta sẽ
+to go over some of the fundamentals  ➤  tìm hiểu một số nguyên tắc cơ bản
+behind how State and binding properties  ➤  đằng sau cách hoạt động của các thuộc tính Trạng thái và liên kết
+work within Swift UI and then we're  ➤  trong Swift UI, sau đó chúng ta
+going to hop into xcode and do an  ➤  sẽ chuyển sang xcode và làm một
+example to apply the knowledge that we  ➤  ví dụ để áp dụng kiến ​​thức mà chúng ta
+learn here to gain a better  ➤  học được ở đây để hiểu rõ hơn
+understanding of how this stuff works so  ➤  về cách thức hoạt động của công cụ này, vì vậy
+before we can understand binding  ➤  trước khi chúng ta có thể hiểu
+properties we need to First understand  ➤  các thuộc tính ràng buộc, trước tiên chúng ta cần hiểu Thuộc
+State Properties so let's take a look at  ➤  tính trạng thái, vì vậy hãy xem
+this example we have here in front of us  ➤  ví dụ này mà chúng ta có ở đây trước mặt
+and read this description really quick  ➤  và đọc mô tả này thật nhanh,
+we see that Swift UI views are a  ➤  chúng ta thấy rằng các chế độ xem giao diện người dùng Swift là một
+function of state so when we modify a  ➤  chức năng của  trạng thái vì vậy khi chúng tôi sửa đổi thuộc
+state property The View reconfigures  ➤  tính trạng thái, Chế độ xem sẽ tự cấu hình lại
+itself with that updated State we don't  ➤  với Trạng thái được cập nhật đó, chúng tôi không
+modify our views directly and this is  ➤  trực tiếp sửa đổi chế độ xem của mình và đây là
+the essence of declarative programming  ➤  bản chất của lập trình khai báo
+the opposite of that being imperative  ➤  ngược lại với điều đó là bắt buộc
+programming something like UI kit if you  ➤  lập trình bắt buộc giống như bộ giao diện người dùng nếu các
+guys have used that before you see that  ➤  bạn đã sử dụng nó trước đây  bạn thấy rằng
+we have to modify our views directly the  ➤  chúng tôi phải sửa đổi trực tiếp các chế độ xem của mình, sự
+difference between Swift UI which is a  ➤  khác biệt giữa Swift UI là
+declarative interface is that we modify  ➤  giao diện khai báo là chúng tôi sửa đổi
+State properties and in turn our view  ➤  các thuộc tính Trạng thái và đến lượt chế độ xem của chúng tôi
+updates or reconfigures itself with the  ➤  cập nhật hoặc tự cấu hình lại với
+updated state so the view is completely  ➤  trạng thái được cập nhật để chế độ xem hoàn toàn
+State dependent so if we look at the  ➤  phụ thuộc vào Trạng thái, vì vậy nếu chúng tôi xem xét  trong
+this example here we can see that our  ➤  ví dụ này ở đây, chúng ta có thể thấy rằng chế độ xem V của chúng tôi
+view V is a function of our state s so  ➤  là một chức năng của trạng thái của chúng tôi, vì vậy
+this is my view and this is my state  ➤  đây là chế độ xem của tôi và đây là trạng thái của tôi
+when my state VAR is on is equal to  ➤  khi trạng thái của tôi VAR được bật bằng
+false my toggle is off if I modify my  ➤  sai, công tắc của tôi bị tắt nếu tôi sửa đổi
+toggle and then in turn modify the state  ➤  công tắc của mình và sau đó  lần lượt sửa đổi thuộc tính trạng thái,
+property my toggle switch is to on and  ➤  công tắc bật tắt của tôi được bật và
+my State Bar is now true so basically we  ➤  Thanh trạng thái của tôi bây giờ là đúng, vì vậy về cơ bản chúng tôi
+have modified a state property and then  ➤  đã sửa đổi thuộc tính trạng thái và sau đó chế
+our view reconfigures itself with the  ➤  độ xem của chúng tôi tự cấu hình lại với
+updated state so let's actually hop into  ➤  trạng thái được cập nhật, vì vậy, hãy thực sự nhảy vào
+xcode and see if we can produce an  ➤  xcode và xem liệu chúng tôi có thể tạo một
+example of this to see it working in  ➤  ví dụ về điều này để thấy nó hoạt động trong
+real time  ➤  thời gian thực,
+so just go ahead and get xcode opened up  ➤  vì vậy hãy tiếp tục và mở xcode lên
+guys and really quickly let me show you  ➤  các bạn và thực sự nhanh chóng để tôi chỉ cho bạn
+what we're going to be doing before we  ➤  những gì chúng tôi sẽ làm trước khi
+get started uh this is the settings app  ➤  bắt đầu uh đây là ứng dụng cài đặt
+in the simulator we're going to be  ➤  trong trình giả lập chúng tôi'  Tôi sẽ
+implementing this sort of toggle here to  ➤  triển khai loại chuyển đổi này ở đây để
+modify the appearance of our  ➤  sửa đổi giao diện của
+applications from either light to dark  ➤  các ứng dụng của chúng ta từ chế độ sáng sang tối
+mode or dark to light mode just like  ➤  hoặc chế độ tối sang sáng giống như
+that so let's go ahead and get xcode  ➤  vậy, vì vậy hãy tiếp tục và
+opened up and hit next here to create  ➤  mở xcode và nhấn tiếp theo tại đây để tạo
+our app I'm going to call this Swift UI  ➤  ứng dụng của chúng ta. Tôi'  Tôi sẽ gọi
+property wrappers  ➤  trình bao bọc thuộc tính Swift UI này
+and then we're just going to hit next  ➤  và sau đó chúng ta sẽ bắt đầu phần tiếp theo
+and guys in a future video I'm going to  ➤  và các bạn trong một video trong tương lai, tôi sẽ
+be covering the difference between  ➤  đề cập đến sự khác biệt giữa
+State object and observable object and  ➤  đối tượng Trạng thái và đối tượng quan sát được cũng như đối
+environment object as well so make sure  ➤  tượng môi trường, vì vậy hãy đảm bảo rằng
+you like And subscribe to the channel  ➤  bạn thích  Và đăng ký kênh
+like this video smash that like button  ➤  như video này, hãy đập vỡ nút thích đó
+for me and make sure you turn  ➤  cho tôi và đảm bảo rằng bạn
+notifications on as well to get more  ➤  cũng bật thông báo để nhận thêm
+content like this to help you guys  ➤  nội dung như thế này nhằm giúp các bạn
+improve your understanding of how swift  ➤  nâng cao hiểu biết của mình về cách Swift
+UI works so let's go ahead and just let  ➤  UI hoạt động. Vì vậy, hãy tiếp tục và để
+me get this nice and big and let's see  ➤  tôi hiểu  cái này đẹp và lớn và hãy xem
+how we're going to create this toggle so  ➤  cách chúng ta sẽ tạo nút chuyển đổi này. Vì vậy,
+first off I want us to create our state  ➤  trước tiên, tôi muốn chúng ta tạo thuộc tính trạng thái
+property that's going to control the  ➤  sẽ kiểm soát
+toggle value turning on or off okay so  ➤  việc bật hoặc tắt giá trị chuyển đổi được, vì vậy
+let's just go ahead and say at State  ➤  hãy tiếp tục và nói tại
+private VAR dark mode enabled and that's  ➤  VAR riêng tư của Nhà nước  chế độ tối được bật và điều đó
+going to equal false and let's go ahead  ➤  sẽ là sai và hãy tiếp tục
+and just modify this v-stack so keep the  ➤  và chỉ cần sửa đổi v-stack này để giữ
+v-stack there guys and we're just going  ➤  v-stack ở đó các bạn và chúng ta sẽ
+to create a toggle  ➤  tạo một nút chuyển đổi
+and we're going to have this is on and  ➤  và chúng ta sẽ bật và
+label so we'll cover why this has to be  ➤  gắn nhãn cái này  Vì vậy, chúng tôi sẽ giải thích lý do tại sao điều này phải là
+a binding here but basically we just  ➤  một ràng buộc ở đây nhưng về cơ bản, chúng tôi chỉ
+need to pass in this state property and  ➤  cần chuyển thuộc tính trạng thái này và
+say  ➤  nói rằng
+dark mode enabled and hit enter on that  ➤  chế độ tối đã được bật và nhấn enter trên
+label and we're going to create a simple  ➤  nhãn đó và chúng tôi sẽ tạo một chế
+view so I could just say text  ➤  độ xem đơn giản để tôi có thể nói  văn bản
+dark mode  ➤  chế độ tối
+just like that and turning this off and  ➤  giống như vậy và tắt và
+on will modify this state property so  ➤  bật tính năng này sẽ sửa đổi thuộc tính trạng thái này, vì vậy
+now that we have that implemented let's  ➤  bây giờ chúng tôi đã triển khai điều đó, hãy
+Implement some logic to actually modify  ➤  Thực hiện một số logic để thực sự sửa đổi
+the background color of our view based  ➤  màu nền của chế độ xem của chúng tôi dựa
+on whether or not that toggle is set to  ➤  trên việc chuyển đổi đó được đặt thành
+true or false or on bait on or off  ➤  đúng hay sai  hoặc bật hoặc tắt mồi
+basically so I'm going to wrap this  ➤  về cơ bản, vì vậy tôi sẽ gói
+v-stack in a z-stack so just hit command  ➤  ngăn xếp v này trong ngăn xếp z, vì vậy chỉ cần nhấn lệnh,
+click on it and say embed in z-stack and  ➤  nhấp vào nó và nói nhúng vào ngăn xếp z,
+then here let's go ahead and give it a  ➤  sau đó, hãy tiếp tục và tạo
+background color so I'm just going to  ➤  màu nền cho nó  Tôi sẽ chỉ
+say color dot black  ➤  nói màu chấm đen
+so you guys can see this modifies my  ➤  để các bạn có thể thấy điều này sửa đổi chế
+view to have a black background color  ➤  độ xem của tôi để có màu nền đen,
+you can also go down to the bottom here  ➤  bạn cũng có thể đi xuống dưới cùng ở đây
+and say dot ignores safe area to make it  ➤  và nói dấu chấm bỏ qua khu vực an toàn để nó
+take up the entire screen and you can  ➤  chiếm toàn bộ màn hình và bạn  có thể
+see here that I can still see my toggle  ➤  thấy ở đây rằng tôi vẫn có thể thấy chuyển đổi của mình
+but my text you can't see because that  ➤  nhưng văn bản của tôi bạn không thể nhìn thấy vì nó
+is also currently black so basically  ➤  hiện cũng có màu đen nên về cơ bản,
+what we need to do guys is Implement  ➤  những gì chúng ta cần làm là Triển khai
+some simple logic here just to change  ➤  một số logic đơn giản ở đây chỉ để thay đổi
+the background color of the view and  ➤  màu nền của chế độ xem và
+then we're going to do the same thing  ➤  sau đó chúng ta  chúng tôi sẽ làm điều tương tự
+for the text so we can use a ternary  ➤  cho văn bản, vì vậy chúng tôi có thể sử dụng
+statement to do that instead of an if  ➤  câu lệnh bậc ba để làm điều đó thay vì
+else statement it's it's easier to write  ➤  câu lệnh if other, nó sẽ dễ viết hơn,
+we can just say dark mode enabled yes  ➤  chúng tôi chỉ có thể nói chế độ tối được bật có
+dot black  ➤  chấm đen
+no dot White  ➤  không có chấm trắng
+so you guys will see now that dark mode  ➤  để các bạn thấy  bây giờ chế độ tối
+is off and then if I turn it on  ➤  đã tắt và sau đó nếu tôi bật nó lên,
+it changes the view the View's  ➤  nó sẽ thay đổi chế độ xem,
+background color so if we go back to our  ➤  màu nền của Chế độ xem, vì vậy nếu chúng tôi quay lại
+diagram here's what we're doing  ➤  sơ đồ của mình thì đây là những gì chúng tôi đang làm
+essentially we are toggling the state  ➤  về cơ bản, chúng tôi đang chuyển đổi thuộc tính trạng thái
+property and toggling that modifies  ➤  và chuyển đổi để sửa đổi,
+sorry this uh toggle we're turning it on  ➤  xin lỗi uh chuyển đổi  chúng tôi đang bật
+or off and when we turn it on or off it  ➤  hoặc tắt nó và khi chúng tôi bật hoặc tắt nó, nó sẽ
+modifies the state property The View  ➤  sửa đổi thuộc tính trạng thái.
+then reconfigures itself to have that  ➤  Sau đó, Chế độ xem sẽ tự cấu hình lại để có
+updated state so basically what's  ➤  trạng thái được cập nhật đó, vì vậy về cơ bản những gì
+happening is we change this to True when  ➤  đang xảy ra là chúng tôi thay đổi điều này thành True khi
+we toggle it on and then the view says  ➤  chúng tôi bật chế độ xem và sau đó là chế độ xem  nói
+Hey a state property changed I know I  ➤  Này, một thuộc tính trạng thái đã thay đổi, tôi biết
+need to now reconfigure myself to have  ➤  bây giờ tôi cần phải tự cấu hình lại để có
+the updated state which in this case is  ➤  trạng thái được cập nhật, trong trường hợp này là
+the black background color because dark  ➤  màu nền đen vì
+mode is enabled so this is just saying  ➤  chế độ tối được bật nên điều này chỉ nói rằng
+if dark mode is enabled make it black if  ➤  nếu chế độ tối được bật thì nó sẽ có màu đen nếu
+it's not make it white so if I turn it  ➤  không  nó màu trắng, vì vậy nếu tôi tắt nó
+off it goes back to a white background  ➤  đi, nó sẽ trở lại nền trắng,
+so basically guys we just need to do the  ➤  vì vậy về cơ bản, chúng ta chỉ cần làm
+same thing for the text we could say  ➤  điều tương tự cho văn bản, chúng ta có thể nói rằng
+foreground color  ➤
+dark mode enabled yes is going to be  ➤  chế độ tối màu nền trước được bật có sẽ là
+white no is dot black so in this case we  ➤  màu trắng, không có chấm đen, vì vậy trong hình này  trường hợp chúng tôi
+in order if we want to see the text when  ➤  muốn xem văn bản khi
+dark mode is enabled we want it to be  ➤  chế độ tối được bật, chúng tôi muốn văn bản có
+white if not we want it to be black so  ➤  màu trắng nếu không, chúng tôi muốn văn bản có màu đen, vì vậy điều đó
+that's as simple as it gets right that's  ➤  đơn giản là đúng, đó là
+how swift UI Works in terms of being  ➤  cách UI hoạt động nhanh chóng về mặt
+State dependent right views are a  ➤  phụ thuộc vào Nhà nước đúng không  Chế độ xem là một
+function of State modifying state will  ➤  chức năng của Trạng thái sửa đổi trạng thái sẽ
+in turn modify our view so now that we  ➤  lần lượt sửa đổi chế độ xem của chúng ta, vì vậy bây giờ chúng ta đã
+understand how State Properties work  ➤  hiểu cách thức hoạt động của Thuộc tính trạng thái,
+let's move on to understanding how  ➤  hãy chuyển sang tìm hiểu cách thức
+binding properties work and then do an  ➤  hoạt động của các thuộc tính ràng buộc và sau đó thực hiện một
+example of that to really bring this all  ➤  ví dụ về điều đó để thực sự kết hợp tất cả
+together  ➤  lại với nhau,
+so first I'm going to show you guys an  ➤  vì vậy trước tiên tôi  sẽ cho các bạn thấy một
+example of how a binding property would  ➤  ví dụ về cách hoạt động của thuộc tính ràng buộc
+work and then we're going to cover some  ➤  và sau đó chúng ta sẽ đề cập đến một
+of the fundamentals and theory behind  ➤  số nguyên tắc cơ bản và lý thuyết đằng sau
+how binding properties work and how  ➤  cách hoạt động của thuộc tính ràng buộc và cách
+they're related to State properties and  ➤  chúng liên quan đến thuộc tính Trạng thái,
+then we are going to implement our own  ➤  sau đó chúng ta sẽ triển khai  ví dụ của riêng mình,
+example so let's go ahead and check out  ➤  vì vậy hãy tiếp tục và kiểm tra xem
+how a binding property would work in a  ➤  một thuộc tính liên kết sẽ hoạt động như thế nào trong một
+real application  ➤  ứng dụng thực tế
+so to show you guys a quick example of  ➤  để cho các bạn thấy một ví dụ nhanh về
+how this stuff works I have the  ➤  cách hoạt động của công cụ này. Tôi đã
+reminders app opened on my simulator I'm  ➤  mở ứng dụng lời nhắc trên trình mô phỏng của mình. Tôi
+going to go ahead and create a new  ➤  sẽ tiếp tục và tạo  một
+reminder and let's pay attention to this  ➤  lời nhắc mới và hãy chú ý đến
+list tag that we have here right now it  ➤  thẻ danh sách mà chúng tôi có ở đây ngay bây giờ, nó
+says work let's imagine I can change  ➤  nói công việc hãy tưởng tượng tôi có thể thay đổi
+that from work to personal so imagine  ➤  từ công việc sang cá nhân, vì vậy hãy tưởng tượng
+that that is tied to some sort of state  ➤  rằng điều đó được gắn với một số loại
+property right and when I select a new  ➤  tài sản nhà nước và khi tôi chọn một
+one it changes that state property and  ➤  cái mới  nó thay đổi thuộc tính trạng thái đó và
+it updates my view with the new state  ➤  nó cập nhật chế độ xem của tôi với trạng thái mới
+either work or personal right so the  ➤  hoặc quyền công việc hoặc quyền cá nhân, vì vậy
+interesting thing here is I have to  ➤  điều thú vị ở đây là tôi phải
+modify that property in a separate View  ➤  sửa đổi thuộc tính đó trong Chế độ xem riêng biệt
+and then when I click the new tag it  ➤  và sau đó khi tôi nhấp vào thẻ mới, nó
+goes back to my original View and  ➤  sẽ quay lại Chế độ xem ban đầu của tôi  và
+modifies the tag there so basically you  ➤  sửa đổi thẻ ở đó, vì vậy về cơ bản, bạn
+have to use a binding property to do  ➤  phải sử dụng thuộc tính ràng buộc để thực hiện điều
+that the core of this is that I want to  ➤  cốt lõi của điều này là tôi muốn
+modify the state of something in view a  ➤  sửa đổi trạng thái của thứ gì đó trong chế độ xem a
+but I'm doing that action or performing  ➤  nhưng tôi đang thực hiện hành động đó hoặc thực hiện
+that action from view B so let's imagine  ➤  hành động đó từ chế độ xem B, vì vậy hãy  hãy tưởng tượng
+this is view a and this is view B when I  ➤  đây là chế độ xem a và đây là chế độ xem B khi tôi
+click on something in view B it modifies  ➤  nhấp vào thứ gì đó trong chế độ xem B, nó sẽ sửa đổi
+the state of my view a so so we have to  ➤  trạng thái chế độ xem a của tôi, vì vậy chúng tôi phải
+use binding properties to do that and  ➤  sử dụng các thuộc tính liên kết để thực hiện điều đó và
+we're going to take a look here to see  ➤  chúng tôi sẽ xem xét ở đây để xem
+exactly how that works so this is a  ➤  chính xác  cách thức hoạt động của nó, vì vậy đây là một
+slightly different example but the  ➤  ví dụ hơi khác nhưng
+concept and the foundation is the same  ➤  khái niệm và nền tảng giống nhau,
+let's read this really quickly a binding  ➤  hãy đọc phần này thật nhanh một
+property wrapper creates a link to a  ➤  trình bao bọc thuộc tính ràng buộc tạo liên kết đến thuộc
+state property we cannot create binding  ➤  tính trạng thái, chúng ta không thể tạo thuộc
+properties without State Properties  ➤  tính ràng buộc mà không có Thuộc tính trạng thái Thuộc tính trạng thái
+State Property is the origin and  ➤  là nguồn gốc và
+modifying The Binding property property  ➤  sửa đổi  Thuộc tính Thuộc tính liên kết
+will modify the original state property  ➤  sẽ sửa đổi thuộc tính trạng thái ban đầu,
+so let's take a look at this example  ➤  vì vậy hãy xem ví dụ này,
+guys imagine I have some state property  ➤  mọi người hãy tưởng tượng tôi có một số thuộc tính trạng thái
+that determines whether or not I'm going  ➤  xác định xem tôi sẽ
+to present a new sheet or a view right  ➤  trình bày một trang tính mới hay một chế độ xem đúng không,
+so if I hit this button it will change  ➤  vì vậy nếu tôi nhấn nút này  sẽ thay đổi thuộc
+this state property to true and then it  ➤  tính trạng thái này thành true và sau đó nó
+will present view B but now let's  ➤  sẽ hiển thị chế độ xem B nhưng bây giờ hãy
+imagine I want to dismiss view B well  ➤  tưởng tượng tôi muốn loại bỏ chế độ xem B cũng như thuộc
+the property that determines the  ➤  tính xác định cách
+presentation of UB it exists in view a  ➤  trình bày của UB nó tồn tại trong chế độ xem
+right so the only way I can dismiss or  ➤  a nên cách duy nhất tôi có thể loại bỏ hoặc
+or show view B is from or by modifying  ➤  hoặc hiển thị chế độ xem  B là từ hoặc bằng cách sửa đổi thuộc
+this state property in view a so I  ➤  tính trạng thái này trong chế độ xem a nên tôi
+create a binding variable that links the  ➤  tạo một biến liên kết liên kết
+two things so now this variable is  ➤  hai thứ để bây giờ biến này được
+linked to this variable so that when I  ➤  liên kết với biến này để khi tôi
+hit dismiss and this variable changes to  ➤  nhấn loại bỏ và biến này chuyển thành
+false because they are bound together or  ➤  sai vì chúng được liên kết với nhau hoặc
+essentially linked to each other when  ➤  về cơ bản được liên kết với nhau khi biến
+this variable changes it will modify the  ➤  này thay đổi, nó sẽ sửa đổi thuộc
+original state property and then  ➤  tính trạng thái ban đầu và cuối
+ultimately it will dismiss that sheet  ➤  cùng, nó sẽ loại bỏ trang tính đó
+because this changes back to false so we  ➤  vì điều này thay đổi trở lại thành sai, vì vậy chúng tôi
+hit dismiss it changes show to false  ➤  nhấn loại bỏ nó, các thay đổi hiển thị thành sai
+this updates State and then it dismisses  ➤  Trạng thái cập nhật này và sau đó nó loại bỏ
+the sheet and then we see here that the  ➤  trang tính và sau đó  ở đây chúng ta thấy rằng
+state gives The Binding variable a value  ➤  trạng thái cung cấp cho Biến ràng buộc một giá trị
+so a binding property cannot exist  ➤  vì vậy thuộc tính ràng buộc không thể tồn tại nếu
+without a state property it exists only  ➤  không có thuộc tính trạng thái, nó chỉ tồn tại
+to modify State Properties right so it's  ➤  để sửa đổi Thuộc tính trạng thái, vì vậy,
+always this sort of parent-child  ➤  đây luôn là loại
+relationship that you're going to see  ➤  mối quan hệ cha-con mà bạn sẽ thấy
+The Binding property will exist in the  ➤  Thuộc tính ràng buộc  sẽ tồn tại trong
+child view and the state property will  ➤  chế độ xem con và thuộc tính trạng thái sẽ
+exist in the parent view and then when I  ➤  tồn tại trong chế độ xem chính và sau đó khi tôi
+want to modify my state property for my  ➤  muốn sửa đổi thuộc tính trạng thái của mình cho
+child view I use a binding to link the  ➤  chế độ xem con, tôi sử dụng một liên kết để liên kết
+two things together and ultimately  ➤  hai thứ với nhau và cuối cùng
+update what's going on in the parent so  ➤  cập nhật những gì đang diễn ra trong chế độ xem gốc.
+back in our example this is view a or  ➤  quay lại ví dụ của chúng tôi, đây là chế độ xem a hoặc chế độ
+the parent view and then I go to my  ➤  xem chính và sau đó tôi chuyển đến
+child view or some detail View and  ➤  chế độ xem con của tôi hoặc một số Chế độ xem chi tiết và
+modify some binding property and it in  ➤  sửa đổi một số thuộc tính ràng buộc và nó lần
+turn modifies the original state  ➤  lượt sửa đổi thuộc tính trạng thái ban đầu
+property and then reconfigures my view  ➤  và sau đó định cấu hình lại chế độ xem của tôi
+so now we can see how State and binding  ➤  để bây giờ chúng ta có thể thấy Trạng thái như thế nào  và
+properties are related let's go ahead  ➤  các thuộc tính ràng buộc có liên quan, hãy tiếp tục
+and implement this example that we see  ➤  và thực hiện ví dụ này mà chúng ta thấy
+here with simply showing or hiding a  ➤  ở đây chỉ bằng cách hiển thị hoặc ẩn một
+sheet and we'll do another fun example  ➤  trang tính và chúng ta cũng sẽ làm một ví dụ thú vị khác
+as well to really cement you guys  ➤  để thực sự củng cố
+understanding of this  ➤  sự hiểu biết của các bạn về điều này.
+so let's hop back into xcode guys and  ➤  Vì vậy, hãy quay lại với xcode nhé các bạn và
+I'm going to start this off by creating  ➤  tôi  Tôi sẽ bắt đầu điều này bằng cách tạo một
+another state property that will be in  ➤  thuộc tính trạng thái khác sẽ chịu
+charge of determining whether or not I  ➤  trách nhiệm xác định xem tôi có
+show my new view so I'm going to say at  ➤  hiển thị chế độ xem mới của mình hay không, vì vậy tôi sẽ nói tại
+State private VAR show detail view  ➤  Trạng thái riêng VAR hiển thị chế độ xem chi tiết
+equals false and then on my z-stack we  ➤  bằng sai và sau đó trên ngăn xếp z của tôi  chúng ta
+can place a modifier here to actually  ➤  có thể đặt một công cụ sửa đổi ở đây để thực sự
+present something so we can say like dot  ➤  trình bày một cái gì đó để chúng ta có thể nói như
+sheet is presented and content select  ➤  bảng chấm được trình bày và nội dung chọn
+that option and say dollar sign show  ➤  tùy chọn đó và nói ký hiệu đô la hiển thị
+detail View and for our content let's go  ➤  chi tiết Xem và đối với nội dung của chúng ta, hãy tiếp
+ahead and delete that really quickly and  ➤  tục và xóa nó thật nhanh và
+create our detail view super fast so  ➤  tạo chế độ xem chi tiết siêu nhanh  Vì vậy,
+let's just go ahead and create a new  ➤  hãy tiếp tục và tạo một
+file here Swift UI view we'll call it  ➤  tệp mới ở đây Chế độ xem giao diện người dùng Swift, chúng tôi sẽ gọi nó là Chế độ
+detail View  ➤  xem chi tiết
+and right now uh we can just replace  ➤  và ngay bây giờ, chúng tôi chỉ có thể thay thế
+this text with like  ➤  văn bản này bằng Chế
+detail View  ➤  độ xem chi tiết như vậy,
+so if I go back to my content view let's  ➤  vì vậy nếu tôi quay lại chế độ xem nội dung của mình, hãy
+pass in our detail View for the content  ➤  chuyển qua Chế độ xem chi tiết của chúng tôi  cho nội dung
+there and now let's just go ahead and  ➤  ở đó và bây giờ chúng ta hãy tiếp tục và
+create some sort of button that will  ➤  tạo một số loại nút sẽ
+toggle this property to actually show  ➤  chuyển đổi thuộc tính này để thực sự hiển thị
+the sheet or the detail view So within  ➤  trang tính hoặc chế độ xem chi tiết Vì vậy, trong
+my v-stack here guys let's go ahead and  ➤  ngăn xếp v của tôi ở đây, các bạn hãy tiếp tục và
+just create a button action and label  ➤  chỉ cần tạo một hành động nút và gắn nhãn cho
+the action is going to be show  ➤  hành động sẽ được hiển thị
+detailview.toggle and the label can just  ➤  detailview.toggle và nhãn có thể chỉ
+be some text component that says show  ➤  là một số thành phần văn bản có nội dung hiển thị Chế độ xem
+detail View  ➤  chi tiết,
+so let's wait for that to load okay so  ➤  vì vậy, hãy đợi nó tải, vì vậy
+now by clicking this it will modify show  ➤  bây giờ bằng cách nhấp vào đây, nó sẽ sửa đổi chế độ xem
+detail view to true that changes the  ➤  chi tiết hiển thị thành true để thay đổi
+state of my view and this dot sheet  ➤  trạng thái của tôi  chế độ xem và
+presentation is dependent on that state  ➤  cách trình bày trang tính chấm này phụ thuộc vào thuộc tính trạng thái đó,
+property so when this changes to true it  ➤  vì vậy khi điều này thay đổi thành true, nó
+will present this sheet over top of my  ➤  sẽ hiển thị trang tính này ở trên Chế
+main View and it will be the detail view  ➤  độ xem chính của tôi và nó sẽ là chế độ xem chi tiết,
+so I hit that and boom it presents My  ➤  vì vậy tôi nhấn vào đó và bùm, nó hiển thị
+New View so obviously guys you could  ➤  Chế độ xem mới của tôi rõ ràng như vậy các bạn ạ  bạn có thể
+simply just just drag that down to  ➤  chỉ cần kéo nó xuống để
+dismiss but let's imagine you wanted it  ➤  loại bỏ nhưng hãy tưởng tượng bạn muốn nó
+to be like a full screen cover  ➤  giống như một trang bìa toàn màn hình,
+right oops let's say dot full screen  ➤  rất tiếc, hãy nói rằng trang bìa toàn màn hình là dấu chấm
+cover and now if I were to hit this  ➤  và bây giờ nếu tôi nhấn vào đây,
+it will take up the entire screen and  ➤  nó sẽ chiếm toàn bộ màn hình và
+now I have no way of dismissing this so  ➤  bây giờ tôi có  không có cách nào để loại bỏ điều này vì vậy
+once again here's our problem  ➤  một lần nữa đây là vấn đề của chúng tôi,
+the thing that's in charge of showing or  ➤  thứ chịu trách nhiệm hiển thị hoặc
+hiding this view is this show detail  ➤  ẩn chế độ xem này là thuộc
+view state property that exists in my  ➤  tính trạng thái chế độ xem chi tiết hiển thị này tồn tại trong
+main view or my parent view we can call  ➤  chế độ xem chính của tôi hoặc chế độ xem chính của tôi, chúng tôi có thể gọi
+it right so in my detail view I need a  ➤  nó đúng như vậy trong chế độ xem chi tiết của tôi tôi  cần một
+way to modify this property and change  ➤  cách để sửa đổi thuộc tính này và thay đổi
+it back to false so that I can  ➤  lại thành false để cuối cùng tôi có thể
+ultimately hide that view so when this  ➤  ẩn chế độ xem đó, vì vậy khi
+property changes back to false it will  ➤  thuộc tính này thay đổi lại thành false, nó sẽ
+dismiss the view when it changes to true  ➤  loại bỏ chế độ xem khi thay đổi thành true,
+it will show The View so let's go ahead  ➤  nó sẽ hiển thị Chế độ xem, vì vậy hãy tiếp tục
+and just copy and paste this button here  ➤  và chỉ  sao chép và dán nút này vào đây
+guys and let's go ahead and put it in  ➤  các bạn và hãy tiếp tục và đưa nó vào
+our detail View  ➤  phần chi tiết của chúng ta. Xem và chúng ta hãy
+and let's uh  ➤
+let's see  ➤  xem, hãy
+let's put it in a v-stack actually so we  ➤  đặt nó vào một v-stack thực sự để chúng ta
+can say v-stack  ➤  có thể nói v-stack
+paste that in there and we need some  ➤  dán nó vào đó và chúng ta cần một số
+binding property here now  ➤  thuộc tính ràng buộc ở đây  bây giờ
+so we could say binding VAR show detail  ➤  để chúng tôi có thể nói chế độ xem chi tiết hiển thị VAR ràng buộc
+view which is a bull  ➤  là một con bò đực
+and this guy will say dismiss and now we  ➤  và anh chàng này sẽ nói loại bỏ và bây giờ chúng tôi
+need to pass something into our preview  ➤  cần chuyển nội dung nào đó vào bản xem trước của mình
+just to make sure that it can still  ➤  chỉ để đảm bảo rằng nó vẫn có thể
+render so what you guys are going to do  ➤  hiển thị, vì vậy những gì các bạn sẽ làm
+is go here hit fix and so that it will  ➤  là vào đây  nhấn sửa và để nó sẽ
+it'll Pat it'll create this as an input  ➤  Pat nó sẽ tạo tham số này làm tham số đầu vào
+parameter and you could just say dot  ➤  và bạn chỉ có thể nói hằng số
+constant is false so you can give  ➤  dấu chấm là sai để bạn có thể cung cấp
+bindings constant values but that's  ➤  các giá trị không đổi cho liên kết nhưng đó
+really something you only typically do  ➤  thực sự là điều bạn chỉ thường làm
+for your preview just so that it can  ➤  cho bản xem trước của mình để  nó có thể
+keep working so let's go ahead and see  ➤  tiếp tục hoạt động, vì vậy hãy tiếp tục và xem điều gì
+what happens now let's just wait for our  ➤  sẽ xảy ra bây giờ, hãy đợi
+preview to load  ➤  bản xem trước của chúng tôi tải, ồ
+oh it is not because we need to now  ➤  không phải vì bây giờ chúng tôi cần
+provide this detail view with this  ➤  cung cấp chế độ xem chi tiết này với
+property here so if you guys remember it  ➤  thuộc tính này tại đây để nếu các bạn nhớ thì nó
+has to be linked to a state property  ➤  phải được liên kết với một  quyền sở hữu trạng thái
+right so this binding property cannot  ➤  để thuộc tính ràng buộc này không thể
+exist without a state property giving it  ➤  tồn tại nếu không có thuộc tính trạng thái mang lại
+a value and that's how it's able to  ➤  giá trị cho nó và đó là cách cuối cùng nó có thể
+ultimately modify the original State  ➤  sửa đổi Tài sản trạng thái ban đầu mà
+Property you notice here that we are not  ➤  bạn lưu ý ở đây rằng chúng tôi không
+allowed to give this a value if I tried  ➤  được phép gán giá trị này nếu tôi cố
+to do that it would throw an error or  ➤  làm điều đó.  đưa ra một lỗi hoặc
+false it says cannot assign value value  ➤  sai, nó nói không thể gán giá trị giá trị
+of type Bool to specify type binding  ➤  của loại Bool để chỉ định Quy tắc ràng buộc loại
+Rule and this is because Swift  ➤  và điều này là do Swift
+essentially safeguards against you  ➤  về cơ bản bảo vệ chống lại việc bạn
+giving a binding variable a value and  ➤  đưa ra một giá trị cho một biến ràng buộc và
+they're saying hey this has to come from  ➤  họ đang nói này, điều này phải đến từ
+somewhere else so back in our content  ➤  một nơi khác, vì vậy hãy quay lại  chế độ xem nội dung của chúng tôi,
+view you guys will notice that if we fix  ➤  các bạn sẽ nhận thấy rằng nếu chúng tôi sửa
+this error it's going to say hey you  ➤  lỗi này, nó sẽ nói rằng bạn
+need to give me a buy some sort of State  ➤  cần cho tôi mua một số loại Tài sản Nhà nước,
+Property  ➤
+um that's good that this is going to  ➤  thật tốt là điều này sẽ được
+bind to so we can now say dollar sign  ➤  liên kết để bây giờ chúng ta có thể nói ký hiệu đô la
+show detail View so now these two things  ➤  hiển thị chi tiết Xem  vì vậy bây giờ hai thứ này
+are bound together if we go back to our  ➤  được liên kết với nhau nếu chúng ta quay lại
+example we see here that the state  ➤  ví dụ của mình, chúng ta thấy ở đây thuộc
+property gives The Binding of value and  ➤  tính trạng thái cung cấp Ràng buộc giá trị và
+now the binding value can ultimately  ➤  bây giờ giá trị liên kết cuối cùng có thể
+update the state when it changes so now  ➤  cập nhật trạng thái khi nó thay đổi, vì vậy bây giờ
+they're linked together so if we go back  ➤  chúng được liên kết với nhau, vì vậy nếu chúng ta  quay
+to xcode  ➤  lại xcode
+and I resume my preview in my content  ➤  và tôi tiếp tục xem trước trong nội dung của mình
+View  ➤  Xem
+you guys will notice if I hit show  ➤  các bạn sẽ chú ý nếu tôi nhấn hiển thị
+detail View and then I hit dismiss it  ➤  chi tiết Xem và sau đó tôi nhấn loại bỏ nó sẽ
+just dismisses that view right away for  ➤  loại bỏ chế độ xem đó ngay lập tức đối với
+me it's sort of hard to see the  ➤  tôi, thật khó để xem
+animation because it's just a plain  ➤  hoạt hình vì nó chỉ là một hình ảnh đơn giản
+white view so like we could change this  ➤  chế độ xem màu trắng giống như chúng ta có thể thay đổi
+back to sheet if we wanted to and it  ➤  lại thành trang tính này nếu chúng ta muốn và nó
+would make it a little bit more clear  ➤  sẽ làm cho nó rõ ràng hơn một chút, vì vậy hãy
+so hit that and you guys can see here  ➤  nhấn vào đó và các bạn có thể thấy ở đây
+that yeah I could drag it down but if I  ➤  vâng, tôi có thể kéo nó xuống nhưng nếu tôi
+hit dismiss it will dismiss the view for  ➤  nhấn loại bỏ thì nó sẽ loại bỏ  view đối với
+me so that's a really good example to  ➤  tôi vì vậy đó là một ví dụ thực sự tốt để
+show you guys how State and binding  ➤  cho các bạn thấy cách các thuộc tính Trạng thái và ràng buộc
+properties are linked and how they work  ➤  được liên kết với nhau và cách chúng hoạt động
+together and we're just going to do one  ➤  cùng nhau và chúng ta sẽ làm thêm một
+more example to really cement you guys  ➤  ví dụ nữa để thực sự củng cố
+understanding of how this stuff works so  ➤  sự hiểu biết của các bạn về cách thức hoạt động của công cụ này, vì vậy
+let's imagine that I want to modify the  ➤  hãy tưởng tượng  rằng tôi muốn sửa đổi
+dark mode appearance in view a but I  ➤  giao diện chế độ tối ở chế độ xem a nhưng tôi
+want to do it from view B so let's go  ➤  muốn thực hiện điều đó từ chế độ xem B, vì vậy hãy tiếp tục
+ahead and see if we can Implement that  ➤  và xem liệu chúng ta có thể Triển khai điều đó
+really quickly before we end this video  ➤  thực sự nhanh chóng trước khi kết thúc video này không,
+so I'm just going to take this toggle  ➤  vì vậy tôi sẽ lấy mã chuyển đổi này
+code that I have and I'm going to cut it  ➤  mà tôi có và tôi sẽ cắt nó
+with command X and I'm going to place it  ➤  bằng lệnh X và tôi sẽ đặt nó
+inside of my view my detail view so I  ➤  bên trong chế độ xem của tôi, chế độ xem chi tiết của tôi để tôi
+can just put that below there  ➤  có thể đặt nó bên dưới đó
+and let's see I just need to create this  ➤  và hãy xem tôi chỉ cần tạo nó
+as a binding property now because if you  ➤  như một thuộc tính ràng buộc  bây giờ bởi vì nếu
+guys remember we ultimately want to  ➤  các bạn còn nhớ, cuối cùng chúng tôi muốn
+modify the state property that exists in  ➤  sửa đổi thuộc tính trạng thái tồn tại trong
+the parent view or the presenting view  ➤  chế độ xem chính hoặc chế độ xem trình bày
+but we want to do it from our detail  ➤  nhưng chúng tôi muốn thực hiện điều đó từ chế độ xem chi tiết của mình
+view now so we're going to create a  ➤  ngay bây giờ vì vậy chúng tôi sẽ tạo một
+binding property to do that  ➤  thuộc tính ràng buộc để thực hiện
+dark mode enabled  ➤  chế độ tối đó  đã bật,
+which is a bull so this should make  ➤  đó là một con bò đực, vì vậy điều này sẽ làm cho
+these arrows go away but we need to  ➤  những mũi tên này biến mất nhưng chúng tôi cần
+implement it down in our preview once  ➤  triển khai nó trong bản xem trước của mình một lần
+again just to keep everything working  ➤  nữa chỉ để giữ cho mọi thứ
+you guys could say constant true  ➤
+constant false it doesn't matter you are  ➤
+able to give bindings default values but  ➤  hoạt động.  các giá trị nhưng
+by doing this guys it means that you can  ➤  bằng cách làm điều này, điều đó có nghĩa là bạn
+never change the value of the binding  ➤  không bao giờ có thể thay đổi giá trị của ràng buộc, điều này
+which is kind of stupid right but you  ➤  hơi ngu ngốc nhưng về cơ bản, bạn
+just have to do that for the preview  ➤  chỉ cần làm điều đó để xem trước
+essentially so now we can go back to our  ➤  để bây giờ chúng ta có thể quay lại
+content View and you're going to notice  ➤  Chế độ xem nội dung của mình và bạn sẽ tiếp tục  lưu ý
+that our detail view is going to ask for  ➤  rằng chế độ xem chi tiết của chúng tôi sẽ yêu cầu một
+another binding property so we can go  ➤  thuộc tính ràng buộc khác, vì vậy chúng tôi có thể truy cập
+here and hit fix and then we just  ➤  vào đây và nhấn sửa và sau đó chúng tôi chỉ
+populate it with our state property up  ➤  điền thuộc tính trạng thái của chúng tôi vào đây.
+here  ➤
+uh dark mode enabled sorry  ➤
+cool so now guys let's go ahead and see  ➤
+what happens if we show our detail View  ➤  nếu chúng tôi hiển thị chi tiết của chúng tôi Xem
+and pay attention to what's going on in  ➤  và chú ý đến những gì đang diễn ra ở
+the back there if I hit that you guys  ➤  phía sau đó nếu tôi nhấn rằng các bạn
+will notice that it changes it to that  ➤  sẽ nhận thấy rằng nó thay đổi nó thành
+dark background right and then I can hit  ➤  nền tối đó ngay và sau đó tôi có thể nhấn
+dismiss and my view will now have the  ➤  loại bỏ và chế độ xem của tôi bây giờ sẽ có
+updated state if you guys want to make  ➤  trạng thái được cập nhật nếu  các bạn muốn làm cho
+this even a little bit cooler what you  ➤  điều này thú vị hơn một chút, những gì bạn
+could do is when you go to the detail  ➤  có thể làm là khi bạn đi đến chi tiết
+View  ➤  Xem
+right you could make it so that the  ➤  bên phải, bạn có thể làm cho
+button by hitting dismiss modifies the  ➤  nút bằng cách nhấn bỏ qua cũng sửa đổi
+dark mode enabled guy as well so I could  ➤  anh chàng đã bật chế độ tối, vì vậy tôi có thể
+say dark mode enabled dot toggle and  ➤  nói rằng đã bật chế độ tối  chuyển đổi dấu chấm và
+this will sort of remove the need to do  ➤  điều này sẽ loại bỏ nhu cầu thực hiện việc
+this from the toggle but I just want to  ➤  này từ chuyển đổi nhưng tôi chỉ muốn
+show you guys how you can modify  ➤  cho các bạn thấy cách bạn có thể sửa đổi
+multiple binding properties from a  ➤  nhiều thuộc tính liên kết từ một
+single action so you guys will notice if  ➤  hành động duy nhất để các bạn sẽ chú ý nếu
+I go back to my content View  ➤  tôi quay lại nội dung của mình Xem
+and I  ➤  và tôi
+wait for this to load show detail view  ➤  đợi cái này tải chế độ xem chi tiết hiển thị
+if I hit dismiss it's going to modify  ➤  nếu tôi nhấn loại bỏ, nó sẽ sửa đổi
+both of those binding properties right  ➤  cả hai thuộc tính ràng buộc đó ngay
+and it's going to dismiss the view and  ➤  và nó sẽ loại bỏ chế độ xem và
+change the appearance of my app so one  ➤  thay đổi giao diện của ứng dụng của tôi để một
+button is modifying these two State  ➤  nút sửa đổi hai thuộc tính Trạng thái này
+properties using The Binding properties  ➤  bằng cách sử dụng Thuộc tính ràng buộc
+that exist in the detail view so that is  ➤  tồn tại trong chế độ xem chi tiết nên
+going to wrap it up for this video guys  ➤  sẽ kết thúc video này nhé các bạn.
+I hope you have a better understanding  ➤  Tôi hy vọng các bạn đã hiểu rõ hơn
+of how State and binding properties work  ➤  về cách hoạt động của các thuộc tính Trạng thái và ràng buộc
+with swift UI now and I hope you like  ➤  với giao diện người dùng nhanh chóng và tôi hy vọng các bạn thích
+And subscribe to the channel I have so  ➤  Và đăng ký kênh để tôi có
+much more awesome content on the way  ➤  nhiều hơn thế nữa  nội dung tuyệt vời đang được triển khai
+including a swift algorithm series more  ➤  bao gồm một loạt thuật toán nhanh, nhiều
+Swift UI tutorials and so much more to  ➤  hướng dẫn về giao diện người dùng Swift hơn và nhiều nội dung khác sắp
+come also make sure you check out my  ➤  ra mắt. Ngoài ra, hãy đảm bảo rằng bạn xem
+website at stefancodes.com the link is  ➤  trang web của tôi tại stefancodes.com, liên kết nằm
+in the description where we have a bunch  ➤  trong phần mô tả nơi chúng tôi có sẵn một loạt
+of pro courses available premium content  ➤  các khóa học chuyên nghiệp đăng ký nội dung cao cấp
+subscription Services all of that good  ➤  Dịch vụ cung cấp tất cả
+stuff check it out at stefancodes.com if  ➤  những nội dung hay đó, hãy xem tại stefancodes.com nếu
+you guys want to learn more and take  ➤  các bạn muốn tìm hiểu thêm và đưa
+your learning to the next level with me  ➤  việc học của mình lên một tầm cao mới với tôi.
+so thanks for watching guys we'll see  ➤  Cảm ơn các bạn đã theo dõi, chúng ta sẽ gặp lại
+you in the next video peace out  ➤  các bạn trong video tiếp theo nhé
+[Music]  ➤  [Âm nhạc]
+thank you  ➤  xin cảm ơn  Bạn
