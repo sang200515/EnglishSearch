@@ -1,901 +1,901 @@
 https://www.youtube.com/watch?v=ICBc6inTNZQ
 How to Network Like A Pro - Async-Await - Pagination - Error Handling - From A Meta Engineer
 
-what's going on guys Stefan here from   🍀   chuyện gì đang xảy ra vậy các bạn Stefan ở đây từ
-App stuff hope you are doing well in   🍀   App stuff hy vọng bạn sẽ làm tốt trong
-today's video I'm going to be teaching   🍀   video hôm nay. Tôi sẽ hướng dẫn
-you how to network like a pro so we're   🍀   bạn cách kết nối mạng như một chuyên gia, vì vậy chúng ta
-going to be going over some awesome   🍀   sẽ tìm hiểu một số
-professional networking techniques like   🍀   kỹ thuật kết nối mạng chuyên nghiệp tuyệt vời như
-pagination refreshability error handling   🍀   xử lý lỗi khả năng làm mới phân trang
-asynchronous code and we're going to be   🍀   mã không đồng bộ và chúng tôi sẽ
-doing all that with swift UI and an   🍀   thực hiện tất cả những điều đó với giao diện người dùng nhanh và một
-amazing cryptocurrency app so get   🍀   ứng dụng tiền điện tử tuyệt vời, vì vậy hãy
-excited for that guys let's go ahead and   🍀   hào hứ ịng với điều đó, hãy tiếp tục và
-guess   🍀   đoán
-[Music]   🍀   [Âm nhạc], được rồi, được
-all right   🍀   rồi,
-all right guys so to kick things off   🍀   các bạn, vì vậy để bắt đầu mọi thứ, hãy
-make sure you go ahead and download the   🍀   đảm bảo bạn tiếp tục và  tải xuống
-starter project for this tutorial it is   🍀   dự án khởi động cho hướng dẫn này, nó
-absolutely free the link is in the   🍀   hoàn toàn miễn phí, liên kết nằm trong
-description and it just contains all the   🍀   phần mô tả và nó chỉ chứa tất cả
-code that's required to produce this   🍀   mã cần thiết để tạo
-basic version of the application that we   🍀   phiên bản cơ bản của ứng dụng mà chúng ta
-see here and throughout this tutorial   🍀   thấy ở đây và trong suốt hướng dẫn này,
-we're going to implement additional   🍀   chúng ta sẽ triển khai
-features and functionality like error   🍀   các tính năng bổ sung  và chức năng như
-handling and pagination and refreshing   🍀   xử lý lỗi, phân trang và làm mới, đồng
-and we're also going to improve our   🍀   thời chúng tôi cũng sẽ cải thiện
-networking code by using Swift ui's   🍀   mã mạng của mình bằng cách sử dụng
-awesome new feature of async await so uh   🍀   tính năng mới tuyệt vời của Swift ui là async đang chờ, vì vậy,
-just go make sure you guys go ahead and   🍀   hãy đảm bảo rằng các bạn tiếp tục và
-download that if you want the full   🍀   tải xuống nếu bạn muốn
-completed version of this course guys I   🍀   phiên bản hoàn chỉnh đầy đủ  của khóa học này, tôi
-do have a course on my YouTube channel   🍀   có một khóa học trên kênh YouTube của mình
-for this so if you guys want to check   🍀   về điều này, vì vậy nếu các bạn cũng muốn xem
-that out as well here's what the   🍀   thử thì đây là
-completed version of this project looks   🍀   phiên bản hoàn chỉnh của dự án này,
-like the link will be in the description   🍀   liên kết sẽ có trong phần mô tả
-there as well I also have a bunch of   🍀   ở đó. Tôi cũng có một  nhiều
-other awesome stuff like uber clones and   🍀   nội dung tuyệt vời khác như bản sao uber và
-Twitter clones so make sure you guys go   🍀   bản sao Twitter, vì vậy hãy đảm bảo các bạn tiếp tục
-ahead and check all of that stuff out on   🍀   và kiểm tra tất cả nội dung đó trên
-my YouTube channel and on that same note   🍀   kênh YouTube của tôi và trên cùng một lưu ý
-before we get started with the code make   🍀   trước khi chúng tôi bắt đầu với mã, hãy
-sure you guys check out my website as   🍀   đảm bảo các bạn xem trang web của tôi như
-well at stefancodes.com where I have a   🍀   tốt tại stefancodes.com, nơi tôi có
-bunch of awesome products and   🍀   rất nhiều sản phẩm tuyệt vời và
-professional courses that you guys can   🍀   các khóa học chuyên nghiệp mà các bạn có thể
-have access to if you guys want access   🍀   truy cập nếu các bạn muốn truy cập
-to the YouTube stuff here that we're   🍀   vào nội dung YouTube mà chúng tôi hiện đang
-doing now and all of the source code   🍀   làm ở đây và tất cả mã nguồn
-associated with it go ahead and hop over   🍀   liên quan đến nó.  và chuyển
-to the YouTube courses page that is   🍀   đến trang khóa học YouTube
-under the courses guy and you guys can   🍀   dưới phần khóa học và các bạn cũng có thể
-also sign up and become a member to   🍀   đăng ký và trở thành thành viên để
-unlock additional features about all the   🍀   mở khóa các tính năng bổ sung về tất cả
-products that I have like discounts on   🍀   các sản phẩm mà tôi thích giảm giá cho
-Source codes courses one-on-one coaching   🍀   mã nguồn khóa học huấn luyện trực tiếp
-and all that awesome stuff and if you   🍀   và tất cả  những thứ tuyệt vời đó và nếu bạn
-sign up and become a platinum member you   🍀   đăng ký và trở thành thành viên bạch kim, bạn
-actually get one free course or so   🍀   thực sự nhận được một khóa học miễn phí hoặc
-source code absolutely free which is a   🍀   mã nguồn hoàn toàn miễn phí,
-hundred dollar value just for signing up   🍀   trị giá hàng trăm đô la chỉ để đăng ký
-and paying 20 bucks a month so make sure   🍀   và trả 20 đô la một tháng, vì vậy hãy đảm bảo
-you guys go ahead and check that out as   🍀   các bạn tiếp tục và kiểm tra  điều đó cũng tốt
-well but without any further Ado guys   🍀   nhưng không có thêm bất kỳ Ado nào,
-let's go ahead and get started by doing   🍀   hãy tiếp tục và bắt đầu bằng cách thực hiện
-a quick run through of this starter   🍀   nhanh dự án khởi động này
-project that we have let me get my code   🍀   mà chúng tôi đã để tôi mở lại mã của mình
-opened up back here again so basically   🍀   ở đây vì vậy về cơ bản,
-guys we're just fetching some data from   🍀   chúng tôi chỉ đang tìm nạp một số dữ liệu từ
-an open API and we're displaying that   🍀   một API mở và chúng tôi đang hiển thị
-data in a list so here's what our view   🍀   dữ liệu đó trong một danh sách, vì vậy, đây là mô hình chế độ xem của chúng tôi trông như thế nào.
-model looks like we have this coins       🍀   
-object we have some URL that we're       🍀   
-fetching in from information from we're       🍀   
-using the coin gecko API you guys can go   🍀   hãy
-ahead and check them out if you want to   🍀   tiếp tục và kiểm tra chúng nếu bạn muốn
-and then we just have this really simple   🍀   và sau đó chúng tôi chỉ có
-uh fetch data function right so we're   🍀   chức năng tìm nạp dữ liệu thực sự đơn giản này, vì vậy chúng tôi sẽ
-fetching it with the URL session and   🍀   tìm nạp nó với phiên URL và
-this is what we're going to be modifying   🍀   đây là những gì
-we're going to be using async await as   🍀   chúng tôi sẽ sửa đổi.  sử dụng async đang chờ
-opposed to using this URL session which   🍀   thay vì sử dụng phiên URL này, đây
-is sort of the old school way of doing   🍀   là cách làm việc cũ của trường học
-things and it's a lot Messier and not as   🍀   và nó lộn xộn hơn nhiều và không
-performant so we're going to be changing   🍀   hiệu quả bằng, vì vậy chúng tôi sẽ thay
-up the functionality there but let me   🍀   đổi chức năng ở đó nhưng hãy để tôi
-just go over   🍀   xem qua
-the rest of the structure of the project   🍀   phần còn lại  về cấu trúc của dự án
-in our model folder we have our coin and   🍀   trong thư mục mô hình của chúng tôi, chúng tôi có đồng tiền của mình và
-it's pretty simple just has a couple   🍀   nó khá đơn giản chỉ có một vài
-properties it's a very simple struct and   🍀   thuộc tính, đó là một cấu trúc rất đơn giản và
-we're using these coding keys to decode   🍀   chúng tôi đang sử dụng các khóa mã hóa này để giải mã
-all this data from the incoming stuff   🍀   tất cả dữ liệu này từ nội dung đến
-from the API we have a sample coin here   🍀   từ API mà chúng tôi có  một đồng xu mẫu ở đây
-so there are previews will still work uh   🍀   vì vậy các bản xem trước sẽ vẫn hoạt động uh
-we have this coin error structure that   🍀   chúng ta có cấu trúc lỗi đồng xu này mà
-we're going to be using a little bit   🍀   chúng ta sẽ sử dụng một lát
-later in the video when we handle all of   🍀   sau trong video khi chúng ta xử lý tất cả
-our error and then in the view this is   🍀   các lỗi của mình và sau đó trong chế độ xem, điều này
-also pretty straightforward we have a   🍀   cũng khá đơn giản  chúng tôi có một
-list and we Loop through all the coins   🍀   danh sách và chúng tôi Lặp lại tất cả các đồng tiền
-in the view model and we create this   🍀   trong mô hình chế độ xem và chúng tôi tạo chế
-coin row view which is what you see   🍀   độ xem hàng tiền xu này, đó là những gì bạn thấy
-right here make this a little bigger for   🍀   ngay tại đây, làm cho nó lớn hơn một chút đối với
-you guys and this is what the coin row   🍀   các bạn và đây là chế
-view looks like right we just populate   🍀   độ xem hàng tiền xu trông như thế nào.  điền vào
-it with a coin and then the UI is pretty   🍀   nó bằng một đồng xu và sau đó giao diện người dùng khá
-straightforward we're also using async   🍀   đơn giản, chúng tôi cũng đang sử dụng hình ảnh không đồng bộ
-image here as opposed to Kingfisher   🍀   ở đây trái ngược với Kingfisher,
-there are some downsides to async image   🍀   có một số nhược điểm đối với hình ảnh không đồng bộ
-that I'm going to touch on in another   🍀   mà tôi sẽ đề cập đến trong một
-YouTube video guys so make sure you just   🍀   video khác trên YouTube, vì vậy hãy đảm bảo rằng bạn cứ
-go ahead and smash that like button and   🍀   tiếp tục  trước và đập nút thích đó và
-subscribe to the channel to stay tuned   🍀   đăng ký kênh để theo dõi
-for additional awesome content that I'm   🍀   thêm nội dung tuyệt vời mà tôi
-going to be putting out for you there is   🍀   sắp đưa ra cho bạn, có
-a problem with async image that no one   🍀   một vấn đề với hình ảnh không đồng bộ mà không ai
-is talking about that I'm going to go   🍀   nói về điều đó tôi sẽ xem
-over how to fix   🍀   xét  làm thế nào để khắc phục
-and get like a serious performance   🍀   và đạt được hiệu suất như thế nào. Cải thiện
-Improvement out of it so that's going to   🍀   nó để nó sẽ
-be coming in a future video make sure   🍀   ra mắt trong một video trong tương lai, hãy đảm bảo rằng
-you guys stay tuned and click that   🍀   các bạn sẽ theo dõi và nhấp vào
-subscribe button down below so anyway   🍀   nút đăng ký bên dưới để dù sao thì
-guys let's go ahead and now get started   🍀   các bạn hãy tiếp tục và bây giờ hãy bắt đầu
-with the code so we are going to hop   🍀   với mã.  chúng tôi sẽ chuyển
-over to our view model   🍀   sang mô hình chế độ xem của mình
-and we're going to go over how to   🍀   và chúng tôi sẽ xem xét cách
-eliminate the use of this URL session   🍀   loại bỏ việc sử dụng
-data task with all this nasty completion   🍀   tác vụ dữ liệu phiên URL này với tất cả nội dung Trình xử lý hoàn thành khó chịu này
-Handler stuff so you guys notice we have   🍀   để các bạn lưu ý rằng chúng tôi có tiện ích
-an extension for the URL session   🍀   mở rộng cho
-functionality we're going to do the same   🍀   chức năng phiên URL mà chúng tôi  'Chúng ta sẽ làm điều tương tự
-thing for the async await functionality   🍀   cho chức năng chờ async
-so really quickly let's just go ahead   🍀   vì vậy hãy thực sự nhanh chóng, hãy tiếp tục
-and inside of our content view model   🍀   và bên trong mô hình chế độ xem nội dung của chúng ta,
-just go ahead and create another Mark   🍀   hãy tiếp tục và tạo một Dấu khác
-for our async await code and we're going   🍀   cho mã chờ async của chúng ta và chúng ta sẽ
-to say extension content view model and   🍀   nói mô hình chế độ xem nội dung mở rộng  và
-we are going to write a function called   🍀   chúng tôi sẽ viết một chức năng có tên là
-Fetch coins async   🍀   Tìm nạp tiền không
-cool so we are still going to need this   🍀   đồng bộ, vì vậy chúng tôi vẫn sẽ cần
-URL here guys so that's the URL we're   🍀   URL này ở đây, vì vậy đó là URL mà chúng tôi
-going to be fetching our data from so we   🍀   sẽ tìm nạp dữ liệu của mình để chúng tôi
-can literally just copy and paste this   🍀   có thể sao chép và dán URL này
-from our function that we have down here   🍀   từ chức năng của mình theo đúng nghĩa đen  mà chúng tôi có ở đây
-so uh really quickly just to do a quick   🍀   nên uh thực sự nhanh chóng chỉ để
-breakdown of this URL we're getting this   🍀   phân tích nhanh URL này, chúng tôi lấy
-data from coinggecko.com and this is the   🍀   dữ liệu này từ coinggecko.com và đây là
-base URL and then the rest of this uh   🍀   URL cơ sở và phần còn lại của
-crazy stuff you see here is all of the   🍀   những thứ điên rồ mà bạn thấy ở đây là tất cả
-parameters that we need to pass up in   🍀   các tham số mà chúng tôi cần chuyển qua
-order to get this specific set of data   🍀   để lấy lại tập dữ liệu cụ thể này,
-back so I'm not going to be doing a deep   🍀   vì vậy tôi sẽ không đi sâu
-dive into the API this video is more   🍀   vào API, video này
-centered around how we are interacting   🍀   tập trung nhiều hơn vào cách chúng tôi tương tác
-with the API but if you guys do want to   🍀   với API nhưng nếu các bạn làm  muốn
-check that out just head over to   🍀   kiểm tra điều đó, chỉ cần truy cập vào
-api.coinggecko.com   🍀   api.coingecko.com
-awesome API really really cool service   🍀   API tuyệt vời, dịch vụ thực sự rất tuyệt vời
-but anyway we have the URL so now let's   🍀   nhưng dù sao thì chúng ta cũng có URL, vì vậy bây giờ hãy
-go ahead and go over how we're going to   🍀   tiếp tục và tìm hiểu cách chúng ta sẽ
-actually fetch data from that URL using   🍀   thực sự tìm nạp dữ liệu từ URL đó bằng cách sử dụng
-async await so we are still going to use   🍀   async đang chờ.  chúng tôi vẫn sẽ sử dụng
-URL session guys but we're going to use   🍀   các phiên URL nhưng chúng tôi sẽ sử dụng
-a different component so we're going to   🍀   một thành phần khác, vì vậy chúng tôi sẽ
-say URL session Dot shared.data and then   🍀   nói phiên URL Dot shared.data và sau đó
-you're going to say data from and let's   🍀   bạn sẽ nói dữ liệu từ và hãy
-take a quick look at the documentation   🍀   xem nhanh  tài liệu
-here so you guys notice that this is an   🍀   ở đây để các bạn lưu ý rằng đây là một
-asynchronous function that throws an   🍀   chức năng không đồng bộ gây ra
-error that can throw a potential error   🍀   lỗi có thể gây ra lỗi tiềm ẩn,
-it's throwable right so this is   🍀   nó có thể ném được, vì vậy điều này
-different than data task and we'll look   🍀   khác với tác vụ dữ liệu và chúng tôi sẽ xem
-at the documentation there in a second   🍀   xét tài liệu ở đó trong giây lát
-but essentially this allows us to use   🍀   nhưng về cơ bản, điều này cho phép chúng tôi  sử dụng
-the async await functionality so we're   🍀   chức năng chờ async vì vậy chúng ta
-going to say data from URL and something   🍀   sẽ nói dữ liệu từ URL và một điều mà
-I forgot to mention that's extremely   🍀   tôi quên đề cập là điều cực kỳ
-important here is this actually returns   🍀   quan trọng ở đây là điều này thực sự trả về
-a data and response object right and   🍀   một đối tượng dữ liệu và phản hồi đúng và
-because it throws an error the error is   🍀   vì nó gây ra lỗi nên lỗi được
-implicitly handled we don't need to   🍀   xử lý hoàn toàn nên chúng tôi không  cần
-actually look at the error there so this   🍀   thực sự xem xét lỗi ở đó để đây
-is a tuple or Tuple still don't know how   🍀   là một Tuple hoặc Tuple vẫn không biết làm thế nào
-to say that to this day   🍀   để nói điều đó cho đến ngày nay
-um but it's a tuple that is just gonna   🍀   nhưng đó là một Tuple sẽ
-give us back some data in a response and   🍀   trả lại cho chúng tôi một số dữ liệu trong một phản hồi và
-this is way cleaner code because it   🍀   đây là cách mã sạch hơn  bởi vì nó
-doesn't require the use of a completion   🍀   không yêu cầu sử dụng
-Handler which is awesome right so let's   🍀   Trình xử lý hoàn thành, điều này thật tuyệt vời, vì vậy hãy
-go ahead and see how we're going to   🍀   tiếp tục và xem cách chúng tôi sẽ
-store this information inside of a tuple   🍀   lưu trữ thông tin này bên trong một bộ dữ liệu
-so we can just go ahead and say let   🍀   để chúng tôi có thể tiếp tục và nói hãy để dữ
-parenthesis data response   🍀   liệu dấu ngoặc đơn phản hồi
-equal URL session dot share dot data   🍀   bằng phiên URL  dấu chấm chia sẻ dữ liệu dấu chấm
-from URL so this is way way cleaner than   🍀   từ URL, vì vậy đây là cách rõ ràng hơn so với
-the code we have down here guys so this   🍀   mã chúng tôi có ở đây, vì vậy
-data task if you hold down option and   🍀   nhiệm vụ dữ liệu này nếu bạn giữ tùy chọn và
-click on that you guys notice that this   🍀   nhấp vào, các bạn lưu ý rằng điều này
-has a completion Handler and then   🍀   có Trình xử lý hoàn thành và sau đó
-everything has to be handled inside of   🍀   mọi thứ phải được xử lý bên trong  của
-this block we have to use weak self here   🍀   khối này, chúng tôi phải sử dụng bản thân yếu ở đây
-to avoid retain cycles and just a bunch   🍀   để tránh các chu kỳ giữ lại và chỉ là một loạt
-of nasty nasty stuff and this is just a   🍀   những thứ khó chịu khó chịu và đây chỉ là một lệnh
-simple API call right you can imagine   🍀   gọi API đơn giản, bạn có thể tưởng tượng
-that as API calls get more complex and   🍀   rằng khi các lệnh gọi API trở nên phức tạp hơn và
-your back end is more complex or the   🍀   phần cuối của bạn cũng phức tạp hơn hoặc
-functionality of your app is more   🍀   chức năng của ứng dụng của bạn
-complex and you have a bunch of nested   🍀   phức tạp hơn và bạn có một loạt
-calls or API calls that would get really   🍀   các lệnh gọi hoặc lệnh gọi API lồng nhau sẽ trở nên thực sự
-messy right because then you have   🍀   lộn xộn vì khi đó bạn có
-completion handlers inside of completion   🍀   các trình xử lý hoàn thành bên trong
-handlers inside of if statements inside   🍀   các trình xử lý hoàn thành bên trong các câu lệnh if bên
-of guard statements and it's just a   🍀   trong các câu lệnh bảo vệ và nó chỉ là một
-bunch of really complex logic and things   🍀   loạt các lệnh thực sự phức tạp  logic và mọi thứ
-are much more likely to go wrong so we   🍀   có nhiều khả năng sai hơn, vì vậy chúng tôi
-can do all of that using async await   🍀   có thể thực hiện tất cả những điều đó bằng cách sử dụng async đang chờ
-with this simple line of code right here   🍀   với dòng mã đơn giản này ngay tại đây,
-we just have to add a couple keywords to   🍀   chúng tôi chỉ cần thêm một vài từ khóa để
-let our compiler know how this is going   🍀   cho trình biên dịch của chúng tôi biết nó sẽ
-to work so first one being async so   🍀   hoạt động như thế nào.  không đồng bộ nên
-async call and a function that does not   🍀   cuộc gọi không đồng bộ và một chức năng không
-support concurrency so if you go here   🍀   hỗ trợ đồng thời, vì vậy nếu bạn truy cập vào đây
-and just hit fix then you guys will   🍀   và chỉ cần nhấn sửa thì các bạn sẽ
-notice that something pops up up at the   🍀   nhận thấy rằng một cái gì đó bật lên ở
-top there so this is indicating to our   🍀   trên cùng, vì vậy điều này cho trình biên dịch của chúng ta biết
-compiler that this is an asynchronous   🍀   rằng đây là một chức năng không đồng bộ
-function so then we get another error   🍀   vì vậy  sau đó chúng tôi gặp một lỗi khác
-but or before we fix that one   🍀   nhưng hoặc trước khi chúng tôi sửa lỗi đó
-because we are using this as an   🍀   vì chúng tôi đang sử dụng chức năng này như một
-asynchronous function we're going to go   🍀   chức năng không đồng bộ, chúng tôi sẽ truy cập vào
-here and say await so basically this   🍀   đây và nói đang chờ, vì vậy về cơ bản,
-await keyword just indicates that we are   🍀   từ khóa đang chờ này chỉ ra rằng chúng tôi
-going to await a response from this URL   🍀   sẽ chờ phản hồi từ phiên URL này
-session so and then it's going to be   🍀   vì vậy và sau đó nó sẽ được
-stored in this Tuple here and we don't   🍀   lưu trữ trong Tuple này ở đây và chúng tôi không
-like I said have to use a completion   🍀   thích tôi đã nói phải sử dụng khối hoàn thành
-block and our code is not going to go   🍀   và mã của chúng tôi sẽ không
-forward from this point until it gets a   🍀   tiếp tục từ thời điểm này cho đến khi nhận được
-response back from this URL session   🍀   phản hồi từ phiên URL này
-whether that is a successful response or   🍀   cho dù điều đó  là một phản hồi thành công hoặc
-an error   🍀   một lỗi,
-so we also have to mark this with a try   🍀   vì vậy chúng tôi cũng phải đánh dấu điều này bằng một
-statement and basically what the try is   🍀   câu lệnh thử và về cơ bản những gì câu lệnh thử
-saying is like hey I'm going to try to   🍀   nói giống như này, tôi sẽ cố gắng
-get you this data back but there's no   🍀   lấy lại dữ liệu này cho bạn nhưng không có gì
-guarantee that I'm going to be able to   🍀   đảm bảo rằng tôi sẽ  có thể
-do that because things can go wrong   🍀   làm điều đó bởi vì mọi thứ có thể
-right you could be trying to retrieve   🍀   sai, bạn có thể đang cố truy xuất
-data from a bad URL you could be your   🍀   dữ liệu từ một URL không hợp lệ, bạn có thể
-internet connection could get   🍀   kết nối internet của bạn có thể bị
-interrupted all kinds of things could go   🍀   gián đoạn, tất cả mọi thứ đều có thể
-wrong so we have to mark this with a try   🍀   sai, vì vậy chúng tôi phải đánh dấu điều này bằng
-keyword okay and then because we're   🍀   từ khóa thử, được và  sau đó bởi vì chúng tôi đang
-trying something and there's a potential   🍀   thử một cái gì đó và có một lỗi tiềm ẩn
-error that could happen we need to also   🍀   có thể xảy ra, chúng tôi cũng cần
-make this function throwable   🍀   làm cho chức năng này có thể ném được, vì vậy
-so here we're going to say that hey this   🍀   ở đây chúng tôi sẽ nói rằng này, điều này
-can throw an error right   🍀   có thể gây ra lỗi
-so now this is all good to go so let's   🍀   nên bây giờ mọi thứ đã ổn, vậy hãy cứ
-just do a quick recap on that so we said   🍀   tóm tắt nhanh về điều đó, vì vậy chúng tôi đã nói
-that this function is going to be   🍀   rằng chức năng này sẽ
-asynchronous and because it's   🍀   không đồng bộ và vì nó
-asynchronous we're going to be awaiting   🍀   không đồng bộ nên chúng tôi sẽ chờ
-a response from this URL session here   🍀   phản hồi từ phiên URL này tại đây
-when we get a response back it's going   🍀   khi chúng tôi nhận được phản hồi, nó sẽ
-to store it inside of this Tuple as the   🍀   lưu trữ nó bên trong Tuple này  như
-data that we get back with a potential   🍀   dữ liệu mà chúng tôi nhận được với một
-URL response or we're always going to   🍀   phản hồi URL tiềm năng hoặc chúng tôi sẽ luôn
-get a response back but that response   🍀   nhận được phản hồi nhưng mã phản hồi đó
-code could be okay it could be an error   🍀   có thể không sao, đó có thể là một lỗi
-whatever it may be and   🍀   bất kể nó có thể là gì
-um then we have to make sure that this   🍀   và sau đó chúng tôi phải đảm bảo rằng
-function can throw an error and we have   🍀   chức năng này  có thể gây ra lỗi và chúng tôi
-to make sure that we mark it with a try   🍀   phải đảm bảo rằng chúng tôi cũng đánh dấu lỗi đó bằng cách thử
-as well because things might go wrong so   🍀   vì mọi thứ có thể xảy ra sai sót nên
-we have a bunch of like keywords that we   🍀   chúng tôi có một loạt từ khóa giống nhau mà chúng tôi
-have to implement but this is way way   🍀   phải triển khai nhưng cách này đã
-cleaner already than our URL session   🍀   sạch hơn nhiều so với mã phiên URL của chúng tôi
-code down here so let's just keep going   🍀   ở đây, vì vậy hãy tiếp tục
-with our execution guys I want to check   🍀   với những người thực thi của chúng tôi. Tôi muốn kiểm tra
-our Response Code just to make sure   🍀   Mã phản hồi của chúng tôi chỉ để đảm bảo rằng
-we're good to go before we continue on   🍀   chúng tôi có thể tiếp tục trước khi tiếp tục
-right so we can say guard   🍀   đúng để chúng tôi có thể nói
-response as HTTP URL response dot status   🍀   phản hồi bảo vệ vì mã trạng thái dấu chấm phản hồi URL HTTP
-code equals 200 else   🍀   bằng 200 khác
-return so we are going to handle our   🍀   trở lại vì vậy  chúng tôi sẽ xử lý lỗi của mình
-error in a little bit guys I want to   🍀   trong một chút nữa. Tôi muốn
-just get through the process of getting   🍀   hoàn thành quá trình lấy
-all our data back and displaying it on   🍀   lại tất cả dữ liệu của chúng tôi và hiển thị nó trên
-our user interface   🍀   giao diện người dùng của chúng tôi,
-so we're just going to leave this with   🍀   vì vậy chúng tôi sẽ tạm dừng việc này
-return for now so this just makes sure   🍀   lại để điều này chỉ làm cho  chắc chắn
-that our response status code is 200 the   🍀   rằng mã trạng thái phản hồi của chúng tôi là 200,
-reason we do this guys is because if   🍀   lý do chúng tôi làm điều này là bởi vì nếu
-it's not that indicates that we have   🍀   không thì điều đó cho thấy rằng chúng tôi có
-some sort of network or server error and   🍀   một số loại lỗi mạng hoặc máy chủ và
-we want to indicate that to the user or   🍀   chúng tôi muốn chỉ ra điều đó cho người dùng hoặc
-know that ourselves as developers so now   🍀   biết rằng chính chúng tôi là nhà phát triển nên bây giờ chúng
-that we have that let's go ahead and see   🍀   tôi  có điều đó, hãy tiếp tục và xem
-if we can decode the data that we get   🍀   liệu chúng tôi có thể giải mã dữ liệu mà chúng tôi nhận được hay không,
-back so we're going to say guard let   🍀   vì vậy chúng tôi sẽ nói rằng hãy bảo vệ hãy để
-coins equal try Json decoder dot decode   🍀   tiền bằng nhau, hãy thử giải mã dấu chấm của bộ giải mã Json
-and then you're going to use this option   🍀   và sau đó bạn sẽ sử dụng loại tùy chọn này
-type from   🍀   vì
-it's going to be an array of coin dot   🍀   nó sẽ là một  mảng đồng xu
-self from that data else return   🍀   tự chấm từ dữ liệu đó, dữ liệu khác trả về
-and here if this fails we would throw   🍀   và ở đây nếu điều này không thành công, chúng tôi sẽ đưa ra
-some sort of invalid data error which   🍀   một số loại lỗi dữ liệu không hợp lệ,
-would like I said we will do later and   🍀   như tôi đã nói, chúng tôi sẽ làm sau và
-let's go ahead and see if we can just   🍀   hãy tiếp tục và xem liệu chúng tôi có thể
-print out   🍀   in ra
-our coins guys or we can just say print   🍀   tiền của mình không các bạn.  chỉ có thể nói là in
-coins   🍀   tiền,
-so   🍀   vậy
-let's see how are we going to call this   🍀   hãy xem chúng ta sẽ gọi chức năng này như thế nào
-function now right so you might think   🍀   ngay bây giờ, vì vậy bạn có thể nghĩ
-that you could just hop up to the   🍀   rằng bạn có thể chuyển sang
-initialization method and you could say   🍀   phương thức khởi tạo và bạn có thể nói
-fetch coins async but it's not that   🍀   tìm nạp tiền không đồng bộ nhưng nó không
-simple right and that's because this is   🍀   đơn giản như vậy đúng không và đó là vì đây là
-an asynchronous function and in order to   🍀   một chức năng không đồng bộ và để
-do that we would have to mark this guy   🍀   làm được điều đó, chúng tôi sẽ phải đánh dấu anh chàng này ở
-up at the top with async and that you   🍀   trên cùng bằng async và bạn
-might think that that's fine but then   🍀   có thể nghĩ rằng điều đó ổn nhưng sau đó
-you know you have to make it throwable   🍀   bạn biết rằng bạn cũng phải làm cho nó có thể ném được
-as well and then when you initialize   🍀   và sau đó khi bạn khởi tạo
-your view model you have to initialize   🍀   chế độ xem của mình  bạn phải khởi tạo
-it with an await and that happens back   🍀   nó với một sự chờ đợi và điều đó xảy ra trở lại
-in the view and it just gets really   🍀   trong chế độ xem và nó thực sự rất
-messy so basically guys what we're going   🍀   lộn xộn nên về cơ bản, những gì chúng ta sẽ
-to do is we're going to write another   🍀   làm là chúng ta sẽ viết một
-function here called load data   🍀   chức năng khác ở đây có tên là tải dữ liệu
-and we are going to wrap this in a task   🍀   và chúng ta sẽ kết thúc  đây là một nhiệm vụ,
-so go ahead and say task   🍀   vì vậy hãy tiếp tục và nói nhiệm vụ
-and you guys see it's a unit of   🍀   và các bạn thấy đó là một đơn vị
-asynchronous work and you can even   🍀   công việc không đồng bộ và thậm chí bạn có thể
-specify a priority here to tell your you   🍀   chỉ định mức độ ưu tiên ở đây để cho
-know your CPU how important this task is   🍀   CPU của bạn biết tầm quan trọng của việc hoàn thành nhiệm vụ này
-to complete so some might be low   🍀   nên một số có thể có
-priority some might be high priority we   🍀   mức độ ưu tiên thấp, một số có thể  được ưu tiên cao, chúng tôi
-can just go ahead and make this like   🍀   có thể tiếp tục và làm cho điều này giống như
-medium   🍀   phương tiện
-and go ahead and tab over and hit enter   🍀   và tiếp tục và chuyển qua tab và nhấn enter
-on that block and then we are going to   🍀   trên khối đó và sau đó chúng tôi sẽ
-say awaits   🍀   nói đang chờ
-fetch coins isync   🍀   tải tiền isync
-awesome so you guys notice that this   🍀   tuyệt vời vì vậy các bạn lưu ý rằng
-function call does have to be marked   🍀   cuộc gọi chức năng này phải được đánh dấu
-with the await keyword and that's   🍀   với từ khóa chờ đợi và đó là
-because it is an asynchronous process so   🍀   bởi vì nó là một quá trình không đồng bộ, vì vậy
-let's see I think we also have to say   🍀   hãy xem tôi nghĩ chúng ta cũng phải nói
-try guys   🍀   thử các bạn
-and then we are going to go here and in   🍀   và sau đó chúng ta sẽ đến đây và trong
-the initialization block we're going to   🍀   khối khởi tạo, chúng ta sẽ
-say load data and you notice because now   🍀   nói tải dữ liệu và bạn chú ý vì bây giờ
-that this is wrapped inside of a task   🍀   rằng điều này được bao bọc bên trong một tác vụ
-that we don't have to mark it with async   🍀   mà chúng ta không phải đánh dấu nó bằng async
-or anything this task takes care of that   🍀   hoặc bất kỳ thứ gì mà tác vụ này sẽ xử lý
-asynchronous process for us so guys   🍀   quy trình không đồng bộ đó cho chúng ta, vì vậy mọi người
-let's go ahead and run our code now   🍀   hãy tiếp tục và chạy mã của chúng ta ngay bây giờ
-and we should get back a big giant print   🍀   và chúng ta sẽ lấy lại một bản in khổng lồ
-statement with all of our coins so let's   🍀   tuyên bố với tất cả số xu của chúng tôi, vì vậy
-just go ahead and keep an eye on our   🍀   hãy tiếp tục và theo dõi
-console and you guys notice that that's   🍀   bảng điều khiển của chúng tôi và các bạn lưu ý rằng đó
-exactly what we get we're getting back   🍀   chính xác là những gì chúng tôi nhận được, chúng tôi sẽ lấy lại
-all the data for 50 coins because that's   🍀   tất cả dữ liệu cho 50 xu vì đó là
-how much we're telling our   🍀   số tiền chúng tôi đang nói với
-um API to give us back you guys here see   🍀   API của mình  để trả lại cho chúng tôi, các bạn ở đây hãy xem
-page equals 50 up at the top   🍀   trang bằng 50 ở trên cùng,
-um so that's looking really good right   🍀   ừm, vì vậy nó trông thực sự tốt,
-we see ethereum here we see Bitcoin all   🍀   chúng tôi thấy ethereum ở đây, chúng tôi thấy Bitcoin, tất cả
-that stuff so you guys let's go ahead   🍀   những thứ đó, vì vậy các bạn hãy tiếp tục
-and talk about how much better this is   🍀   và nói về điều này tốt
-than the URL session stuff right so   🍀   hơn phiên URL như thế nào  mọi thứ đúng để
-we notice that we don't have to print   🍀   chúng tôi nhận thấy rằng chúng tôi không phải in
-our coins anymore but how much cleaner   🍀   tiền của mình nữa nhưng mã này sạch hơn bao nhiêu so
-this code is than all of the stuff we   🍀   với tất cả những thứ chúng tôi
-had to do down here with this URL   🍀   phải thực hiện ở đây với phiên URL này,
-session right so we don't have a   🍀   vì vậy chúng tôi không có khối
-completion block our code looks   🍀   hoàn thành mã của mình  về
-synchronous basically right it's going   🍀   cơ bản có vẻ đồng bộ, nó đi
-line by line which is absolutely   🍀   từng dòng một, điều hoàn toàn
-incredible it's super neat it's super   🍀   không thể tin được, siêu gọn gàng, siêu
-efficient it's super clean and we don't   🍀   hiệu quả, siêu sạch và chúng tôi không
-have to do any of this nasty stuff so   🍀   phải làm bất kỳ thứ khó chịu nào, vì vậy
-this is why async await has been uh is   🍀   đây là lý do tại sao async await lại
-pretty awesome and it's not just that   🍀   khá tuyệt vời và nó không
-right like I talked about before the   🍀   đúng như tôi đã nói trước khi
-stuff with URL session can get really   🍀   nội dung với phiên URL có thể trở nên thực sự
-messy it's not just cleaner code it's   🍀   lộn xộn, nó không chỉ là mã sạch hơn mà còn
-actually more efficient and safer code   🍀   thực sự là mã hiệu quả hơn và an toàn hơn
-as well and that's because we're   🍀   và đó là bởi vì
-basically giving all of the   🍀   về cơ bản, chúng tôi chịu
-responsibility for how this code is   🍀   trách nhiệm về cách mã này được
-fetched to our system and that is used   🍀   tải xuống  hệ thống của chúng tôi và được sử dụng
-with this await keyword so that this   🍀   với từ khóa đang chờ này để
-await guide basically makes it so that   🍀   hướng dẫn đang chờ này về cơ bản làm cho
-this URL session guy is what's known as   🍀   phiên phiên URL này được gọi là có thể
-suspendable so it can suspend this task   🍀   tạm dừng để nó có thể tạm dừng tác vụ này
-as needed and we can specify priorities   🍀   khi cần và chúng tôi cũng có thể chỉ định mức độ ưu tiên
-for it as well it doesn't block our main   🍀   cho nó.  chặn chủ đề chính của chúng tôi,
-thread we don't have to work with any   🍀   chúng tôi không phải làm việc với bất kỳ
-nasty nested completion blocks that can   🍀   khối hoàn thành lồng nhau khó chịu nào có thể
-cause retain cycles and a million   🍀   gây ra chu kỳ giữ lại và hàng triệu
-different other things right this is   🍀   thứ khác, đây
-just way better way more professional   🍀   chỉ là cách tốt hơn để viết mã chuyên nghiệp hơn về
-code in terms of how you're going to use   🍀   cách bạn sẽ sử dụng
-your networking layer in your projects   🍀   mạng của mình  lớp trong các dự án của bạn
-here so really love this guys   🍀   ở đây vì vậy thực sự yêu thích những người này,
-um let's go ahead and see if we can now   🍀   ừm, hãy tiếp tục và xem liệu bây giờ chúng ta có thể
-actually get our coins displayed here   🍀   thực sự hiển thị đồng xu của mình ở đây hay không
-and what we have to do to do that so   🍀   và chúng ta phải làm gì để làm điều đó vì vậy
-we're going to just go and say   🍀   chúng ta sẽ tiếp tục và nói
-self.coins equals coins   🍀   self.coins bằng coins
-and let's run our project again and you   🍀   và hãy chạy lại dự án của chúng tôi và các
-guys are going to notice that this works   🍀   bạn sẽ nhận thấy rằng điều này hoạt động
-but we're going to get a warning   🍀   nhưng chúng tôi sẽ nhận được một cảnh báo,
-so you guys are going to notice it says   🍀   vì vậy các bạn sẽ chú ý rằng nó nói rằng
-publishing changes from background       🍀   
-threads is not allowed make sure to   🍀   không được phép xuất bản các thay đổi từ luồng nền, hãy đảm bảo
-publish from the main thread so   🍀   xuất bản từ luồng chính  Vì vậy,
-basically for those of you who are   🍀   về cơ bản, đối với những người
-unfamiliar with threading API calls or   🍀   không quen với các cuộc gọi API theo luồng hoặc
-processes happened on background threads   🍀   các quy trình xảy ra trên các luồng nền,
-we don't want that stuff to block our   🍀   chúng tôi không muốn những thứ đó chặn luồng chính của chúng tôi,
-main thread the main thread is what is   🍀   luồng chính
-in charge of rendering and displaying   🍀   chịu trách nhiệm kết xuất và hiển thị
-our user interface so you could imagine   🍀   giao diện người dùng của chúng tôi để bạn có thể tưởng tượng
-that if we had some ongoing API call   🍀   rằng nếu chúng tôi có một số lệnh gọi API đang diễn ra
-while our user enter the user is   🍀   trong khi người dùng của chúng tôi nhập thì người dùng đang
-interacting with the interface it could   🍀   tương tác với giao diện, điều đó có thể
-make it really laggy or it could even   🍀   khiến giao diện thực sự bị lag hoặc thậm chí có thể
-block the user interface right which is   🍀   chặn giao diện người dùng, điều này
-really nasty so that's why this stuff   🍀   thực sự khó chịu, vì vậy đó là lý do tại sao nội dung này
-happens asynchronously on a background   🍀   xảy ra không đồng bộ trên một
-thread so the issue that we face is we   🍀   luồng nền vì vậy  vấn đề mà chúng tôi gặp phải là chúng tôi
-have to we're trying to publish data   🍀   phải cố gắng xuất bản dữ liệu
-right so this guy is a published   🍀   đúng cách để anh chàng này là tài sản được xuất bản
-property and it's going to send that   🍀   và nó sẽ gửi
-information over to our view which has   🍀   thông tin đó đến chế độ xem của chúng tôi, điều này
-to happen on the main thread and that's   🍀   phải xảy ra trên luồng chính và đó là
-why you see this   🍀   lý do tại sao bạn thấy điều này
-dispatchq.maine.async guy right here   🍀   Anh chàng .maine.async ngay tại đây
-anytime you utilize a URL session you   🍀   bất cứ khi nào bạn sử dụng phiên URL, bạn
-have to use this uh to get your updates   🍀   phải sử dụng phiên này để lấy lại các cập nhật của bạn
-back on the main thread well   🍀   trên luồng chính,
-um lucky for us Swift UI has something   🍀   thật may mắn cho chúng tôi Swift UI có một thứ
-called a main actor and once we do this   🍀   gọi là diễn viên chính và một khi chúng tôi thực hiện việc này
-and run our code again we're going to   🍀   và chạy mã của mình  một lần nữa, chúng tôi sẽ
-notice that that error completely goes   🍀   nhận thấy rằng lỗi đó hoàn toàn biến
-away and that's basically just another   🍀   mất và về cơ bản, đó chỉ là một
-way of getting your code back onto the   🍀   cách khác để đưa mã của bạn trở lại
-main thread or the updates that your   🍀   luồng chính hoặc các bản cập nhật mà mã của bạn
-code needs to perform back onto the main   🍀   cần để thực hiện trở lại
-thread I'm not going to do a super deep   🍀   luồng chính. Tôi sẽ không thực hiện
-dive into actors guys but basically an   🍀   đi sâu vào các diễn viên, nhưng về cơ bản, một
-actor is just something that Swift UI   🍀   diễn viên chỉ là thứ mà Swift UI
-has implemented or Swift is implemented   🍀   đã triển khai hoặc Swift được triển khai
-really it's not unique to Swift UI that   🍀   thực sự, nó không phải là duy nhất đối với Swift UI
-makes your code safer when interacting   🍀   giúp mã của bạn an toàn hơn khi tương tác
-with apis or basically it just makes it   🍀   với apis hoặc về cơ bản, nó chỉ làm
-so that anytime multiple things are   🍀   cho nó bất cứ lúc nào cũng có nhiều thứ
-trying to update or modify some sort of   🍀   cố gắng cập nhật hoặc sửa đổi một số loại
-data object like this coins array it   🍀   đối tượng dữ liệu như mảng tiền xu này, điều đó
-makes it so that that is a safe process   🍀   khiến nó trở thành một quy trình an toàn
-and you don't ever have to worry about   🍀   và bạn không bao giờ phải lo lắng về
-multiple things trying to update   🍀   nhiều thứ khi cố cập nhật
-something at once and raise conditions   🍀   thứ gì đó cùng một lúc và nâng cao điều kiện
-and all of that stuff so that's What   🍀   và tất cả những thứ đó  Vì vậy, đó là
-actors are used for and this main actor   🍀   Diễn viên chính được sử dụng để làm gì và diễn viên chính này sẽ
-just gets us back onto the main thread   🍀   đưa chúng ta trở lại luồng chính,
-so you notice that now we don't have to   🍀   vì vậy bạn lưu ý rằng bây giờ chúng ta không phải
-use this   🍀   sử dụng
-nastydispatchq.main.async guy we can   🍀   anh chàng dirtydispatchq.main.async này mà chúng ta có thể
-just declare this to to run on the main   🍀   khai báo điều này để chạy trên
-actor or the main thread and it takes   🍀   diễn viên chính  hoặc luồng chính và nó đảm
-care of that stuff for us so that is   🍀   nhận những nội dung đó cho chúng tôi, vì vậy
-pretty much going to wrap it up for our   🍀   gần như sẽ kết thúc nó cho
-async await code guys in the rest of   🍀   các mã async đang chờ của chúng tôi. Trong phần còn lại của
-this video we're going to go over how to   🍀   video này, chúng tôi sẽ giới thiệu cách
-implement some custom error handling   🍀   triển khai một số cách xử lý lỗi tùy chỉnh
-some pagination and some refreshing to   🍀   phân trang và một số làm mới để
-really polish off this app and make our   🍀   thực sự đánh bóng ứng dụng này và làm cho mạng của chúng tôi
-networking a lot more professional than   🍀   chuyên nghiệp hơn rất nhiều so với
-when we started   🍀   khi chúng tôi bắt đầu,
-so next up we're going to be going over   🍀   vì vậy, tiếp theo, chúng tôi sẽ xem xét
-how to handle our error guys so this is   🍀   cách xử lý lỗi của mình, vì vậy điều này rất
-important for a couple different reasons   🍀   quan trọng vì một vài lý do khác nhau,
-one it's important for us as developers   🍀   một là  Điều quan trọng đối với chúng tôi với tư cách là nhà phát triển là phải
-to know what went wrong and where so our   🍀   biết điều gì đã xảy ra và ở đâu nên
-custom error handling is going to help   🍀   việc xử lý lỗi tùy chỉnh của chúng tôi sẽ giúp
-us out a lot when we have to debug   🍀   chúng tôi rất nhiều khi chúng tôi phải gỡ lỗi
-things and when things go wrong it's   🍀   mọi thứ và khi có sự cố xảy ra, điều đó
-also important for the user experience   🍀   cũng rất quan trọng đối với trải nghiệm người dùng,
-so whenever a user is using our app and   🍀   vì vậy bất cứ khi nào người dùng sử dụng dịch vụ của chúng tôi  ứng dụng và
-something goes wrong you're supposed to   🍀   xảy ra sự cố, bạn phải
-tell them that something went wrong and   🍀   nói với họ rằng đã xảy ra sự cố và
-what exactly went wrong so that they   🍀   chính xác điều gì đã xảy ra để họ
-don't start to get frustrated and never   🍀   không bắt đầu cảm thấy thất vọng và không bao giờ
-want to use your app again so really   🍀   muốn sử dụng ứng dụng của bạn nữa. Vì vậy,
-quickly let's go ahead up to the top and   🍀   hãy nhanh chóng tiếp tục lên đầu trang và
-create another published property here   🍀   tạo một thuộc tính đã xuất bản khác ở đây
-and it's going to be called error and   🍀   và nó sẽ được gọi là lỗi và
-it's going to be optional because it may   🍀   nó sẽ là tùy chọn vì nó có thể tồn tại
-or may not exist and if you guys   🍀   hoặc không tồn tại và nếu các bạn còn
-remember in the starter project we got   🍀   nhớ trong dự án khởi động, chúng tôi đã liệt
-this coin error enumeration that's going   🍀   kê lỗi xu này sẽ
-to help us handle a bunch of different   🍀   giúp chúng tôi xử lý một loạt các vấn đề khác nhau
-errors in a custom way right we could   🍀   đúng theo cách tùy chỉnh, chúng tôi có thể
-have an invalid URL server error and   🍀   gặp lỗi máy chủ URL không hợp lệ và
-valid data or an unknown error and then   🍀   dữ liệu hợp lệ hoặc lỗi không xác định, sau đó
-we're going to have the ability to   🍀   chúng tôi sẽ có khả năng
-implement like a custom error   🍀   triển khai như mô tả lỗi tùy chỉnh
-description to show to the user so   🍀   để hiển thị cho người dùng, vì vậy
-if we go back to the content view model   🍀   nếu chúng tôi quay lại  mô hình chế độ xem nội dung
-now let's go back down to our fetch   🍀   bây giờ, hãy quay lại
-coins async function and go over how   🍀   chức năng tìm nạp tiền xu không đồng bộ của chúng tôi và tìm hiểu cách
-we're going to start throwing errors and   🍀   chúng tôi sẽ bắt đầu ném lỗi và
-see how clean this is going to be so if   🍀   xem điều này sẽ sạch sẽ như thế nào vì vậy nếu
-we have this invalid URL guy we can   🍀   chúng tôi có anh chàng URL không hợp lệ này, chúng tôi
-literally just go ahead here and say   🍀   thực sự có thể tiếp tục tại đây  và nói
-Throw coin error.invalid URL and you'll   🍀   Ném đồng xu error.invalid URL và bạn sẽ
-notice guys that you no longer have to   🍀   nhận thấy rằng bạn không còn phải
-say return here you see code after throw   🍀   nói quay lại đây nữa, bạn thấy mã sau khi ném
-will never be executed so it does   🍀   sẽ không bao giờ được thực thi, vì vậy
-basically the same thing that return   🍀   về cơ bản nó thực hiện tương tự như trả về
-does except it throws an error which   🍀   ngoại trừ nó đưa ra một lỗi
-makes our lives easier   🍀   khiến chúng ta  cuộc sống dễ dàng hơn
-so we're sort of killing two birds with   🍀   vì vậy chúng tôi sẽ giết một con chim bằng
-one stone there   🍀   một viên đá ở đó
-and we can move this all into one line   🍀   và chúng tôi có thể chuyển tất cả những thứ này thành một dòng
-of code to make it even more concise so   🍀   mã để làm cho nó thậm chí còn ngắn gọn hơn, vì vậy
-now let's check out this guard statement   🍀   bây giờ hãy kiểm tra tuyên bố bảo vệ này
-with our response so if we get an   🍀   với phản hồi của chúng tôi để nếu chúng tôi nhận được
-invalid response we're going to throw a   🍀   phản hồi không hợp lệ  chúng ta sẽ đưa ra
-coin error.server error right so we can   🍀   lỗi đồng xu error.server để chúng ta có thể
-see here how we're utilizing that enum   🍀   thấy ở đây cách chúng ta sử dụng enum đó
-to throw different errors in different   🍀   để đưa ra các lỗi khác nhau trong
-situations and then here if we fail to   🍀   các tình huống khác nhau và sau đó ở đây nếu chúng ta không
-decode we could say Throw coin error dot   🍀   giải mã được, chúng ta có thể nói Ném đồng xu lỗi chấm
-invalid data   🍀   dữ liệu không hợp lệ
-right because we failed our decode so   🍀   đúng không  bởi vì chúng tôi đã giải mã thất bại nên
-that looks really really good right so   🍀   nó trông thực sự rất tốt nên
-now in order to for this to actually   🍀   bây giờ để nó thực sự
-work guys we have to wrap this in what's   🍀   hoạt động, chúng tôi phải gói nó trong cái
-known as a do catch block so we're going   🍀   được gọi là khối do catch vì vậy chúng tôi sẽ
-to cut all of this code here and we're   🍀   cắt tất cả mã này ở đây và chúng tôi  '
-going to say do   🍀   sẽ nói do
-catch   🍀   catch
-and we're going to paste all that code   🍀   và chúng ta sẽ dán lại tất cả mã đó
-back in the do block and this catch   🍀   vào khối do và khối catch này
-block is what's going to execute if that   🍀   sẽ thực thi nếu
-error actually happens so then all we   🍀   lỗi đó thực sự xảy ra, vì vậy, tất cả những gì chúng ta
-need to do here is say self.error equals   🍀   cần làm ở đây là nói self.error bằng
-error right because if we throw an error   🍀   lỗi đúng bởi vì nếu chúng tôi đưa ra lỗi
-then this catch block will execute and   🍀   thì khối bắt này sẽ thực thi và
-we'll get access to that so that's   🍀   chúng tôi sẽ có quyền truy cập vào khối đó, điều đó thật
-pretty cool right it reduces a lot of   🍀   tuyệt phải không, nó làm giảm rất nhiều
-the boilerplate code that we have to use   🍀   mã soạn sẵn mà chúng tôi phải sử dụng
-when we work with these URL sessions so   🍀   khi làm việc với các phiên URL này, chẳng
-for example   🍀   hạn như vậy
-if I wanted to throw an error here I   🍀   nếu tôi muốn đưa ra một lỗi ở đây thì tôi
-would have to I I don't have the ability   🍀   phải làm thế. Tôi không có khả năng
-to throw anything here right I would   🍀   ném bất cứ thứ gì vào đây đúng không. Tôi sẽ
-have to say self.error equals coin error   🍀   phải nói self.error bằng coin error
-dot invalid uh so sorry server error and   🍀   dot invalid uh xin lỗi lỗi máy chủ và
-then I also have to return so it just   🍀   tôi cũng phải quay lại  chỉ hơi
-it's a little more annoying to handle   🍀   khó chịu hơn một chút khi xử lý
-the error in our URL session code right   🍀   lỗi trong mã phiên URL của chúng tôi
-and it all has to also be inside of a   🍀   và tất cả cũng phải nằm trong
-completion block which is also more   🍀   khối hoàn thành, điều này cũng
-annoying so this is way way way cleaner   🍀   khó chịu hơn vì vậy đây là cách sạch hơn
-and way more efficient than what we see   🍀   và hiệu quả hơn những gì chúng tôi
-down there with the URL session so let's   🍀   thấy.  ở đó với phiên URL, vì vậy,
-go over how we can actually display our       🍀   
-error to the user now   🍀   bây giờ chúng ta hãy xem cách chúng ta thực sự có thể hiển thị lỗi của mình cho người dùng, vì
-so basically guys this error is a   🍀   vậy về cơ bản, các bạn, lỗi này là một
-published property so we're going to add   🍀   thuộc tính đã xuất bản, vì vậy chúng ta sẽ thêm
-a receiver in our content view to   🍀   một bộ thu trong chế độ xem nội dung của mình để
-receive this error and if it does we're   🍀   nhận lỗi này và nếu có  chúng tôi
-going to like indicate to our UI that   🍀   sẽ chỉ ra cho giao diện người dùng của mình rằng
-hey we need to show the user some sort   🍀   chúng tôi cần hiển thị cho người dùng một số
-of alert message so let's go back to   🍀   loại thông báo cảnh báo, vì vậy hãy quay lại Chế độ
-content View and we're going to add this   🍀   xem nội dung và chúng tôi sẽ thêm
-dot on receive method and it's going to   🍀   dấu chấm này vào phương thức nhận và nó sẽ
-be viewmodel dot dollar sign error so   🍀   là viewmodel dấu chấm đô la  ký lỗi, vì vậy
-whenever that error gets published oops   🍀   bất cứ khi nào lỗi đó được xuất bản, rất tiếc
-and just hit enter here   🍀   và chỉ cần nhấn nhập vào đây
-error and it's it's going to execute   🍀   lỗi và nó sẽ thực thi
-this on receive block so we're going to   🍀   điều này trên khối nhận, vì vậy chúng tôi sẽ
-introduce another property up at the top   🍀   giới thiệu một thuộc tính khác ở
-state private VAR show alert   🍀   trạng thái VAR riêng tư hàng đầu hiển thị cảnh báo
-equals false and then we are just going   🍀   bằng sai và sau đó chúng tôi chỉ  sẽ
-to go back to this on receive block and   🍀   quay lại vấn đề này khi nhận khối và
-say if error   🍀   nói nếu lỗi
-is not equal to nil then we're going to   🍀   không bằng 0 thì chúng ta sẽ
-say show alert dot toggle   🍀   nói hiển thị cảnh báo dấu chấm bật
-cool and then we just need to create our   🍀   tắt và sau đó chúng ta chỉ cần tạo
-alert guys so we're going to say dot   🍀   các cảnh báo của mình vì vậy chúng ta sẽ nói
-alert and then use this one for is   🍀   cảnh báo dấu chấm và  sau đó sử dụng cái này để được
-presented with content so right here   🍀   trình bày với nội dung, vì vậy ngay dưới đây ở
-down at the bottom so this is presented   🍀   dưới cùng, vì vậy, cái này được trình bày,
-guys going to determine if the alert   🍀   những người sẽ xác định xem cảnh báo có
-shows or not and then the content will   🍀   hiển thị hay không và sau đó nội dung sẽ
-be whatever we put inside there so we're   🍀   là bất cứ thứ gì chúng tôi đặt bên trong đó, vì vậy chúng tôi
-going to say dollar sign show alert and   🍀   sẽ nói ký hiệu đô la  hiển thị cảnh báo và
-then tab over and hit enter on that guy   🍀   sau đó chuyển qua tab và nhấn enter trên anh chàng đó,
-delete that and we're going to say alert   🍀   xóa cảnh báo đó và chúng tôi sẽ nói cảnh báo
-with the title and message okay so this   🍀   với tiêu đề và thông báo được rồi, vì vậy
-guy is going to be a text component and   🍀   anh chàng này sẽ là một thành phần văn bản và
-it's going to say error and then the   🍀   nó sẽ báo lỗi và sau đó
-message is going to be another text   🍀   thông báo sẽ xuất hiện  là một thành phần văn bản khác
-component that says viewmodel oops   🍀   có nội dung viewmodel oops
-viewmodel dot error.localize description   🍀   viewmodel dot error.localize description,
-so let's go ahead and hit enter there   🍀   vì vậy, hãy tiếp tục và nhấn enter ở đó,
-just clean this up a bit   🍀   chỉ cần làm sạch phần này một chút
-and indent our code and let's just go   🍀   và thụt lề mã của chúng ta và hãy
-ahead and hit command B to make sure   🍀   tiếp tục và nhấn lệnh B để đảm bảo
-everything builds   🍀   mọi thứ được xây dựng
-um okay so let's just give this a   🍀   tốt.  chúng ta hãy đặt
-default value because it's optional   🍀   giá trị mặc định này vì đây là tùy chọn
-hit command B again our build succeeds   🍀   nhấn lệnh B một lần nữa, quá trình xây dựng của chúng ta thành công,
-now let's go back and just create some   🍀   bây giờ chúng ta hãy quay lại và chỉ cần tạo một số
-Havoc here and we're gonna just make the   🍀   Havoc tại đây và chúng ta sẽ làm cho
-URL invalid okay so just go ahead and   🍀   URL không hợp lệ, vì vậy hãy tiếp tục và
-like delete a letter from your url guys   🍀   xóa một chữ cái khỏi url của bạn  các bạn,
-and let's go ahead and run the code and   🍀   hãy tiếp tục và chạy mã và
-see if it gives us back some sort of   🍀   xem liệu nó có trả lại cho chúng tôi một số loại
-error message   🍀   thông báo lỗi
-perfect so it's saying the data is   🍀   hoàn hảo hay không, vì vậy dữ liệu nói rằng dữ liệu
-invalid and that makes sense right   🍀   không hợp lệ và điều đó có ý nghĩa
-because we're still getting like a   🍀   vì chúng tôi vẫn nhận được
-response back from this URL even though   🍀   phản hồi từ URL này ngay cả khi
-it's bad but this goes to show us that   🍀   nó  không tốt nhưng điều này sẽ cho chúng tôi thấy rằng
-we have successfully like published our   🍀   chúng tôi đã xuất bản thành công lỗi của mình
-error and that we've triggered one of   🍀   và chúng tôi đã kích hoạt một trong
-our custom error messages and it's   🍀   các thông báo lỗi tùy chỉnh của mình
-showing that to the user saying okay       🍀   
-um and then guys if we go back here and   🍀   và điều đó
-say you know put the O back in coin   🍀   cho thấy điều đó với người dùng.  O trả lại xu
-Gecko and run this again   🍀   Gecko và chạy lại cái này
-um it's going to load our load all of   🍀   ừm, nó sẽ tải
-our data successfully so this is looking   🍀   thành công tất cả dữ liệu của chúng ta, vì vậy cái này trông
-really really nice and Polished guys   🍀   thực sự rất đẹp và được đánh bóng,
-this is the difference between an   🍀   đây là sự khác biệt giữa một
-amateur level coder and a professional   🍀   lập trình viên cấp độ nghiệp dư và một mã chuyên nghiệp
-code or someone that handles their error   🍀   hoặc ai đó xử lý mã của họ  lỗi
-in a professional way and make sure they   🍀   một cách chuyên nghiệp và đảm bảo rằng họ
-takes all those extra steps in order to   🍀   thực hiện tất cả các bước bổ sung đó để
-um you know make your life easier as a   🍀   bạn biết đấy, làm cho cuộc sống của bạn trở nên dễ dàng hơn với tư cách là
-developer in the future an ounce of   🍀   nhà phát triển trong tương lai,
-prevention is worth a pound of cure I   🍀   phòng ngừa đáng giá một cân chữa bệnh. Tôi
-always like to say right doing a little   🍀   luôn muốn nói rằng làm đúng một
-bit more work early on will save you a   🍀   chút  nhiều công việc hơn từ sớm sẽ giúp bạn tránh được rất
-lot of trouble down the line so that's   🍀   nhiều rắc rối vì vậy điều đó
-looking really good now let's go over   🍀   trông thực sự tốt. Bây giờ chúng ta hãy tìm hiểu
-how to implement refreshabilities so   🍀   cách triển khai khả năng làm mới để
-this one is super super easy right guys   🍀   cái này siêu siêu dễ đúng không các bạn,
-pagination and refreshing is all we have   🍀   phân trang và làm mới là tất cả những gì chúng ta
-left for this video and it's just going   🍀   còn lại cho video này và nó chỉ là  sẽ mất
-to take less than five minutes so we can   🍀   ít hơn năm phút để chúng tôi có thể
-go back to our content View and because   🍀   quay lại Chế độ xem nội dung của mình và vì
-we're on we're using a list here we can   🍀   chúng tôi đang sử dụng danh sách ở đây nên chúng tôi có thể
-say dot refreshable   🍀   nói dấu chấm có thể làm mới
-and when we want to refresh our code we   🍀   và khi chúng tôi muốn làm mới mã của mình, chúng tôi
-can call a function in our view model so   🍀   có thể gọi một hàm trong chế độ xem của mình  mô hình, vì vậy,
-let's go back to our view model and   🍀   hãy quay lại mô hình chế độ xem của chúng tôi và
-we're going to implement another   🍀   chúng tôi sẽ triển khai một
-function here called handle refresh   🍀   chức năng khác ở đây có tên là làm mới xử lý
-and I'm just going to say coins dot   🍀   và tôi sẽ nói rằng các đồng xu sẽ
-remove all   🍀   xóa tất cả
-and then we're going to say viewmodel or   🍀   và sau đó chúng tôi sẽ nói chế độ xem mô hình hoặc
-sorry we're going to say load data   🍀   xin lỗi, chúng tôi sẽ  nói tải dữ liệu
-so you do have to remove all the coins   🍀   để bạn phải xóa tất cả các đồng tiền
-guys because if you refreshed it and   🍀   vì nếu bạn làm mới nó và
-didn't remove all the existing coins it   🍀   không xóa tất cả các đồng tiền hiện có, nó
-would just stack them on top of each   🍀   sẽ chỉ xếp chúng chồng lên
-other so we don't want that right   🍀   nhau vì vậy chúng tôi không muốn điều đó đúng
-so let's go back here and just say   🍀   vì vậy hãy quay lại đây  và chỉ cần nói làm
-viewmodel dot handle refresh   🍀   mới xử lý dấu chấm viewmodel,
-let's run our code again   🍀   hãy chạy lại mã của chúng tôi
-and let's see what we get back so   🍀   và hãy xem những gì chúng tôi nhận lại để
-you guys will notice that I can now pull   🍀   các bạn sẽ nhận thấy rằng bây giờ tôi có thể kéo
-this list down to refresh it right which   🍀   danh sách này xuống để làm mới nó,
-is really really awesome that's just   🍀   đây thực sự là
-another extremely important feature to   🍀   một tính năng cực kỳ quan trọng khác cần
-have when you're implementing any sort   🍀   có khi  bạn đang triển khai bất kỳ loại
-of networking layer you want to give the   🍀   lớp mạng nào mà bạn muốn cung cấp cho
-user the ability to refresh the data and   🍀   người dùng khả năng làm mới dữ liệu và
-get back a fresh batch of data so next   🍀   lấy lại một loạt dữ liệu mới, vì vậy, tiếp theo
-up is pagination guys which is also   🍀   là phân trang, điều này cũng
-going to be super simple right so   🍀   sẽ cực kỳ đơn giản, vì vậy
-pagination does have the predicate that   🍀   phân trang có vị từ  điều đó
-was predicated on the ability for your   🍀   được xác định dựa trên khả năng API của bạn
-API to implement pagination right so   🍀   triển khai phân trang đúng như vậy, thật
-lucky for us this coin gecko API gives   🍀   may mắn cho chúng tôi API tắc kè xu này cung cấp cho
-us the ability to paginate our data so   🍀   chúng tôi khả năng phân trang dữ liệu của mình, vì vậy
-what I want us to do is actually just go   🍀   điều tôi muốn chúng tôi làm thực sự chỉ là
-ahead and say private that we're going   🍀   tiếp tục và nói riêng rằng chúng tôi
-to create two properties here we're   🍀   sẽ  tạo hai thuộc tính ở đây, chúng tôi
-going to say page limit   🍀   sẽ nói rằng giới hạn trang
-equals 20 and private VAR   🍀   bằng 20 và trang VAR riêng tư
-page equals zero so you guys will notice   🍀   bằng 0, vì vậy các bạn sẽ chú ý
-here in this big nasty URL string we   🍀   ở đây trong chuỗi URL lớn khó chịu này, chúng tôi
-have some parameters in here right so   🍀   có một số tham số ở đây vì vậy
-this is fetching 50 coins you guys will   🍀   đây sẽ lấy 50 xu, các bạn sẽ
-notice if I change this to five   🍀   chú ý nếu  Tôi thay đổi điều này thành năm
-and run my code   🍀   và chạy mã của mình
-that I'm only going to get back five   🍀   rằng tôi sẽ chỉ nhận lại năm
-coins right so here we're going to   🍀   đồng xu, vì vậy ở đây chúng tôi sẽ
-replace this guy with our   🍀   thay thế anh chàng này bằng
-uh page limit   🍀   giới hạn trang uh của chúng tôi
-so you guys will notice that I can   🍀   để các bạn sẽ nhận thấy rằng tôi có thể
-inject values into this URL string which   🍀   đưa các giá trị vào chuỗi URL này  Điều này
-is pretty cool right so now you'll   🍀   khá thú vị, vì vậy bây giờ bạn sẽ
-notice that I have 20 coins so I could   🍀   nhận thấy rằng tôi có 20 xu nên tôi có thể
-adjust this page limit as needed and it   🍀   điều chỉnh giới hạn trang này khi cần và nó
-will take effect with how many coins I   🍀   sẽ có hiệu lực với số lượng xu tôi
-fetch at a time the next property we're   🍀   lấy tại một thời điểm thuộc tính tiếp theo mà chúng ta
-going to be looking at is this page guy   🍀   sẽ xem xét  đây là trang này
-but before we look at that and actually   🍀   nhưng trước khi chúng tôi xem xét điều đó và thực sự
-get our data back from the URL from the   🍀   lấy lại dữ liệu của chúng tôi từ URL từ
-API and paginate it I want us to go over   🍀   API và phân trang cho nó, tôi muốn chúng tôi xem qua
-how we're going to implement it in our   🍀   cách chúng tôi sẽ triển khai nó trong
-application so we need to go back to our   🍀   ứng dụng của mình, vì vậy chúng tôi cần quay lại trang của mình
-content View   🍀   nội dung Xem
-and on this coin row of you guys we   🍀   và trên hàng đồng xu này của các bạn,
-basically need to be able to detect if   🍀   về cơ bản, chúng tôi cần có khả năng phát hiện xem
-we're at the last coin right so   🍀   chúng tôi có đang ở đồng xu cuối cùng hay không, vì vậy
-basically if I scroll to the bottom of   🍀   về cơ bản nếu tôi cuộn xuống cuối
-this list I want to say hey I've reached   🍀   danh sách này, tôi muốn nói rằng tôi đã đạt đến
-the bottom fetch me more data right so   🍀   mức tìm nạp cuối cùng  cho tôi thêm dữ liệu đúng
-um that's what pagination does it'll uh   🍀   không, đó là những gì phân trang sẽ làm, uh
-for those of you who don't know it   🍀   đối với những người bạn không biết nó
-allows you to fetch your data in Pages   🍀   cho phép bạn tìm nạp dữ liệu của mình trong Trang
-or blocks so that imagine if we had a   🍀   hoặc khối để tưởng tượng nếu chúng tôi có một
-thousand cryptocurrency coins we don't   🍀   nghìn đồng tiền điện tử mà chúng tôi không
-want to fetch all of that data at once   🍀   muốn  tìm nạp tất cả dữ liệu đó ngay lập tức,
-right we just want to fetch little   🍀   chúng tôi chỉ muốn tìm
-chunks at a time and only fetch other   🍀   nạp từng đoạn nhỏ và chỉ tìm nạp
-you know more data if the user wants to   🍀   những dữ liệu khác mà bạn biết nhiều hơn nếu người dùng muốn
-see it so this is another huge Pro tip   🍀   xem nó, vì vậy đây là một mẹo chuyên nghiệp lớn khác
-for any sort of networking code that   🍀   cho bất kỳ loại mã mạng nào mà
-you're going to write in any of your   🍀   bạn đang  sẽ viết vào bất kỳ
-applications you want to paginate your   🍀   ứng dụng nào của bạn mà bạn muốn phân trang
-data so in order to do this in Swift UI   🍀   dữ liệu của mình, vì vậy, để thực hiện điều này trong Swift UI,
-we're going to go here and say dot on up   🍀   chúng tôi sẽ vào đây và nói dấu chấm ở trên
-here and we're going to say if coin   🍀   đây và chúng tôi sẽ nói liệu đồng xu
-equals viewmodel.coins.last   🍀   có bằng viewmodel.coins hay không.  cuối cùng
-and then we can just add a print   🍀   và sau đó chúng ta có thể chỉ cần thêm một
-statement say print debug paginate here   🍀   câu lệnh in nói rằng in gỡ lỗi phân trang ở đây
-okay so our coin is not equatable so   🍀   được vì vậy đồng xu của chúng ta không tương đương nhau nên
-basically guys all we got to do is say   🍀   về cơ bản, tất cả những gì chúng ta phải làm là nói
-coin dot like ID   🍀   dấu chấm đồng xu như ID
-last dot ID   🍀   dấu chấm cuối cùng ID
-basically just want to see if the last   🍀   về cơ bản chỉ muốn xem liệu
-coin in the list is equal to the last   🍀   đồng xu cuối cùng có trong  danh sách bằng với
-coin in our data array in our view model   🍀   đồng xu cuối cùng trong mảng dữ liệu của chúng tôi trong mô hình chế độ xem của chúng tôi,
-so you guys will notice that   🍀   vì vậy các bạn sẽ chú ý rằng
-keep an eye on the console I scroll to   🍀   hãy để ý đến bảng điều khiển. Tôi cuộn xuống
-the bottom it says paginate here right   🍀   dưới cùng nó nói phân trang ở đây phải
-paginate here paginate here so now we   🍀   phân trang ở đây phân trang ở đây vì vậy bây giờ chúng ta
-just need to call a function so it's as   🍀   chỉ cần gọi một hàm  Vì vậy, nó
-simple as this guys we can just say   🍀   đơn giản như thế này, chúng ta chỉ có thể nói
-viewmodel dot load data so this is our   🍀   dữ liệu tải dot của viewmodel, vì vậy đây là
-load data function we just need to   🍀   chức năng tải dữ liệu của chúng ta, chúng ta chỉ cần
-modify this a tad in order to support   🍀   sửa đổi điều này một chút để hỗ trợ
-pagination so let's go back to our coin   🍀   phân trang, vì vậy hãy quay lại xu của chúng ta,
-our content view model and we can just   🍀   mô hình xem nội dung của chúng ta và chúng ta có thể chỉ
-or you know we could this will work   🍀   hoặc bạn biết chúng ta có thể cái này sẽ hoạt động
-right now it's just not going to work   🍀   ngay bây giờ nó sẽ không hoạt động
-the way we want it to so let me show you   🍀   theo cách chúng ta muốn, vì vậy hãy để tôi cho
-guys what this is going to look like now   🍀   các bạn thấy nó sẽ trông như thế nào bây giờ
-so   🍀   vì vậy
-oh   🍀   ồ
-actually doesn't work okay let's see if   🍀   thực sự nó không hoạt động được, hãy xem liệu
-we can uh figure this out so   🍀   chúng ta có thể làm được không uh  tìm ra điều này, vì vậy
-what we're going to want to do is say   🍀   những gì chúng ta sẽ muốn làm là nói
-self.coins.append contents of coins so   🍀   self.coins.append nội dung của các đồng xu để
-every time it fetches new coins it's   🍀   mỗi khi nó lấy đồng xu mới, nó
-just going to add it to the list right   🍀   sẽ thêm nó vào danh sách ngay
-so let's run this now and see what we'll   🍀   bây giờ, vì vậy hãy chạy nó ngay bây giờ và xem những gì chúng ta'  Tôi sẽ
-see if that works   🍀   xem nó có hoạt động
-okay check that out guys so you notice   🍀   ổn không, hãy kiểm tra xem các bạn có để ý
-that it fetched a new batch of coins but   🍀   rằng nó đã lấy một loạt tiền mới nhưng
-it fetched the exact same first 20 coins   🍀   nó đã lấy chính xác 20 đồng xu đầu tiên
-that we have so you see Bitcoin here and   🍀   mà chúng tôi có để bạn thấy Bitcoin ở đây và
-then if you scroll down you'll see   🍀   sau đó nếu bạn cuộn xuống, bạn sẽ thấy
-Bitcoin there again and all of those   🍀   Bitcoin ở đó  một lần nữa và tất cả
-coins right and if you keep scrolling   🍀   những đồng xu đó đều đúng và nếu bạn tiếp tục cuộn thì
-it's just going to be that same list   🍀   danh sách đó sẽ
-repeated over and over again and this is   🍀   lặp đi lặp lại nhiều lần và điều này là
-because we need to   🍀   do chúng tôi cần
-um increment our page so first off let's   🍀   tăng trang của mình nên trước tiên, hãy
-inject that page value into our URL   🍀   đưa giá trị trang đó vào chuỗi URL của chúng tôi
-string so we're going to say that's our   🍀   để chúng tôi  'sẽ nói rằng đó là số trang của chúng tôi
-page number and then down in this fetch   🍀   và sau đó xuống tìm nạp
-coins async guy we're in our do block   🍀   tiền xu không đồng bộ này, chúng tôi đang ở trong khối do của chúng tôi
-just going to say Page Plus equals one   🍀   sẽ nói Trang Plus bằng một
-and let's go ahead and run this guys   🍀   và hãy tiếp tục và chạy những người này
-so now every time we call this it's   🍀   vì vậy bây giờ mỗi khi chúng tôi gọi đây là nó
-going to increment our page and then in   🍀   sẽ  để tăng trang của chúng tôi và sau đó trong
-this API call it's going to get us the   🍀   lệnh gọi API này, nó sẽ đưa chúng tôi đến
-next page of data so I'm going to go   🍀   trang dữ liệu tiếp theo, vì vậy tôi sẽ đi
-down   🍀   xuống
-and you guys will notice that once I get   🍀   và các bạn sẽ nhận thấy rằng khi tôi
-to 20 it starts 21 22 23 24. and you   🍀   đến 20, nó sẽ bắt đầu 21 22 23 24. và các
-guys if you pay attention to the scroll   🍀   bạn nếu  bạn chú ý đến thanh cuộn,
-bar you will see that this all this data   🍀   bạn sẽ thấy rằng tất cả dữ liệu này
-is not being fetched at once it's being   🍀   không được tìm nạp ngay lập tức mà nó được
-fetched when we get to the bottom of the   🍀   tìm nạp khi chúng tôi đến cuối
-list so as we get closer to 40 you guys   🍀   danh sách, vì vậy khi chúng tôi tiến gần đến 40, các bạn
-are going to notice that that scroll bar   🍀   sẽ nhận thấy rằng thanh cuộn đó
-gets smaller right like it just happened   🍀   trở nên nhỏ hơn đúng như nó vừa xảy ra
-right there that's that that's it   🍀   ngay tại đó, đó là nó đang
-fetching our new batch of data and you   🍀   tải lô dữ liệu mới của chúng tôi và
-guys see it's so seamless right there's   🍀   các bạn thấy nó rất liền mạch,
-no lag there's no clunkiness in our UI   🍀   không có độ trễ, không có sự rườm rà nào trong giao diện người dùng của chúng tôi
-and everything is working beautifully   🍀   và mọi thứ đang hoạt động tốt
-here so this is looking really good we   🍀   ở đây vì vậy điều này trông thực sự tốt, chúng tôi
-just have one more problem that we need   🍀   chỉ  có một vấn đề nữa mà chúng tôi cần
-to solve I want you guys to go up and   🍀   giải quyết. Tôi muốn các bạn tiếp tục và
-refresh your data right so you guys will   🍀   làm mới dữ liệu của mình ngay để các bạn sẽ
-notice that it starts at the next batch   🍀   nhận thấy rằng nó bắt đầu ở đợt tiếp theo ngay
-right it starts at 61 now and we don't   🍀   bây giờ, nó bắt đầu từ 61 và chúng tôi không
-have uh like our original set of coins   🍀   có uh như bộ ban đầu của chúng tôi  tiền xu
-and that's because in this handle   🍀   và đó là bởi vì trong
-refresh function we need to reset the   🍀   chức năng làm mới xử lý này, chúng tôi cần đặt lại
-page to zero okay so you just go here   🍀   trang về 0, vì vậy bạn chỉ cần truy cập vào đây
-and you say page equals zero   🍀   và bạn nói rằng trang bằng 0
-so basically this was happening guys   🍀   nên về cơ bản, điều này đã xảy ra
-because our view model still had page   🍀   vì mô hình chế độ xem của chúng tôi vẫn có trang
-the page stored at whatever the last   🍀   được lưu trữ ở bất kỳ thời điểm nào.  số
-iteration was two three four five so   🍀   lần lặp lại là hai ba bốn năm, vì vậy
-then when we refresh the data if page is   🍀   khi chúng tôi làm mới dữ liệu nếu trang
-equal to four it's going to start giving   🍀   bằng bốn, nó sẽ bắt đầu cung cấp cho
-you the coins that start at 80 in the   🍀   bạn số tiền bắt đầu ở mức 80 trong
-market cap rank so if we run this now   🍀   xếp hạng vốn hóa thị trường, vì vậy nếu chúng tôi chạy ứng dụng này ngay bây giờ,
-um       🍀   
-our app should be completely polished   🍀   ứng dụng của chúng tôi sẽ hoàn toàn được đánh bóng
-off and looking super super fire all   🍀   và trông siêu siêu cháy
-right let's see I'm gonna go down scroll   🍀   luôn, hãy xem tôi sẽ đi xuống cuộn cuộn cuộn
-scroll scroll super super fast super   🍀   siêu nhanh siêu
-seamless and then go back up to the top   🍀   liền mạch và sau đó quay lại phần
-refresh and you guys will notice that   🍀   làm mới hàng đầu và các bạn sẽ nhận thấy
-look how much bigger the scroll bar is   🍀   thanh cuộn trông lớn hơn bao nhiêu
-right it only when I refreshed it it   🍀   chỉ khi  Tôi đã làm mới nó, nó
-only gave me back those first 20 coins   🍀   chỉ trả lại cho tôi 20 đồng xu đầu tiên đó
-or you could make it say whatever the   🍀   hoặc bạn có thể làm cho nó nói bất cứ
-heck you want there right so that's   🍀   thứ gì bạn muốn ở đó, vì vậy
-going to wrap it up for this video guys   🍀   chúng tôi sẽ kết thúc video này để
-just to do a quick recap if you want to   🍀   tóm tắt nhanh nếu bạn muốn
-stick around   🍀   theo dõi
-um we implemented this async await   🍀   chúng tôi.  đã triển khai chức năng chờ không đồng bộ này
-functionality which was way cleaner and   🍀   sạch hơn,
-way safer and way more efficient than   🍀   an toàn hơn và hiệu quả hơn nhiều so với
-this old school URL session stuff right   🍀   công cụ phiên URL trường học cũ này
-and then we also went over how to   🍀   và sau đó chúng tôi cũng tìm hiểu cách
-paginate our data and how to implement   🍀   phân trang dữ liệu của mình và cách triển khai
-error handling and we saw how much   🍀   xử lý lỗi và chúng tôi đã thấy
-easier that was with our async await   🍀   điều đó dễ dàng hơn nhiều với  Chức năng chờ async của chúng tôi
-functionality because we have the   🍀   bởi vì chúng tôi có
-ability to throw an error here and just   🍀   khả năng đưa ra một lỗi ở đây và chỉ
-wrap it in a do catch block so although   🍀   gói nó trong một khối do catch, vì vậy mặc dù
-we did have to use two functions and   🍀   chúng tôi đã phải sử dụng hai chức năng và sắp
-sort of wrap this in a task it is   🍀   xếp gói này trong một tác vụ nhưng
-overall way cleaner than this URL   🍀   nhìn chung nó sạch hơn
-session code we don't have to use this   🍀   mã phiên URL này  chúng tôi không phải sử dụng
-dot resume functionality we don't have   🍀   chức năng tiếp tục dấu chấm này, chúng tôi không phải
-to use   🍀   sử dụng
-dispatchq.maine.async handling the   🍀   Clarkq.maine.async xử lý
-errors way easier and the code in our   🍀   lỗi dễ dàng hơn và mã trong
-content view is super super clean right   🍀   chế độ xem nội dung của chúng tôi siêu siêu sạch,
-we can refresh our code and this is what   🍀   chúng tôi có thể làm mới mã của mình và đây là những gì
-we need to do to handle our error and   🍀   chúng tôi  cần phải làm gì để xử lý lỗi của chúng tôi và
-then we are also paginating our data   🍀   sau đó chúng tôi cũng đang phân trang dữ liệu của mình
-right here so that is how you network   🍀   ngay tại đây, vì vậy đó là cách bạn kết nối mạng
-like a mother Flippin Pro guys so hope   🍀   như một người mẹ Flippin Pro. Vì vậy, hy vọng
-you guys enjoyed this video make sure   🍀   các bạn thích video này, hãy đảm bảo rằng
-you like this video And subscribe to the   🍀   bạn thích video này và đăng ký
-channel if you want to see more content   🍀   kênh nếu bạn muốn  để xem thêm nội dung
-like this and don't forget to check out   🍀   như thế này và đừng quên xem
-my website at stefancodes.com where I   🍀   trang web của tôi tại stefancodes.com nơi tôi
-have a bunch of professional courses and   🍀   có rất nhiều khóa học chuyên nghiệp và
-if you guys want access to the source   🍀   nếu các bạn muốn truy cập
-code here just go ahead and become a   🍀   mã nguồn ở đây, hãy tiếp tục và trở thành
-member   🍀   thành viên
-um and you know any one of these   🍀   ừm và bạn biết đấy  bất kỳ tư
-memberships will give you access to all   🍀   cách thành viên nào trong số này sẽ cung cấp cho bạn quyền truy cập vào tất
-of the YouTube courses you guys can just   🍀   cả các khóa học YouTube. Các bạn có thể
-go ahead and check those out and uh you   🍀   tiếp tục và xem các khóa học đó và bạn
-know check out the other YouTube courses   🍀   biết đấy, hãy xem các khóa học YouTube khác
-on the site as well but thanks so much   🍀   trên trang web, nhưng cảm ơn rất nhiều
-for watching guys hope you enjoyed this   🍀   vì đã xem các bạn, hy vọng các bạn thích
-one we'll see you in the next one peace   🍀   cái này chúng ta sẽ gặp lại bạn trong cái tiếp theo
+what's going on guys Stefan here from 🍀 chuyện gì đang xảy ra vậy các bạn Stefan ở đây từ
+App stuff hope you are doing well in 🍀 App stuff hy vọng bạn sẽ làm tốt trong
+today's video I'm going to be teaching 🍀 video hôm nay. Tôi sẽ hướng dẫn
+you how to network like a pro so we're 🍀 bạn cách kết nối mạng như một chuyên gia, vì vậy chúng ta
+going to be going over some awesome 🍀 sẽ tìm hiểu một số
+professional networking techniques like 🍀 kỹ thuật kết nối mạng chuyên nghiệp tuyệt vời như
+pagination refreshability error handling 🍀 xử lý lỗi khả năng làm mới phân trang
+asynchronous code and we're going to be 🍀 mã không đồng bộ và chúng tôi sẽ
+doing all that with swift UI and an 🍀 thực hiện tất cả những điều đó với giao diện người dùng nhanh và một
+amazing cryptocurrency app so get 🍀 ứng dụng tiền điện tử tuyệt vời, vì vậy hãy
+excited for that guys let's go ahead and 🍀 hào hứ ịng với điều đó, hãy tiếp tục và
+guess 🍀 đoán
+[Music] 🍀 [Âm nhạc], được rồi, được
+all right 🍀 rồi,
+all right guys so to kick things off 🍀 các bạn, vì vậy để bắt đầu mọi thứ, hãy
+make sure you go ahead and download the 🍀 đảm bảo bạn tiếp tục và  tải xuống
+starter project for this tutorial it is 🍀 dự án khởi động cho hướng dẫn này, nó
+absolutely free the link is in the 🍀 hoàn toàn miễn phí, liên kết nằm trong
+description and it just contains all the 🍀 phần mô tả và nó chỉ chứa tất cả
+code that's required to produce this 🍀 mã cần thiết để tạo
+basic version of the application that we 🍀 phiên bản cơ bản của ứng dụng mà chúng ta
+see here and throughout this tutorial 🍀 thấy ở đây và trong suốt hướng dẫn này,
+we're going to implement additional 🍀 chúng ta sẽ triển khai
+features and functionality like error 🍀 các tính năng bổ sung  và chức năng như
+handling and pagination and refreshing 🍀 xử lý lỗi, phân trang và làm mới, đồng
+and we're also going to improve our 🍀 thời chúng tôi cũng sẽ cải thiện
+networking code by using Swift ui's 🍀 mã mạng của mình bằng cách sử dụng
+awesome new feature of async await so uh 🍀 tính năng mới tuyệt vời của Swift ui là async đang chờ, vì vậy,
+just go make sure you guys go ahead and 🍀 hãy đảm bảo rằng các bạn tiếp tục và
+download that if you want the full 🍀 tải xuống nếu bạn muốn
+completed version of this course guys I 🍀 phiên bản hoàn chỉnh đầy đủ  của khóa học này, tôi
+do have a course on my YouTube channel 🍀 có một khóa học trên kênh YouTube của mình
+for this so if you guys want to check 🍀 về điều này, vì vậy nếu các bạn cũng muốn xem
+that out as well here's what the 🍀 thử thì đây là
+completed version of this project looks 🍀 phiên bản hoàn chỉnh của dự án này,
+like the link will be in the description 🍀 liên kết sẽ có trong phần mô tả
+there as well I also have a bunch of 🍀 ở đó. Tôi cũng có một  nhiều
+other awesome stuff like uber clones and 🍀 nội dung tuyệt vời khác như bản sao uber và
+Twitter clones so make sure you guys go 🍀 bản sao Twitter, vì vậy hãy đảm bảo các bạn tiếp tục
+ahead and check all of that stuff out on 🍀 và kiểm tra tất cả nội dung đó trên
+my YouTube channel and on that same note 🍀 kênh YouTube của tôi và trên cùng một lưu ý
+before we get started with the code make 🍀 trước khi chúng tôi bắt đầu với mã, hãy
+sure you guys check out my website as 🍀 đảm bảo các bạn xem trang web của tôi như
+well at stefancodes.com where I have a 🍀 tốt tại stefancodes.com, nơi tôi có
+bunch of awesome products and 🍀 rất nhiều sản phẩm tuyệt vời và
+professional courses that you guys can 🍀 các khóa học chuyên nghiệp mà các bạn có thể
+have access to if you guys want access 🍀 truy cập nếu các bạn muốn truy cập
+to the YouTube stuff here that we're 🍀 vào nội dung YouTube mà chúng tôi hiện đang
+doing now and all of the source code 🍀 làm ở đây và tất cả mã nguồn
+associated with it go ahead and hop over 🍀 liên quan đến nó.  và chuyển
+to the YouTube courses page that is 🍀 đến trang khóa học YouTube
+under the courses guy and you guys can 🍀 dưới phần khóa học và các bạn cũng có thể
+also sign up and become a member to 🍀 đăng ký và trở thành thành viên để
+unlock additional features about all the 🍀 mở khóa các tính năng bổ sung về tất cả
+products that I have like discounts on 🍀 các sản phẩm mà tôi thích giảm giá cho
+Source codes courses one-on-one coaching 🍀 mã nguồn khóa học huấn luyện trực tiếp
+and all that awesome stuff and if you 🍀 và tất cả  những thứ tuyệt vời đó và nếu bạn
+sign up and become a platinum member you 🍀 đăng ký và trở thành thành viên bạch kim, bạn
+actually get one free course or so 🍀 thực sự nhận được một khóa học miễn phí hoặc
+source code absolutely free which is a 🍀 mã nguồn hoàn toàn miễn phí,
+hundred dollar value just for signing up 🍀 trị giá hàng trăm đô la chỉ để đăng ký
+and paying 20 bucks a month so make sure 🍀 và trả 20 đô la một tháng, vì vậy hãy đảm bảo
+you guys go ahead and check that out as 🍀 các bạn tiếp tục và kiểm tra  điều đó cũng tốt
+well but without any further Ado guys 🍀 nhưng không có thêm bất kỳ Ado nào,
+let's go ahead and get started by doing 🍀 hãy tiếp tục và bắt đầu bằng cách thực hiện
+a quick run through of this starter 🍀 nhanh dự án khởi động này
+project that we have let me get my code 🍀 mà chúng tôi đã để tôi mở lại mã của mình
+opened up back here again so basically 🍀 ở đây vì vậy về cơ bản,
+guys we're just fetching some data from 🍀 chúng tôi chỉ đang tìm nạp một số dữ liệu từ
+an open API and we're displaying that 🍀 một API mở và chúng tôi đang hiển thị
+data in a list so here's what our view 🍀 dữ liệu đó trong một danh sách, vì vậy, đây là mô hình chế độ xem của chúng tôi trông như thế nào.
+model looks like we have this coins 🍀 
+object we have some URL that we're 🍀 
+fetching in from information from we're 🍀 
+using the coin gecko API you guys can go 🍀 hãy
+ahead and check them out if you want to 🍀 tiếp tục và kiểm tra chúng nếu bạn muốn
+and then we just have this really simple 🍀 và sau đó chúng tôi chỉ có
+uh fetch data function right so we're 🍀 chức năng tìm nạp dữ liệu thực sự đơn giản này, vì vậy chúng tôi sẽ
+fetching it with the URL session and 🍀 tìm nạp nó với phiên URL và
+this is what we're going to be modifying 🍀 đây là những gì
+we're going to be using async await as 🍀 chúng tôi sẽ sửa đổi.  sử dụng async đang chờ
+opposed to using this URL session which 🍀 thay vì sử dụng phiên URL này, đây
+is sort of the old school way of doing 🍀 là cách làm việc cũ của trường học
+things and it's a lot Messier and not as 🍀 và nó lộn xộn hơn nhiều và không
+performant so we're going to be changing 🍀 hiệu quả bằng, vì vậy chúng tôi sẽ thay
+up the functionality there but let me 🍀 đổi chức năng ở đó nhưng hãy để tôi
+just go over 🍀 xem qua
+the rest of the structure of the project 🍀 phần còn lại  về cấu trúc của dự án
+in our model folder we have our coin and 🍀 trong thư mục mô hình của chúng tôi, chúng tôi có đồng tiền của mình và
+it's pretty simple just has a couple 🍀 nó khá đơn giản chỉ có một vài
+properties it's a very simple struct and 🍀 thuộc tính, đó là một cấu trúc rất đơn giản và
+we're using these coding keys to decode 🍀 chúng tôi đang sử dụng các khóa mã hóa này để giải mã
+all this data from the incoming stuff 🍀 tất cả dữ liệu này từ nội dung đến
+from the API we have a sample coin here 🍀 từ API mà chúng tôi có  một đồng xu mẫu ở đây
+so there are previews will still work uh 🍀 vì vậy các bản xem trước sẽ vẫn hoạt động uh
+we have this coin error structure that 🍀 chúng ta có cấu trúc lỗi đồng xu này mà
+we're going to be using a little bit 🍀 chúng ta sẽ sử dụng một lát
+later in the video when we handle all of 🍀 sau trong video khi chúng ta xử lý tất cả
+our error and then in the view this is 🍀 các lỗi của mình và sau đó trong chế độ xem, điều này
+also pretty straightforward we have a 🍀 cũng khá đơn giản  chúng tôi có một
+list and we Loop through all the coins 🍀 danh sách và chúng tôi Lặp lại tất cả các đồng tiền
+in the view model and we create this 🍀 trong mô hình chế độ xem và chúng tôi tạo chế
+coin row view which is what you see 🍀 độ xem hàng tiền xu này, đó là những gì bạn thấy
+right here make this a little bigger for 🍀 ngay tại đây, làm cho nó lớn hơn một chút đối với
+you guys and this is what the coin row 🍀 các bạn và đây là chế
+view looks like right we just populate 🍀 độ xem hàng tiền xu trông như thế nào.  điền vào
+it with a coin and then the UI is pretty 🍀 nó bằng một đồng xu và sau đó giao diện người dùng khá
+straightforward we're also using async 🍀 đơn giản, chúng tôi cũng đang sử dụng hình ảnh không đồng bộ
+image here as opposed to Kingfisher 🍀 ở đây trái ngược với Kingfisher,
+there are some downsides to async image 🍀 có một số nhược điểm đối với hình ảnh không đồng bộ
+that I'm going to touch on in another 🍀 mà tôi sẽ đề cập đến trong một
+YouTube video guys so make sure you just 🍀 video khác trên YouTube, vì vậy hãy đảm bảo rằng bạn cứ
+go ahead and smash that like button and 🍀 tiếp tục  trước và đập nút thích đó và
+subscribe to the channel to stay tuned 🍀 đăng ký kênh để theo dõi
+for additional awesome content that I'm 🍀 thêm nội dung tuyệt vời mà tôi
+going to be putting out for you there is 🍀 sắp đưa ra cho bạn, có
+a problem with async image that no one 🍀 một vấn đề với hình ảnh không đồng bộ mà không ai
+is talking about that I'm going to go 🍀 nói về điều đó tôi sẽ xem
+over how to fix 🍀 xét  làm thế nào để khắc phục
+and get like a serious performance 🍀 và đạt được hiệu suất như thế nào. Cải thiện
+Improvement out of it so that's going to 🍀 nó để nó sẽ
+be coming in a future video make sure 🍀 ra mắt trong một video trong tương lai, hãy đảm bảo rằng
+you guys stay tuned and click that 🍀 các bạn sẽ theo dõi và nhấp vào
+subscribe button down below so anyway 🍀 nút đăng ký bên dưới để dù sao thì
+guys let's go ahead and now get started 🍀 các bạn hãy tiếp tục và bây giờ hãy bắt đầu
+with the code so we are going to hop 🍀 với mã.  chúng tôi sẽ chuyển
+over to our view model 🍀 sang mô hình chế độ xem của mình
+and we're going to go over how to 🍀 và chúng tôi sẽ xem xét cách
+eliminate the use of this URL session 🍀 loại bỏ việc sử dụng
+data task with all this nasty completion 🍀 tác vụ dữ liệu phiên URL này với tất cả nội dung Trình xử lý hoàn thành khó chịu này
+Handler stuff so you guys notice we have 🍀 để các bạn lưu ý rằng chúng tôi có tiện ích
+an extension for the URL session 🍀 mở rộng cho
+functionality we're going to do the same 🍀 chức năng phiên URL mà chúng tôi  'Chúng ta sẽ làm điều tương tự
+thing for the async await functionality 🍀 cho chức năng chờ async
+so really quickly let's just go ahead 🍀 vì vậy hãy thực sự nhanh chóng, hãy tiếp tục
+and inside of our content view model 🍀 và bên trong mô hình chế độ xem nội dung của chúng ta,
+just go ahead and create another Mark 🍀 hãy tiếp tục và tạo một Dấu khác
+for our async await code and we're going 🍀 cho mã chờ async của chúng ta và chúng ta sẽ
+to say extension content view model and 🍀 nói mô hình chế độ xem nội dung mở rộng  và
+we are going to write a function called 🍀 chúng tôi sẽ viết một chức năng có tên là
+Fetch coins async 🍀 Tìm nạp tiền không
+cool so we are still going to need this 🍀 đồng bộ, vì vậy chúng tôi vẫn sẽ cần
+URL here guys so that's the URL we're 🍀 URL này ở đây, vì vậy đó là URL mà chúng tôi
+going to be fetching our data from so we 🍀 sẽ tìm nạp dữ liệu của mình để chúng tôi
+can literally just copy and paste this 🍀 có thể sao chép và dán URL này
+from our function that we have down here 🍀 từ chức năng của mình theo đúng nghĩa đen  mà chúng tôi có ở đây
+so uh really quickly just to do a quick 🍀 nên uh thực sự nhanh chóng chỉ để
+breakdown of this URL we're getting this 🍀 phân tích nhanh URL này, chúng tôi lấy
+data from coinggecko.com and this is the 🍀 dữ liệu này từ coinggecko.com và đây là
+base URL and then the rest of this uh 🍀 URL cơ sở và phần còn lại của
+crazy stuff you see here is all of the 🍀 những thứ điên rồ mà bạn thấy ở đây là tất cả
+parameters that we need to pass up in 🍀 các tham số mà chúng tôi cần chuyển qua
+order to get this specific set of data 🍀 để lấy lại tập dữ liệu cụ thể này,
+back so I'm not going to be doing a deep 🍀 vì vậy tôi sẽ không đi sâu
+dive into the API this video is more 🍀 vào API, video này
+centered around how we are interacting 🍀 tập trung nhiều hơn vào cách chúng tôi tương tác
+with the API but if you guys do want to 🍀 với API nhưng nếu các bạn làm  muốn
+check that out just head over to 🍀 kiểm tra điều đó, chỉ cần truy cập vào
+api.coinggecko.com 🍀 api.coingecko.com
+awesome API really really cool service 🍀 API tuyệt vời, dịch vụ thực sự rất tuyệt vời
+but anyway we have the URL so now let's 🍀 nhưng dù sao thì chúng ta cũng có URL, vì vậy bây giờ hãy
+go ahead and go over how we're going to 🍀 tiếp tục và tìm hiểu cách chúng ta sẽ
+actually fetch data from that URL using 🍀 thực sự tìm nạp dữ liệu từ URL đó bằng cách sử dụng
+async await so we are still going to use 🍀 async đang chờ.  chúng tôi vẫn sẽ sử dụng
+URL session guys but we're going to use 🍀 các phiên URL nhưng chúng tôi sẽ sử dụng
+a different component so we're going to 🍀 một thành phần khác, vì vậy chúng tôi sẽ
+say URL session Dot shared.data and then 🍀 nói phiên URL Dot shared.data và sau đó
+you're going to say data from and let's 🍀 bạn sẽ nói dữ liệu từ và hãy
+take a quick look at the documentation 🍀 xem nhanh  tài liệu
+here so you guys notice that this is an 🍀 ở đây để các bạn lưu ý rằng đây là một
+asynchronous function that throws an 🍀 chức năng không đồng bộ gây ra
+error that can throw a potential error 🍀 lỗi có thể gây ra lỗi tiềm ẩn,
+it's throwable right so this is 🍀 nó có thể ném được, vì vậy điều này
+different than data task and we'll look 🍀 khác với tác vụ dữ liệu và chúng tôi sẽ xem
+at the documentation there in a second 🍀 xét tài liệu ở đó trong giây lát
+but essentially this allows us to use 🍀 nhưng về cơ bản, điều này cho phép chúng tôi  sử dụng
+the async await functionality so we're 🍀 chức năng chờ async vì vậy chúng ta
+going to say data from URL and something 🍀 sẽ nói dữ liệu từ URL và một điều mà
+I forgot to mention that's extremely 🍀 tôi quên đề cập là điều cực kỳ
+important here is this actually returns 🍀 quan trọng ở đây là điều này thực sự trả về
+a data and response object right and 🍀 một đối tượng dữ liệu và phản hồi đúng và
+because it throws an error the error is 🍀 vì nó gây ra lỗi nên lỗi được
+implicitly handled we don't need to 🍀 xử lý hoàn toàn nên chúng tôi không  cần
+actually look at the error there so this 🍀 thực sự xem xét lỗi ở đó để đây
+is a tuple or Tuple still don't know how 🍀 là một Tuple hoặc Tuple vẫn không biết làm thế nào
+to say that to this day 🍀 để nói điều đó cho đến ngày nay
+um but it's a tuple that is just gonna 🍀 nhưng đó là một Tuple sẽ
+give us back some data in a response and 🍀 trả lại cho chúng tôi một số dữ liệu trong một phản hồi và
+this is way cleaner code because it 🍀 đây là cách mã sạch hơn  bởi vì nó
+doesn't require the use of a completion 🍀 không yêu cầu sử dụng
+Handler which is awesome right so let's 🍀 Trình xử lý hoàn thành, điều này thật tuyệt vời, vì vậy hãy
+go ahead and see how we're going to 🍀 tiếp tục và xem cách chúng tôi sẽ
+store this information inside of a tuple 🍀 lưu trữ thông tin này bên trong một bộ dữ liệu
+so we can just go ahead and say let 🍀 để chúng tôi có thể tiếp tục và nói hãy để dữ
+parenthesis data response 🍀 liệu dấu ngoặc đơn phản hồi
+equal URL session dot share dot data 🍀 bằng phiên URL  dấu chấm chia sẻ dữ liệu dấu chấm
+from URL so this is way way cleaner than 🍀 từ URL, vì vậy đây là cách rõ ràng hơn so với
+the code we have down here guys so this 🍀 mã chúng tôi có ở đây, vì vậy
+data task if you hold down option and 🍀 nhiệm vụ dữ liệu này nếu bạn giữ tùy chọn và
+click on that you guys notice that this 🍀 nhấp vào, các bạn lưu ý rằng điều này
+has a completion Handler and then 🍀 có Trình xử lý hoàn thành và sau đó
+everything has to be handled inside of 🍀 mọi thứ phải được xử lý bên trong  của
+this block we have to use weak self here 🍀 khối này, chúng tôi phải sử dụng bản thân yếu ở đây
+to avoid retain cycles and just a bunch 🍀 để tránh các chu kỳ giữ lại và chỉ là một loạt
+of nasty nasty stuff and this is just a 🍀 những thứ khó chịu khó chịu và đây chỉ là một lệnh
+simple API call right you can imagine 🍀 gọi API đơn giản, bạn có thể tưởng tượng
+that as API calls get more complex and 🍀 rằng khi các lệnh gọi API trở nên phức tạp hơn và
+your back end is more complex or the 🍀 phần cuối của bạn cũng phức tạp hơn hoặc
+functionality of your app is more 🍀 chức năng của ứng dụng của bạn
+complex and you have a bunch of nested 🍀 phức tạp hơn và bạn có một loạt
+calls or API calls that would get really 🍀 các lệnh gọi hoặc lệnh gọi API lồng nhau sẽ trở nên thực sự
+messy right because then you have 🍀 lộn xộn vì khi đó bạn có
+completion handlers inside of completion 🍀 các trình xử lý hoàn thành bên trong
+handlers inside of if statements inside 🍀 các trình xử lý hoàn thành bên trong các câu lệnh if bên
+of guard statements and it's just a 🍀 trong các câu lệnh bảo vệ và nó chỉ là một
+bunch of really complex logic and things 🍀 loạt các lệnh thực sự phức tạp  logic và mọi thứ
+are much more likely to go wrong so we 🍀 có nhiều khả năng sai hơn, vì vậy chúng tôi
+can do all of that using async await 🍀 có thể thực hiện tất cả những điều đó bằng cách sử dụng async đang chờ
+with this simple line of code right here 🍀 với dòng mã đơn giản này ngay tại đây,
+we just have to add a couple keywords to 🍀 chúng tôi chỉ cần thêm một vài từ khóa để
+let our compiler know how this is going 🍀 cho trình biên dịch của chúng tôi biết nó sẽ
+to work so first one being async so 🍀 hoạt động như thế nào.  không đồng bộ nên
+async call and a function that does not 🍀 cuộc gọi không đồng bộ và một chức năng không
+support concurrency so if you go here 🍀 hỗ trợ đồng thời, vì vậy nếu bạn truy cập vào đây
+and just hit fix then you guys will 🍀 và chỉ cần nhấn sửa thì các bạn sẽ
+notice that something pops up up at the 🍀 nhận thấy rằng một cái gì đó bật lên ở
+top there so this is indicating to our 🍀 trên cùng, vì vậy điều này cho trình biên dịch của chúng ta biết
+compiler that this is an asynchronous 🍀 rằng đây là một chức năng không đồng bộ
+function so then we get another error 🍀 vì vậy  sau đó chúng tôi gặp một lỗi khác
+but or before we fix that one 🍀 nhưng hoặc trước khi chúng tôi sửa lỗi đó
+because we are using this as an 🍀 vì chúng tôi đang sử dụng chức năng này như một
+asynchronous function we're going to go 🍀 chức năng không đồng bộ, chúng tôi sẽ truy cập vào
+here and say await so basically this 🍀 đây và nói đang chờ, vì vậy về cơ bản,
+await keyword just indicates that we are 🍀 từ khóa đang chờ này chỉ ra rằng chúng tôi
+going to await a response from this URL 🍀 sẽ chờ phản hồi từ phiên URL này
+session so and then it's going to be 🍀 vì vậy và sau đó nó sẽ được
+stored in this Tuple here and we don't 🍀 lưu trữ trong Tuple này ở đây và chúng tôi không
+like I said have to use a completion 🍀 thích tôi đã nói phải sử dụng khối hoàn thành
+block and our code is not going to go 🍀 và mã của chúng tôi sẽ không
+forward from this point until it gets a 🍀 tiếp tục từ thời điểm này cho đến khi nhận được
+response back from this URL session 🍀 phản hồi từ phiên URL này
+whether that is a successful response or 🍀 cho dù điều đó  là một phản hồi thành công hoặc
+an error 🍀 một lỗi,
+so we also have to mark this with a try 🍀 vì vậy chúng tôi cũng phải đánh dấu điều này bằng một
+statement and basically what the try is 🍀 câu lệnh thử và về cơ bản những gì câu lệnh thử
+saying is like hey I'm going to try to 🍀 nói giống như này, tôi sẽ cố gắng
+get you this data back but there's no 🍀 lấy lại dữ liệu này cho bạn nhưng không có gì
+guarantee that I'm going to be able to 🍀 đảm bảo rằng tôi sẽ  có thể
+do that because things can go wrong 🍀 làm điều đó bởi vì mọi thứ có thể
+right you could be trying to retrieve 🍀 sai, bạn có thể đang cố truy xuất
+data from a bad URL you could be your 🍀 dữ liệu từ một URL không hợp lệ, bạn có thể
+internet connection could get 🍀 kết nối internet của bạn có thể bị
+interrupted all kinds of things could go 🍀 gián đoạn, tất cả mọi thứ đều có thể
+wrong so we have to mark this with a try 🍀 sai, vì vậy chúng tôi phải đánh dấu điều này bằng
+keyword okay and then because we're 🍀 từ khóa thử, được và  sau đó bởi vì chúng tôi đang
+trying something and there's a potential 🍀 thử một cái gì đó và có một lỗi tiềm ẩn
+error that could happen we need to also 🍀 có thể xảy ra, chúng tôi cũng cần
+make this function throwable 🍀 làm cho chức năng này có thể ném được, vì vậy
+so here we're going to say that hey this 🍀 ở đây chúng tôi sẽ nói rằng này, điều này
+can throw an error right 🍀 có thể gây ra lỗi
+so now this is all good to go so let's 🍀 nên bây giờ mọi thứ đã ổn, vậy hãy cứ
+just do a quick recap on that so we said 🍀 tóm tắt nhanh về điều đó, vì vậy chúng tôi đã nói
+that this function is going to be 🍀 rằng chức năng này sẽ
+asynchronous and because it's 🍀 không đồng bộ và vì nó
+asynchronous we're going to be awaiting 🍀 không đồng bộ nên chúng tôi sẽ chờ
+a response from this URL session here 🍀 phản hồi từ phiên URL này tại đây
+when we get a response back it's going 🍀 khi chúng tôi nhận được phản hồi, nó sẽ
+to store it inside of this Tuple as the 🍀 lưu trữ nó bên trong Tuple này  như
+data that we get back with a potential 🍀 dữ liệu mà chúng tôi nhận được với một
+URL response or we're always going to 🍀 phản hồi URL tiềm năng hoặc chúng tôi sẽ luôn
+get a response back but that response 🍀 nhận được phản hồi nhưng mã phản hồi đó
+code could be okay it could be an error 🍀 có thể không sao, đó có thể là một lỗi
+whatever it may be and 🍀 bất kể nó có thể là gì
+um then we have to make sure that this 🍀 và sau đó chúng tôi phải đảm bảo rằng
+function can throw an error and we have 🍀 chức năng này  có thể gây ra lỗi và chúng tôi
+to make sure that we mark it with a try 🍀 phải đảm bảo rằng chúng tôi cũng đánh dấu lỗi đó bằng cách thử
+as well because things might go wrong so 🍀 vì mọi thứ có thể xảy ra sai sót nên
+we have a bunch of like keywords that we 🍀 chúng tôi có một loạt từ khóa giống nhau mà chúng tôi
+have to implement but this is way way 🍀 phải triển khai nhưng cách này đã
+cleaner already than our URL session 🍀 sạch hơn nhiều so với mã phiên URL của chúng tôi
+code down here so let's just keep going 🍀 ở đây, vì vậy hãy tiếp tục
+with our execution guys I want to check 🍀 với những người thực thi của chúng tôi. Tôi muốn kiểm tra
+our Response Code just to make sure 🍀 Mã phản hồi của chúng tôi chỉ để đảm bảo rằng
+we're good to go before we continue on 🍀 chúng tôi có thể tiếp tục trước khi tiếp tục
+right so we can say guard 🍀 đúng để chúng tôi có thể nói
+response as HTTP URL response dot status 🍀 phản hồi bảo vệ vì mã trạng thái dấu chấm phản hồi URL HTTP
+code equals 200 else 🍀 bằng 200 khác
+return so we are going to handle our 🍀 trở lại vì vậy  chúng tôi sẽ xử lý lỗi của mình
+error in a little bit guys I want to 🍀 trong một chút nữa. Tôi muốn
+just get through the process of getting 🍀 hoàn thành quá trình lấy
+all our data back and displaying it on 🍀 lại tất cả dữ liệu của chúng tôi và hiển thị nó trên
+our user interface 🍀 giao diện người dùng của chúng tôi,
+so we're just going to leave this with 🍀 vì vậy chúng tôi sẽ tạm dừng việc này
+return for now so this just makes sure 🍀 lại để điều này chỉ làm cho  chắc chắn
+that our response status code is 200 the 🍀 rằng mã trạng thái phản hồi của chúng tôi là 200,
+reason we do this guys is because if 🍀 lý do chúng tôi làm điều này là bởi vì nếu
+it's not that indicates that we have 🍀 không thì điều đó cho thấy rằng chúng tôi có
+some sort of network or server error and 🍀 một số loại lỗi mạng hoặc máy chủ và
+we want to indicate that to the user or 🍀 chúng tôi muốn chỉ ra điều đó cho người dùng hoặc
+know that ourselves as developers so now 🍀 biết rằng chính chúng tôi là nhà phát triển nên bây giờ chúng
+that we have that let's go ahead and see 🍀 tôi  có điều đó, hãy tiếp tục và xem
+if we can decode the data that we get 🍀 liệu chúng tôi có thể giải mã dữ liệu mà chúng tôi nhận được hay không,
+back so we're going to say guard let 🍀 vì vậy chúng tôi sẽ nói rằng hãy bảo vệ hãy để
+coins equal try Json decoder dot decode 🍀 tiền bằng nhau, hãy thử giải mã dấu chấm của bộ giải mã Json
+and then you're going to use this option 🍀 và sau đó bạn sẽ sử dụng loại tùy chọn này
+type from 🍀 vì
+it's going to be an array of coin dot 🍀 nó sẽ là một  mảng đồng xu
+self from that data else return 🍀 tự chấm từ dữ liệu đó, dữ liệu khác trả về
+and here if this fails we would throw 🍀 và ở đây nếu điều này không thành công, chúng tôi sẽ đưa ra
+some sort of invalid data error which 🍀 một số loại lỗi dữ liệu không hợp lệ,
+would like I said we will do later and 🍀 như tôi đã nói, chúng tôi sẽ làm sau và
+let's go ahead and see if we can just 🍀 hãy tiếp tục và xem liệu chúng tôi có thể
+print out 🍀 in ra
+our coins guys or we can just say print 🍀 tiền của mình không các bạn.  chỉ có thể nói là in
+coins 🍀 tiền,
+so 🍀 vậy
+let's see how are we going to call this 🍀 hãy xem chúng ta sẽ gọi chức năng này như thế nào
+function now right so you might think 🍀 ngay bây giờ, vì vậy bạn có thể nghĩ
+that you could just hop up to the 🍀 rằng bạn có thể chuyển sang
+initialization method and you could say 🍀 phương thức khởi tạo và bạn có thể nói
+fetch coins async but it's not that 🍀 tìm nạp tiền không đồng bộ nhưng nó không
+simple right and that's because this is 🍀 đơn giản như vậy đúng không và đó là vì đây là
+an asynchronous function and in order to 🍀 một chức năng không đồng bộ và để
+do that we would have to mark this guy 🍀 làm được điều đó, chúng tôi sẽ phải đánh dấu anh chàng này ở
+up at the top with async and that you 🍀 trên cùng bằng async và bạn
+might think that that's fine but then 🍀 có thể nghĩ rằng điều đó ổn nhưng sau đó
+you know you have to make it throwable 🍀 bạn biết rằng bạn cũng phải làm cho nó có thể ném được
+as well and then when you initialize 🍀 và sau đó khi bạn khởi tạo
+your view model you have to initialize 🍀 chế độ xem của mình  bạn phải khởi tạo
+it with an await and that happens back 🍀 nó với một sự chờ đợi và điều đó xảy ra trở lại
+in the view and it just gets really 🍀 trong chế độ xem và nó thực sự rất
+messy so basically guys what we're going 🍀 lộn xộn nên về cơ bản, những gì chúng ta sẽ
+to do is we're going to write another 🍀 làm là chúng ta sẽ viết một
+function here called load data 🍀 chức năng khác ở đây có tên là tải dữ liệu
+and we are going to wrap this in a task 🍀 và chúng ta sẽ kết thúc  đây là một nhiệm vụ,
+so go ahead and say task 🍀 vì vậy hãy tiếp tục và nói nhiệm vụ
+and you guys see it's a unit of 🍀 và các bạn thấy đó là một đơn vị
+asynchronous work and you can even 🍀 công việc không đồng bộ và thậm chí bạn có thể
+specify a priority here to tell your you 🍀 chỉ định mức độ ưu tiên ở đây để cho
+know your CPU how important this task is 🍀 CPU của bạn biết tầm quan trọng của việc hoàn thành nhiệm vụ này
+to complete so some might be low 🍀 nên một số có thể có
+priority some might be high priority we 🍀 mức độ ưu tiên thấp, một số có thể  được ưu tiên cao, chúng tôi
+can just go ahead and make this like 🍀 có thể tiếp tục và làm cho điều này giống như
+medium 🍀 phương tiện
+and go ahead and tab over and hit enter 🍀 và tiếp tục và chuyển qua tab và nhấn enter
+on that block and then we are going to 🍀 trên khối đó và sau đó chúng tôi sẽ
+say awaits 🍀 nói đang chờ
+fetch coins isync 🍀 tải tiền isync
+awesome so you guys notice that this 🍀 tuyệt vời vì vậy các bạn lưu ý rằng
+function call does have to be marked 🍀 cuộc gọi chức năng này phải được đánh dấu
+with the await keyword and that's 🍀 với từ khóa chờ đợi và đó là
+because it is an asynchronous process so 🍀 bởi vì nó là một quá trình không đồng bộ, vì vậy
+let's see I think we also have to say 🍀 hãy xem tôi nghĩ chúng ta cũng phải nói
+try guys 🍀 thử các bạn
+and then we are going to go here and in 🍀 và sau đó chúng ta sẽ đến đây và trong
+the initialization block we're going to 🍀 khối khởi tạo, chúng ta sẽ
+say load data and you notice because now 🍀 nói tải dữ liệu và bạn chú ý vì bây giờ
+that this is wrapped inside of a task 🍀 rằng điều này được bao bọc bên trong một tác vụ
+that we don't have to mark it with async 🍀 mà chúng ta không phải đánh dấu nó bằng async
+or anything this task takes care of that 🍀 hoặc bất kỳ thứ gì mà tác vụ này sẽ xử lý
+asynchronous process for us so guys 🍀 quy trình không đồng bộ đó cho chúng ta, vì vậy mọi người
+let's go ahead and run our code now 🍀 hãy tiếp tục và chạy mã của chúng ta ngay bây giờ
+and we should get back a big giant print 🍀 và chúng ta sẽ lấy lại một bản in khổng lồ
+statement with all of our coins so let's 🍀 tuyên bố với tất cả số xu của chúng tôi, vì vậy
+just go ahead and keep an eye on our 🍀 hãy tiếp tục và theo dõi
+console and you guys notice that that's 🍀 bảng điều khiển của chúng tôi và các bạn lưu ý rằng đó
+exactly what we get we're getting back 🍀 chính xác là những gì chúng tôi nhận được, chúng tôi sẽ lấy lại
+all the data for 50 coins because that's 🍀 tất cả dữ liệu cho 50 xu vì đó là
+how much we're telling our 🍀 số tiền chúng tôi đang nói với
+um API to give us back you guys here see 🍀 API của mình  để trả lại cho chúng tôi, các bạn ở đây hãy xem
+page equals 50 up at the top 🍀 trang bằng 50 ở trên cùng,
+um so that's looking really good right 🍀 ừm, vì vậy nó trông thực sự tốt,
+we see ethereum here we see Bitcoin all 🍀 chúng tôi thấy ethereum ở đây, chúng tôi thấy Bitcoin, tất cả
+that stuff so you guys let's go ahead 🍀 những thứ đó, vì vậy các bạn hãy tiếp tục
+and talk about how much better this is 🍀 và nói về điều này tốt
+than the URL session stuff right so 🍀 hơn phiên URL như thế nào  mọi thứ đúng để
+we notice that we don't have to print 🍀 chúng tôi nhận thấy rằng chúng tôi không phải in
+our coins anymore but how much cleaner 🍀 tiền của mình nữa nhưng mã này sạch hơn bao nhiêu so
+this code is than all of the stuff we 🍀 với tất cả những thứ chúng tôi
+had to do down here with this URL 🍀 phải thực hiện ở đây với phiên URL này,
+session right so we don't have a 🍀 vì vậy chúng tôi không có khối
+completion block our code looks 🍀 hoàn thành mã của mình  về
+synchronous basically right it's going 🍀 cơ bản có vẻ đồng bộ, nó đi
+line by line which is absolutely 🍀 từng dòng một, điều hoàn toàn
+incredible it's super neat it's super 🍀 không thể tin được, siêu gọn gàng, siêu
+efficient it's super clean and we don't 🍀 hiệu quả, siêu sạch và chúng tôi không
+have to do any of this nasty stuff so 🍀 phải làm bất kỳ thứ khó chịu nào, vì vậy
+this is why async await has been uh is 🍀 đây là lý do tại sao async await lại
+pretty awesome and it's not just that 🍀 khá tuyệt vời và nó không
+right like I talked about before the 🍀 đúng như tôi đã nói trước khi
+stuff with URL session can get really 🍀 nội dung với phiên URL có thể trở nên thực sự
+messy it's not just cleaner code it's 🍀 lộn xộn, nó không chỉ là mã sạch hơn mà còn
+actually more efficient and safer code 🍀 thực sự là mã hiệu quả hơn và an toàn hơn
+as well and that's because we're 🍀 và đó là bởi vì
+basically giving all of the 🍀 về cơ bản, chúng tôi chịu
+responsibility for how this code is 🍀 trách nhiệm về cách mã này được
+fetched to our system and that is used 🍀 tải xuống  hệ thống của chúng tôi và được sử dụng
+with this await keyword so that this 🍀 với từ khóa đang chờ này để
+await guide basically makes it so that 🍀 hướng dẫn đang chờ này về cơ bản làm cho
+this URL session guy is what's known as 🍀 phiên phiên URL này được gọi là có thể
+suspendable so it can suspend this task 🍀 tạm dừng để nó có thể tạm dừng tác vụ này
+as needed and we can specify priorities 🍀 khi cần và chúng tôi cũng có thể chỉ định mức độ ưu tiên
+for it as well it doesn't block our main 🍀 cho nó.  chặn chủ đề chính của chúng tôi,
+thread we don't have to work with any 🍀 chúng tôi không phải làm việc với bất kỳ
+nasty nested completion blocks that can 🍀 khối hoàn thành lồng nhau khó chịu nào có thể
+cause retain cycles and a million 🍀 gây ra chu kỳ giữ lại và hàng triệu
+different other things right this is 🍀 thứ khác, đây
+just way better way more professional 🍀 chỉ là cách tốt hơn để viết mã chuyên nghiệp hơn về
+code in terms of how you're going to use 🍀 cách bạn sẽ sử dụng
+your networking layer in your projects 🍀 mạng của mình  lớp trong các dự án của bạn
+here so really love this guys 🍀 ở đây vì vậy thực sự yêu thích những người này,
+um let's go ahead and see if we can now 🍀 ừm, hãy tiếp tục và xem liệu bây giờ chúng ta có thể
+actually get our coins displayed here 🍀 thực sự hiển thị đồng xu của mình ở đây hay không
+and what we have to do to do that so 🍀 và chúng ta phải làm gì để làm điều đó vì vậy
+we're going to just go and say 🍀 chúng ta sẽ tiếp tục và nói
+self.coins equals coins 🍀 self.coins bằng coins
+and let's run our project again and you 🍀 và hãy chạy lại dự án của chúng tôi và các
+guys are going to notice that this works 🍀 bạn sẽ nhận thấy rằng điều này hoạt động
+but we're going to get a warning 🍀 nhưng chúng tôi sẽ nhận được một cảnh báo,
+so you guys are going to notice it says 🍀 vì vậy các bạn sẽ chú ý rằng nó nói rằng
+publishing changes from background 🍀 
+threads is not allowed make sure to 🍀 không được phép xuất bản các thay đổi từ luồng nền, hãy đảm bảo
+publish from the main thread so 🍀 xuất bản từ luồng chính  Vì vậy,
+basically for those of you who are 🍀 về cơ bản, đối với những người
+unfamiliar with threading API calls or 🍀 không quen với các cuộc gọi API theo luồng hoặc
+processes happened on background threads 🍀 các quy trình xảy ra trên các luồng nền,
+we don't want that stuff to block our 🍀 chúng tôi không muốn những thứ đó chặn luồng chính của chúng tôi,
+main thread the main thread is what is 🍀 luồng chính
+in charge of rendering and displaying 🍀 chịu trách nhiệm kết xuất và hiển thị
+our user interface so you could imagine 🍀 giao diện người dùng của chúng tôi để bạn có thể tưởng tượng
+that if we had some ongoing API call 🍀 rằng nếu chúng tôi có một số lệnh gọi API đang diễn ra
+while our user enter the user is 🍀 trong khi người dùng của chúng tôi nhập thì người dùng đang
+interacting with the interface it could 🍀 tương tác với giao diện, điều đó có thể
+make it really laggy or it could even 🍀 khiến giao diện thực sự bị lag hoặc thậm chí có thể
+block the user interface right which is 🍀 chặn giao diện người dùng, điều này
+really nasty so that's why this stuff 🍀 thực sự khó chịu, vì vậy đó là lý do tại sao nội dung này
+happens asynchronously on a background 🍀 xảy ra không đồng bộ trên một
+thread so the issue that we face is we 🍀 luồng nền vì vậy  vấn đề mà chúng tôi gặp phải là chúng tôi
+have to we're trying to publish data 🍀 phải cố gắng xuất bản dữ liệu
+right so this guy is a published 🍀 đúng cách để anh chàng này là tài sản được xuất bản
+property and it's going to send that 🍀 và nó sẽ gửi
+information over to our view which has 🍀 thông tin đó đến chế độ xem của chúng tôi, điều này
+to happen on the main thread and that's 🍀 phải xảy ra trên luồng chính và đó là
+why you see this 🍀 lý do tại sao bạn thấy điều này
+dispatchq.maine.async guy right here 🍀 Anh chàng .maine.async ngay tại đây
+anytime you utilize a URL session you 🍀 bất cứ khi nào bạn sử dụng phiên URL, bạn
+have to use this uh to get your updates 🍀 phải sử dụng phiên này để lấy lại các cập nhật của bạn
+back on the main thread well 🍀 trên luồng chính,
+um lucky for us Swift UI has something 🍀 thật may mắn cho chúng tôi Swift UI có một thứ
+called a main actor and once we do this 🍀 gọi là diễn viên chính và một khi chúng tôi thực hiện việc này
+and run our code again we're going to 🍀 và chạy mã của mình  một lần nữa, chúng tôi sẽ
+notice that that error completely goes 🍀 nhận thấy rằng lỗi đó hoàn toàn biến
+away and that's basically just another 🍀 mất và về cơ bản, đó chỉ là một
+way of getting your code back onto the 🍀 cách khác để đưa mã của bạn trở lại
+main thread or the updates that your 🍀 luồng chính hoặc các bản cập nhật mà mã của bạn
+code needs to perform back onto the main 🍀 cần để thực hiện trở lại
+thread I'm not going to do a super deep 🍀 luồng chính. Tôi sẽ không thực hiện
+dive into actors guys but basically an 🍀 đi sâu vào các diễn viên, nhưng về cơ bản, một
+actor is just something that Swift UI 🍀 diễn viên chỉ là thứ mà Swift UI
+has implemented or Swift is implemented 🍀 đã triển khai hoặc Swift được triển khai
+really it's not unique to Swift UI that 🍀 thực sự, nó không phải là duy nhất đối với Swift UI
+makes your code safer when interacting 🍀 giúp mã của bạn an toàn hơn khi tương tác
+with apis or basically it just makes it 🍀 với apis hoặc về cơ bản, nó chỉ làm
+so that anytime multiple things are 🍀 cho nó bất cứ lúc nào cũng có nhiều thứ
+trying to update or modify some sort of 🍀 cố gắng cập nhật hoặc sửa đổi một số loại
+data object like this coins array it 🍀 đối tượng dữ liệu như mảng tiền xu này, điều đó
+makes it so that that is a safe process 🍀 khiến nó trở thành một quy trình an toàn
+and you don't ever have to worry about 🍀 và bạn không bao giờ phải lo lắng về
+multiple things trying to update 🍀 nhiều thứ khi cố cập nhật
+something at once and raise conditions 🍀 thứ gì đó cùng một lúc và nâng cao điều kiện
+and all of that stuff so that's What 🍀 và tất cả những thứ đó  Vì vậy, đó là
+actors are used for and this main actor 🍀 Diễn viên chính được sử dụng để làm gì và diễn viên chính này sẽ
+just gets us back onto the main thread 🍀 đưa chúng ta trở lại luồng chính,
+so you notice that now we don't have to 🍀 vì vậy bạn lưu ý rằng bây giờ chúng ta không phải
+use this 🍀 sử dụng
+nastydispatchq.main.async guy we can 🍀 anh chàng dirtydispatchq.main.async này mà chúng ta có thể
+just declare this to to run on the main 🍀 khai báo điều này để chạy trên
+actor or the main thread and it takes 🍀 diễn viên chính  hoặc luồng chính và nó đảm
+care of that stuff for us so that is 🍀 nhận những nội dung đó cho chúng tôi, vì vậy
+pretty much going to wrap it up for our 🍀 gần như sẽ kết thúc nó cho
+async await code guys in the rest of 🍀 các mã async đang chờ của chúng tôi. Trong phần còn lại của
+this video we're going to go over how to 🍀 video này, chúng tôi sẽ giới thiệu cách
+implement some custom error handling 🍀 triển khai một số cách xử lý lỗi tùy chỉnh
+some pagination and some refreshing to 🍀 phân trang và một số làm mới để
+really polish off this app and make our 🍀 thực sự đánh bóng ứng dụng này và làm cho mạng của chúng tôi
+networking a lot more professional than 🍀 chuyên nghiệp hơn rất nhiều so với
+when we started 🍀 khi chúng tôi bắt đầu,
+so next up we're going to be going over 🍀 vì vậy, tiếp theo, chúng tôi sẽ xem xét
+how to handle our error guys so this is 🍀 cách xử lý lỗi của mình, vì vậy điều này rất
+important for a couple different reasons 🍀 quan trọng vì một vài lý do khác nhau,
+one it's important for us as developers 🍀 một là  Điều quan trọng đối với chúng tôi với tư cách là nhà phát triển là phải
+to know what went wrong and where so our 🍀 biết điều gì đã xảy ra và ở đâu nên
+custom error handling is going to help 🍀 việc xử lý lỗi tùy chỉnh của chúng tôi sẽ giúp
+us out a lot when we have to debug 🍀 chúng tôi rất nhiều khi chúng tôi phải gỡ lỗi
+things and when things go wrong it's 🍀 mọi thứ và khi có sự cố xảy ra, điều đó
+also important for the user experience 🍀 cũng rất quan trọng đối với trải nghiệm người dùng,
+so whenever a user is using our app and 🍀 vì vậy bất cứ khi nào người dùng sử dụng dịch vụ của chúng tôi  ứng dụng và
+something goes wrong you're supposed to 🍀 xảy ra sự cố, bạn phải
+tell them that something went wrong and 🍀 nói với họ rằng đã xảy ra sự cố và
+what exactly went wrong so that they 🍀 chính xác điều gì đã xảy ra để họ
+don't start to get frustrated and never 🍀 không bắt đầu cảm thấy thất vọng và không bao giờ
+want to use your app again so really 🍀 muốn sử dụng ứng dụng của bạn nữa. Vì vậy,
+quickly let's go ahead up to the top and 🍀 hãy nhanh chóng tiếp tục lên đầu trang và
+create another published property here 🍀 tạo một thuộc tính đã xuất bản khác ở đây
+and it's going to be called error and 🍀 và nó sẽ được gọi là lỗi và
+it's going to be optional because it may 🍀 nó sẽ là tùy chọn vì nó có thể tồn tại
+or may not exist and if you guys 🍀 hoặc không tồn tại và nếu các bạn còn
+remember in the starter project we got 🍀 nhớ trong dự án khởi động, chúng tôi đã liệt
+this coin error enumeration that's going 🍀 kê lỗi xu này sẽ
+to help us handle a bunch of different 🍀 giúp chúng tôi xử lý một loạt các vấn đề khác nhau
+errors in a custom way right we could 🍀 đúng theo cách tùy chỉnh, chúng tôi có thể
+have an invalid URL server error and 🍀 gặp lỗi máy chủ URL không hợp lệ và
+valid data or an unknown error and then 🍀 dữ liệu hợp lệ hoặc lỗi không xác định, sau đó
+we're going to have the ability to 🍀 chúng tôi sẽ có khả năng
+implement like a custom error 🍀 triển khai như mô tả lỗi tùy chỉnh
+description to show to the user so 🍀 để hiển thị cho người dùng, vì vậy
+if we go back to the content view model 🍀 nếu chúng tôi quay lại  mô hình chế độ xem nội dung
+now let's go back down to our fetch 🍀 bây giờ, hãy quay lại
+coins async function and go over how 🍀 chức năng tìm nạp tiền xu không đồng bộ của chúng tôi và tìm hiểu cách
+we're going to start throwing errors and 🍀 chúng tôi sẽ bắt đầu ném lỗi và
+see how clean this is going to be so if 🍀 xem điều này sẽ sạch sẽ như thế nào vì vậy nếu
+we have this invalid URL guy we can 🍀 chúng tôi có anh chàng URL không hợp lệ này, chúng tôi
+literally just go ahead here and say 🍀 thực sự có thể tiếp tục tại đây  và nói
+Throw coin error.invalid URL and you'll 🍀 Ném đồng xu error.invalid URL và bạn sẽ
+notice guys that you no longer have to 🍀 nhận thấy rằng bạn không còn phải
+say return here you see code after throw 🍀 nói quay lại đây nữa, bạn thấy mã sau khi ném
+will never be executed so it does 🍀 sẽ không bao giờ được thực thi, vì vậy
+basically the same thing that return 🍀 về cơ bản nó thực hiện tương tự như trả về
+does except it throws an error which 🍀 ngoại trừ nó đưa ra một lỗi
+makes our lives easier 🍀 khiến chúng ta  cuộc sống dễ dàng hơn
+so we're sort of killing two birds with 🍀 vì vậy chúng tôi sẽ giết một con chim bằng
+one stone there 🍀 một viên đá ở đó
+and we can move this all into one line 🍀 và chúng tôi có thể chuyển tất cả những thứ này thành một dòng
+of code to make it even more concise so 🍀 mã để làm cho nó thậm chí còn ngắn gọn hơn, vì vậy
+now let's check out this guard statement 🍀 bây giờ hãy kiểm tra tuyên bố bảo vệ này
+with our response so if we get an 🍀 với phản hồi của chúng tôi để nếu chúng tôi nhận được
+invalid response we're going to throw a 🍀 phản hồi không hợp lệ  chúng ta sẽ đưa ra
+coin error.server error right so we can 🍀 lỗi đồng xu error.server để chúng ta có thể
+see here how we're utilizing that enum 🍀 thấy ở đây cách chúng ta sử dụng enum đó
+to throw different errors in different 🍀 để đưa ra các lỗi khác nhau trong
+situations and then here if we fail to 🍀 các tình huống khác nhau và sau đó ở đây nếu chúng ta không
+decode we could say Throw coin error dot 🍀 giải mã được, chúng ta có thể nói Ném đồng xu lỗi chấm
+invalid data 🍀 dữ liệu không hợp lệ
+right because we failed our decode so 🍀 đúng không  bởi vì chúng tôi đã giải mã thất bại nên
+that looks really really good right so 🍀 nó trông thực sự rất tốt nên
+now in order to for this to actually 🍀 bây giờ để nó thực sự
+work guys we have to wrap this in what's 🍀 hoạt động, chúng tôi phải gói nó trong cái
+known as a do catch block so we're going 🍀 được gọi là khối do catch vì vậy chúng tôi sẽ
+to cut all of this code here and we're 🍀 cắt tất cả mã này ở đây và chúng tôi  '
+going to say do 🍀 sẽ nói do
+catch 🍀 catch
+and we're going to paste all that code 🍀 và chúng ta sẽ dán lại tất cả mã đó
+back in the do block and this catch 🍀 vào khối do và khối catch này
+block is what's going to execute if that 🍀 sẽ thực thi nếu
+error actually happens so then all we 🍀 lỗi đó thực sự xảy ra, vì vậy, tất cả những gì chúng ta
+need to do here is say self.error equals 🍀 cần làm ở đây là nói self.error bằng
+error right because if we throw an error 🍀 lỗi đúng bởi vì nếu chúng tôi đưa ra lỗi
+then this catch block will execute and 🍀 thì khối bắt này sẽ thực thi và
+we'll get access to that so that's 🍀 chúng tôi sẽ có quyền truy cập vào khối đó, điều đó thật
+pretty cool right it reduces a lot of 🍀 tuyệt phải không, nó làm giảm rất nhiều
+the boilerplate code that we have to use 🍀 mã soạn sẵn mà chúng tôi phải sử dụng
+when we work with these URL sessions so 🍀 khi làm việc với các phiên URL này, chẳng
+for example 🍀 hạn như vậy
+if I wanted to throw an error here I 🍀 nếu tôi muốn đưa ra một lỗi ở đây thì tôi
+would have to I I don't have the ability 🍀 phải làm thế. Tôi không có khả năng
+to throw anything here right I would 🍀 ném bất cứ thứ gì vào đây đúng không. Tôi sẽ
+have to say self.error equals coin error 🍀 phải nói self.error bằng coin error
+dot invalid uh so sorry server error and 🍀 dot invalid uh xin lỗi lỗi máy chủ và
+then I also have to return so it just 🍀 tôi cũng phải quay lại  chỉ hơi
+it's a little more annoying to handle 🍀 khó chịu hơn một chút khi xử lý
+the error in our URL session code right 🍀 lỗi trong mã phiên URL của chúng tôi
+and it all has to also be inside of a 🍀 và tất cả cũng phải nằm trong
+completion block which is also more 🍀 khối hoàn thành, điều này cũng
+annoying so this is way way way cleaner 🍀 khó chịu hơn vì vậy đây là cách sạch hơn
+and way more efficient than what we see 🍀 và hiệu quả hơn những gì chúng tôi
+down there with the URL session so let's 🍀 thấy.  ở đó với phiên URL, vì vậy,
+go over how we can actually display our 🍀 
+error to the user now 🍀 bây giờ chúng ta hãy xem cách chúng ta thực sự có thể hiển thị lỗi của mình cho người dùng, vì
+so basically guys this error is a 🍀 vậy về cơ bản, các bạn, lỗi này là một
+published property so we're going to add 🍀 thuộc tính đã xuất bản, vì vậy chúng ta sẽ thêm
+a receiver in our content view to 🍀 một bộ thu trong chế độ xem nội dung của mình để
+receive this error and if it does we're 🍀 nhận lỗi này và nếu có  chúng tôi
+going to like indicate to our UI that 🍀 sẽ chỉ ra cho giao diện người dùng của mình rằng
+hey we need to show the user some sort 🍀 chúng tôi cần hiển thị cho người dùng một số
+of alert message so let's go back to 🍀 loại thông báo cảnh báo, vì vậy hãy quay lại Chế độ
+content View and we're going to add this 🍀 xem nội dung và chúng tôi sẽ thêm
+dot on receive method and it's going to 🍀 dấu chấm này vào phương thức nhận và nó sẽ
+be viewmodel dot dollar sign error so 🍀 là viewmodel dấu chấm đô la  ký lỗi, vì vậy
+whenever that error gets published oops 🍀 bất cứ khi nào lỗi đó được xuất bản, rất tiếc
+and just hit enter here 🍀 và chỉ cần nhấn nhập vào đây
+error and it's it's going to execute 🍀 lỗi và nó sẽ thực thi
+this on receive block so we're going to 🍀 điều này trên khối nhận, vì vậy chúng tôi sẽ
+introduce another property up at the top 🍀 giới thiệu một thuộc tính khác ở
+state private VAR show alert 🍀 trạng thái VAR riêng tư hàng đầu hiển thị cảnh báo
+equals false and then we are just going 🍀 bằng sai và sau đó chúng tôi chỉ  sẽ
+to go back to this on receive block and 🍀 quay lại vấn đề này khi nhận khối và
+say if error 🍀 nói nếu lỗi
+is not equal to nil then we're going to 🍀 không bằng 0 thì chúng ta sẽ
+say show alert dot toggle 🍀 nói hiển thị cảnh báo dấu chấm bật
+cool and then we just need to create our 🍀 tắt và sau đó chúng ta chỉ cần tạo
+alert guys so we're going to say dot 🍀 các cảnh báo của mình vì vậy chúng ta sẽ nói
+alert and then use this one for is 🍀 cảnh báo dấu chấm và  sau đó sử dụng cái này để được
+presented with content so right here 🍀 trình bày với nội dung, vì vậy ngay dưới đây ở
+down at the bottom so this is presented 🍀 dưới cùng, vì vậy, cái này được trình bày,
+guys going to determine if the alert 🍀 những người sẽ xác định xem cảnh báo có
+shows or not and then the content will 🍀 hiển thị hay không và sau đó nội dung sẽ
+be whatever we put inside there so we're 🍀 là bất cứ thứ gì chúng tôi đặt bên trong đó, vì vậy chúng tôi
+going to say dollar sign show alert and 🍀 sẽ nói ký hiệu đô la  hiển thị cảnh báo và
+then tab over and hit enter on that guy 🍀 sau đó chuyển qua tab và nhấn enter trên anh chàng đó,
+delete that and we're going to say alert 🍀 xóa cảnh báo đó và chúng tôi sẽ nói cảnh báo
+with the title and message okay so this 🍀 với tiêu đề và thông báo được rồi, vì vậy
+guy is going to be a text component and 🍀 anh chàng này sẽ là một thành phần văn bản và
+it's going to say error and then the 🍀 nó sẽ báo lỗi và sau đó
+message is going to be another text 🍀 thông báo sẽ xuất hiện  là một thành phần văn bản khác
+component that says viewmodel oops 🍀 có nội dung viewmodel oops
+viewmodel dot error.localize description 🍀 viewmodel dot error.localize description,
+so let's go ahead and hit enter there 🍀 vì vậy, hãy tiếp tục và nhấn enter ở đó,
+just clean this up a bit 🍀 chỉ cần làm sạch phần này một chút
+and indent our code and let's just go 🍀 và thụt lề mã của chúng ta và hãy
+ahead and hit command B to make sure 🍀 tiếp tục và nhấn lệnh B để đảm bảo
+everything builds 🍀 mọi thứ được xây dựng
+um okay so let's just give this a 🍀 tốt.  chúng ta hãy đặt
+default value because it's optional 🍀 giá trị mặc định này vì đây là tùy chọn
+hit command B again our build succeeds 🍀 nhấn lệnh B một lần nữa, quá trình xây dựng của chúng ta thành công,
+now let's go back and just create some 🍀 bây giờ chúng ta hãy quay lại và chỉ cần tạo một số
+Havoc here and we're gonna just make the 🍀 Havoc tại đây và chúng ta sẽ làm cho
+URL invalid okay so just go ahead and 🍀 URL không hợp lệ, vì vậy hãy tiếp tục và
+like delete a letter from your url guys 🍀 xóa một chữ cái khỏi url của bạn  các bạn,
+and let's go ahead and run the code and 🍀 hãy tiếp tục và chạy mã và
+see if it gives us back some sort of 🍀 xem liệu nó có trả lại cho chúng tôi một số loại
+error message 🍀 thông báo lỗi
+perfect so it's saying the data is 🍀 hoàn hảo hay không, vì vậy dữ liệu nói rằng dữ liệu
+invalid and that makes sense right 🍀 không hợp lệ và điều đó có ý nghĩa
+because we're still getting like a 🍀 vì chúng tôi vẫn nhận được
+response back from this URL even though 🍀 phản hồi từ URL này ngay cả khi
+it's bad but this goes to show us that 🍀 nó  không tốt nhưng điều này sẽ cho chúng tôi thấy rằng
+we have successfully like published our 🍀 chúng tôi đã xuất bản thành công lỗi của mình
+error and that we've triggered one of 🍀 và chúng tôi đã kích hoạt một trong
+our custom error messages and it's 🍀 các thông báo lỗi tùy chỉnh của mình
+showing that to the user saying okay 🍀 
+um and then guys if we go back here and 🍀 và điều đó
+say you know put the O back in coin 🍀 cho thấy điều đó với người dùng.  O trả lại xu
+Gecko and run this again 🍀 Gecko và chạy lại cái này
+um it's going to load our load all of 🍀 ừm, nó sẽ tải
+our data successfully so this is looking 🍀 thành công tất cả dữ liệu của chúng ta, vì vậy cái này trông
+really really nice and Polished guys 🍀 thực sự rất đẹp và được đánh bóng,
+this is the difference between an 🍀 đây là sự khác biệt giữa một
+amateur level coder and a professional 🍀 lập trình viên cấp độ nghiệp dư và một mã chuyên nghiệp
+code or someone that handles their error 🍀 hoặc ai đó xử lý mã của họ  lỗi
+in a professional way and make sure they 🍀 một cách chuyên nghiệp và đảm bảo rằng họ
+takes all those extra steps in order to 🍀 thực hiện tất cả các bước bổ sung đó để
+um you know make your life easier as a 🍀 bạn biết đấy, làm cho cuộc sống của bạn trở nên dễ dàng hơn với tư cách là
+developer in the future an ounce of 🍀 nhà phát triển trong tương lai,
+prevention is worth a pound of cure I 🍀 phòng ngừa đáng giá một cân chữa bệnh. Tôi
+always like to say right doing a little 🍀 luôn muốn nói rằng làm đúng một
+bit more work early on will save you a 🍀 chút  nhiều công việc hơn từ sớm sẽ giúp bạn tránh được rất
+lot of trouble down the line so that's 🍀 nhiều rắc rối vì vậy điều đó
+looking really good now let's go over 🍀 trông thực sự tốt. Bây giờ chúng ta hãy tìm hiểu
+how to implement refreshabilities so 🍀 cách triển khai khả năng làm mới để
+this one is super super easy right guys 🍀 cái này siêu siêu dễ đúng không các bạn,
+pagination and refreshing is all we have 🍀 phân trang và làm mới là tất cả những gì chúng ta
+left for this video and it's just going 🍀 còn lại cho video này và nó chỉ là  sẽ mất
+to take less than five minutes so we can 🍀 ít hơn năm phút để chúng tôi có thể
+go back to our content View and because 🍀 quay lại Chế độ xem nội dung của mình và vì
+we're on we're using a list here we can 🍀 chúng tôi đang sử dụng danh sách ở đây nên chúng tôi có thể
+say dot refreshable 🍀 nói dấu chấm có thể làm mới
+and when we want to refresh our code we 🍀 và khi chúng tôi muốn làm mới mã của mình, chúng tôi
+can call a function in our view model so 🍀 có thể gọi một hàm trong chế độ xem của mình  mô hình, vì vậy,
+let's go back to our view model and 🍀 hãy quay lại mô hình chế độ xem của chúng tôi và
+we're going to implement another 🍀 chúng tôi sẽ triển khai một
+function here called handle refresh 🍀 chức năng khác ở đây có tên là làm mới xử lý
+and I'm just going to say coins dot 🍀 và tôi sẽ nói rằng các đồng xu sẽ
+remove all 🍀 xóa tất cả
+and then we're going to say viewmodel or 🍀 và sau đó chúng tôi sẽ nói chế độ xem mô hình hoặc
+sorry we're going to say load data 🍀 xin lỗi, chúng tôi sẽ  nói tải dữ liệu
+so you do have to remove all the coins 🍀 để bạn phải xóa tất cả các đồng tiền
+guys because if you refreshed it and 🍀 vì nếu bạn làm mới nó và
+didn't remove all the existing coins it 🍀 không xóa tất cả các đồng tiền hiện có, nó
+would just stack them on top of each 🍀 sẽ chỉ xếp chúng chồng lên
+other so we don't want that right 🍀 nhau vì vậy chúng tôi không muốn điều đó đúng
+so let's go back here and just say 🍀 vì vậy hãy quay lại đây  và chỉ cần nói làm
+viewmodel dot handle refresh 🍀 mới xử lý dấu chấm viewmodel,
+let's run our code again 🍀 hãy chạy lại mã của chúng tôi
+and let's see what we get back so 🍀 và hãy xem những gì chúng tôi nhận lại để
+you guys will notice that I can now pull 🍀 các bạn sẽ nhận thấy rằng bây giờ tôi có thể kéo
+this list down to refresh it right which 🍀 danh sách này xuống để làm mới nó,
+is really really awesome that's just 🍀 đây thực sự là
+another extremely important feature to 🍀 một tính năng cực kỳ quan trọng khác cần
+have when you're implementing any sort 🍀 có khi  bạn đang triển khai bất kỳ loại
+of networking layer you want to give the 🍀 lớp mạng nào mà bạn muốn cung cấp cho
+user the ability to refresh the data and 🍀 người dùng khả năng làm mới dữ liệu và
+get back a fresh batch of data so next 🍀 lấy lại một loạt dữ liệu mới, vì vậy, tiếp theo
+up is pagination guys which is also 🍀 là phân trang, điều này cũng
+going to be super simple right so 🍀 sẽ cực kỳ đơn giản, vì vậy
+pagination does have the predicate that 🍀 phân trang có vị từ  điều đó
+was predicated on the ability for your 🍀 được xác định dựa trên khả năng API của bạn
+API to implement pagination right so 🍀 triển khai phân trang đúng như vậy, thật
+lucky for us this coin gecko API gives 🍀 may mắn cho chúng tôi API tắc kè xu này cung cấp cho
+us the ability to paginate our data so 🍀 chúng tôi khả năng phân trang dữ liệu của mình, vì vậy
+what I want us to do is actually just go 🍀 điều tôi muốn chúng tôi làm thực sự chỉ là
+ahead and say private that we're going 🍀 tiếp tục và nói riêng rằng chúng tôi
+to create two properties here we're 🍀 sẽ  tạo hai thuộc tính ở đây, chúng tôi
+going to say page limit 🍀 sẽ nói rằng giới hạn trang
+equals 20 and private VAR 🍀 bằng 20 và trang VAR riêng tư
+page equals zero so you guys will notice 🍀 bằng 0, vì vậy các bạn sẽ chú ý
+here in this big nasty URL string we 🍀 ở đây trong chuỗi URL lớn khó chịu này, chúng tôi
+have some parameters in here right so 🍀 có một số tham số ở đây vì vậy
+this is fetching 50 coins you guys will 🍀 đây sẽ lấy 50 xu, các bạn sẽ
+notice if I change this to five 🍀 chú ý nếu  Tôi thay đổi điều này thành năm
+and run my code 🍀 và chạy mã của mình
+that I'm only going to get back five 🍀 rằng tôi sẽ chỉ nhận lại năm
+coins right so here we're going to 🍀 đồng xu, vì vậy ở đây chúng tôi sẽ
+replace this guy with our 🍀 thay thế anh chàng này bằng
+uh page limit 🍀 giới hạn trang uh của chúng tôi
+so you guys will notice that I can 🍀 để các bạn sẽ nhận thấy rằng tôi có thể
+inject values into this URL string which 🍀 đưa các giá trị vào chuỗi URL này  Điều này
+is pretty cool right so now you'll 🍀 khá thú vị, vì vậy bây giờ bạn sẽ
+notice that I have 20 coins so I could 🍀 nhận thấy rằng tôi có 20 xu nên tôi có thể
+adjust this page limit as needed and it 🍀 điều chỉnh giới hạn trang này khi cần và nó
+will take effect with how many coins I 🍀 sẽ có hiệu lực với số lượng xu tôi
+fetch at a time the next property we're 🍀 lấy tại một thời điểm thuộc tính tiếp theo mà chúng ta
+going to be looking at is this page guy 🍀 sẽ xem xét  đây là trang này
+but before we look at that and actually 🍀 nhưng trước khi chúng tôi xem xét điều đó và thực sự
+get our data back from the URL from the 🍀 lấy lại dữ liệu của chúng tôi từ URL từ
+API and paginate it I want us to go over 🍀 API và phân trang cho nó, tôi muốn chúng tôi xem qua
+how we're going to implement it in our 🍀 cách chúng tôi sẽ triển khai nó trong
+application so we need to go back to our 🍀 ứng dụng của mình, vì vậy chúng tôi cần quay lại trang của mình
+content View 🍀 nội dung Xem
+and on this coin row of you guys we 🍀 và trên hàng đồng xu này của các bạn,
+basically need to be able to detect if 🍀 về cơ bản, chúng tôi cần có khả năng phát hiện xem
+we're at the last coin right so 🍀 chúng tôi có đang ở đồng xu cuối cùng hay không, vì vậy
+basically if I scroll to the bottom of 🍀 về cơ bản nếu tôi cuộn xuống cuối
+this list I want to say hey I've reached 🍀 danh sách này, tôi muốn nói rằng tôi đã đạt đến
+the bottom fetch me more data right so 🍀 mức tìm nạp cuối cùng  cho tôi thêm dữ liệu đúng
+um that's what pagination does it'll uh 🍀 không, đó là những gì phân trang sẽ làm, uh
+for those of you who don't know it 🍀 đối với những người bạn không biết nó
+allows you to fetch your data in Pages 🍀 cho phép bạn tìm nạp dữ liệu của mình trong Trang
+or blocks so that imagine if we had a 🍀 hoặc khối để tưởng tượng nếu chúng tôi có một
+thousand cryptocurrency coins we don't 🍀 nghìn đồng tiền điện tử mà chúng tôi không
+want to fetch all of that data at once 🍀 muốn  tìm nạp tất cả dữ liệu đó ngay lập tức,
+right we just want to fetch little 🍀 chúng tôi chỉ muốn tìm
+chunks at a time and only fetch other 🍀 nạp từng đoạn nhỏ và chỉ tìm nạp
+you know more data if the user wants to 🍀 những dữ liệu khác mà bạn biết nhiều hơn nếu người dùng muốn
+see it so this is another huge Pro tip 🍀 xem nó, vì vậy đây là một mẹo chuyên nghiệp lớn khác
+for any sort of networking code that 🍀 cho bất kỳ loại mã mạng nào mà
+you're going to write in any of your 🍀 bạn đang  sẽ viết vào bất kỳ
+applications you want to paginate your 🍀 ứng dụng nào của bạn mà bạn muốn phân trang
+data so in order to do this in Swift UI 🍀 dữ liệu của mình, vì vậy, để thực hiện điều này trong Swift UI,
+we're going to go here and say dot on up 🍀 chúng tôi sẽ vào đây và nói dấu chấm ở trên
+here and we're going to say if coin 🍀 đây và chúng tôi sẽ nói liệu đồng xu
+equals viewmodel.coins.last 🍀 có bằng viewmodel.coins hay không.  cuối cùng
+and then we can just add a print 🍀 và sau đó chúng ta có thể chỉ cần thêm một
+statement say print debug paginate here 🍀 câu lệnh in nói rằng in gỡ lỗi phân trang ở đây
+okay so our coin is not equatable so 🍀 được vì vậy đồng xu của chúng ta không tương đương nhau nên
+basically guys all we got to do is say 🍀 về cơ bản, tất cả những gì chúng ta phải làm là nói
+coin dot like ID 🍀 dấu chấm đồng xu như ID
+last dot ID 🍀 dấu chấm cuối cùng ID
+basically just want to see if the last 🍀 về cơ bản chỉ muốn xem liệu
+coin in the list is equal to the last 🍀 đồng xu cuối cùng có trong  danh sách bằng với
+coin in our data array in our view model 🍀 đồng xu cuối cùng trong mảng dữ liệu của chúng tôi trong mô hình chế độ xem của chúng tôi,
+so you guys will notice that 🍀 vì vậy các bạn sẽ chú ý rằng
+keep an eye on the console I scroll to 🍀 hãy để ý đến bảng điều khiển. Tôi cuộn xuống
+the bottom it says paginate here right 🍀 dưới cùng nó nói phân trang ở đây phải
+paginate here paginate here so now we 🍀 phân trang ở đây phân trang ở đây vì vậy bây giờ chúng ta
+just need to call a function so it's as 🍀 chỉ cần gọi một hàm  Vì vậy, nó
+simple as this guys we can just say 🍀 đơn giản như thế này, chúng ta chỉ có thể nói
+viewmodel dot load data so this is our 🍀 dữ liệu tải dot của viewmodel, vì vậy đây là
+load data function we just need to 🍀 chức năng tải dữ liệu của chúng ta, chúng ta chỉ cần
+modify this a tad in order to support 🍀 sửa đổi điều này một chút để hỗ trợ
+pagination so let's go back to our coin 🍀 phân trang, vì vậy hãy quay lại xu của chúng ta,
+our content view model and we can just 🍀 mô hình xem nội dung của chúng ta và chúng ta có thể chỉ
+or you know we could this will work 🍀 hoặc bạn biết chúng ta có thể cái này sẽ hoạt động
+right now it's just not going to work 🍀 ngay bây giờ nó sẽ không hoạt động
+the way we want it to so let me show you 🍀 theo cách chúng ta muốn, vì vậy hãy để tôi cho
+guys what this is going to look like now 🍀 các bạn thấy nó sẽ trông như thế nào bây giờ
+so 🍀 vì vậy
+oh 🍀 ồ
+actually doesn't work okay let's see if 🍀 thực sự nó không hoạt động được, hãy xem liệu
+we can uh figure this out so 🍀 chúng ta có thể làm được không uh  tìm ra điều này, vì vậy
+what we're going to want to do is say 🍀 những gì chúng ta sẽ muốn làm là nói
+self.coins.append contents of coins so 🍀 self.coins.append nội dung của các đồng xu để
+every time it fetches new coins it's 🍀 mỗi khi nó lấy đồng xu mới, nó
+just going to add it to the list right 🍀 sẽ thêm nó vào danh sách ngay
+so let's run this now and see what we'll 🍀 bây giờ, vì vậy hãy chạy nó ngay bây giờ và xem những gì chúng ta'  Tôi sẽ
+see if that works 🍀 xem nó có hoạt động
+okay check that out guys so you notice 🍀 ổn không, hãy kiểm tra xem các bạn có để ý
+that it fetched a new batch of coins but 🍀 rằng nó đã lấy một loạt tiền mới nhưng
+it fetched the exact same first 20 coins 🍀 nó đã lấy chính xác 20 đồng xu đầu tiên
+that we have so you see Bitcoin here and 🍀 mà chúng tôi có để bạn thấy Bitcoin ở đây và
+then if you scroll down you'll see 🍀 sau đó nếu bạn cuộn xuống, bạn sẽ thấy
+Bitcoin there again and all of those 🍀 Bitcoin ở đó  một lần nữa và tất cả
+coins right and if you keep scrolling 🍀 những đồng xu đó đều đúng và nếu bạn tiếp tục cuộn thì
+it's just going to be that same list 🍀 danh sách đó sẽ
+repeated over and over again and this is 🍀 lặp đi lặp lại nhiều lần và điều này là
+because we need to 🍀 do chúng tôi cần
+um increment our page so first off let's 🍀 tăng trang của mình nên trước tiên, hãy
+inject that page value into our URL 🍀 đưa giá trị trang đó vào chuỗi URL của chúng tôi
+string so we're going to say that's our 🍀 để chúng tôi  'sẽ nói rằng đó là số trang của chúng tôi
+page number and then down in this fetch 🍀 và sau đó xuống tìm nạp
+coins async guy we're in our do block 🍀 tiền xu không đồng bộ này, chúng tôi đang ở trong khối do của chúng tôi
+just going to say Page Plus equals one 🍀 sẽ nói Trang Plus bằng một
+and let's go ahead and run this guys 🍀 và hãy tiếp tục và chạy những người này
+so now every time we call this it's 🍀 vì vậy bây giờ mỗi khi chúng tôi gọi đây là nó
+going to increment our page and then in 🍀 sẽ  để tăng trang của chúng tôi và sau đó trong
+this API call it's going to get us the 🍀 lệnh gọi API này, nó sẽ đưa chúng tôi đến
+next page of data so I'm going to go 🍀 trang dữ liệu tiếp theo, vì vậy tôi sẽ đi
+down 🍀 xuống
+and you guys will notice that once I get 🍀 và các bạn sẽ nhận thấy rằng khi tôi
+to 20 it starts 21 22 23 24. and you 🍀 đến 20, nó sẽ bắt đầu 21 22 23 24. và các
+guys if you pay attention to the scroll 🍀 bạn nếu  bạn chú ý đến thanh cuộn,
+bar you will see that this all this data 🍀 bạn sẽ thấy rằng tất cả dữ liệu này
+is not being fetched at once it's being 🍀 không được tìm nạp ngay lập tức mà nó được
+fetched when we get to the bottom of the 🍀 tìm nạp khi chúng tôi đến cuối
+list so as we get closer to 40 you guys 🍀 danh sách, vì vậy khi chúng tôi tiến gần đến 40, các bạn
+are going to notice that that scroll bar 🍀 sẽ nhận thấy rằng thanh cuộn đó
+gets smaller right like it just happened 🍀 trở nên nhỏ hơn đúng như nó vừa xảy ra
+right there that's that that's it 🍀 ngay tại đó, đó là nó đang
+fetching our new batch of data and you 🍀 tải lô dữ liệu mới của chúng tôi và
+guys see it's so seamless right there's 🍀 các bạn thấy nó rất liền mạch,
+no lag there's no clunkiness in our UI 🍀 không có độ trễ, không có sự rườm rà nào trong giao diện người dùng của chúng tôi
+and everything is working beautifully 🍀 và mọi thứ đang hoạt động tốt
+here so this is looking really good we 🍀 ở đây vì vậy điều này trông thực sự tốt, chúng tôi
+just have one more problem that we need 🍀 chỉ  có một vấn đề nữa mà chúng tôi cần
+to solve I want you guys to go up and 🍀 giải quyết. Tôi muốn các bạn tiếp tục và
+refresh your data right so you guys will 🍀 làm mới dữ liệu của mình ngay để các bạn sẽ
+notice that it starts at the next batch 🍀 nhận thấy rằng nó bắt đầu ở đợt tiếp theo ngay
+right it starts at 61 now and we don't 🍀 bây giờ, nó bắt đầu từ 61 và chúng tôi không
+have uh like our original set of coins 🍀 có uh như bộ ban đầu của chúng tôi  tiền xu
+and that's because in this handle 🍀 và đó là bởi vì trong
+refresh function we need to reset the 🍀 chức năng làm mới xử lý này, chúng tôi cần đặt lại
+page to zero okay so you just go here 🍀 trang về 0, vì vậy bạn chỉ cần truy cập vào đây
+and you say page equals zero 🍀 và bạn nói rằng trang bằng 0
+so basically this was happening guys 🍀 nên về cơ bản, điều này đã xảy ra
+because our view model still had page 🍀 vì mô hình chế độ xem của chúng tôi vẫn có trang
+the page stored at whatever the last 🍀 được lưu trữ ở bất kỳ thời điểm nào.  số
+iteration was two three four five so 🍀 lần lặp lại là hai ba bốn năm, vì vậy
+then when we refresh the data if page is 🍀 khi chúng tôi làm mới dữ liệu nếu trang
+equal to four it's going to start giving 🍀 bằng bốn, nó sẽ bắt đầu cung cấp cho
+you the coins that start at 80 in the 🍀 bạn số tiền bắt đầu ở mức 80 trong
+market cap rank so if we run this now 🍀 xếp hạng vốn hóa thị trường, vì vậy nếu chúng tôi chạy ứng dụng này ngay bây giờ,
+um 🍀 
+our app should be completely polished 🍀 ứng dụng của chúng tôi sẽ hoàn toàn được đánh bóng
+off and looking super super fire all 🍀 và trông siêu siêu cháy
+right let's see I'm gonna go down scroll 🍀 luôn, hãy xem tôi sẽ đi xuống cuộn cuộn cuộn
+scroll scroll super super fast super 🍀 siêu nhanh siêu
+seamless and then go back up to the top 🍀 liền mạch và sau đó quay lại phần
+refresh and you guys will notice that 🍀 làm mới hàng đầu và các bạn sẽ nhận thấy
+look how much bigger the scroll bar is 🍀 thanh cuộn trông lớn hơn bao nhiêu
+right it only when I refreshed it it 🍀 chỉ khi  Tôi đã làm mới nó, nó
+only gave me back those first 20 coins 🍀 chỉ trả lại cho tôi 20 đồng xu đầu tiên đó
+or you could make it say whatever the 🍀 hoặc bạn có thể làm cho nó nói bất cứ
+heck you want there right so that's 🍀 thứ gì bạn muốn ở đó, vì vậy
+going to wrap it up for this video guys 🍀 chúng tôi sẽ kết thúc video này để
+just to do a quick recap if you want to 🍀 tóm tắt nhanh nếu bạn muốn
+stick around 🍀 theo dõi
+um we implemented this async await 🍀 chúng tôi.  đã triển khai chức năng chờ không đồng bộ này
+functionality which was way cleaner and 🍀 sạch hơn,
+way safer and way more efficient than 🍀 an toàn hơn và hiệu quả hơn nhiều so với
+this old school URL session stuff right 🍀 công cụ phiên URL trường học cũ này
+and then we also went over how to 🍀 và sau đó chúng tôi cũng tìm hiểu cách
+paginate our data and how to implement 🍀 phân trang dữ liệu của mình và cách triển khai
+error handling and we saw how much 🍀 xử lý lỗi và chúng tôi đã thấy
+easier that was with our async await 🍀 điều đó dễ dàng hơn nhiều với  Chức năng chờ async của chúng tôi
+functionality because we have the 🍀 bởi vì chúng tôi có
+ability to throw an error here and just 🍀 khả năng đưa ra một lỗi ở đây và chỉ
+wrap it in a do catch block so although 🍀 gói nó trong một khối do catch, vì vậy mặc dù
+we did have to use two functions and 🍀 chúng tôi đã phải sử dụng hai chức năng và sắp
+sort of wrap this in a task it is 🍀 xếp gói này trong một tác vụ nhưng
+overall way cleaner than this URL 🍀 nhìn chung nó sạch hơn
+session code we don't have to use this 🍀 mã phiên URL này  chúng tôi không phải sử dụng
+dot resume functionality we don't have 🍀 chức năng tiếp tục dấu chấm này, chúng tôi không phải
+to use 🍀 sử dụng
+dispatchq.maine.async handling the 🍀 Clarkq.maine.async xử lý
+errors way easier and the code in our 🍀 lỗi dễ dàng hơn và mã trong
+content view is super super clean right 🍀 chế độ xem nội dung của chúng tôi siêu siêu sạch,
+we can refresh our code and this is what 🍀 chúng tôi có thể làm mới mã của mình và đây là những gì
+we need to do to handle our error and 🍀 chúng tôi  cần phải làm gì để xử lý lỗi của chúng tôi và
+then we are also paginating our data 🍀 sau đó chúng tôi cũng đang phân trang dữ liệu của mình
+right here so that is how you network 🍀 ngay tại đây, vì vậy đó là cách bạn kết nối mạng
+like a mother Flippin Pro guys so hope 🍀 như một người mẹ Flippin Pro. Vì vậy, hy vọng
+you guys enjoyed this video make sure 🍀 các bạn thích video này, hãy đảm bảo rằng
+you like this video And subscribe to the 🍀 bạn thích video này và đăng ký
+channel if you want to see more content 🍀 kênh nếu bạn muốn  để xem thêm nội dung
+like this and don't forget to check out 🍀 như thế này và đừng quên xem
+my website at stefancodes.com where I 🍀 trang web của tôi tại stefancodes.com nơi tôi
+have a bunch of professional courses and 🍀 có rất nhiều khóa học chuyên nghiệp và
+if you guys want access to the source 🍀 nếu các bạn muốn truy cập
+code here just go ahead and become a 🍀 mã nguồn ở đây, hãy tiếp tục và trở thành
+member 🍀 thành viên
+um and you know any one of these 🍀 ừm và bạn biết đấy  bất kỳ tư
+memberships will give you access to all 🍀 cách thành viên nào trong số này sẽ cung cấp cho bạn quyền truy cập vào tất
+of the YouTube courses you guys can just 🍀 cả các khóa học YouTube. Các bạn có thể
+go ahead and check those out and uh you 🍀 tiếp tục và xem các khóa học đó và bạn
+know check out the other YouTube courses 🍀 biết đấy, hãy xem các khóa học YouTube khác
+on the site as well but thanks so much 🍀 trên trang web, nhưng cảm ơn rất nhiều
+for watching guys hope you enjoyed this 🍀 vì đã xem các bạn, hy vọng các bạn thích
+one we'll see you in the next one peace 🍀 cái này chúng ta sẽ gặp lại bạn trong cái tiếp theo
 
