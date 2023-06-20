@@ -32,6 +32,7 @@
 		948178902A421E2900FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 9481788E2A421E2800FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt */; };
 		948178942A421F5200FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 948178922A421F5100FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt */; };
 		948178952A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 948178932A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt */; };
+		948178982A42247C00FF2130 /* [English]Learn English with Taylor Swift Talk Show - English Subtitles[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 948178962A42247B00FF2130 /* [English]Learn English with Taylor Swift Talk Show - English Subtitles[Checksub.com].txt */; };
 		94B04ADF2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94B04ADE2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt */; };
 		94B04AE32A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94B04AE22A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */; };
 		94D8CD442A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94D8CD432A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt */; };
@@ -85,6 +86,7 @@
 		9481788E2A421E2800FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]The Talk Show Live From WWDC 2023[Checksub.com].txt"; sourceTree = "<group>"; };
 		948178922A421F5100FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt"; sourceTree = "<group>"; };
 		948178932A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]The Talk Show Live From WWDC 2022[Checksub.com].txt"; sourceTree = "<group>"; };
+		948178962A42247B00FF2130 /* [English]Learn English with Taylor Swift Talk Show - English Subtitles[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Learn English with Taylor Swift Talk Show - English Subtitles[Checksub.com].txt"; sourceTree = "<group>"; };
 		94B04ADD2A41195C007FAB49 /* docs.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = docs.md; sourceTree = "<group>"; };
 		94B04ADE2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt"; sourceTree = "<group>"; };
 		94B04AE22A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		94D8CD512A42000E004BE080 /* Podcast🌺 */ = {
 			isa = PBXGroup;
 			children = (
+				948178962A42247B00FF2130 /* [English]Learn English with Taylor Swift Talk Show - English Subtitles[Checksub.com].txt */,
 				948178932A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt */,
 				948178922A421F5100FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt */,
 				9481788E2A421E2800FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt */,
@@ -332,6 +335,7 @@
 				942F0A3F2A40B72B00E50FDE /* [English (auto-generated)-Vietnamese] 1000 Basic English Question and Answers and more for daily conversation [DownSub.com].txt in Resources */,
 				948178902A421E2900FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt in Resources */,
 				94EBDF6F2A3D88CD0095C776 /* transcript2.txt in Resources */,
+				948178982A42247C00FF2130 /* [English]Learn English with Taylor Swift Talk Show - English Subtitles[Checksub.com].txt in Resources */,
 				94779E912A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt in Resources */,
 				948178942A421F5200FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt in Resources */,
 				94D8CD8C2A420B12004BE080 /* [English]Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton[Checksub.com].txt in Resources */,
