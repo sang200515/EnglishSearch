@@ -25,6 +25,7 @@
 		94779E8D2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E8C2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt */; };
 		94779E912A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E902A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt */; };
 		94779E952A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */; };
+		9481787C2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 9481787A2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt */; };
 		94B04ADF2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94B04ADE2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt */; };
 		94B04AE32A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94B04AE22A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */; };
 		94D8CD442A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94D8CD432A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt */; };
@@ -72,6 +73,7 @@
 		94779E8C2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt"; sourceTree = "<group>"; };
 		94779E902A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt"; sourceTree = "<group>"; };
 		94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt"; sourceTree = "<group>"; };
+		9481787A2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt"; sourceTree = "<group>"; };
 		94B04ADD2A41195C007FAB49 /* docs.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = docs.md; sourceTree = "<group>"; };
 		94B04ADE2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt"; sourceTree = "<group>"; };
 		94B04AE22A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt"; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		94D8CD512A42000E004BE080 /* Podcast🌺 */ = {
 			isa = PBXGroup;
 			children = (
+				9481787A2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt */,
 				94D8CD922A4214E1004BE080 /* [English]David Vélez, Founder and CEO of Nubank[Checksub.com].txt */,
 				94D8CD8E2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt */,
 				94D8CD8A2A420B12004BE080 /* [English]Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton[Checksub.com].txt */,
@@ -306,6 +309,7 @@
 				94D8CD632A420318004BE080 /* [English]Jennifer Hyman, Co-founder and CEO, Rent the Runway[Checksub.com].txt in Resources */,
 				94D8CD5B2A4201BA004BE080 /* [English]Jacqueline Novogratz, Founder and CEO of Acumen_ Balancing Humility with Audacity[Checksub.com].txt in Resources */,
 				94D8CD6F2A420539004BE080 /* [English]Cynt Marshall, CEO of the Dallas Mavericks[Checksub.com].txt in Resources */,
+				9481787C2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt in Resources */,
 				94EBDF712A3D8A3C0095C776 /* transcript.pdf in Resources */,
 				94D8CD6B2A420489004BE080 /* [English]Brian Chesky, Co-Founder and CEO of Airbnb_ Designing a 10-star Experience[Checksub.com].txt in Resources */,
 				94D8CD872A420A3D004BE080 /* [English]Dean Jon Levin and Professor Neil Malhotra_ Social Innovation at the Stanford GSB[Checksub.com].txt in Resources */,
