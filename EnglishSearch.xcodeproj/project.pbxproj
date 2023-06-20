@@ -26,7 +26,7 @@
 		94779E912A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E902A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt */; };
 		94779E952A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */; };
 		94B04ADF2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94B04ADE2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt */; };
-		94B04AE32A41E965007FAB49 /* [English]🔴 Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94B04AE22A41E965007FAB49 /* [English]🔴 Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */; };
+		94B04AE32A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94B04AE22A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */; };
 		94D8CD442A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94D8CD432A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt */; };
 		94D8CD482A41EED6004BE080 /* [English]LIVE Job Interview For Senior Software Engineering Position!![Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94D8CD472A41EED6004BE080 /* [English]LIVE Job Interview For Senior Software Engineering Position!![Checksub.com].txt */; };
 		94D8CD4E2A41F882004BE080 /* [English]Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94D8CD4D2A41F882004BE080 /* [English]Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5[Checksub.com].txt */; };
@@ -45,6 +45,8 @@
 		94D8CD832A42093D004BE080 /* [English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94D8CD822A42093D004BE080 /* [English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt */; };
 		94D8CD872A420A3D004BE080 /* [English]Dean Jon Levin and Professor Neil Malhotra_ Social Innovation at the Stanford GSB[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94D8CD862A420A3D004BE080 /* [English]Dean Jon Levin and Professor Neil Malhotra_ Social Innovation at the Stanford GSB[Checksub.com].txt */; };
 		94D8CD8C2A420B12004BE080 /* [English]Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94D8CD8A2A420B12004BE080 /* [English]Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton[Checksub.com].txt */; };
+		94D8CD8F2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94D8CD8E2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt */; };
+		94D8CD932A4214E1004BE080 /* [English]David Vélez, Founder and CEO of Nubank[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94D8CD922A4214E1004BE080 /* [English]David Vélez, Founder and CEO of Nubank[Checksub.com].txt */; };
 		94EBDF6F2A3D88CD0095C776 /* transcript2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94EBDF6E2A3D88CD0095C776 /* transcript2.txt */; };
 		94EBDF712A3D8A3C0095C776 /* transcript.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 94EBDF702A3D8A3C0095C776 /* transcript.pdf */; };
 		94EBDF752A3D8CB20095C776 /* transcript2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 94EBDF742A3D8CB20095C776 /* transcript2.pdf */; };
@@ -72,7 +74,7 @@
 		94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt"; sourceTree = "<group>"; };
 		94B04ADD2A41195C007FAB49 /* docs.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = docs.md; sourceTree = "<group>"; };
 		94B04ADE2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt"; sourceTree = "<group>"; };
-		94B04AE22A41E965007FAB49 /* [English]🔴 Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]🔴 Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt"; sourceTree = "<group>"; };
+		94B04AE22A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt"; sourceTree = "<group>"; };
 		94D8CD432A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt"; sourceTree = "<group>"; };
 		94D8CD472A41EED6004BE080 /* [English]LIVE Job Interview For Senior Software Engineering Position!![Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]LIVE Job Interview For Senior Software Engineering Position!![Checksub.com].txt"; sourceTree = "<group>"; };
 		94D8CD4D2A41F882004BE080 /* [English]Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5[Checksub.com].txt"; sourceTree = "<group>"; };
@@ -91,6 +93,8 @@
 		94D8CD822A42093D004BE080 /* [English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt"; sourceTree = "<group>"; };
 		94D8CD862A420A3D004BE080 /* [English]Dean Jon Levin and Professor Neil Malhotra_ Social Innovation at the Stanford GSB[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Dean Jon Levin and Professor Neil Malhotra_ Social Innovation at the Stanford GSB[Checksub.com].txt"; sourceTree = "<group>"; };
 		94D8CD8A2A420B12004BE080 /* [English]Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton[Checksub.com].txt"; sourceTree = "<group>"; };
+		94D8CD8E2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt"; sourceTree = "<group>"; };
+		94D8CD922A4214E1004BE080 /* [English]David Vélez, Founder and CEO of Nubank[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]David Vélez, Founder and CEO of Nubank[Checksub.com].txt"; sourceTree = "<group>"; };
 		94EBDF4F2A3D73A70095C776 /* EnglishSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EBDF6E2A3D88CD0095C776 /* transcript2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transcript2.txt; sourceTree = "<group>"; };
 		94EBDF702A3D8A3C0095C776 /* transcript.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = transcript.pdf; sourceTree = "<group>"; };
@@ -109,13 +113,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		94779E842A3DD6EE001DEFEA /* Code */ = {
+		94779E842A3DD6EE001DEFEA /* Code🌼 */ = {
 			isa = PBXGroup;
 			children = (
 				94D8CD4D2A41F882004BE080 /* [English]Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5[Checksub.com].txt */,
 				94D8CD472A41EED6004BE080 /* [English]LIVE Job Interview For Senior Software Engineering Position!![Checksub.com].txt */,
 				94D8CD432A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt */,
-				94B04AE22A41E965007FAB49 /* [English]🔴 Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */,
+				94B04AE22A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */,
 				94B04ADE2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt */,
 				94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */,
 				94779E902A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt */,
@@ -123,7 +127,7 @@
 				94EBDF722A3D8A530095C776 /* (49) COMPLETE User Login - Sign Up App - Swift UI + Firebase - Async  Await - YouTube */,
 				94EBDF732A3D8C5D0095C776 /* (49) Let's Build Twitter with SwiftUI (iOS 15, Xcode 13, Firebase, SwiftUI 3.0) - YouTube */,
 			);
-			path = Code;
+			path = "Code🌼";
 			sourceTree = "<group>";
 		};
 		94779E852A3F44AB001DEFEA /* How to Network Like A Pro - Async-Await - Pagination - Error Handling - From A Meta Enginee */ = {
@@ -134,9 +138,11 @@
 			path = "How to Network Like A Pro - Async-Await - Pagination - Error Handling - From A Meta Enginee";
 			sourceTree = "<group>";
 		};
-		94D8CD512A42000E004BE080 /* Podcast */ = {
+		94D8CD512A42000E004BE080 /* Podcast🌺 */ = {
 			isa = PBXGroup;
 			children = (
+				94D8CD922A4214E1004BE080 /* [English]David Vélez, Founder and CEO of Nubank[Checksub.com].txt */,
+				94D8CD8E2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt */,
 				94D8CD8A2A420B12004BE080 /* [English]Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton[Checksub.com].txt */,
 				94D8CD862A420A3D004BE080 /* [English]Dean Jon Levin and Professor Neil Malhotra_ Social Innovation at the Stanford GSB[Checksub.com].txt */,
 				94D8CD822A42093D004BE080 /* [English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt */,
@@ -153,10 +159,10 @@
 				94D8CD562A420121004BE080 /* [English]S03E02 Grit & Growth _ Executive Coaching_ From Self-Doubt to Self-Awareness[Checksub.com].txt */,
 				94D8CD522A420019004BE080 /* [English]S02E13 Grit & Growth _ Scaling Your Business_ It’s All About The People[Checksub.com].txt */,
 			);
-			path = Podcast;
+			path = "Podcast🌺";
 			sourceTree = "<group>";
 		};
-		94E751832A407A7100F20840 /* Conversation */ = {
+		94E751832A407A7100F20840 /* Conversation🌸 */ = {
 			isa = PBXGroup;
 			children = (
 				94B04ADD2A41195C007FAB49 /* docs.md */,
@@ -176,7 +182,7 @@
 				942F0A322A40B35C00E50FDE /* [English-Vietnamese] Speak With Me_ 2 Hour English Speaking Practice [DownSub.com].txt */,
 				942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */,
 			);
-			path = Conversation;
+			path = "Conversation🌸";
 			sourceTree = "<group>";
 		};
 		94EBDF462A3D73A70095C776 = {
@@ -198,9 +204,9 @@
 		94EBDF512A3D73A70095C776 /* EnglishSearch */ = {
 			isa = PBXGroup;
 			children = (
-				94D8CD512A42000E004BE080 /* Podcast */,
-				94E751832A407A7100F20840 /* Conversation */,
-				94779E842A3DD6EE001DEFEA /* Code */,
+				94D8CD512A42000E004BE080 /* Podcast🌺 */,
+				94E751832A407A7100F20840 /* Conversation🌸 */,
+				94779E842A3DD6EE001DEFEA /* Code🌼 */,
 			);
 			path = EnglishSearch;
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 				94D8CD4E2A41F882004BE080 /* [English]Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5[Checksub.com].txt in Resources */,
 				942F0A2F2A40B29A00E50FDE /* [English (auto-generated)-Vietnamese] Advanced English Conversation_ Talking Jobs and Time Off (British & American English with subtitles) [DownSub.com].txt in Resources */,
 				94D8CD482A41EED6004BE080 /* [English]LIVE Job Interview For Senior Software Engineering Position!![Checksub.com].txt in Resources */,
+				94D8CD932A4214E1004BE080 /* [English]David Vélez, Founder and CEO of Nubank[Checksub.com].txt in Resources */,
 				94779E952A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt in Resources */,
 				94779E8D2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt in Resources */,
 				942F0A272A40AEA000E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 21 to 35 [DownSub.com].txt in Resources */,
@@ -313,8 +320,9 @@
 				942F0A3D2A40B6F500E50FDE /* [English (auto-generated)-Vietnamese] English Conversation_ Learn while you Sleep - Fast Vocabulary Increase with Jessica [DownSub.com].txt in Resources */,
 				94D8CD5F2A42025A004BE080 /* [English]“Power” Fireside Chat_ Professor Jeff Pfeffer and Dean Jon Levin[Checksub.com].txt in Resources */,
 				942F0A292A40B13600E50FDE /* [English (auto-generated)-Vietnamese] 2 HOURS of English Conversation Dialogues Listening Practice [DownSub.com].txt in Resources */,
-				94B04AE32A41E965007FAB49 /* [English]🔴 Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt in Resources */,
+				94B04AE32A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt in Resources */,
 				942F0A392A40B5D500E50FDE /* [English (auto-generated)] 200 English Questions and Answers and more for Everyday Conversation by Topic [DownSub.com].txt in Resources */,
+				94D8CD8F2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt in Resources */,
 				94D8CD672A4203E1004BE080 /* [English]Whitney Wolfe, Founder and CEO of Bumble and Co-Founder of Tinder[Checksub.com].txt in Resources */,
 				942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */,
 				942F0A412A40B79400E50FDE /* [English (auto-generated)-Vietnamese] Daily English Conversation Practice by Topic - Questions and Answers in English Conversation [DownSub.com].txt in Resources */,

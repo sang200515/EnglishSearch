@@ -1,0 +1,1043 @@
+[Music]  🍀  [Âm nhạc]
+this chapter is going to be all about  🍀  chương này sẽ nói về
+something called stacks guys so stacks  🍀  một thứ gọi là ngăn xếp, vì vậy ngăn xếp
+and swift ui allow us to align view  🍀  và giao diện người dùng nhanh cho phép chúng ta căn chỉnh
+components in a certain configuration  🍀  các thành phần của chế độ xem theo một cấu hình nhất định
+whether it's horizontally or left to  🍀  cho dù đó là theo chiều ngang, từ trái sang
+right or vertically where it's like  🍀  phải hoặc theo chiều dọc giống như
+things stacked on top of each other so  🍀  mọi thứ xếp chồng lên nhau vậy
+let me just go ahead and show you guys  🍀  hãy để tôi tiếp tục và cho các bạn xem
+some examples of what we're going to be  🍀  một số ví dụ về những gì chúng ta sẽ
+building using stacks in this tutorial  🍀  xây dựng bằng cách sử dụng ngăn xếp trong hướng dẫn này,
+it's going to combine a bunch of  🍀  nó sẽ kết hợp một loạt
+different techniques that we've learned  🍀  các kỹ thuật khác nhau mà chúng ta đã học được
+up until this point in the boot camp and  🍀  cho đến thời điểm này trong chương trình đào tạo và
+it's going to be a lot of fun so i'm  🍀  nó sẽ thành công  sẽ rất thú vị vì vậy tôi
+going to open up this twitter app i've  🍀  sẽ mở ứng dụng twitter này mà tôi đã
+been showing you guys and we're going to  🍀  cho các bạn xem và chúng tôi sẽ
+build out something that looks really  🍀  xây dựng một thứ trông thực sự
+similar to this list of users in the app  🍀  giống với danh sách người dùng này trong ứng dụng
+and we're going to do so using stacks  🍀  và chúng tôi sẽ  để làm như vậy bằng cách sử dụng các ngăn xếp,
+we're also going to build this like  🍀  chúng tôi cũng sẽ xây dựng cái này giống như giao diện người dùng
+pretty cool looking spotify ui using  🍀  spotify trông khá thú vị bằng cách sử dụng
+stacks as well so this is going to be an  🍀  các ngăn xếp, vì vậy đây sẽ là một
+extremely exciting and fun tutorial guys  🍀  hướng dẫn cực kỳ thú vị và thú vị nhé các bạn,
+it's going to bring a lot of things  🍀  nó sẽ kết hợp nhiều thứ
+together and really allow us to start  🍀  lại với nhau và thực sự cho phép chúng tôi  bắt đầu
+displaying some more complex user  🍀  hiển thị một số giao diện người dùng phức tạp
+interfaces more similar to what you  🍀  hơn, tương tự như những gì bạn
+would see in an actual real-life  🍀  sẽ thấy trong một
+application so let's go ahead and get  🍀  ứng dụng thực tế, vì vậy hãy tiếp tục và bắt
+started so as always we are going to  🍀  đầu như mọi khi chúng ta sẽ
+start this off by creating a new file so  🍀  bắt đầu điều này bằng cách tạo một tệp mới, vì vậy
+let's go over to swift ui boot camp and  🍀  hãy chuyển sang Swift ui  boot camp và
+create a new file and it's going to be a  🍀  tạo một tệp mới và nó sẽ là một
+swift ui view and we're going to call      🍀   
+this stacks tutorial  🍀  chế độ xem ui nhanh chóng và chúng tôi sẽ gọi hướng dẫn ngăn xếp này
+like that  🍀  như vậy,
+go ahead and hit that resume button and  🍀  hãy tiếp tục và nhấn nút tiếp tục đó và
+make sure your preview is connected guys  🍀  đảm bảo rằng bản xem trước của bạn được kết nối với các bạn
+so we have our hello world showing up  🍀  để chúng tôi có thế giới xin chào của chúng tôi hiển thị  ở
+here and everything looks good so far so  🍀  đây và cho đến nay mọi thứ đều ổn, vì vậy,
+let's just replace this hello world text  🍀  hãy thay thế văn bản xin chào thế giới này
+with something like uh you know we're  🍀  bằng một cái gì đó như uh bạn biết đấy, chúng tôi
+going to be trying to build out this ui  🍀  sẽ cố gắng xây dựng giao diện người dùng này
+right here so let's just go ahead and  🍀  ngay tại đây, vì vậy hãy tiếp tục và
+like add this first option here with  🍀  thêm tùy chọn đầu tiên này vào đây với
+lando norris a phenomenal f1 driver so  🍀  lando  norris một trình điều khiển f1 phi thường, vì vậy
+we're going to say lando norris  🍀  chúng tôi sẽ nói lando norris
+and we notice that this text is bolded  🍀  và chúng tôi nhận thấy rằng văn bản này được in đậm,
+so let's just go and say dot bold uh you  🍀  vì vậy chúng ta hãy tiếp tục và nói dấu chấm đậm uh bạn
+don't have to say font weight swift ui  🍀  không cần phải nói trọng lượng phông chữ swift ui
+also gives you this like bold modifier  🍀  cũng cung cấp cho bạn công cụ sửa đổi chữ đậm
+that just automatically bolds the text  🍀  đó  chỉ tự động in đậm văn bản
+and that looks pretty good right but how  🍀  và điều đó trông khá ổn, nhưng làm cách nào để
+do we get      🍀   
+this      🍀   
+full name to show up below that text  🍀  tên đầy đủ này hiển thị bên dưới văn bản đó,
+right that's the million dollar question  🍀  đó là câu hỏi triệu đô
+so what we can do is hold down the  🍀  vì vậy những gì chúng tôi có thể làm là giữ
+command key  🍀  phím lệnh
+and you can click that text and make  🍀  và bạn có thể nhấp vào văn bản đó và thực hiện
+sure the editor's open for you to do  🍀  chắc chắn rằng trình chỉnh sửa mở để bạn làm
+this and say embed in vstack okay  🍀  điều này và nói nhúng vào vstack được rồi
+and now everything is going to look  🍀  và bây giờ mọi thứ sẽ trông
+exactly the same but what's really cool  🍀  giống hệt nhau nhưng điều thực sự thú vị
+guys is we could copy this  🍀  là chúng ta có thể sao chép dòng này
+go to a new line and paste it and boom  🍀  sang một dòng mới và dán nó và bùng nổ
+our text is now stacked on top of each  🍀  văn bản của chúng ta hiện đã được xếp chồng lên nhau  chồng lên
+other vertically in a vertical alignment  🍀  nhau theo chiều dọc theo chiều dọc, đó chính là
+right that's what a v stack is so let me  🍀  v stack, vì vậy hãy để tôi
+just go ahead and add some comments here  🍀  tiếp tục và thêm một số nhận xét ở đây
+v stack  🍀  v stack
+aligns  🍀  sắp xếp
+components  🍀  các thành phần
+vertically  🍀  theo chiều dọc
+and  🍀  và
+similar to a v stack we can also change  🍀  tương tự như v stack, chúng ta cũng có thể thay đổi
+this v to an h and it would be something  🍀  v này thành h và nó sẽ là  thứ
+called an h stack and that is going to  🍀  gọi là ngăn xếp h và sắp
+stack things horizontally so that's  🍀  xếp các thứ theo chiều ngang để
+going to make these two things show up  🍀  hai thứ này hiển thị
+next to each other from left to right so  🍀  cạnh nhau từ trái sang phải để
+we could go ahead and copy this guy  🍀  chúng ta có thể tiếp tục sao chép anh chàng này
+and make and just go sit and say h stack  🍀  và tạo và chỉ cần ngồi và nói h ngăn xếp
+aligns things horizontally  🍀  sắp xếp mọi thứ theo chiều ngang
+um there is one more type of stack but  🍀  ừm, còn một loại ngăn xếp nữa nhưng
+we're going to be going over that a  🍀  chúng ta sẽ xem xét vấn đề đó một
+little bit later  🍀  chút sau,
+so let's just hit resume on the preview  🍀  vì vậy, hãy nhấn tiếp tục trên bản xem trước
+to make sure we're still good to go  🍀  để đảm bảo rằng chúng ta vẫn có thể sử dụng
+um and we see that these things are  🍀  tốt và chúng ta thấy rằng những thứ này  được
+stacked  🍀  xếp chồng lên nhau
+horizontally so i'm going to change it  🍀  theo chiều ngang, vì vậy tôi sẽ thay đổi nó
+back to a v stack  🍀  trở lại thành ngăn xếp v
+and guys to make sure that they are  🍀  và các bạn hãy đảm bảo rằng chúng được
+stacked vertically make sure that  🍀  xếp chồng lên nhau theo chiều dọc, đảm bảo rằng
+they're contained within those v stack  🍀  chúng được chứa trong
+brackets right essentially what these  🍀  các dấu ngoặc vuông v đó, về cơ bản, những gì
+brackets do is saying hey everything  🍀  các dấu ngoặc này làm là nói rằng mọi thứ
+inside of these brackets for this v  🍀  bên trong này  dấu ngoặc cho
+stack or vertical stack is going to be  🍀  ngăn xếp v hoặc ngăn xếp dọc này sẽ được
+stacked on top of each other so that  🍀  xếp chồng lên nhau để
+sort of concept is going to come in  🍀  loại khái niệm này sẽ có
+handy a little bit later as we start to  🍀  ích sau này một chút khi chúng ta bắt đầu
+combine stacks because in order to get  🍀  kết hợp các ngăn xếp vì để làm cho
+this uh user interface working  🍀  giao diện người dùng này hoạt động,
+we are going to need to combine uh both  🍀  chúng ta  sẽ cần phải kết hợp cả
+h stacks and v stacks and swift ui  🍀  ngăn xếp h và ngăn xếp v và Swift ui
+allows us to do that which is absolutely  🍀  cho phép chúng tôi làm điều đó, điều hoàn toàn
+incredible right so let's make this uh  🍀  không thể tin được, vì vậy hãy làm cho cái này
+look a little bit more like the user  🍀  trông giống giao diện người dùng hơn một chút mà
+interface we're trying to build here so  🍀  chúng tôi đang cố gắng xây dựng ở đây vì vậy
+we're going to change this guy to lando  🍀  chúng tôi'  Tôi sẽ thay đổi anh chàng này thành Lando
+norris and it's not going to be bold  🍀  Norris và nó sẽ không đậm,
+we're going to just have a foreground  🍀  chúng ta sẽ chỉ có một
+color of dot gray  🍀  màu nền trước là chấm xám
+so that looks pretty good it's starting  🍀  để nó trông khá đẹp, nó bắt đầu
+to come together piece by piece let's  🍀  kết hợp với nhau từng mảnh,
+now go over guys how we can sort of add  🍀  bây giờ chúng ta hãy tìm hiểu xem chúng ta có thể làm như thế nào  sắp xếp thêm
+this circular profile image into the  🍀  hình ảnh hồ sơ hình tròn này vào
+equation here so  🍀  phương trình ở đây, vì vậy
+let's go ahead and hold down that  🍀  hãy tiếp tục và nhấn giữ
+command button again and click on the v  🍀  nút lệnh đó một lần nữa và nhấp vào
+stack and we're going to say embed in h  🍀  ngăn xếp v và chúng ta sẽ nói nhúng vào
+stack so now  🍀  ngăn xếp h vì vậy bây giờ
+this whole thing is a horizontal stack  🍀  toàn bộ điều này là một ngăn xếp nằm ngang
+but within that horizontal stack we have  🍀  nhưng bên trong  ngăn xếp ngang đó chúng ta có
+this vertical stack so let's go ahead  🍀  ngăn xếp dọc này, vì vậy hãy tiếp tục ngay
+now and see if we can apply that  🍀  bây giờ và xem liệu chúng ta có thể áp dụng
+circular image that we learned how to  🍀  hình tròn mà chúng ta đã học cách
+build in the last video with our images  🍀  tạo trong video trước với hướng dẫn bằng hình ảnh của chúng tôi
+tutorial to this h stack so go to the  🍀  cho ngăn xếp h này không, vì vậy hãy chuyển sang
+top guys and the way this works is the  🍀  phần trên cùng và cách này  hoạt động là
+things that are at the beginning of the  🍀  những thứ ở đầu
+h stack are going to be aligned to the  🍀  ngăn xếp h sẽ được căn sang
+left and then as you go through it it's  🍀  trái và sau đó khi bạn xem qua nó, bạn
+going to uh put those things to the  🍀  sẽ đặt những thứ đó ở bên
+right of that first view component that  🍀  phải của thành phần chế độ xem đầu tiên mà
+you have so let's just go ahead and see  🍀  bạn có, vì vậy hãy bắt đầu  trước và xem ý
+what i mean by that so i'm gonna say  🍀  tôi là gì vì vậy tôi sẽ nói
+image i'm gonna say black  🍀  hình ảnh tôi sẽ nói
+panther dash one  🍀  con báo đen lao một cái
+and once again it's massive so i want  🍀  và một lần nữa nó rất lớn nên tôi muốn
+you guys to see if you can actually  🍀  các bạn xem liệu bạn có thể thực sự
+pause the video right now and resize  🍀  tạm dừng video ngay bây giờ và thay đổi kích thước
+this image and give it that circular  🍀  hình ảnh này không và  tạo cho nó
+shape um so that it looks uh sort of  🍀  hình tròn đó ừm để nó trông
+very similar to this user interface that  🍀  rất giống với giao diện người dùng này mà
+we're trying to put together here we  🍀  chúng tôi đang cố gắng kết hợp ở đây, chúng tôi đã
+learned how to do this in the last video  🍀  học cách thực hiện điều này trong video trước,
+so if you need to reference that images  🍀  vì vậy nếu bạn cần tham khảo
+tutorial file guys that's totally okay i  🍀  tệp hướng dẫn bằng hình ảnh đó, đó là  hoàn toàn ổn, tôi
+just want you guys to see if you can do  🍀  chỉ muốn các bạn xem liệu các bạn có thể
+that on your own  🍀  tự làm điều đó
+okay so i'm gonna go ahead and go over  🍀  không, vì vậy tôi sẽ tiếp tục và xem
+how to do that now we're gonna say dot  🍀  cách thực hiện điều đó bây giờ chúng ta sẽ nói dấu chấm
+resizable to make sure that we can  🍀  có thể thay đổi kích thước để đảm bảo rằng chúng ta có thể
+resize this image and you see here that  🍀  thay đổi kích thước hình ảnh này và  bạn thấy ở đây rằng
+these things are now stacked  🍀  những thứ này hiện được xếp chồng lên nhau theo
+horizontally right it's this h stack and  🍀  chiều ngang bên phải, đây là ngăn xếp h và
+it's like hey the image is on the left  🍀  có vẻ như này, hình ảnh ở bên trái
+and this other thing which is the v  🍀  và thứ khác là
+stack is on the right so  🍀  ngăn xếp v ở bên phải, vì
+then we're just going to say like dot  🍀  vậy chúng ta sẽ nói như
+frame  🍀  khung dấu chấm
+i think we can make it like 64 by 64.  🍀  tôi nghĩ chúng ta có thể làm cho nó giống như 64 x 64.
+and that's gonna make that look better  🍀  và điều đó sẽ làm cho nó trông đẹp hơn
+and then we can say uh actually that  🍀  và sau đó chúng ta có thể nói uh thực sự rằng
+before dot frame let's say scale to fill  🍀  trước khung hình chấm, hãy nói tỷ lệ để lấp đầy
+and then we're gonna say dot clip shape  🍀  và sau đó chúng ta sẽ nói hình dạng kẹp chấm
+is a circle  🍀  là một hình tròn.
+oops      🍀   
+okay so that looks pretty clean right um  🍀  Nó trông khá sạch sẽ đúng không, ừm ngả mũ chào
+hats off to you guys if you got that  🍀  các bạn nếu bạn
+working on your own if not that's  🍀  tự làm việc đó nếu không thì
+totally okay this stuff is confusing so  🍀  hoàn toàn không sao, thứ này hơi khó hiểu, vì vậy
+let's go ahead guys and see what would  🍀  hãy tiếp tục và xem điều gì sẽ
+happen if i placed this image after this  🍀  xảy ra nếu tôi đặt hình ảnh này sau
+v stack okay  🍀  ngăn xếp v này nhé,
+so i'm gonna go ahead and put it after  🍀  vì vậy tôi  Tôi sẽ tiếp tục và đặt nó sau
+the v stack we notice now that the image  🍀  ngăn xếp v, bây giờ chúng tôi nhận thấy rằng hình ảnh
+will be on the right  🍀  sẽ ở bên phải
+of that vertical stack of text and  🍀  của ngăn xếp văn bản theo chiều dọc đó và
+obviously that's not what we want this  🍀  rõ ràng đó không phải là điều chúng tôi muốn. Đây
+is just to show you guys how things work  🍀  chỉ là để cho các bạn thấy mọi thứ hoạt động như thế nào
+within uh age stacks or vstack so um for  🍀  trong ngăn xếp tuổi uh  hoặc vstack vậy um
+example if i took this lando norris text  🍀  chẳng hạn nếu tôi lấy văn bản lando norris này
+and put it below  🍀  và đặt nó bên dưới
+this guy then these two things would  🍀  anh chàng này thì hai thứ này sẽ
+flip-flop right so with a v-stack what  🍀  lật ngược lại với nhau, vì vậy với một ngăn xếp v,
+you um the the stuff you put at the  🍀  những thứ bạn đặt lúc
+beginning starts at the top and then it  🍀  đầu bắt đầu ở trên cùng và  sau đó nó
+works its way down with an h stacks it  🍀  hoạt động theo cách của nó với một ngăn xếp h nó
+works its way from left to right so i'm  🍀  hoạt động theo cách của nó từ trái sang phải vì vậy tôi
+going to put this image back  🍀  sẽ đặt hình ảnh này trở lại ngay
+right here  🍀  tại đây
+and this looks pretty good right so now  🍀  và nó trông khá đẹp nên bây giờ
+i'm just going to copy and paste this h  🍀  tôi sẽ sao chép và dán
+stack a couple times  🍀  ngăn xếp h này  một vài lần
+um      🍀   
+actually before we do that sorry guys  🍀  thực sự trước khi chúng tôi làm điều đó, xin lỗi các bạn,
+we need to  🍀  chúng tôi cần
+embed this h stack in another v stack  🍀  nhúng ngăn xếp h này vào ngăn xếp v khác,
+right so what we have right here  🍀  vì vậy những gì chúng tôi có ở đây
+represents the cell this is  🍀  đại diện cho ô, đây là
+the user cell  🍀  ô người dùng
+or row view  🍀  hoặc chế độ xem hàng
+right you can call it a cell some people  🍀  , bạn có thể gọi nó là ô mà một số người
+call it a row view some people call it a  🍀  gọi  nó là một chế độ xem hàng, một số người gọi nó là một
+cell doesn't matter but now we want like  🍀  ô không thành vấn đề nhưng bây giờ chúng tôi muốn giống như
+a bunch of these things right oops um  🍀  một loạt những thứ này, rất tiếc,
+so i want  🍀  vì vậy tôi muốn
+all of these things to be stacked  🍀  tất cả những thứ này được xếp chồng lên
+vertically on top of each other so i can  🍀  nhau theo chiều dọc để tôi có thể
+embed this h stack in another v stack  🍀  nhúng ngăn xếp h này  trong một ngăn xếp v khác
+and now  🍀  và bây giờ
+i could oops let's copy and paste our  🍀  tôi có thể rất tiếc, hãy sao chép và dán nhận xét của chúng ta
+comment and put it here  🍀  và đặt nó ở đây
+right now if i took this whole h stack  🍀  ngay bây giờ nếu tôi lấy toàn bộ ngăn xếp h
+which represents my you know user cell  🍀  đại diện cho anh chàng người dùng di động mà bạn biết của tôi
+guy      🍀   
+then i could copy this and paste it  🍀  thì tôi có thể sao chép và dán nó
+multiple times  🍀  nhiều lần
+and we'll see here that we get this  🍀  và chúng ta sẽ  hãy xem ở đây chúng tôi có
+vertically stacked list of user cells  🍀  danh sách các ô người dùng được xếp chồng lên nhau theo chiều dọc này
+and that looks absolutely incredible  🍀  và nó trông hoàn toàn lạ thường.
+guys so we just combined a bunch of  🍀  Vì vậy, chúng tôi chỉ kết hợp một loạt
+different techniques that we've learned  🍀  các kỹ thuật khác nhau mà chúng tôi đã học được
+thus far in the course with like  🍀  trong khóa học, chẳng hạn như
+creating text components modifying those  🍀  tạo các thành phần văn bản, sửa đổi
+text components creating images and  🍀  các thành phần văn bản đó, tạo hình ảnh và
+modifying that image and then we just  🍀  sửa đổi  hình ảnh đó và sau đó chúng tôi đã
+learned how to place all of those things  🍀  học cách đặt tất cả những thứ đó
+within stacks to align them in this  🍀  trong ngăn xếp để sắp xếp chúng trong
+configuration and we went over how to  🍀  cấu hình này và chúng tôi đã tìm hiểu cách
+embed stacks within each other as well  🍀  nhúng các ngăn xếp vào nhau,
+so that's a lot of stuff coming at you  🍀  vì vậy có rất nhiều thứ đến với bạn,
+so i want us to sort of back it up a  🍀  vì vậy tôi muốn chúng tôi sắp xếp  sao lưu nó một
+little bit  🍀  chút
+and break these stacks down a little bit  🍀  và phá vỡ các ngăn xếp này thêm một chút
+more before we start building any more  🍀  nữa trước khi chúng tôi bắt đầu xây dựng bất kỳ
+complex user interfaces and we're going  🍀  giao diện người dùng phức tạp nào hơn và chúng tôi sẽ
+to go over a little bit more about how  🍀  tìm hiểu thêm một chút về cách
+stacks works right now so um let me  🍀  hoạt động của các ngăn xếp ngay bây giờ, vì vậy, hãy để tôi
+actually just delete some of these h  🍀  thực sự xóa  một số
+stack guys so  🍀  người trong số những người xếp chồng h này, vì vậy
+you know we only need like two things  🍀  bạn biết đấy, chúng tôi chỉ cần hai thứ
+stacked on top of each other  🍀  xếp chồng lên nhau
+so it's just two of them that gets the  🍀  để chỉ hai trong số họ hiểu
+point across right it's this v stack and  🍀  đúng vấn đề đó là ngăn xếp v này và
+we can comment out this v stack right  🍀  chúng tôi có thể nhận xét về ngăn xếp v này ngay
+here  🍀  tại đây
+so  🍀  vì vậy
+um i want us to start working with some  🍀  um tôi  muốn chúng ta bắt đầu làm việc với một số
+shapes and go over how to stack those  🍀  hình dạng và tìm hiểu cách xếp chồng
+shapes guys and we're gonna also learn  🍀  các hình đó và chúng ta cũng sẽ tìm hiểu
+about a different type of stack that's  🍀  về một loại ngăn xếp khác được
+called a z stack so let's go ahead and  🍀  gọi là ngăn xếp z, vì vậy hãy tiếp tục và
+create like a rounded rectangle  🍀  tạo ra một hình chữ nhật bo tròn
+with a corner radius of 20  🍀  có bán kính góc là 20
+or let's make it like 10.  🍀  hoặc hãy làm cho nó giống như 10.
+and then we're going to give it a fill  🍀  và sau đó chúng tôi sẽ tô cho nó một
+of color dot  🍀  chấm màu
+pink  🍀  hồng
+and we're going to give it a frame of  🍀  và chúng tôi sẽ tạo cho nó một khung hình
+160 by  🍀  160 nhân với
+like 80 or 90 or something like that  🍀  80 hoặc 90 hoặc đại loại như vậy,
+so  🍀  vì vậy
+this is what you should have on your  🍀  đây là những gì bạn nên có  trên
+screen right now so i want you guys to  🍀  màn hình của bạn ngay bây giờ, vì vậy tôi muốn các bạn
+try to see if you can  🍀  thử xem liệu bạn có thể
+create a vertical stack of those  🍀  tạo một chồng
+rectangles so i'm going to go ahead and  🍀  các hình chữ nhật đó theo chiều dọc hay không, vì vậy tôi sẽ tiếp tục và chỉ
+show you how to do it right now so i'm  🍀  cho bạn cách thực hiện ngay bây giờ vì vậy tôi
+just going to cut this we can type out  🍀  sẽ cắt phần này  chúng ta có thể gõ
+vstack we don't always have to do that  🍀  vstack mà không phải lúc nào cũng phải thực hiện thao
+command click thing and i'm just going  🍀  tác bấm vào lệnh đó và tôi sẽ
+to paste this in here twice  🍀  dán cái này vào đây hai lần
+and now we have these things stacked  🍀  và bây giờ chúng ta có những thứ này xếp chồng lên nhau theo chiều dọc
+vertically on top of each other      🍀   
+so the next stat or thing i want us to  🍀  nên chỉ số hoặc thứ tiếp theo tôi muốn  chúng ta sẽ xem
+go over is how to change the spacing  🍀  qua cách thay đổi khoảng cách
+between items on a stack right so we  🍀  giữa các mục trên một ngăn xếp, vì vậy chúng tôi
+notice that we just have this sort of  🍀  lưu ý rằng chúng tôi chỉ có loại
+default spacing right now and let me  🍀  khoảng cách mặc định này ngay bây giờ và để tôi
+actually change the second one to a  🍀  thực sự thay đổi khoảng cách thứ hai thành
+purple color  🍀  màu tím
+and you guys notice once again that the  🍀  và các bạn một lần nữa lưu ý rằng
+second item i put in here is on the  🍀  mục thứ hai tôi đặt ở đây nằm ở
+bottom and the pink one is on the top so  🍀  dưới cùng và mục màu hồng ở trên cùng, vì vậy
+the order in which you place things does  🍀  thứ tự bạn đặt mọi thứ rất
+matter so how do we make the spacing  🍀  quan trọng, vậy làm cách nào để chúng ta
+between these two things change so on  🍀  thay đổi khoảng cách giữa hai mục này để trên
+the v stack guys you could go ahead and  🍀  ngăn xếp v, các bạn có thể tiếp tục  và
+open up a parenthesis and you could say  🍀  mở một dấu ngoặc đơn và bạn có thể nói
+spacing  🍀  khoảng cách
+and you could pass in any number you  🍀  và bạn có thể nhập bất kỳ số nào bạn
+want so i could say 16 i could say 32 i  🍀  muốn để tôi có thể nói 16 tôi có thể nói 32 tôi
+could say 200 right and it will apply  🍀  có thể nói 200 đúng và nó sẽ áp dụng
+that spacing between those items and you  🍀  khoảng cách giữa các mục đó và
+guys notice let me go ahead and put one  🍀  các bạn chú ý để tôi tiếp tục  và đặt
+more item in here  🍀  thêm một mục vào đây
+and it's going to space them out just  🍀  và nó sẽ tách chúng ra
+like that let me say color.blue just so  🍀  giống như vậy, hãy để tôi nói color.blue để
+we get you know these things distinguish  🍀  chúng tôi giúp bạn biết những thứ này phân biệt
+clearly and  🍀  rõ ràng và
+that's sort of how the spacing between  🍀  đó là cách khoảng cách giữa
+items work and that's something that you  🍀  các mục hoạt động và đó là thứ mà bạn
+use a lot when you're working with  🍀  sử dụng  rất nhiều khi bạn đang làm việc với
+stacks so let me change this back to  🍀  ngăn xếp, vì vậy hãy để tôi thay đổi lại thành
+like i don't know 24  🍀  như tôi không biết 24
+right so that looks pretty smooth  🍀  phải không vì vậy bây giờ nó trông khá mượt mà,
+now      🍀   
+um i want us to introduce a new type of  🍀  tôi muốn chúng ta giới thiệu một loại
+stack guys so  🍀  ngăn xếp mới, mọi người, vì vậy
+it's going to be something called a  🍀  nó sẽ được gọi là a
+z-stack so you could imagine like what  🍀  z  -stack để bạn có thể tưởng tượng điều gì sẽ xảy ra
+if i wanted to sort of place another box  🍀  nếu tôi muốn đặt một hộp khác
+on top of this box right here  🍀  lên trên hộp này ngay tại đây,
+so on this first rounded rectangle i  🍀  vì vậy trên hình chữ nhật tròn đầu tiên này, tôi
+want you guys to go ahead and command  🍀  muốn các bạn tiếp tục và ra lệnh
+click into that  🍀  nhấp vào đó
+and  🍀  và
+say embed in z stack  🍀  nói nhúng vào ngăn xếp z
+and let's fix our indentation and now  🍀  và hãy  sửa vết lõm của chúng ta và bây giờ hãy
+let me go ahead and copy this one more  🍀  để tôi tiếp tục và sao chép cái này một lần nữa, dán lại
+time paste it again      🍀   
+and you guys are going to notice that it  🍀  và các bạn sẽ nhận thấy rằng nó
+looks exactly the same but let me change  🍀  trông giống hệt nhau nhưng hãy để tôi thay đổi
+the color of this to like color.blue  🍀  màu của cái này thành color.blue
+and you'll notice that hey  🍀  và bạn sẽ nhận thấy điều đó  này,
+it looks like there's a blue rectangle  🍀  có vẻ như có một hình chữ nhật màu xanh
+here and it's completely ignoring the  🍀  ở đây và nó hoàn toàn bỏ qua
+original one that we had  🍀  hình ban đầu mà chúng ta đã
+in the      🍀   
+stacked first there and that's because  🍀  xếp chồng lên nhau đầu tiên ở đó và đó là bởi vì
+this guy right here the blue one is  🍀  anh chàng này ở ngay đây, hình màu xanh nằm
+directly on top of  🍀  ngay trên
+that      🍀   
+pink one so let me just go ahead and  🍀  hình màu hồng đó, vì vậy hãy để tôi tiếp tục và
+change the frame of this to maybe like  🍀  thay đổi  khung của cái này có thể giống như
+i don't know 100 by 50  🍀  tôi không biết 100 x 50
+and you guys will see  🍀  và các bạn sẽ thấy
+that it's stacked now on top of the  🍀  rằng nó hiện được xếp chồng lên nhau trên
+original pink rectangle or it's sort of  🍀  hình chữ nhật màu hồng ban đầu hoặc nó giống
+like front to back right so this uh z  🍀  như từ trước ra sau phải vậy nên ngăn xếp uh z này
+stack is sort of like your third  🍀  giống như của bạn
+dimension right so  🍀  chiều thứ ba đúng vậy,
+uh with h and v stacks we work within a  🍀  uh với ngăn xếp h và v, chúng tôi làm việc trong
+two two-dimensional coordinate space we  🍀  không gian tọa độ hai chiều, chúng tôi
+work within like an x-y coordinate  🍀  làm việc trong đó giống như một hệ tọa độ x-y,
+system where it's just vertical and  🍀  nơi nó chỉ có chiều dọc và
+horizontal but then the z-stack allows  🍀  chiều ngang nhưng sau đó, ngăn xếp z cho phép
+things to like add that third dimension  🍀  mọi thứ thêm chiều thứ ba
+which is what we see here  🍀  đó là  những gì chúng ta thấy ở đây
+so  🍀  để
+i could go ahead and add another  🍀  tôi có thể tiếp tục và thêm một
+rectangle  🍀  hình chữ nhật khác
+um and make it like purple or something  🍀  ừm và làm cho nó có màu tím hoặc thứ gì đó
+and we could then change the height up  🍀  và sau đó chúng ta có thể thay đổi chiều cao lên
+to like 50  🍀  như 50
+by 25 so how this is working is that the  🍀  x 25 vậy cách thức hoạt động của nó là
+pink rectangle is at the back and then  🍀  hình chữ nhật màu hồng ở phía sau và sau đó
+the blue rectangle is the next item in  🍀  hình chữ nhật màu xanh là mục tiếp theo trong
+the stack and then the purple rectangle  🍀  ngăn xếp và sau đó hình chữ nhật màu tím
+is the third or top most item in this z  🍀  là mục thứ ba hoặc trên cùng trong
+stack okay  🍀  ngăn xếp z này được rồi, vì
+so  🍀  vậy
+we this is another cool example of how  🍀  đây là một ví dụ thú vị khác về cách
+we can embed stacks so we see that this  🍀  chúng tôi có thể nhúng các ngăn xếp để chúng ta thấy rằng
+whole stack is a vertical stack which is  🍀  toàn bộ ngăn xếp này là một ngăn xếp theo chiều dọc  ngăn xếp, đó là
+why we have these three rectangles  🍀  lý do tại sao chúng tôi có ba hình chữ nhật này
+stacked on top of each other but within  🍀  xếp chồng lên nhau nhưng trong
+that vertical stack we have this z stack  🍀  ngăn xếp dọc đó, chúng tôi có ngăn xếp z
+which has this like 3d configuration of  🍀  này có cấu hình 3d giống như
+rectangles stacked on top of each other  🍀  các hình chữ nhật xếp chồng lên nhau,
+so that's really really cool guys um  🍀  vì vậy điều đó thực sự rất tuyệt đấy các bạn
+so uh let's go ahead and comment this  🍀  ừm, chúng ta đi nào  trước và nhận xét điều này
+out and i want us to jump into another  🍀  và tôi muốn chúng ta chuyển sang một
+example um i'm going to create something  🍀  ví dụ khác ừm, tôi sẽ tạo ra thứ gì đó
+that looks pretty similar to like a bar  🍀  trông khá giống với
+graph and the uh purpose of uh what i'm  🍀  biểu đồ thanh và mục đích của việc tôi đang
+doing here is to show you guys how we  🍀  làm ở đây là để cho các bạn thấy cách chúng tôi
+can apply different alignment  🍀  có thể áp dụng các cấu hình căn chỉnh khác nhau
+configurations to stacks so i'm gonna  🍀  cho các ngăn xếp, vì vậy tôi sẽ
+create an age stack here and then a  🍀  tạo một ngăn xếp tuổi ở đây và sau đó là một
+rounded rectangle  🍀  hình chữ nhật tròn
+or you know we could actually just do  🍀  hoặc bạn biết đấy, chúng ta thực sự có thể tạo
+rectangle      🍀   
+rectangle  🍀  hình chữ nhật hình chữ nhật
+and i'm going to copy and paste this  🍀  và tôi sẽ sao chép và dán
+fill  🍀  phần điền này
+so uncomment that copy it  🍀  để không ghi chú sao chép nó và nhận xét
+comment it back out and then paste it  🍀  nó  ra ngoài và sau đó dán nó
+right here  🍀  ngay tại đây
+so we pretty much just have this  🍀  để chúng ta gần như chỉ có
+rectangle i'm going to make it a lot  🍀  hình chữ nhật này. Tôi sẽ làm cho nó
+taller so i'm going to say like 300  🍀  cao hơn rất nhiều, vì vậy tôi sẽ nói như 300
+and the width will be like 100 okay and  🍀  và chiều rộng sẽ là 100 được rồi,
+then what i'm gonna do is paste this in  🍀  sau đó tôi sẽ làm gì  việc cần làm là dán cái này vào
+here like three times  🍀  đây khoảng ba
+or two more times so  🍀  hoặc hai lần nữa, vì vậy
+now i'm gonna change the height of this  🍀  bây giờ tôi sẽ thay đổi chiều cao của
+one and this one so that it looks more  🍀  cái này và cái này để nó trông
+like a bar graph  🍀  giống biểu đồ thanh hơn,
+so  🍀  vì vậy
+the height here will be 200 and the  🍀  chiều cao ở đây sẽ là 200 và
+height here will be 100  🍀  chiều cao ở đây sẽ là  100,
+so you guys notice that we change the  🍀  vì vậy các bạn lưu ý rằng chúng tôi thay đổi
+heights of these things and that's  🍀  độ cao của những thứ này và nó
+working nicely but we want like i said  🍀  hoạt động tốt nhưng chúng tôi muốn như tôi đã nói, chúng
+we want it to look like a bar graph so  🍀  tôi muốn nó trông giống như một biểu đồ thanh, vì vậy
+we would want these two components here  🍀  chúng tôi muốn hai thành phần này ở đây
+to be aligned to the bottom of the  🍀  được căn chỉnh ở dưới cùng của
+entire frame so like if i highlight this  🍀  toàn bộ khung  vì vậy, nếu tôi làm nổi bật
+h stack we can see that this is the box  🍀  ngăn xếp h này, chúng ta có thể thấy rằng đây là hộp
+or the sort of bounding box for the  🍀  hoặc loại hộp giới hạn cho
+frame i want this guy and this guy on  🍀  khung tôi muốn anh chàng này và anh chàng này ở
+the bottom well how do i do that swifty  🍀  phía dưới.
+y makes it really easy so i can go here  🍀  vào đây
+and say alignment  🍀  và nói căn chỉnh
+and don't use the autocomplete guys just  🍀  và không sử dụng tính năng tự động hoàn thành. Các bạn chỉ cần
+type out alignment and then you can say  🍀  nhập căn chỉnh và sau đó bạn có thể nói
+dot bottom  🍀  dấu chấm dưới cùng
+and that's going to align my components  🍀  và điều đó sẽ căn chỉnh các thành phần của tôi
+to the bottom of the frame  🍀  ở dưới cùng của khung
+with an h stack you could also say dot  🍀  bằng một ngăn xếp h, bạn cũng có thể nói dấu chấm
+top and that would align them to the top  🍀  trên cùng và điều đó sẽ  căn chỉnh chúng ở trên cùng
+of the frame that's like a reverse bar  🍀  của khung giống như biểu đồ thanh đảo ngược,
+graph which is kind of cool and i think  🍀  khá thú vị và tôi nghĩ rằng
+it defaults to center which is the  🍀  nó được đặt mặc định ở giữa, đây là
+original configuration that we had  🍀  cấu hình ban đầu mà chúng tôi có,
+so every stack has that alignment option  🍀  vì vậy mọi ngăn xếp đều có tùy chọn căn chỉnh đó
+but  🍀  nhưng
+different stacks give you a different  🍀  các ngăn xếp khác nhau cung cấp cho bạn một bộ khác nhau
+set of options so for example  🍀  các tùy chọn, ví dụ như
+um a v stack has different alignment  🍀  ngăn xếp v có
+options than an h stack does so let's go  🍀  các tùy chọn căn chỉnh khác với ngăn xếp h, vì vậy hãy tiếp
+ahead and see what would happen if we uh  🍀  tục và xem điều gì sẽ xảy ra nếu chúng ta
+converted this to a v stack  🍀  chuyển đổi ngăn xếp này thành ngăn xếp v
+and you guys are going to notice that we  🍀  và các bạn sẽ nhận thấy rằng chúng tôi
+get an error the v stack does not have a  🍀  gặp lỗi ngăn xếp v không  có
+bottom alignment      🍀   
+property and that's because of the  🍀  thuộc tính căn chỉnh dưới cùng và đó là do
+nature of a v stack right  🍀  bản chất của ngăn xếp v phải
+since a v stack is stacked vertically  🍀  vì ngăn xếp v được xếp chồng lên nhau theo chiều dọc,
+the only options we have are left center  🍀  các tùy chọn duy nhất chúng tôi có là giữa trái
+and right or leading center and trailing  🍀  và phải hoặc chính giữa và theo sau
+so i'm going to apply a leading option  🍀  vì vậy tôi sẽ áp dụng tùy chọn hàng đầu
+here  🍀  ở đây
+and you guys will see that everything  🍀  và các bạn  sẽ thấy rằng mọi thứ
+looks  🍀  trông giống
+exactly as it would if i didn't have  🍀  hệt như vậy nếu tôi không có
+this alignment property okay so let's  🍀  thuộc tính căn chỉnh này. OK, vì vậy, hãy
+actually go ahead and change the width  🍀  thực sự tiếp tục và thay đổi độ rộng
+of each item so i'm going to make this  🍀  của từng mục, vì vậy tôi sẽ tạo cái này
+with like 300  🍀  với khoảng 300
+and i'm going to make this guy 200  🍀  và tôi sẽ làm cái này  anh chàng 200
+and then this guy will be 100 let's just  🍀  và sau đó anh chàng này sẽ là 100, hãy
+make this like purple and this guy blue  🍀  làm cho anh chàng này như màu tím và anh chàng này màu xanh
+just to make things stand out a little  🍀  chỉ để làm cho mọi thứ nổi bật
+bit more so you guys will notice that if  🍀  hơn một chút để các bạn sẽ nhận thấy rằng nếu
+i click the ending bracket of the v  🍀  tôi nhấp vào dấu ngoặc kết thúc của
+stack we see the frame of the v stack  🍀  ngăn xếp v, chúng ta sẽ thấy khung hình của  ngăn xếp v
+here right  🍀  ở đây,
+so we notice that everything is aligned  🍀  vì vậy chúng tôi nhận thấy rằng mọi thứ được căn chỉnh
+to the center right so i i think you  🍀  ở giữa bên phải, vì vậy tôi nghĩ
+guys should be able to see now why the  🍀  bây giờ các bạn có thể thấy tại sao
+bottom alignment property doesn't make  🍀  thuộc tính căn chỉnh dưới cùng không có nghĩa
+sense like it's stacked vertically  🍀  là nó đã được xếp chồng lên nhau theo chiều dọc
+already so we can't align it to the  🍀  nên chúng tôi không thể căn chỉnh nó thành
+bottom or the top we can only pick left  🍀  dưới cùng hoặc trên cùng, chúng tôi chỉ có thể chọn giữa
+center or right so  🍀  bên trái hoặc bên phải, vì vậy
+if i go on my v stack and say alignment  🍀  nếu tôi vào ngăn xếp v của mình và nói căn chỉnh
+and then i can say dot trailing  🍀  và sau đó tôi có thể nói dấu chấm
+it will push those things over to the  🍀  nó sẽ đẩy những thứ đó sang bên
+right of the screen  🍀  phải màn hình
+similarly i could say dot leading and it  🍀  tương tự như vậy tôi có thể nói dấu chấm dẫn đầu và  nó
+will push these other components to the  🍀  sẽ đẩy các thành phần khác này sang
+left side of the not the screen but the  🍀  phía bên trái của màn hình chứ không phải màn hình mà là
+frame of the v stack so you guys will  🍀  khung của ngăn xếp v, vì vậy các bạn
+notice also that the frame is sort of  🍀  cũng sẽ nhận thấy rằng khung được sắp xếp
+automatically figured out for us by  🍀  tự động tìm ra cho chúng tôi bằng
+swift ui based on the largest item in  🍀  Swift ui dựa trên mục lớn nhất trong
+the stack right so the largest item here  🍀  ngăn xếp  đúng vậy, mục lớn nhất ở đây
+is 300 pixels and that is the width of  🍀  là 300 pixel và đó là chiều rộng của
+the frame and then the height of the  🍀  khung, sau đó chiều cao của
+frame is also automatically figured out  🍀  khung cũng được Swift ui tự động tìm ra
+for us by swift ui based on the size of  🍀  cho chúng tôi dựa trên kích thước của
+each item and the spacing between each  🍀  từng mục và khoảng cách giữa từng
+element  🍀  phần tử,
+so if we wanted to we could add a  🍀  vì vậy nếu chúng tôi  muốn chúng ta có thể thêm
+spacing property here as well i could  🍀  thuộc tính khoảng cách ở đây cũng như tôi có thể
+space them out a little bit more and it  🍀  giãn chúng ra thêm một chút và nó
+will automatically adjust the size of  🍀  sẽ tự động điều chỉnh kích thước của
+the frame right this is going to change  🍀  khung, điều này sẽ thay đổi
+the height of the frame  🍀  chiều cao của khung
+so 32 64. you guys can see that they  🍀  thành 32 64. các bạn có thể thấy điều đó  chúng
+just start spreading out more and more  🍀  chỉ bắt đầu lan rộng ra ngày càng
+and more so that is just another example  🍀  nhiều hơn, vì vậy đó chỉ là một ví dụ khác
+of how we can modify our stacks guys so  🍀  về cách chúng ta có thể sửa đổi ngăn xếp của mình, vì vậy
+with all of that information now in hand  🍀  với tất cả thông tin đó hiện có trong tay,
+let's go ahead and see if we can create  🍀  hãy tiếp tục và xem liệu chúng ta có thể tạo
+this sort of complex user interface that  🍀  loại giao diện người dùng phức tạp này mà
+we have with swift ui so  🍀  chúng ta  có với swift ui vì vậy
+my goal is just to get like this section  🍀  mục tiêu của tôi chỉ là để có được
+title and then two of these guys right  🍀  tiêu đề của phần này và sau đó hai trong số những người này
+here  🍀  ở đây
+that are stacked horizontally and then  🍀  được xếp chồng lên nhau theo chiều ngang và sau đó
+we notice that that whole thing is  🍀  chúng tôi nhận thấy rằng toàn bộ nội dung đó nằm
+within a vertical stack right because we  🍀  trong một ngăn xếp theo chiều dọc vì chúng tôi
+have the title and then this h stack  🍀  có tiêu đề và sau đó h  xếp chồng
+here and then each one of these items  🍀  ở đây và sau đó mỗi một trong số những vật phẩm này
+it's going to be its own individual  🍀  sẽ trở thành một
+stack so  🍀  ngăn xếp riêng lẻ, vì vậy
+this is going to be pretty complex but  🍀  việc này sẽ khá phức tạp nhưng
+it's going to be a lot of freaking fun  🍀  sẽ rất thú vị
+and when you guys see this come to life  🍀  và khi các bạn thấy điều này trở nên sống động,
+i promise you you're gonna freak out and  🍀  tôi hứa với các bạn rằng các bạn sẽ  sẽ phát hoảng và
+you're gonna feel like a ninja coder so  🍀  bạn sẽ cảm thấy mình giống như một lập trình viên ninja, vì vậy
+let's go ahead and see if we can get  🍀  hãy tiếp tục và xem liệu chúng ta có thể nhờ
+this built guys  🍀  những người đã chế tạo được thứ này hay không,
+so we're gonna break this down step by  🍀  vì vậy chúng ta sẽ chia nhỏ nó từng
+step guys and watch it come to life  🍀  bước một và xem nó trở nên sống động
+piece by piece  🍀  từng mảnh một
+so we're going to start with this title  🍀  vì vậy chúng ta'  chúng ta sẽ bắt đầu với tiêu đề này
+right here okay so we know how to do  🍀  ngay tại đây, được rồi, vì vậy chúng tôi biết cách thực hiện điều đó,
+that we're just going to say text  🍀  chúng tôi sẽ chỉ nói rằng hãy nhập
+your top genres      🍀   
+right so  🍀  đúng thể loại hàng đầu của bạn để
+that's our text right there that looks  🍀  văn bản của chúng tôi ngay tại đó trông
+pretty good and we can see that because  🍀  khá đẹp mắt và chúng tôi có thể thấy điều đó bởi vì
+we have  🍀  chúng tôi có
+this text and below it  🍀  văn bản này và  bên dưới nó,
+we have these two items here we know  🍀  chúng tôi có hai mục này ở đây, chúng tôi
+automatically that we need to embed this  🍀  tự động biết rằng chúng tôi cần nhúng mục này
+in a v stack  🍀  vào ngăn xếp v,
+so  🍀  vì vậy
+let's go ahead and just cut this and  🍀  hãy tiếp tục và chỉ cần cắt mục này và
+we're going to say v stack and paste in  🍀  chúng tôi sẽ nói ngăn xếp v và dán vào thuộc
+that text property  🍀  tính văn bản đó,
+then we are going to need to create this  🍀  sau đó chúng tôi sẽ cần  tạo
+horizontal stack of rectangles to start  🍀  chồng hình chữ nhật theo chiều ngang này để bắt
+off so i'm going to go ahead and grab  🍀  đầu, vì vậy tôi sẽ tiếp tục và lấy
+this rectangle code that we have down  🍀  mã hình chữ nhật này mà chúng tôi có ở
+here uncomment it copy it  🍀  đây, bỏ ghi chú, sao chép và
+comment it back in  🍀  nhận xét lại
+and then i'm just going to go here and  🍀  và sau đó tôi sẽ vào đây và
+paste that in  🍀  dán mã đó vào
+and we notice that that is stacked  🍀  và  chúng tôi nhận thấy rằng nó được xếp chồng lên nhau
+nicely let's change the dimensions of  🍀  một cách độc đáo, hãy thay đổi kích thước của
+the frame to be like 180  🍀  khung thành 180
+by um let's see  🍀  nhân ừm, hãy xem
+180 by 90  🍀  180 nhân 90
+and that should be pretty good and let's  🍀  và điều đó sẽ khá tốt và hãy
+actually make this you guys could either  🍀  thực sự tạo ra cái này. Các bạn có thể
+make this a rounded rectangle like this  🍀  biến nó thành một hình chữ nhật tròn như thế này
+and pass in a corner radius of like 10  🍀  và chuyển vào  bán kính góc như 10
+or you could keep it as a rectangle  🍀  hoặc bạn có thể giữ nó dưới dạng hình chữ nhật,
+so let me just undo that stuff  🍀  vì vậy hãy để tôi hoàn tác nội dung đó
+and say dot corner radius 10. it's  🍀  và nói bán kính góc là 10. Nó
+literally the exact same thing  🍀  thực sự giống hệt nhau
+so      🍀   
+that looks pretty good so far  🍀  nên có vẻ khá ổn cho đến nay
+but we need these two things stacked to  🍀  nhưng chúng ta cần hai thứ này xếp chồng lên
+the left and to the right so we know  🍀  nhau  sang trái và sang phải để chúng ta biết
+that below this text we need to wrap  🍀  rằng bên dưới văn bản này, chúng ta cần bọc
+this rectangle inside of an h stack and  🍀  hình chữ nhật này bên trong ngăn xếp h và
+create two of them  🍀  tạo hai trong số chúng,
+so i'm going to go here and just cut  🍀  vì vậy tôi sẽ đến đây và chỉ cần cắt
+this with command x and say h stack  🍀  phần này bằng lệnh x và nói h ngăn xếp
+boom boom  🍀  boom boom
+and we're going to make this like let's  🍀  và  chúng ta sẽ làm cái này giống như hãy
+see pink and purple  🍀  xem màu hồng và tím
+i like pink and purple they're fun  🍀  tôi thích màu hồng và tím chúng là những màu sắc vui nhộn
+colors      🍀   
+so  🍀  nên
+now we notice an interesting situation  🍀  bây giờ chúng ta nhận thấy một tình huống thú vị
+guys so actually before we move forward  🍀  các bạn ạ, vì vậy thực ra trước khi tiếp tục,
+we want to change the height of these so  🍀  chúng ta muốn thay đổi chiều cao của những màu này nên
+we notice here that the uh squares are a  🍀  chúng ta lưu ý ở đây rằng  các hình vuông uh cao hơn một
+little bit  🍀  chút
+uh      🍀   
+taller than we have and maybe a tad bit  🍀  so với chúng ta có và có thể ngắn hơn một chút,
+shorter as well      🍀   
+so let's go ahead and make this like 160  🍀  vì vậy hãy tiếp tục và tạo hình này như 160
+by 160  🍀  x 160
+and maybe make the height like a hundred  🍀  và có thể làm cho chiều cao như một trăm
+okay so that's looking pretty darn  🍀  được, vì vậy nó trông khá
+smooth to me  🍀  mượt mà đối với tôi
+and maybe actually make the height like  🍀  và có thể  thực sự tạo ra chiều cao như
+uh 172  🍀  uh 172
+or maybe make it 180. sorry guys like  🍀  hoặc có thể là 180. xin lỗi các bạn như
+this is part of development guys you  🍀  đây là một phần của quá trình phát triển, các bạn
+just mess around with values until you  🍀  chỉ loay hoay với các giá trị cho đến khi bạn
+get it exactly pixel perfect right it's  🍀  có được nó chính xác pixel hoàn hảo.
+just part of being a coder so that looks      🍀   
+pretty good      🍀   
+um      🍀   
+but we noticed that we want this your  🍀  chúng tôi nhận thấy rằng chúng tôi muốn
+top genres guy to be aligned to the left  🍀  anh chàng thuộc thể loại hàng đầu này của bạn được căn chỉnh sang trái,
+right so if we  🍀  phải, vì vậy nếu chúng tôi
+highlight our v stack we notice that we  🍀  làm nổi bật ngăn xếp v của mình, chúng tôi sẽ nhận thấy rằng chúng tôi
+have this big frame here it spans the  🍀  có khung hình lớn này ở đây, khung hình này kéo dài
+entire width of the screen but we want  🍀  toàn bộ chiều rộng của màn hình nhưng chúng tôi muốn
+the alignment to be leading so go ahead  🍀  căn chỉnh dẫn đầu vì vậy  hãy tiếp tục
+and see if you guys can figure out how  🍀  và xem liệu các bạn có thể tìm ra cách
+to do that  🍀  thực hiện điều đó không,
+so i'm just going to go ahead and show  🍀  vì vậy tôi sẽ tiếp tục và cho
+you obviously  🍀  bạn thấy rõ ràng
+and we're going to say alignment is  🍀  và chúng tôi sẽ nói rằng sự liên kết đang
+leading and that's going to move the  🍀  dẫn đầu và điều đó sẽ chuyển
+text over to the leading edge of the  🍀  văn bản đến cạnh đầu của
+frame similarly if we said trailing i'm  🍀  khung tương tự nếu chúng tôi nói theo sau, tôi
+sure you guys could imagine what that's  🍀  chắc rằng các bạn có thể tưởng tượng nó
+going to do it's going to place it all  🍀  sẽ làm gì, nó sẽ đặt nó hoàn
+the way over to the right  🍀  toàn sang bên phải,
+so we're going to go here and say  🍀  vì vậy chúng tôi sẽ đến đây và nói
+leading and that looks really good and  🍀  dẫn đầu và điều đó trông thực sự tốt và
+we're just going to go ahead and make  🍀  chúng tôi  'Chúng ta sẽ tiếp tục và làm
+this like bold guys so we're just going  🍀  điều này giống như những kẻ táo bạo, vì vậy chúng ta sẽ tiếp tục
+to go ahead and say dot bold  🍀  và nói dấu chấm đậm
+so that looks pretty good right it's  🍀  để trông khá ổn, nó
+coming together nicely  🍀  kết hợp với nhau một cách độc đáo ừm,
+um      🍀   
+so now we have to get into the difficult  🍀  vì vậy bây giờ chúng ta phải đi vào
+stuff right so we got to go over how to  🍀  nội dung khó khăn, vì vậy chúng ta  phải tìm hiểu làm thế nào để
+get this uh  🍀  có được
+this title  🍀  tiêu đề này, uh, tiêu đề này
+that is going to be on top of this guy  🍀  sẽ ở trên cùng của anh chàng này
+so we know that we're going to use a z  🍀  vì vậy chúng tôi biết rằng chúng tôi sẽ sử dụng
+stack but then we also have this image  🍀  ngăn xếp z nhưng sau đó chúng tôi cũng có hình ảnh này
+here that we need to get into the bottom  🍀  ở đây mà chúng tôi cần phải vào dưới cùng
+right and then we got to apply some  🍀  bên phải  và sau đó chúng tôi phải áp dụng một số
+rotational angle rotation to it to make  🍀  thao tác xoay góc quay cho nó để làm cho
+it look all nice and fancy like like  🍀  nó trông đẹp và lạ mắt giống như
+spotify does  🍀  spotify đã làm
+and it's actually not going to be that  🍀  và nó thực sự sẽ không
+hard so let's keep going guys this is  🍀  khó đến thế nên hãy tiếp tục nào các bạn, điều này
+really coming together i hope you guys  🍀  thực sự đang đến với nhau, tôi hy vọng các bạn
+are as excited as i am about this stuff  🍀  cũng hào hứng  vì tôi đang nói về thứ này, anh
+man this is really cool you guys learned  🍀  bạn, điều này thực sự tuyệt vời, các bạn đã học
+how to build apps man this is dope  🍀  cách xây dựng ứng dụng, anh bạn, điều này thật tuyệt vời,
+so  🍀  vì vậy
+let's go ahead and keep going so within  🍀  hãy tiếp tục và tiếp tục vì vậy trong
+this rectangle  🍀  hình chữ nhật này,
+i'm going to cut it and place it in a z  🍀  tôi sẽ cắt nó và đặt nó vào một
+stack  🍀  ngăn xếp z
+and now on top of the rectangle  🍀  và bây giờ ở trên cùng  của hình chữ nhật,
+i'm going to add a text component okay  🍀  tôi sẽ thêm một thành phần văn bản, được
+so i'm going to go below it because i  🍀  rồi, tôi sẽ đi xuống bên dưới nó vì tôi
+know that the thing i place below this  🍀  biết rằng thứ tôi đặt bên dưới
+base component will get put on top of it  🍀  thành phần cơ sở này sẽ được đặt lên trên nó
+and i'm going to add another text guy we  🍀  và tôi sẽ thêm một văn bản khác  anh bạn, theo
+could literally just copy this  🍀  đúng nghĩa đen, chúng ta có thể chỉ cần sao chép
+and paste it in here  🍀  và dán nó vào đây
+and let's just go ahead and make it say  🍀  và hãy tiếp tục và làm cho nó có nội dung
+like hip hop  🍀  như hip hop
+hip dash hop hip dash hop  🍀  hip dash hop hip dash hop
+that would be really stupid if it was  🍀  sẽ thực sự ngu ngốc nếu nó được
+called hip dash hop but anyway we see  🍀  gọi là hip dash hop nhưng dù sao thì chúng ta cũng thấy
+that it's in the center of our rectangle  🍀  rằng nó có trong  trung tâm của hình chữ nhật của chúng tôi,
+um also guys we're wanting we're going  🍀  ừm, các bạn, chúng tôi muốn, chúng tôi sẽ
+to want to give it a foreground color of  🍀  muốn tạo cho nó một màu nền trước là
+dot white  🍀  chấm trắng,
+that's the first thing we're going to do  🍀  đó là điều đầu tiên chúng tôi sẽ làm
+so that looks pretty good it's starting  🍀  để nó trông khá đẹp, nó bắt đầu
+to look somewhat similar to what we have  🍀  trông hơi giống với những gì chúng tôi  có
+in spotify  🍀  trong spotify
+so  🍀  nên
+actually sorry let me bring this more  🍀  thực sự xin lỗi, hãy để tôi đưa cái này
+into view i don't know if you guys could  🍀  vào xem nhiều hơn. tôi không biết liệu các bạn có
+see that or not that's my bad i have an  🍀  thấy điều đó hay không, đó là
+ultra wide monitor um so anyway      🍀   
+we want this guy to be placed in the      🍀   
+upper left of this so z stacks have a  🍀  lỗi của tôi.  điều này vì vậy các ngăn xếp z có một
+bunch of different alignment options as  🍀  loạt các tùy chọn căn chỉnh khác nhau như
+we're gonna see right now so on this  🍀  chúng ta sẽ thấy ngay bây giờ, vì vậy, đối với
+alignment guy for the z stack i'm going  🍀  anh chàng căn chỉnh này cho ngăn xếp z, tôi sẽ
+to go ahead and say dot top leading  🍀  tiếp tục và nói dot top dẫn đầu
+and it's going to place that hip hop guy  🍀  và nó sẽ đặt đúng vị trí của anh chàng hip hop đó
+right up in the top left  🍀  lên ở phía trên bên trái
+i could also say bottom leading and it  🍀  tôi cũng có thể nói phía dưới dẫn đầu và nó
+would put it in the bottom left i could  🍀  sẽ đặt nó ở phía dưới bên trái tôi có thể
+say top trailing  🍀  nói phía trên theo sau
+and it would put it in the top right  🍀  và nó sẽ đặt nó ở trên cùng bên phải
+and then i could also say bottom  🍀  và sau đó tôi cũng có thể nói phía dưới
+trailing and it would put it in the  🍀  theo sau và nó sẽ đặt nó ở
+bottom right but obviously for our  🍀  phía dưới  đúng nhưng rõ ràng là vì mục đích của chúng tôi,
+purposes we want it in the top left  🍀  chúng tôi muốn nó ở trên cùng bên trái,
+which means top leading okay  🍀  điều đó có nghĩa là hàng đầu ở trên cùng được,
+so we also now need to get some space  🍀  vì vậy bây giờ chúng tôi cũng cần lấy một khoảng trống
+from that uh sort of the edges of this  🍀  từ các cạnh của
+guy we want it to be like indented a  🍀  anh chàng này, chúng tôi muốn nó giống như thụt vào một
+little bit so swift ui gives us this  🍀  chút để nhanh chóng ui  cung cấp cho chúng tôi công
+really cool modifier called padding that  🍀  cụ sửa đổi thực sự thú vị này được gọi là phần đệm
+will apply some padding to this text or  🍀  sẽ áp dụng một số phần đệm cho văn bản này hoặc
+whatever view component we want  🍀  bất kỳ thành phần chế độ xem nào mà chúng tôi muốn, vì
+so i'm just going to go ahead here and  🍀  vậy tôi sẽ tiếp tục ở đây và
+say dot padding  🍀  nói phần đệm dấu chấm
+and you guys are going to notice that it  🍀  và các bạn sẽ nhận thấy rằng nó
+creates like a bigger frame for this  🍀  tạo ra một khung hình lớn hơn  đối với
+text component automatically by using  🍀  thành phần văn bản này một cách tự động bằng cách sử dụng
+this padding modifier and gets it pretty  🍀  công cụ sửa đổi phần đệm này và đặt nó
+much exactly within the position that we  🍀  gần như chính xác ở vị trí mà chúng tôi
+want it we are going to do an entire  🍀  muốn, chúng tôi sẽ thực hiện toàn bộ
+video on the padding modifier so uh just  🍀  video về công cụ sửa đổi phần đệm, vì vậy,
+keep that there for now guys um  🍀  bây giờ các bạn hãy giữ nó ở đó
+if it doesn't make sense we're gonna go  🍀  nếu không  có nghĩa là chúng ta sẽ tìm hiểu
+over it more in depth in another video  🍀  sâu hơn về nó trong một video khác, vì
+so don't worry about that for now  🍀  vậy đừng lo lắng về điều đó bây giờ
+so this is really really starting to  🍀  vì điều này thực sự đang bắt đầu
+come together let's go ahead and  🍀  kết hợp với nhau, hãy tiếp tục và
+actually um  🍀  thực sự
+cut this stuff  🍀  cắt nội dung này
+or copy this  🍀  hoặc sao chép
+whole z stack right here my bad and  🍀  toàn bộ ngăn xếp z này ngay tại đây  lỗi của tôi và
+replace this other rectangle with that  🍀  thay thế hình chữ nhật khác bằng hình chữ nhật đó
+and make this color dot purple  🍀  và làm cho chấm màu tím này
+so now we can see that this is really  🍀  để bây giờ chúng ta có thể thấy rằng điều này đang thực sự
+starting to come together man like  🍀  bắt đầu kết hợp với nhau, giống như
+that's super super cool right we're  🍀  điều đó thật tuyệt, siêu tuyệt vời, chúng ta đang
+starting to have an user interface  🍀  bắt đầu có một giao diện người dùng
+that's pretty similar to spotify  🍀  khá giống với spotify.
+so now what i want us to do is actually  🍀  bây giờ điều tôi muốn chúng ta làm là thực sự
+create  🍀  tạo
+multiple  🍀  nhiều
+sort of sections that we have here  🍀  loại phần mà chúng ta có ở đây,
+so we are going to  🍀  vì vậy chúng ta sẽ
+take this entire v stack  🍀  lấy toàn bộ ngăn xếp v này
+and we're going to embed that in a  🍀  và chúng ta sẽ nhúng phần đó vào
+larger v stack that's going to represent  🍀  ngăn xếp v lớn hơn sẽ đại diện cho
+all of the stuff that gets stacked on  🍀  tất cả những thứ mà  được xếp chồng
+top of each other so like this is  🍀  lên nhau, vì vậy đây là
+section one this would be section two  🍀  phần một, đây sẽ là phần hai,
+this would be section three so let's  🍀  đây sẽ là phần ba, vì vậy hãy
+just go ahead and command click on this  🍀  tiếp tục và ra lệnh nhấp vào
+v stack and say embed in v stack  🍀  ngăn xếp v này và nói nhúng vào ngăn xếp v
+and then we can copy and paste this sub  🍀  , sau đó chúng ta có thể sao chép và dán phần phụ này
+v stack or sorry let's actually  🍀  v stack hoặc xin lỗi, hãy thực sự
+keep it there just copy it  🍀  giữ nó ở đó, chỉ cần sao chép nó
+and put it below  🍀  và đặt nó bên dưới
+that and boom what do you know now we  🍀  và bùm, bạn biết gì bây giờ chúng ta
+have multiple sections let's go ahead  🍀  có nhiều phần, hãy tiếp tục
+and add one more  🍀  và thêm một
+now we have like three sections and you  🍀  phần nữa, bây giờ chúng ta có ba phần và
+guys would be able to change this stuff  🍀  các bạn có thể thay đổi phần này  các
+featured podcast categories let's just  🍀  danh mục podcast nổi bật, chúng ta hãy
+change that featured  🍀  thay đổi
+podcast      🍀   
+categories and what's another one  🍀  các danh mục podcast nổi bật đó và một danh mục khác có thể
+browse all right  🍀  duyệt được rồi
+and then you guys could give these some  🍀  và sau đó các bạn có thể thêm một số
+other fun colors like we could make it  🍀  màu sắc vui nhộn khác như chúng ta có thể làm cho nó có
+blue  🍀  màu xanh lam
+and we could make this guy yellow  🍀  và chúng ta có thể làm cho anh chàng này có màu vàng
+and  🍀  và
+then this could you know stay as  🍀  sau đó bạn có thể biết đây là
+whatever that is like pink and purple  🍀  bất cứ thứ gì giống như màu hồng và tím
+right so this is looking really really  🍀  đúng vậy, cái này trông thực sự rất
+good guys and if we want to space these  🍀  đẹp đấy các bạn và nếu chúng ta muốn giãn cách các
+components out a little bit more like  🍀  thành phần này ra một chút giống như
+space the sections out a little bit more  🍀  khoảng cách các phần ra thêm một chút
+as we see that we have here we just go  🍀  khi chúng ta thấy rằng chúng ta có ở đây, chúng ta chỉ cần đi
+up to this parent v stack and when i say  🍀  tới  ngăn xếp cha mẹ này và khi tôi nói
+parent guys that's a term you're going  🍀  cha mẹ, đó là một thuật ngữ mà bạn sẽ
+to hear a lot in coding  🍀  nghe thấy nhiều trong viết mã
+because we are going to consistently  🍀  bởi vì chúng ta sẽ luôn
+have these sort of parent and children  🍀  có
+relationships right so this is the  🍀  những mối quan hệ cha mẹ và con cái đúng như vậy, vì vậy đây là
+overall v stack and this v stack has  🍀  ngăn xếp v tổng thể và ngăn xếp v này có
+three children right now and that's each  🍀  ba đứa trẻ ngay bây giờ và mỗi
+one of these sections okay so this would  🍀  một trong những phần này đều ổn vì vậy phần này sẽ
+be like child one this other section  🍀  giống như phần con một phần này phần kia
+would be child two this other section is  🍀  sẽ là phần con hai phần này phần kia là
+child three so this is the parent and  🍀  con ba vì vậy đây là cha mẹ và
+then these are the children of that  🍀  sau đó đây là con của
+parent  🍀  cha mẹ đó
+so i'm just gonna type that out i'm just  🍀  vì vậy tôi  chỉ cần gõ nó ra tôi
+gonna say parent  🍀  sẽ nói cha mẹ
+v stack  🍀  v chồng
+child 1  🍀  con 1
+and then this would be  🍀  và sau đó đây sẽ là
+child 2 or section 2 right  🍀  con 2 hoặc phần 2 đúng
+and then this would be  🍀  rồi đây sẽ là
+child three or section three  🍀  con ba hoặc phần ba
+and we could go up here and say child  🍀  và chúng ta có thể lên đây và nói con
+one or section one whatever you guys  🍀  một hoặc phần một  các bạn
+want to call it whatever makes sense in  🍀  muốn gọi nó là gì cũng được, bất cứ điều gì có ý nghĩa trong
+your head  🍀  đầu của bạn,
+so on this parent v stack we are going  🍀  vì vậy trong ngăn xếp v cha mẹ này, chúng ta sẽ
+to say spacing  🍀  nói khoảng cách
+and we could say like 32  🍀  và chúng ta có thể nói như 32
+right and it's gonna space them out a  🍀  đúng và nó sẽ cách chúng ra xa
+little bit more and that looks  🍀  hơn một chút và điều đó trông
+absolutely incredible  🍀  hoàn toàn khó tin
+so you guys were to notice if i went to  🍀  vì vậy các bạn  chúng tôi sẽ chú ý nếu tôi đi đến
+one of the children and applied a  🍀  một trong những đứa trẻ và áp dụng một
+different uh some spacing i said like  🍀  khoảng cách khác, uh, tôi nói như
+64. it would just space out the distance  🍀  64. nó sẽ chỉ cách khoảng cách
+between this uh text and then this  🍀  giữa văn bản uh này và sau đó là
+horizontal stack right so that's sort of  🍀  ngăn xếp ngang này, vì vậy đó là
+how you can apply custom spacing to  🍀  cách bạn có thể áp dụng khoảng cách tùy chỉnh
+different stacks  🍀  các ngăn xếp khác nhau
+all right so now the last piece of the  🍀  được rồi, vì vậy bây giờ mảnh ghép cuối cùng của
+puzzle right this is really coming  🍀  câu đố này đang thực sự kết
+together we just need to work on how to  🍀  hợp với nhau, chúng ta chỉ cần nghiên cứu cách
+get this image here and then how to  🍀  lấy hình ảnh này ở đây và sau đó làm thế nào để
+apply this cool rotational effect to it  🍀  áp dụng hiệu ứng xoay thú vị này cho nó
+and then that's going to make you guys  🍀  và sau đó các bạn sẽ làm được
+pretty much like a little mini expert on  🍀  khá giống một chuyên gia nhỏ nhỏ về
+swift ui stacks right you can pretty  🍀  Swift ui stacks đúng không, bạn có thể
+much do anything you want to do with  🍀  làm bất cứ điều gì bạn muốn với
+your knowledge of stacks at this point  🍀  kiến ​​thức của bạn về stack tại thời điểm này,
+it just requires a lot of practice and a  🍀  nó chỉ cần thực hành nhiều và
+lot of reps so let's keep going  🍀  lặp lại nhiều lần, vì vậy hãy tiếp tục
+so  🍀  như vậy
+all right within this h uh this z stack  🍀  trong vòng  cái này h uh cái ngăn xếp z này
+guys i'm actually going to put this  🍀  các bạn tôi thực sự sẽ đặt cái này
+inside of another z stack so we have a z  🍀  bên trong một ngăn xếp z khác vì vậy chúng ta có một
+stack within a z stack  🍀  ngăn xếp z bên trong một ngăn xếp z
+so  🍀  vì vậy
+this is let's see which guy is this uh  🍀  hãy xem anh chàng nào đây uh
+here right that's this guy  🍀  đây đúng là anh chàng này
+so go ahead and command click into that  🍀  vì vậy hãy tiếp tục và ra lệnh nhấp vào  cái đó
+and say embed in z stack  🍀  và nói nhúng vào ngăn xếp z
+and then for this alignment  🍀  và sau đó đối với căn chỉnh này, căn chỉnh
+align      🍀   
+mint we're going to say dot bottom  🍀  chúng ta sẽ nói dấu chấm dưới cùng
+trailing      🍀   
+so now this will allow me to go  🍀  vì vậy bây giờ điều này sẽ cho phép tôi đi
+this is one z stack and then outside of  🍀  đây là một ngăn xếp z và sau đó bên ngoài
+this  🍀  cái này bây
+i can now put another element which is  🍀  giờ tôi có thể đặt một phần tử khác đang
+going to be my image so i'm going to say  🍀  diễn ra  là hình ảnh của tôi vì vậy tôi sẽ nói
+image  🍀  hình ảnh
+and then i have this image already  🍀  và sau đó tôi đã tải xuống hình ảnh này rồi
+downloaded guys wrap caviar  🍀  các bạn bọc trứng cá muối
+uh let me see what it's called  🍀  uh để tôi xem nó được gọi là bìa trứng
+wrap caviar cover so you guys can  🍀  cá muối để các bạn có thể
+literally just go ahead and google like  🍀  tiếp tục và google
+a spotify      🍀   
+like genre i did rap caviar that's one  🍀  như thể loại tôi đã làm.  rap trứng cá muối đó là một
+of my favorite genres love hip-hop  🍀  trong những thể loại yêu thích của tôi, yêu thích hip-hop,
+so we're gonna go back to our uh what's  🍀  vì vậy chúng ta sẽ quay lại
+it called stacks tutorial and i'm gonna  🍀  phần hướng dẫn về ngăn xếp, uh, nó gọi là gì và tôi sẽ
+say rap caviar cover  🍀  nói rap trứng cá muối cover
+and let's just go ahead and hit resume  🍀  và chúng ta hãy tiếp tục và nhấn tiếp tục
+and see what shows up in there  🍀  và xem điều gì sẽ xuất hiện trong  ở đó, vì
+so  🍀  vậy
+we should notice this image showing up  🍀  chúng tôi sẽ nhận thấy hình ảnh này hiển thị
+but we're going to need to resize it and  🍀  nhưng chúng tôi sẽ cần thay đổi kích thước và
+reframe it and all of that stuff to get  🍀  điều chỉnh lại nó và tất cả những thứ đó để làm cho
+this to work so let me just actually go  🍀  nó hoạt động, vì vậy hãy để tôi thực sự tiếp tục
+ahead and start doing that now i'm going  🍀  và bắt đầu làm điều đó ngay bây giờ tôi sẽ
+to say dot resizable  🍀  nói  chấm khung chấm có thể thay đổi kích thước
+dot frame      🍀   
+and i'm going to give it a frame of i  🍀  và tôi sẽ cung cấp cho nó một khung hình tôi
+think 56 by 56  🍀  nghĩ là 56 x 56
+oops  🍀  rất tiếc
+and just delete the alignment right  🍀  và chỉ cần xóa căn chỉnh ngay
+there  🍀  tại đó
+and then i'm also going to say dot  🍀  và sau đó tôi cũng sẽ nói dấu chấm
+scaled to fill  🍀  được chia tỷ lệ để lấp đầy
+and then below the frame i'm going to  🍀  và sau đó bên dưới khung tôi sẽ  để
+clip it  🍀  cắt nó
+so as you can see guys this is pretty  🍀  để các bạn có thể thấy, đây gần
+much the most common configuration we're  🍀  như là cấu hình phổ biến nhất mà chúng tôi
+going to have with images we scale it to  🍀  sẽ có với các hình ảnh mà chúng tôi chia tỷ lệ cho nó
+fill and we clip it to fit the frame  🍀  lấp đầy và chúng tôi cắt nó cho vừa với khung hình
+that we want  🍀  mà chúng tôi muốn
+and we see our image showing up there  🍀  và chúng tôi thấy hình ảnh của mình hiển thị ở đó
+beautifully guys so it's in the bottom  🍀  rất đẹp  các bạn, vì vậy nó ở
+right hand corner that is working  🍀  góc dưới cùng bên phải đang hoạt động
+because we applied this bottom trailing  🍀  vì chúng tôi đã áp dụng căn chỉnh theo dõi dưới cùng này
+alignment to the z-stack and before we  🍀  cho ngăn xếp z và trước khi chúng tôi
+move on to finishing up the ui with like  🍀  chuyển sang hoàn thiện giao diện người dùng bằng cách
+creating this really cool custom angle  🍀  tạo tính năng góc tùy chỉnh thực sự thú vị này,
+feature      🍀   
+i want us to break down the stacks that  🍀  tôi muốn chúng tôi chia nhỏ  các ngăn xếp mà
+we have going on here because the stack  🍀  chúng ta đang thực hiện ở đây vì việc sắp xếp ngăn xếp
+arrangement is pretty complex at this  🍀  khá phức tạp vào
+point so  🍀  thời điểm này, vì vậy,
+let's just go ahead and break it down so  🍀  hãy tiếp tục và chia nhỏ nó để
+we have this h stack and each one of  🍀  chúng ta có ngăn xếp h này và mỗi
+these h stacks represents a row of  🍀  ngăn xếp h này đại diện cho một hàng
+categories right so we can see here that  🍀  danh mục để chúng ta có thể thấy ở đây  rằng
+this age stack represents this top row  🍀  ngăn xếp tuổi này đại diện cho hàng trên cùng
+of these two categories  🍀  của hai danh mục này,
+it's hip hop and hip hop pink and purple  🍀  đó là hip hop và hip hop hồng và tím
+but one of them  🍀  nhưng một trong số chúng
+um      🍀   
+is a z-stack that is embedded within  🍀  là một ngăn xếp z được nhúng trong một
+another z-stack and the other one is  🍀  ngăn xếp z khác và ngăn xếp kia
+just a plain old z-stack  🍀  chỉ là một ngăn xếp cũ đơn giản z-  vì
+so the reason we applied another z-stack  🍀  vậy lý do chúng tôi áp dụng một ngăn xếp z khác
+to this uh  🍀  cho
+this uh section item here guys is  🍀  mục uh uh mục này ở đây là
+because we wanted to get that image  🍀  vì chúng tôi muốn hình ảnh đó
+showing up in the bottom right hand  🍀  hiển thị ở góc dưới cùng bên phải
+corner so  🍀  để
+one z stack has an alignment of bottom  🍀  một ngăn xếp z có sự liên kết của
+trailing which is how this image got  🍀  dấu dưới cùng, đó là cách hình ảnh này  đến
+there in the bottom right hand side and  🍀  đó ở phía dưới cùng bên phải và
+then the other z stack has this top  🍀  sau đó ngăn xếp z khác có
+leading alignment so it's this rectangle  🍀  căn chỉnh hàng đầu này, vì vậy đây là hình chữ nhật này
+and then the text  🍀  và sau đó văn bản
+on that rectangle has a top leading  🍀  trên hình chữ nhật đó có căn chỉnh hàng đầu trên cùng
+alignment so it goes in the upper left  🍀  , vì vậy nó nằm ở góc trên bên trái,
+hand corner so this is just one  🍀  vì vậy đây chỉ là một
+configuration of how you can get this to  🍀  cấu hình  về cách bạn có thể làm cho nó
+work this way there are a couple other  🍀  hoạt động theo cách này, có một vài
+configurations you could do this is just  🍀  cấu hình khác mà bạn có thể thực hiện, đây chỉ là
+how i prefer to do it and it makes the  🍀  cách tôi thích làm và nó có
+most sense to me  🍀  ý nghĩa nhất đối với tôi
+so  🍀  vì vậy đó
+that's just a quick breakdown of how  🍀  chỉ là phân tích nhanh về cách thức
+that stuff works guys you can see here  🍀  hoạt động của công cụ đó mà các bạn có thể  thấy ở đây
+that this z-stack is just the hip-hop in  🍀  rằng ngăn xếp z này chỉ là hip-hop ở
+the upper left-hand corner so in order  🍀  góc trên bên trái, vì vậy
+to get that wrap uh caviar image showing  🍀  để có được hình ảnh trứng cá muối bọc uh đó hiển
+up there  🍀  thị ở đó, theo
+we could literally just go ahead and  🍀  nghĩa đen, chúng ta có thể tiếp tục và
+command click this embed it in another z  🍀  nhấp vào lệnh, nhúng nó vào một ngăn xếp z khác
+stack      🍀   
+and give this the alignment of bottom  🍀  và  tạo sự liên kết này của dấu dưới cùng của dấu dưới cùng
+trailing      🍀   
+bottom trailing and then we place our  🍀  và sau đó chúng tôi đặt hình ảnh của chúng tôi
+image there  🍀  ở đó
+and  🍀  và
+what do you know and make sure you do it  🍀  bạn biết gì và đảm bảo rằng bạn thực hiện nó
+outside of  🍀  bên ngoài
+this z-stack right so this is one  🍀  ngăn xếp z này, vì vậy đây là một
+z-stack and then we're sort of placing  🍀  ngăn xếp z và sau đó chúng tôi sẽ đặt một ngăn xếp
+another z-stack on top of it  🍀  khác  z-stack ở trên cùng,
+so on top of that we'll go our image and  🍀  vì vậy, trên hết, chúng tôi sẽ chuyển hình ảnh của mình và
+that has the bottom trailing alignment  🍀  có căn chỉnh theo sau ở dưới cùng,
+so  🍀  vì vậy
+a cool feature that swift ui offers us  🍀  một tính năng thú vị mà Swift ui cung cấp cho chúng tôi là
+guys to sort of make this a little bit  🍀  làm cho hình ảnh này
+more readable  🍀  dễ đọc hơn một chút
+is let's say i wanted to collapse this  🍀  , giả sử tôi muốn  để thu gọn
+uh sort of z stack in the code you can  🍀  uh loại ngăn xếp z này trong mã, bạn có thể
+hold down command and click on the last  🍀  giữ lệnh và nhấp vào
+bracket right there and you can hit fold  🍀  dấu ngoặc cuối cùng ngay tại đó và bạn có thể nhấn gấp được rồi
+okay so it folds it up so it just makes  🍀  để nó gấp nó lại để
+this code a little bit more readable and  🍀  mã này dễ đọc hơn một chút và
+if you want to re-expand it you just  🍀  nếu bạn muốn  để mở rộng lại, bạn chỉ cần
+double-click on that dot dot or ellipse  🍀  nhấp đúp vào dấu chấm tròn hoặc hình elip đó
+and once again you can just go here and  🍀  và một lần nữa, bạn có thể chỉ cần vào đây và
+hit fold so this helps us make a little  🍀  nhấn nếp gấp để điều này giúp chúng tôi
+bit more sense out of what's going on  🍀  hiểu rõ hơn một chút về những gì đang diễn ra.
+right we have this      🍀   
+z-stack bottom trailing and then we have  🍀  theo sau và sau đó chúng ta có
+this z-stack that's top leading that's  🍀  ngăn xếp chữ z này dẫn đầu đó là
+how we get this rectangle in this  🍀  cách chúng ta có được hình chữ nhật này trong
+hip-hop guy and then this image with  🍀  anh chàng hip-hop này và sau đó hình ảnh này với
+wrap cap caviar shows up down there so  🍀  trứng cá muối có nắp đậy xuất hiện ở dưới đó vì vậy
+now that we've gone over that um let's  🍀  bây giờ chúng ta đã xem qua phần đó ừm, chúng ta hãy bắt đầu
+go the uh let's go over how to add this  🍀  nào  chúng ta hãy tìm hiểu cách thêm
+finishing touch which is actually going  🍀  bước hoàn thiện này, thực sự
+to be really simple to give this image  🍀  sẽ rất đơn giản để tạo cho hình ảnh này
+like an angular rotation and then move  🍀  giống như một góc xoay và sau đó di chuyển
+it over to the right a little bit and  🍀  nó sang bên phải một chút và
+clip the image so that it still fits  🍀  cắt hình ảnh sao cho nó vẫn vừa với
+within this category box right here  🍀  hộp danh mục này đúng không  đây
+so      🍀   
+guys i'm going to go here and after the  🍀  các bạn, tôi sẽ đến đây và sau
+frame i'm going to say dot rotation  🍀  khung hình tôi sẽ nói hiệu ứng xoay điểm
+effect      🍀   
+and now i can apply any sort of angle  🍀  và bây giờ tôi có thể áp dụng bất kỳ loại góc nào
+that i want and it will automatically  🍀  mà tôi muốn và nó sẽ tự động
+rotate that image for me based on the  🍀  xoay hình ảnh đó cho tôi dựa trên
+angle that i provide as long as it's a  🍀  góc mà tôi  cung cấp miễn là nó có
+value between 0 and 360. so i could say  🍀  giá trị từ 0 đến 360. Vì vậy, tôi có thể nói
+dot degrees and then just give it a  🍀  độ chấm và sau đó chỉ cung cấp cho nó một
+number value so i'm going to say um 30  🍀  giá trị số, vì vậy tôi sẽ nói ừm 30
+degrees  🍀  độ
+and you're going to notice that it  🍀  và bạn sẽ nhận thấy rằng nó
+rotates my image but it's like clipped  🍀  xoay hình ảnh của tôi nhưng nó  giống như được cắt bớt
+in a really weird way so if you guys  🍀  theo một cách thực sự kỳ lạ, vì vậy nếu các bạn
+delete that clipped option you're going  🍀  xóa tùy chọn đã cắt bớt đó, bạn sẽ
+to notice that it uh  🍀  nhận thấy rằng
+is it's going to fill the image back out  🍀  nó sẽ lấp đầy hình ảnh trở lại
+to its original size or fill it out to  🍀  kích thước ban đầu hoặc lấp đầy nó để
+fit that frame but we don't want that  🍀  vừa với khung hình đó nhưng chúng tôi thì không  muốn điều đó
+right we want it to be clipped in this  🍀  đúng, chúng tôi muốn nó được cắt bớt theo cách này
+like sort of custom func sort of custom  🍀  giống như kiểu tùy chỉnh func theo cách tùy chỉnh,
+way      🍀   
+so  🍀  vì vậy
+to do that we're actually going to go  🍀  để làm được điều đó, chúng tôi thực sự sẽ đi
+after the z stack right this big z stack  🍀  theo ngăn xếp z ngay ngăn xếp z lớn này
+with the you know bottom trailing  🍀  với căn chỉnh theo sau mà bạn biết
+alignment and here you're going to say  🍀  và ở đây bạn  'sẽ nói
+dot clipped  🍀  dot clipped
+and you guys are going to notice that  🍀  và các bạn sẽ nhận thấy rằng
+that clips the image on its edges right  🍀  nó cắt đúng hình ảnh trên các cạnh của nó,
+so it's applying that clipped modifier  🍀  vì vậy nó đang áp dụng công cụ sửa đổi đã cắt bớt đó
+to this whole z stack so it's clipping  🍀  cho toàn bộ ngăn xếp z này để nó cắt bớt
+anything that doesn't fit within the  🍀  bất kỳ thứ gì không vừa với khung
+frame      🍀   
+and then we notice that that's almost  🍀  và sau đó chúng tôi nhận thấy  đó gần như là
+where we want it to be we also want to  🍀  nơi chúng tôi muốn, chúng tôi cũng muốn
+push it to the right a little bit so how  🍀  đẩy nó sang bên phải một chút, vậy làm thế nào để chúng
+do we do that  🍀  tôi làm điều đó
+so we get this offset modifier as well  🍀  để chúng tôi cũng có được công cụ sửa đổi bù trừ này
+and we can modify the x and y  🍀  và chúng tôi có thể sửa đổi vị trí x và y
+um position of the view component so i'm  🍀  um của thành phần chế độ xem.  Tôi
+going to go ahead and give it an x  🍀  sẽ tiếp tục và cung cấp cho nó một công
+modifier of 16 and y of zero and that  🍀  cụ sửa đổi x bằng 16 và y bằng 0 và điều đó
+moves our image over to the right by 16  🍀  sẽ di chuyển hình ảnh của chúng ta sang bên phải 16
+pixels and guess what guys now we have  🍀  pixel và đoán xem bây giờ chúng ta có
+our app user interface looking exactly  🍀  giao diện người dùng ứng dụng trông giống hệt
+how the spotify user interface looks in  🍀  như giao diện người dùng spotify trông như thế nào  trong
+the actual ios app store and we just  🍀  cửa hàng ứng dụng ios thực tế và chúng tôi chỉ
+built that in like 15 minutes  🍀  xây dựng thứ đó trong vòng 15 phút, điều đó
+that's absolutely incredible so you guys  🍀  thật tuyệt vời vì vậy các bạn
+are doing great swift ui is awesome and  🍀  đang làm rất tốt Swift ui thật tuyệt vời và
+i hope you guys think i'm a pretty  🍀  tôi hy vọng các bạn nghĩ tôi là một
+awesome instructor as well for teaching  🍀  người hướng dẫn khá tuyệt vời cũng như đã dạy
+you guys how to do this stuff  🍀  các bạn cách  làm nội dung này
+absolutely free so please make sure you  🍀  hoàn toàn miễn phí, vì vậy hãy đảm bảo rằng bạn
+smash that like and subscribe button and  🍀  đập nút thích và đăng ký đó và
+help me grow this channel guys  🍀  giúp tôi phát triển kênh này. Mọi người
+appreciate you more than you know  🍀  đánh giá cao bạn hơn những gì bạn biết.
+so really quickly we noticed that this  🍀  Vì vậy, chúng tôi thực sự nhanh chóng nhận thấy rằng
+image is actually a little bit bigger on  🍀  hình ảnh này thực sự lớn hơn một chút trên giao
+the spotify app ui so let's go ahead and  🍀  diện người dùng ứng dụng Spotify, vì vậy hãy  hãy tiếp tục và
+change it to 64 by 64. and we noticed  🍀  thay đổi nó thành 64 x 64. và chúng tôi nhận thấy
+that this matches up a little bit better  🍀  rằng điều này phù hợp hơn một chút
+so  🍀  để
+that looks pretty much pixel perfect and  🍀  trông khá hoàn hảo về pixel và
+that's pretty much gonna wrap it up for  🍀  điều đó gần như sẽ kết thúc
+the stacks tutorial guys we just learned  🍀  phần hướng dẫn về ngăn xếp mà chúng tôi vừa học
+how to do a ton of awesome stuff and  🍀  cách thực hiện rất nhiều  những thứ tuyệt vời và
+we're going to keep learning how to  🍀  chúng ta sẽ tiếp tục học cách
+build cool with swift ui uh before  🍀  xây dựng những thứ tuyệt vời với swift ui uh trước khi
+we actually get to developing our first  🍀  chúng ta thực sự phát triển ứng dụng thực tế đầu tiên của mình
+real life application      🍀   
+using swift ui so we got a ton of  🍀  bằng swift ui vì vậy chúng ta sẽ có rất nhiều
+exciting stuff coming in the rest of  🍀  thứ thú vị trong phần còn lại của
+this boot camp guys make sure you stick  🍀  chương trình đào tạo này các bạn ạ  hãy chắc chắn rằng bạn ở
+around let's keep going  🍀  xung quanh chúng ta hãy tiếp tục đi
