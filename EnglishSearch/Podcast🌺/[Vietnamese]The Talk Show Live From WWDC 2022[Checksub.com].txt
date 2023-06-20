@@ -1,0 +1,2408 @@
+ 🍀 chào buổi chiều
+ 🍀 và chào mừng đến với chương trình trò chuyện trực tiếp, chúng tôi sẽ trực tiếp đến
+ 🍀 gặp bạn từ
+ 🍀 hội nghị nhà phát triển toàn cầu của apple
+ 🍀 năm 2022,
+ 🍀 chương trình này đang được giới thiệu tại
+ 🍀 trung tâm nhà phát triển táo mới tại công viên táo ở
+ 🍀 cupertino california,
+ 🍀 bây giờ vui lòng chào mừng
+ 🍀 giá đỡ yêu thích trên internet trong chuyến tham quan.
+ 🍀 john gruber cảm ơn cảm ơn
+ 🍀
+ 🍀 bạn đủ rồi tôi có rất nhiều điều phải
+ 🍀 nói chúng ta không thể lãng phí thời gian cho
+ 🍀 những tràng vỗ tay
+ 🍀 uh
+ 🍀 đây thực sự là
+ 🍀 chương trình trò chuyện trực tiếp thường niên lần thứ 10 từ wwdc
+ 🍀 mà tôi không thể tin được
+ 🍀 10 năm trước  vào năm 2012 khi tôi lần đầu tiên có
+ 🍀 ý tưởng làm điều đó, vợ tôi
+ 🍀 và tôi đã thuê nó giống như một phòng trưng bày nghệ thuật
+ 🍀 tại 111 bộ ở san francisco
+ 🍀 theo đúng nghĩa đen uh vị khách của tôi đã
+ 🍀 bị người bạn tốt của tôi giật dây cáp
+ 🍀 và tôi không biết  có lẽ chúng tôi có 70 người,
+ 🍀 đại loại là chúng tôi không có
+ 🍀 máy ảnh, chúng tôi chỉ ghi lại nó, chúng tôi chỉ
+ 🍀 nghĩ rằng sẽ rất vui khi ghi lại nó với
+ 🍀 khán giả và đó là phòng trưng bày nghệ thuật nhỏ này
+ 🍀
+ 🍀 có hình chữ L và ở phía
+ 🍀 bên kia  của tôi ngoài trời
+ 🍀 thực sự có một buổi biểu diễn nghệ thuật đang diễn ra
+ 🍀 và tôi thực sự nhớ mình đã nghĩ rằng tôi cảm thấy
+ 🍀 tiếc cho họ vì mọi người đang
+ 🍀 cười và có rất nhiều tràng pháo tay
+ 🍀 và chúng tôi đã làm đúng là quán bar mở
+ 🍀 mọi người
+ 🍀 ồn ào uh nhưng  bạn biết buổi biểu diễn
+ 🍀 đã thay đổi, chúng tôi đã chuyển đến tầng lửng uh, đó
+ 🍀 là một nơi lớn hơn một chút ở san
+ 🍀 francisco uh
+ 🍀 và kết thúc
+ 🍀 khi wwdc chuyển đi, chúng tôi chuyển đến san jose và
+ 🍀
+ 🍀 nhà hát california tuyệt đẹp ở san jose có sức chứa 1100
+ 🍀 người
+ 🍀 và nếu bạn nói với tôi  quay lại khi tôi bắt đầu
+ 🍀 rằng tôi sẽ kết thúc buổi biểu diễn này trong một nhà hát 1100 chỗ ngồi,
+ 🍀
+ 🍀 tôi sẽ nói rằng điều đó rất
+ 🍀 khó xảy ra
+ 🍀 và nếu bạn nói với tôi rằng 10 năm sau tôi
+ 🍀 sẽ làm điều đó trong
+ 🍀 một nhà hát trong khuôn viên của apple thì tôi sẽ
+ 🍀 nói  có điều gì đó thực sự không ổn với
+ 🍀 thế giới
+ 🍀 uh tôi nghĩ tôi đã đúng
+ 🍀 nhưng tôi rất vui khi được ở đây và tôi rất
+ 🍀 vui vì tất cả các bạn đều ở đây ừm
+ 🍀 điều đó thật bất thường đối với tôi thật kỳ lạ
+ 🍀 phải không tôi cảm thấy  phát biểu kỳ lạ trên
+ 🍀 sân khấu táo
+ 🍀 vâng thực sự thực sự
+ 🍀 kỳ lạ điều này thật kỳ lạ
+ 🍀 nhưng đó là cách duy nhất để thực hiện một
+ 🍀 chương trình trực tiếp không còn cách nào khác tôi
+ 🍀 hoàn toàn không có cách nào khác để thực hiện
+ 🍀 tất cả các giao thức và tất cả những thứ
+ 🍀 chúng tôi đã làm để thực hiện  chắc chắn rằng mọi người đã xác minh
+ 🍀 các xét nghiệm âm tính và quy tắc che dấu và
+ 🍀 tất cả những điều đó không có cách nào khác để thực
+ 🍀 hiện
+ 🍀 uh và tôi rất
+ 🍀 ấn tượng tôi vô cùng biết ơn
+ 🍀 vì mọi người ở apple dường như
+ 🍀 quan tâm đến việc biến điều này thành hiện thực
+ 🍀 như tôi vậy nên điều đó thật tuyệt vời uh tôi
+ 🍀 có hai nhà tài trợ để cảm ơn
+ 🍀 và đầu tiên là sân vận động mac
+ 🍀 trong hơn một thập kỷ, sân vận động mac đã
+ 🍀 cung cấp các đám mây mac riêng được xây dựng cho
+ 🍀 cộng đồng apple,
+ 🍀 được thực hiện đúng cách cho
+ 🍀 các nhà phát triển, đó là nhà tài trợ lý tưởng cho
+ 🍀 wwdc. Hãy đoán xem họ đã
+ 🍀 tài trợ cho chương trình trực tiếp nào trước đây  hy vọng
+ 🍀 họ sẽ làm điều đó một lần nữa nhưng đó là đối tượng hoàn hảo mà
+ 🍀
+ 🍀 họ tập trung vào việc đưa
+ 🍀 phần cứng mac mới nhất vào
+ 🍀 các trung tâm dữ liệu an toàn bao gồm hàng nghìn
+ 🍀 máy mac m1
+ 🍀 và
+ 🍀 tôi khá chắc chắn rằng họ sẽ sẵn sàng cho
+ 🍀 m2 ngay khi điều đó phù hợp  một
+ 🍀 trung tâm dữ liệu
+ 🍀 họ làm việc nhanh, ý tôi là họ làm việc nhanh
+ 🍀 sản phẩm đám mây hàng đầu của họ
+ 🍀 orca 2.0 hiện có sẵn và nó
+ 🍀 hỗ trợ ảo
+ 🍀 hóa
+ 🍀 mac os ảo trên cả intel và apple
+ 🍀 silicon,
+ 🍀 hãy truy cập macstadium.com
+ 🍀 [Âm nhạc]
+ 🍀 chương trình trò chuyện mà
+ 🍀 bạn có thể tìm hiểu thêm
+ 🍀 nhà tài trợ thứ hai của tôi
+ 🍀 là nhà sản xuất giày hàng ngày của adams.
+ 🍀 Tôi thực sự đang đi chúng bây giờ uh không
+ 🍀 chỉ vì họ là nhà tài trợ bởi vì tôi
+ 🍀 luôn mang chúng tôi yêu chúng chúng
+ 🍀 thoải mái chúng bền tôi nghĩ
+ 🍀 chúng trông rất tuyệt
+ 🍀 tôi thích màu đen  nhưng tôi luôn thích
+ 🍀 màu đen,
+ 🍀 đôi khi là màu xám
+ 🍀 nhưng chúng có đủ loại màu sắc vui nhộn,
+ 🍀 màu sắc thực sự thú vị bao gồm cả phiên bản giới hạn, phiên
+ 🍀
+ 🍀 bản giới hạn thú vị, màu sắc mà bạn chỉ có thể
+ 🍀 nhận được trong một thời gian giới hạn, họ
+ 🍀 đã làm điều này trong vài
+ 🍀 năm, họ gọi chúng là của họ.  chiếc giày đầu tiên
+ 🍀 mẫu 0 0 0 0 uh
+ 🍀 họ có mẫu 0 0 1 tôi
+ 🍀 nóng lòng muốn họ tăng gấp đôi 07
+ 🍀 nhưng
+ 🍀 ừm nhưng mẫu 001 sẽ ra mắt trong
+ 🍀 tuần này nên lại là thời điểm hoàn hảo cho
+ 🍀 sự tài trợ này ừm
+ 🍀 bạn có thể truy cập adams.com
+ 🍀 df
+ 🍀 uh họ có một trang đặc biệt được thiết lập chỉ
+ 🍀 dành cho những người đang nghe chương trình
+ 🍀 hoặc xem nó trên youtube
+ 🍀 nên tôi cảm ơn họ
+ 🍀
+ 🍀 rất nhiều điều đã thay đổi khi tôi thực hiện
+ 🍀 chương trình này trong 10 năm qua  ý tôi là
+ 🍀 nó đã trở nên lớn hơn khi
+ 🍀
+ 🍀 thực hiện nó
+ 🍀 trên
+ 🍀 webex
+ 🍀 nó đã đến với khuôn viên của apple, một điều
+ 🍀 không thay đổi là tôi
+ 🍀 luôn giữ bí mật cho khách của mình.
+ 🍀 tôi chỉ nghĩ rằng theo
+ 🍀 cách đó sẽ thú vị hơn.  Tôi
+ 🍀 nghĩ đó là một phần niềm vui của
+ 🍀 khán giả trực tiếp mà mọi người đang xem.
+ 🍀 Tôi hy vọng hàng nghìn người đang xem trên
+ 🍀 youtube khi chương trình này phát sóng vào cuối tuần thì
+ 🍀 đã biết khách mời là ai nhưng bạn,
+ 🍀 tôi hy vọng đừng ừm vì vậy đừng chần chừ gì
+ 🍀 nữa,
+ 🍀 hãy tham gia cùng tôi  khi chào mừng
+ 🍀 craig federighi và greg joswiak lên sân khấu,
+ 🍀 đó là một khoảnh khắc rất khó xử khi
+ 🍀 bạn không cho tôi biết bạn sẽ đi
+ 🍀
+ 🍀
+ 🍀 đôi giày
+ 🍀 nào.  điều chỉnh những khoản tài trợ này uh cái này
+ 🍀 không được nấu chín vâng
+ 🍀 craig tôi không biết bạn bị làm sao
+ 🍀 vâng
+ 🍀 rất phong cách mặc dù cả hai
+ 🍀 bạn đều
+ 🍀 nói tốt về lốp xe tôi rất
+ 🍀 thất vọng về trang phục của bạn
+ 🍀 đây gần như là những gì tôi mặc ý tôi là
+ 🍀 cái này  Tôi nghĩ rằng màu này luôn mang một chút màu
+ 🍀 xanh lam
+ 🍀 ah không phải lúc nào tôi cũng thấy như vậy và tôi nghĩ
+ 🍀 nó trông rất sắc sảo và phong
+ 🍀 cách uh đó là mồ hôi bóng rổ, đó là
+ 🍀 thứ khác mà tôi mặc vâng,
+ 🍀 vì vậy điều thú vị về điều đó từ
+ 🍀 bài phát biểu quan trọng mà tôi nghĩ là vui nhộn
+ 🍀 uh
+ 🍀 là tôi đang xem bài phát biểu quan trọng trực tiếp tại
+ 🍀 sự kiện đặc biệt
+ 🍀 ừm
+ 🍀 với đồng nghiệp hòa sắc của tôi ben thompson
+ 🍀 là một người hâm mộ bóng rổ cuồng nhiệt và tôi thích
+ 🍀 bóng rổ tôi chơi bóng rổ
+ 🍀 để giải trí cho đến khi bạn biết đấy tôi bắt đầu
+ 🍀 già đi uh
+ 🍀 ừm
+ 🍀 nó  có vẻ như bạn có trò chơi bạn có
+ 🍀 phong độ
+ 🍀 và ben và tôi quay sang nhau như này
+ 🍀 tôi nghĩ anh ấy thực sự có thể sút anh
+ 🍀 ấy bắn trượt như một nửa trong số đó chỉ nói rằng
+ 🍀 bạn biết
+ 🍀 đấy, đó là một cú sút xa vâng, đó là một
+ 🍀 cú sút xa nhưng thôi nào  tốt nhất là một nửa vâng
+ 🍀 không tôi tôi đã hết tuổi chơi bóng rổ vào
+ 🍀 khoảng lớp bốn
+ 🍀 chỉ là không đủ cao đúng vậy
+ 🍀 bạn vượt qua như một
+ 🍀 vận động viên bắn súng đáng tin cậy cảm ơn bạn rất
+ 🍀 tốt để biết
+ 🍀 bây giờ nhưng bộ trang phục đó là một điều tuyệt vời ý tôi
+ 🍀 là họ nói với tôi rằng
+ 🍀 chúng tôi sẽ  bạn đã đeo thứ gì đó chưa
+ 🍀 và
+ 🍀 tôi hy vọng bạn có thể chơi thể thao giỏi
+ 🍀 [Cười]
+ 🍀 là một chiếc băng đô được coi là
+ 🍀 có,
+ 🍀 có một chiếc băng đô wow bạn biết rõ về chúng tôi
+ 🍀
+ 🍀 và tôi, tôi phải nói vì vậy tôi ổn, tôi là
+ 🍀 gabe, tôi đeo  chiếc băng đô trên nó đi
+ 🍀 trước máy ảnh hàm đang ở trong phòng sau này
+ 🍀 theo dõi các máy ảnh mà từ đó quay
+ 🍀 lại. tháo băng đô ra không phải
+ 🍀 là một quyết định khó khăn
+ 🍀 anh ấy không có tóc để bị
+ 🍀 buộc bởi một chiếc băng đô
+ 🍀 thua trận vì chiếc túi khí đó
+ 🍀 tôi muốn tôi muốn nói trước về
+ 🍀 sự kiện này và tôi không biết
+ 🍀 gọi nó là gì vì wwdc
+ 🍀 là
+ 🍀
+ 🍀
+ 🍀 tin tức và hội nghị dành cho các nhà phát triển trong cả tuần và dành cho những người mà
+ 🍀 bạn biết trên khắp thế giới và
+ 🍀 họ chỉ đang xem
+ 🍀 trực tuyến
+ 🍀 ừm nhưng sự kiện đặc biệt ngày hôm qua
+ 🍀 tôi không biết dường như đối với tôi có
+ 🍀 hơn một nghìn
+ 🍀 nhà phát triển và cũng như
+ 🍀 rất nhiều phương tiện truyền thông ừm uh uh đó
+ 🍀
+ 🍀
+ 🍀 là sự kiện đáng chú ý nhất về
+ 🍀
+ 🍀 mặt chuyên môn trong sự nghiệp của tôi uh tôi thực sự
+ 🍀 nghĩ đó là  ừm, thật không thể tin nổi, tôi chỉ
+ 🍀 tò mò không biết các bạn nghĩ gì về
+ 🍀 ngày hôm nay diễn ra
+ 🍀 tốt đẹp như thế nào. Tôi sẽ cho bạn biết điều
+ 🍀 tuyệt vời nhất đối với tôi
+ 🍀 là các nhà phát triển đã bay từ khắp nơi trên
+ 🍀 thế giới
+ 🍀 đến đây, ý tôi là bạn nói chuyện với họ, bạn
+ 🍀 nói chuyện với mọi người  đến từ indonesia xin chào, tôi đến
+ 🍀 từ Ấn Độ, tôi đến từ ukraine,
+ 🍀 bạn biết đấy, tôi rất đáng chú ý và
+ 🍀 nhìn xem, tất cả chúng ta đã đọc một loạt tin tức tào lao
+ 🍀
+ 🍀 và tôi biết có lẽ tôi không phải là người đầu tiên
+ 🍀 nói điều này nhưng bạn  bắt đầu lắng
+ 🍀 nghe các chính trị gia ở washington và bạn
+ 🍀 có thể có cái nhìn méo mó về thế giới
+ 🍀 và tôi nghĩ ngày hôm qua là một ví dụ về
+ 🍀 mối quan hệ thực sự của chúng tôi
+ 🍀 với các nhà phát triển và mối quan hệ đó quan trọng như thế nào
+ 🍀
+ 🍀 đối với họ với chúng tôi và với chúng tôi với họ
+ 🍀 và  rằng rất nhiều người trong số họ sẽ chọn
+ 🍀 bay
+ 🍀 nửa vòng trái đất để đến đây
+ 🍀 tham dự một sự kiện như thế này và
+ 🍀 bạn biết với tôi rằng điều đó rất khẳng định lại
+ 🍀 bạn biết không và chúng tôi có
+ 🍀 đội ngũ nhà phát triển tuyệt vời này,
+ 🍀 một số người trong số họ có mặt ở đây với khán giả uh
+ 🍀 bạn  biết trích dẫn
+ 🍀 huấn luyện viên bóng đá yêu thích của tôi bạn biết đấy susan và
+ 🍀 nhóm của cô ấy tiếp cận vấn đề này với
+ 🍀 sự nhiệt tình mà trước đây nhân loại chưa từng biết đến
+ 🍀 uh
+ 🍀 khi nói đến việc phục vụ
+ 🍀 các nhà phát triển và tôi, bạn đã cảm nhận được
+ 🍀 điều đó ngày hôm qua tôi nghĩ
+ 🍀 vâng tôi đã nghĩ uh  chúng ta đã bỏ lỡ
+ 🍀 điều gì đó trong vài năm qua,
+ 🍀 ý tôi là được
+ 🍀 gặp nhau luôn rất đặc biệt và ý tôi là
+ 🍀 một phần của nó là
+ 🍀 nói về những điều chúng ta nói
+ 🍀 và tôi nghĩ thực sự vì điều đó mà
+ 🍀 bạn biết rằng thật khó để buông tay  trong số
+ 🍀 những định dạng video này bởi vì chúng tôi có
+ 🍀 thể thực sự tạo ra
+ 🍀 những câu chuyện đó,
+ 🍀
+ 🍀 nhưng tất cả chúng tôi đều cảm thấy rằng ngay cả khi điều đó hiệu quả
+ 🍀 và ngay cả khi chúng tôi muốn đưa
+ 🍀 nội dung ra ngoài thật tốt để gắn kết cộng
+ 🍀 đồng là điều chúng tôi đã
+ 🍀 đã bỏ lỡ rất nhiều và
+ 🍀 thật
+ 🍀 tuyệt vời ngay cả khi khách hàng tiềm năng xuất
+ 🍀 hiện và xem một bộ phim với chúng tôi xem
+ 🍀
+ 🍀 cộng đồng thực sự cảm thấy như thế nào giống như cách
+ 🍀 chúng tôi đã làm như chúng ta hãy gặp nhau
+ 🍀 và uh thật tuyệt, vâng tôi sẽ
+ 🍀 công nhận craig vì  anh ấy là một trong những người
+ 🍀 thúc đẩy điều đó đúng đắn bởi vì chúng tôi làm rất tốt
+ 🍀 với những bài thuyết trình trực tuyến này
+ 🍀
+ 🍀
+ 🍀
+ 🍀
+ 🍀 san francisco hoặc san jose
+ 🍀 tùy thuộc vào các năm uh và chúng tôi có một
+ 🍀 sự kiện đáng kinh ngạc nhưng khi thèm muốn xảy ra, chúng
+ 🍀 tôi đã thay đổi cách chúng tôi phải kinh doanh
+ 🍀 đúng đắn và rõ ràng chúng tôi đã thay đổi
+ 🍀 những video này, bạn biết đấy, không chỉ là các bài phát biểu mà cả
+ 🍀 các phiên và chúng đã  được
+ 🍀 đón nhận nồng nhiệt uh,
+ 🍀 sự hài lòng của nhà phát triển đối với họ cực kỳ cao
+ 🍀 và hàng triệu triệu nhà phát triển
+ 🍀 đã tham gia vào tuần đó và sau đó, vì vậy
+ 🍀 thật khó để từ bỏ nhưng craig và
+ 🍀 một số người khác cũng vậy nhưng chúng tôi cần
+ 🍀 sự kết nối đó, chúng tôi cần
+ 🍀 cuộc trò chuyện đó  rằng việc trao đổi ý kiến ​​như
+ 🍀 tim đã nói những điều mà bạn chỉ có thể làm
+ 🍀 trực tiếp và cậu bé cảm thấy thật tuyệt vâng tôi cũng
+ 🍀 có trải nghiệm tương tự ừm tôi đến vào
+ 🍀 thứ bảy thay vì chủ nhật và sau đó là
+ 🍀 chủ nhật tôi không biết phải làm gì với
+ 🍀 bản thân và uh  thực ra tôi đang ở
+ 🍀 một khách sạn ngay gần khuôn viên trường và
+ 🍀 tôi chỉ đi dạo đúng không ý
+ 🍀 bạn là bạn làm gì bạn đi dạo xem
+ 🍀 chuyện gì đang xảy ra và có một người
+ 🍀 trên vỉa hè một người
+ 🍀 như 11 giờ chủ nhật  buổi sáng
+ 🍀 đó là kẻ phá hoại cáp
+ 🍀 [Cười]
+ 🍀 nơi bạn đi cáp anh ấy sẽ
+ 🍀 đăng ký và tôi nói tôi sẽ đi cùng bạn
+ 🍀 tại sao không tôi đăng ký phương tiện cho
+ 🍀 đến thứ hai nhưng tôi giống như tôi sẽ đi
+ 🍀 chơi với khách  trung tâm vào chủ nhật
+ 🍀 thật tuyệt vời và
+ 🍀 bạn biết đấy tôi được công nhận một lần trong
+ 🍀 năm tôi đi tôi bạn có thể biết tôi sống
+ 🍀 51 tuần trong năm ở philadelphia
+ 🍀 không ai biết tôi là ai
+ 🍀 và tôi đến wwdc và mọi người biết tôi
+ 🍀 nhưng điều đó thật tuyệt  và tôi thích nó khi
+ 🍀 mọi người đến và nói xin chào nhưng
+ 🍀 lần này tôi rất khác bởi vì tôi tôi
+ 🍀
+ 🍀 thực sự đã quên mất điều đó giống như
+ 🍀 bạn biết và
+ 🍀 tôi không phải là người hay ôm hoặc ít nhất là tôi không được
+ 🍀 che chắn trước nhưng tôi  'tôi thích ôm mọi người
+ 🍀 tôi thích
+ 🍀 và một lần nữa tôi đã gặp những người đến từ qatar dubai
+ 🍀 brazil
+ 🍀 và điều này tôi đã có cùng suy nghĩ giống như
+ 🍀 bạn đang hàm ở đâu
+ 🍀 và tất cả họ đều rất
+ 🍀 hạnh phúc
+ 🍀 và cảm xúc của mọi người
+ 🍀 đều
+ 🍀 đỏ bừng mặt và nước mắt lưng tròng  và
+ 🍀 chỉ là niềm vui niềm vui và tôi thực sự nghĩ rằng chúng ta
+ 🍀 bạn có thể nghĩ về mọi thứ, giống như
+ 🍀 bạn có thể nghĩ về việc
+ 🍀 ôm hoặc hôn người mình yêu sẽ như thế nào nhưng
+ 🍀 nó hoàn toàn khác so với
+ 🍀 trải nghiệm khi làm điều đó và giống như bạn
+ 🍀 có thể nghĩ về yeah yeah  tôi nhớ
+ 🍀 cộng đồng nhưng sau đó khi cộng đồng
+ 🍀 quay lại với nhau thì
+ 🍀 nó thành công và tôi hoàn toàn thấy nó
+ 🍀 thực sự đáng chú ý ừm và tôi nghĩ
+ 🍀 sự kiện này thật tuyệt vời tôi nghĩ
+ 🍀 màn hình tôi không thể tin vào
+ 🍀 nửa số người tôi biết cũng có
+ 🍀 những vết cháy nắng khủng khiếp
+ 🍀 đó là một ngày rất nắng nhưng màn hình
+ 🍀 thật tuyệt vời làm sao mặt trời lại có thể
+ 🍀 sáng như vậy và điều này bạn có thể thấy điều này một
+ 🍀 cách hoàn hảo nó gần như siêu thực vâng,
+ 🍀 nó giống như susan prescott khổng lồ trên
+ 🍀
+ 🍀 âm lượng uh vẫn vậy nhưng nó đã
+ 🍀 [Tiếng cười]
+ 🍀 uh,
+ 🍀 tôi cũng thấy thật thú vị khi họ
+ 🍀 tổ chức các chuyến tham quan tòa nhà này, đây là
+ 🍀 trung tâm nhà phát triển mới và tôi đã
+ 🍀 tham gia chuyến tham quan đó nhưng tôi cũng đã nghe từ các
+ 🍀 nhà phát triển đã tham quan vào Chủ nhật,
+ 🍀 bạn biết đấy và họ giống như  ồ bạn phải
+ 🍀 đi bạn phải đi xem và bạn biết
+ 🍀 họ giống như này đó là nơi
+ 🍀 buổi biểu diễn của bạn sẽ diễn ra
+ 🍀 và tôi giống như
+ 🍀 tôi không biết
+ 🍀 khách của bạn là ai,
+ 🍀 tôi không biết
+ 🍀 rõ và đây là  một tòa nhà hoàn toàn mới,
+ 🍀 chúng tôi vừa công bố nó, ý tôi
+ 🍀 là chúng tôi đã lưu trữ các nhà phát triển trong nhiều năm
+ 🍀 nhưng tôi không biết liệu bạn đã từng lưu trữ
+ 🍀 nó trong vòng lặp vô hạn hay chưa nhưng cảm giác
+ 🍀 như đưa các nhà phát triển vào một hang động
+ 🍀 ngay tại đó  sẽ là
+ 🍀 những phòng họp nội thất này, đây là một trong những
+ 🍀 điều tuyệt vời nhất mà bạn có thể nói về việc không có
+ 🍀 cửa sổ, bạn biết đấy, đôi khi các nhà phát triển
+ 🍀 sẽ ở đó cả ngày lẫn đêm
+ 🍀 trong một thời gian dài, điều đó có vẻ
+ 🍀 không nhân đạo lắm và chúng tôi đã nâng cấp
+ 🍀 cấp độ ở đây bạn biết đây là
+ 🍀 trải nghiệm mà bạn biết thay vì chỉ là
+ 🍀 trung tâm tóm tắt dành cho nhà phát triển chúng tôi có
+ 🍀 cái này chúng tôi có phòng này chúng tôi có
+ 🍀 những phòng cách âm tuyệt vời này nơi
+ 🍀 các nhà phát triển có thể làm việc mà bạn biết một
+ 🍀 cách bí mật và làm việc trên nội dung của họ
+ 🍀 và bạn biết không chỉ tham gia với
+ 🍀 nhóm nhà phát triển của chúng tôi nhưng ngay bên kia
+ 🍀 đường từ công viên táo, nơi chúng tôi biết bạn
+ 🍀 biết Craig và các kỹ sư của anh ấy và khi
+ 🍀 cần thiết, các kỹ sư phần cứng của chúng tôi
+ 🍀 đều ở bên kia đường nên đây là
+ 🍀 cơ hội ngoạn mục cho các
+ 🍀 nhà phát triển, kỹ sư và
+ 🍀 nhóm nhà phát triển của chúng tôi  tất cả tương tác theo một cách
+ 🍀 chắc chắn là theo cách tốt hơn nhiều so với
+ 🍀 trước đây tôi
+ 🍀 nghĩ điều đó
+ 🍀 tượng trưng cho
+ 🍀 bạn biết rằng cả
+ 🍀 ba chúng tôi đã nói về
+ 🍀 cùng một vấn đề là
+ 🍀 Apple có quan tâm đến
+ 🍀 các nhà phát triển bên thứ ba không và nếu đó là
+ 🍀 con người  ai muốn trả lời câu hỏi đó
+ 🍀 vâng, apple không quan tâm đến họ bạn
+ 🍀 blah blah blah lý do này lý do
+ 🍀 kia lý do
+ 🍀 tại sao tòa nhà này
+ 🍀 tồn tại ý
+ 🍀 tôi là đó là biểu hiện vật lý của
+ 🍀 thái độ tốt nhất của apple đối với các nhà phát triển
+ 🍀 vâng bây giờ chúng ta đang
+ 🍀 xem iphone đã thay đổi thế giới
+ 🍀 chúng ta biết điều đó nhưng nó đã làm được điều đó khi
+ 🍀 kết hợp với cửa hàng ứng dụng uh nó đã làm được điều đó
+ 🍀 khi kết hợp với các ứng dụng mà bạn biết đấy,
+ 🍀 một lần nữa mọi người quên
+ 🍀 phân phối phần mềm như thế nào trước khi có
+ 🍀 cửa hàng ứng dụng uh bạn  đủ lớn để
+ 🍀 biết
+ 🍀 nhưng bạn biết đấy để đưa phần mềm ra
+ 🍀 thị trường rất khó khăn, bạn phải tìm được
+ 🍀 nhà xuất bản đúng không, nhà xuất bản đã lấy một
+ 🍀 kênh bị cắt mất một phần, bạn phải tạo ra
+ 🍀 hàng hóa uh cuối cùng thì các
+ 🍀 nhà phát triển đã rời đi với  rất ít và chúng tôi
+ 🍀 muốn tạo ra một
+ 🍀 nơi an toàn và đáng tin cậy, nơi
+ 🍀 các nhà phát triển có thể tiếp cận tất cả khách hàng
+ 🍀 với nhiều lợi ích kinh tế hơn và
+ 🍀 tạo sân chơi bình đẳng giữa lớn và
+ 🍀 nhỏ.
+ 🍀
+ 🍀
+ 🍀 đúng là phép màu kinh tế,
+ 🍀 nó đã tạo ra hàng triệu triệu
+ 🍀 việc làm trên khắp thế giới, hơn 2 triệu
+ 🍀 việc làm chỉ riêng ở Hoa Kỳ được thúc đẩy
+ 🍀 bởi nền kinh tế ứng dụng của chúng ta uh nó đã hoạt động
+ 🍀
+ 🍀 và
+ 🍀 nó đã hoạt động cho những nhà phát triển đó.  đối với mọi người,
+ 🍀 đó là một trong những cách đôi bên cùng có lợi, ừm, chúng tôi
+ 🍀 rất tự hào về điều đó và các nhà phát triển, bạn
+ 🍀 biết một phần của huyết mạch và theo
+ 🍀 quan điểm của bạn, đó là lý do tại sao chúng tôi có những thứ như
+ 🍀 thế này và hội nghị này
+ 🍀 tôi sẽ cho bạn biết phản hồi
+ 🍀 từ mac
+ 🍀 các nhà phát triển mac indie lâu năm, tôi biết ở
+ 🍀 điểm đó, đó là
+ 🍀 giữa
+ 🍀 thời đại phân phối vật lý và trải qua
+ 🍀 ingram micro hoặc bất kỳ ai mà bạn
+ 🍀 biết, hãy lấy 60
+ 🍀 trước khi họ gửi cho một nhà bán lẻ
+ 🍀 lấy 50 khác và để lại cho bạn  một
+ 🍀 phần nhỏ của doanh số bán hàng
+ 🍀 ừm
+ 🍀 rằng
+ 🍀 vào thời kỳ đầu
+ 🍀 như từ năm 2000 đến kỷ nguyên iphone, bạn
+ 🍀 biết đấy khi mac os 10 là mac os 10,
+ 🍀 có một thị trường phát triển mạnh gồm
+ 🍀 các nhà phát triển độc lập, những người không trải qua quá
+ 🍀 trình thực tế, bạn biết đấy, họ chỉ là
+ 🍀 những bản tải xuống trực tiếp  với việc bán hàng trực tiếp trên trang web của họ
+ 🍀
+ 🍀 ừm
+ 🍀 nhưng tôi nghĩ sự khác biệt
+ 🍀 giống như
+ 🍀
+ 🍀 số lượng nhà phát triển trong
+ 🍀 thế giới ngày nay đến từ khắp nơi trên
+ 🍀 thế giới và giống như việc wwe dc bán
+ 🍀 hết vé nhanh như thế nào ngay bây giờ giống như
+ 🍀 thời kỳ đó bạn  biết bạn bạn chỉ có thể
+ 🍀 mất một tuần và quyết định xem bạn có
+ 🍀 muốn truy cập wwdc hay không, ý tôi là lần cuối cùng
+ 🍀 trước khi các bạn trúng xổ số,
+ 🍀 tôi nghĩ rằng giống như một phút,
+ 🍀 bạn biết đấy, đúng rồi, tôi nghĩ
+ 🍀 thế giới này có gì thú vị  rằng thực sự
+ 🍀 iphone và cửa hàng ứng dụng đã mở ra
+ 🍀
+ 🍀 chỉ có
+ 🍀 cộng đồng đáng tin cậy này, nơi mà
+ 🍀 việc nghĩ đến việc mua một ứng dụng không phải là
+ 🍀 một quyết định lớn bạn
+ 🍀 biết
+ 🍀 con tôi con tôi làm điều đó mà
+ 🍀 bạn hầu như không biết mà không cần nghĩ
+ 🍀 về nó  trung bình mọi người mua số lượng ứng dụng
+ 🍀 mà mọi người mua hôm nay
+ 🍀 uh so với ngay cả trong thời kỳ
+ 🍀 hoàng kim mà
+ 🍀 bạn biết và thậm chí ngày nay những gì
+ 🍀 bạn thấy từ lượt tải xuống web trên
+ 🍀 nền tảng máy tính để bàn uh không có gì
+ 🍀 so sánh được bởi vì  mọi người biết rằng họ có
+ 🍀 một nền tảng mà họ có thể tin tưởng vào một nguồn mà
+ 🍀 họ có thể tin tưởng vào một cộng đồng nhà phát triển sôi nổi
+ 🍀 và toàn bộ điều đó đang
+ 🍀
+ 🍀 hoạt động rất tuyệt vời cho mọi người
+ 🍀 và tôi sẽ chỉ nói từ quan
+ 🍀 điểm của
+ 🍀 chúng tôi và việc xây dựng phần mềm
+ 🍀 những nền tảng này, những nền tảng này, chúng tôi
+ 🍀
+ 🍀 coi đây là
+ 🍀 cơ hội tuyệt vời để
+ 🍀
+ 🍀 nâng cao cả nhà phát triển và
+ 🍀 cộng đồng người dùng mà bạn biết chúng tôi là
+ 🍀 nền tảng đầu tiên và bạn biết
+ 🍀 những trải nghiệm khác mà chúng tôi  xây dựng thứ hai
+ 🍀 bởi vì đó là
+ 🍀 loại nâng tất cả các thuyền
+ 🍀 và tôi nghĩ nó rất buồn cười tôi đã đọc
+ 🍀 một cái gì đó mà ai đó đang nói
+ 🍀 ồ chúng tôi nhận thấy bạn đã giới thiệu
+ 🍀 rất nhiều apis là bởi vì bạn
+ 🍀 biết phản ứng với
+ 🍀 uh bạn biết cơ quan quản lý châu Âu  nói
+ 🍀 điều gì đó về bạn và tôi giống như
+ 🍀 bạn đã không xem các hội nghị của chúng tôi
+ 🍀 trong bao nhiêu năm qua ý tôi
+ 🍀 là đây là những gì chúng tôi biết bạn biết và thật
+ 🍀 là một đặc ân khi có thể
+ 🍀 làm điều đó ừm
+ 🍀 vậy hãy bắt đầu nào  với một số tin tức từ
+ 🍀 đó đã được công bố ngày hôm qua và một tin
+ 🍀 tức thực sự thu hút sự chú ý của tôi và thật
+ 🍀 hoàn hảo để xem lại vì chúng tôi đã nói
+ 🍀 về điều này.
+ 🍀 Tôi nghĩ rằng lần cuối cùng tôi làm điều này vào năm 2019 vì vậy đây sẽ
+ 🍀 là lần cuối cùng chúng tôi làm điều này
+ 🍀 trực tiếp-  khuôn mặt
+ 🍀 là khi swift ui
+ 🍀 và chất xúc tác được công bố cùng
+ 🍀 năm
+ 🍀 và tôi đã cố gắng để bạn trả lời
+ 🍀 đó là con đường nào là con đường nào
+ 🍀
+ 🍀 và điều khiến tôi chú ý trong tình trạng
+ 🍀 liên minh ngày hôm qua đối với
+ 🍀 tôi là một slide rõ ràng
+ 🍀
+ 🍀 Tôi đang trích dẫn trực tiếp cách tốt nhất để
+ 🍀 xây dựng một ứng dụng
+ 🍀 là nhanh chóng và nhanh chóng ui vâng,
+ 🍀 đó có vẻ như là một sự thay đổi trong
+ 🍀 thông điệp về mặt cam kết với điều này
+ 🍀 đây là con đường phía trước vâng tôi nghĩ
+ 🍀 chúng ta đã
+ 🍀 quay lại khi chúng ta nói chuyện lần cuối vào năm 2019
+ 🍀 hướng đi trong tương lai nơi
+ 🍀 chỉ ra lỗi uh đã rõ ràng và
+ 🍀 chúng tôi đã hành quân
+ 🍀 trên véc tơ đó uh kể từ đó
+ 🍀 uh tôi nghĩ rằng
+ 🍀 tất cả những công nghệ này
+ 🍀 và tôi nghĩ tôi tôi hy vọng tôi đã nói vào
+ 🍀 thời điểm đó uh đều có liên quan và vẫn
+ 🍀 có liên quan  bây giờ, và do đó, tùy thuộc vào
+ 🍀 vị trí của bạn với tư cách là nhà phát triển, sự
+ 🍀 kết hợp công nghệ phù hợp với bạn tại
+ 🍀 thời điểm này
+ 🍀 có thể khá khác biệt,
+ 🍀 tất nhiên chúng tôi xây dựng rất nhiều ứng dụng bộ giao diện người dùng,
+ 🍀 chúng tôi xây dựng rất nhiều ứng dụng bộ ứng dụng gốc mà chúng tôi
+ 🍀 xây dựng ngay bây giờ  trên mac có rất nhiều
+ 🍀 ứng dụng xúc tác mà tôi nghĩ là
+ 🍀 tuyệt vời và mac hiện có
+ 🍀 bộ ứng dụng bên thứ nhất phong phú hơn vì
+ 🍀 xúc tác,
+ 🍀 chúng tôi phụ thuộc vào khả năng đó và chúng tôi
+ 🍀 tiếp tục xây dựng khuôn khổ đó và
+ 🍀 làm cho nó ngày càng có nhiều khả năng hơn
+ 🍀 nhưng ngày càng tăng  khi chúng tôi xây dựng những thứ mới
+ 🍀 khi chúng tôi xây dựng giao diện người dùng mới, chúng
+ 🍀 tôi sẽ xây dựng chúng với giao diện người dùng nhanh chóng khi
+ 🍀 chúng tôi có cơ hội
+ 🍀 làm điều gì đó mới mẻ và và năm nay,
+ 🍀 một trong những điều chúng tôi đã công bố là chúng tôi đang
+ 🍀 làm cho việc sử dụng một chút trở nên dễ dàng hơn bao giờ hết.
+ 🍀 các phần của ứng dụng của bạn, thậm chí cả các ô
+ 🍀 mà bạn đặt trong chế độ xem bộ sưu tập và
+ 🍀 nói rằng bạn biết phần này sẽ rất
+ 🍀 tuyệt nếu thực hiện trong swift ui vì điều đó thật
+ 🍀 tuyệt vì tôi không phải suy nghĩ lại về
+ 🍀 kiến ​​trúc ứng dụng tổng thể của mình nhưng tôi chỉ có thể
+ 🍀 phù hợp với điều này và tất nhiên
+ 🍀 các nhà phát triển hiện đang xây dựng các tiện ích
+ 🍀 và xem các biến chứng trong giao diện người dùng nhanh chóng,
+ 🍀 vì vậy nó đang trở thành một phần của gần như bạn
+ 🍀 biết nhiều ứng dụng uh và có thể là
+ 🍀 nền tảng hoàn chỉnh cho nhiều ứng dụng trong
+ 🍀 tương lai nhưng vâng, các điều khoản về nơi
+ 🍀 mũi tên chỉ vào uh hoàn toàn tôi
+ 🍀 nghĩ rằng biểu đồ swift ui
+ 🍀 biểu đồ swift tôi quên tên biểu đồ swift
+ 🍀 vâng uh nhưng có vẻ như tôi chưa thực sự
+ 🍀 tìm hiểu sâu về nó nhưng nó có vẻ cực kỳ hay và
+ 🍀 mạnh mẽ nhưng giống như một người bạn của tôi,
+ 🍀 tôi'  Tôi sẽ ăn cắp của anh ấy nhưng anh ấy nói
+ 🍀 nó giống như một
+ 🍀 nút lá hoàn hảo, giống như nếu bạn đã có
+ 🍀 một cây ứng dụng, đúng vậy, bạn chỉ cần
+ 🍀
+ 🍀 sử dụng
+ 🍀 công dụng này mà bạn biết và ứng dụng có thể là bộ ứng dụng
+ 🍀 hoặc có thể là ứng dụng iphone.
+ 🍀 ui kit bạn sẽ không chặt
+ 🍀 toàn bộ cây và xây dựng lại toàn bộ cây này
+ 🍀 nhưng bạn đã có một nút lá mới nơi
+ 🍀 các biểu đồ nhanh sẽ là thứ hoàn hảo mà bạn
+ 🍀 cần các biểu đồ,
+ 🍀 bạn có thể đặt nó ngay tại đó,
+ 🍀 điều đó hoàn toàn đúng và và  bạn
+ 🍀 thực sự có trong các ứng dụng mà
+ 🍀 các phiên bản của ứng dụng mà chúng tôi biết
+ 🍀 hiện đã được đưa vào các nhà phát triển nếu bạn nhìn
+ 🍀 vào bên trong ứng dụng sức khỏe tại một số
+ 🍀 biểu đồ đó, đó là một ứng dụng
+ 🍀 không phải là ứng dụng ui hoàn toàn nhanh
+ 🍀 nhưng  một loạt các biểu đồ của
+ 🍀 các biểu đồ nhanh nếu bạn nhìn vào ứng dụng thời tiết
+ 🍀 hiện đã có trên ipad.
+ 🍀
+ 🍀
+ 🍀
+ 🍀
+ 🍀
+ 🍀
+ 🍀 có
+ 🍀 các biểu đồ nhanh chóng phù hợp với
+ 🍀 ứng dụng này, vì vậy, vâng, tôi nghĩ rằng đối với mọi
+ 🍀 nhà phát triển, có lẽ nó
+ 🍀 bắt đầu chỉ là một trong những mũi tên trong
+ 🍀 ống tên của họ khi họ xây dựng
+ 🍀 các phần khác nhau của ứng dụng và
+ 🍀 cuối cùng họ tìm thấy chúng  xây dựng ngày càng
+ 🍀 nhiều hơn,
+ 🍀
+ 🍀 Swift ui là gì mặc dù giống như
+ 🍀 những gì tôi đang nghe và
+ 🍀 những gì slide rõ ràng đó nói với tôi
+ 🍀 là mười năm sau
+ 🍀 10 năm nữa của những chương trình nói chuyện này
+ 🍀 sẽ có những gì tôi đang nghe
+ 🍀 từ  bạn sẽ ở đó vào
+ 🍀 thời điểm đó nhiều hơn tất cả các hoạt động giao diện người dùng nhanh chóng tôi
+ 🍀 nghĩ điều đó đúng và tại sao bạn lại nghĩ
+ 🍀 đó là điều
+ 🍀
+ 🍀 tôi nghĩ đó là
+ 🍀 chất xúc tác thực sự cho sự sáng tạo và
+ 🍀 hôm qua tôi đã nói chuyện với một nhà phát triển uh từ
+ 🍀 giải thưởng thiết kế  và nói rằng bạn
+ 🍀 biết quy trình của bạn là gì và anh ấy
+ 🍀 nói rằng bạn biết tôi đang làm mọi thứ ngay bây giờ một cách
+ 🍀 nhanh chóng và
+ 🍀 tôi
+ 🍀 có một ý tưởng và tôi có thể
+ 🍀 ngồi xuống và dùng thử trong vài giờ để
+ 🍀 cảm nhận nó, nắm được ý chính của
+ 🍀 nó và
+ 🍀 đó là  đó là điều
+ 🍀 khơi dậy bạn biết đấy uh uh sự đổi mới đúng
+ 🍀 không bạn, bạn cảm thấy gần như
+ 🍀 suy nghĩ và biến nó thành một
+ 🍀 ứng dụng, sau đó xây dựng nó và
+ 🍀 thực tế là chúng tôi có các bản xem trước trực tiếp rằng
+ 🍀 quá trình quay vòng nhanh đến mức  giao diện
+ 🍀 người dùng linh hoạt đến mức nó nhắm mục tiêu lại đến
+ 🍀 các nền tảng khác ngay lập tức, ý tôi
+ 🍀 là bạn chỉ đang chồng chất lợi nhuận lên trên
+ 🍀 lợi nhuận và uh và tôi nghĩ uh nó mang lại
+ 🍀 rất nhiều niềm vui cho
+ 🍀 sự phát triển, bạn biết đấy, khi tôi
+ 🍀 rảnh rỗi  thời gian tôi ngồi xuống và viết ứng dụng và
+ 🍀 nhanh chóng ui chỉ
+ 🍀 để giải trí vì nó chỉ là niềm vui mà
+ 🍀 tôi xem TV
+ 🍀 mọi người có thể
+ 🍀 [Cười]
+ 🍀 nếu chúng tôi có thêm một giờ, chúng tôi có thể dành
+ 🍀 cả giờ để nói về việc thôi việc
+ 🍀 bởi vì vâng, hãy làm điều đó bất kỳ
+ 🍀 người hâm mộ thôi việc nào  trước khán giả,
+ 🍀 tôi không muốn bỏ đi nhưng tôi chỉ khóc
+ 🍀 [Tiếng cười]
+ 🍀 tôi đã mô tả chương trình đó cho vợ tôi và
+ 🍀 cô ấy nói chung không phải là
+ 🍀 người hâm mộ khoa học viễn tưởng và cô ấy đã thích và tôi
+ 🍀 nghĩ rằng hãy cho nó một cơ hội mà cô ấy
+ 🍀 yêu thích  nó còn hơn cả tôi đã làm điều đó thật tuyệt vời thật tuyệt vời
+ 🍀 nó thực sự tốt
+ 🍀 bạn biết không nhưng một trong
+ 🍀 những điều khác và tôi nghĩ rằng
+ 🍀 một số người hiểu
+ 🍀 lầm các bạn đã cam kết giữ
+ 🍀 mọi thứ diễn ra như thế nào và tôi thậm chí còn nhận thấy
+ 🍀 một lần nữa đó không phải là tôi  tìm hiểu kỹ
+ 🍀 các ghi chú phát hành nhưng một người bạn đã chỉ
+ 🍀 ra rằng năm nay thậm chí còn có một bộ
+ 🍀 điều khiển bộ ứng dụng hoàn toàn mới ns
+ 🍀 nút kết hợp, thật tuyệt, tôi đã thấy
+ 🍀 đó là một nút
+ 🍀 mà bạn có thể có một menu thả xuống bên
+ 🍀 cạnh nút nhấn  nút và kết hợp chúng
+ 🍀 lại với nhau để ngay cả bộ ứng dụng vẫn chưa có gì được
+ 🍀 coi là di sản
+ 🍀 đúng vậy đúng vậy ý ​​tôi là tôi
+ 🍀 nghĩ mọi người phải
+ 🍀 hiểu ở đó
+ 🍀 uh chúng ta
+ 🍀 tin tưởng vào sức khỏe và
+ 🍀 sự phát triển liên tục của tất cả
+ 🍀 các khung này bên trong apple hơn là
+ 🍀 bất cứ nơi nào khác bạn biết trên thế giới
+ 🍀 và vì vậy
+ 🍀 chúng tôi có mọi mối quan tâm và một
+ 🍀 cộng đồng nhà phát triển nội bộ luôn
+ 🍀 đòi hỏi
+ 🍀 sự tiến bộ liên tục trên tất cả các mặt vì vậy
+ 🍀 tôi không nghĩ bất kỳ ai nên sợ cam kết của chúng tôi
+ 🍀 ở đây
+ 🍀 um
+ 🍀 tôi hiểu rồi  tại sao tôi bạn biết tôi tôi nghĩ
+ 🍀 rất có lý khi
+ 🍀 bài phát biểu quan trọng của wwe dc luôn được tổ chức theo
+ 🍀 nền tảng
+ 🍀 đúng không uh
+ 🍀 ios chúng
+ 🍀 ta đã tranh luận về điều này vâng
+ 🍀 bạn cũng biết điều gì buồn cười khi bạn xuất hiện
+ 🍀 ở đây vì nội dung cộng đồng và bạn
+ 🍀 nói chuyện với mọi người và  bạn có thể nói chuyện trực tiếp với
+ 🍀 mọi người và bạn thường xuyên ném
+ 🍀 nó đi.
+ 🍀
+ 🍀
+ 🍀
+ 🍀
+ 🍀
+ 🍀
+ 🍀 chúng tôi đi vào phần mac và
+ 🍀 chúng tôi đang nói về những cải tiến này
+ 🍀 để gửi thư ngay và tại một số thời điểm,
+ 🍀 phần ios kết thúc
+ 🍀 và mọi người làm tốt đó là điều thực tế
+ 🍀 thậm chí xem phạm vi bảo hiểm mọi người nói
+ 🍀 tốt vì vậy đó là điều có trong ios và sau đó chúng tôi
+ 🍀 vào  phần mac, chúng tôi bắt đầu
+ 🍀 nói về tính năng mới trong thư, tất cả
+ 🍀 các tính năng đó trong
+ 🍀 thư và ios, tất cả chúng đều cực kỳ
+ 🍀 phù hợp ở đó, bạn vào
+ 🍀 phần ipad, chúng tôi bắt đầu nói về
+ 🍀 cộng tác, cách bạn có thể bắt đầu
+ 🍀 cộng tác trong thư và sau đó thực hiện
+ 🍀 điều đó trong các thư này  các ứng dụng khác
+ 🍀 trong mac và trong ios, chúng tôi đề cập đến nó
+ 🍀 trong phần ipad, vì vậy chúng tôi cố gắng
+ 🍀 tìm nơi tốt nhất để
+ 🍀 làm nổi bật những phát triển này nhưng phần lớn
+ 🍀 những gì chúng tôi đang làm vào thời điểm này là
+ 🍀 vì lợi ích của
+ 🍀 tất cả các nền tảng và tôi  nghĩ rằng điều này
+ 🍀 một phần là
+ 🍀 do tất cả các khuôn khổ và
+ 🍀 đòn bẩy công nghệ mà chúng tôi có bởi vì
+ 🍀 chúng tôi đang cố gắng tạo ra loại
+ 🍀 môi trường tương tự cho các bên thứ ba thực sự
+ 🍀 dễ dàng thực hiện một lần và thực hiện
+ 🍀 ở mọi nơi mà chúng tôi cũng biết với tư cách là người dùng nền tảng của chúng tôi
+ 🍀
+ 🍀 thật tuyệt vời nếu bạn thích nó nếu
+ 🍀 bạn thích nó ở đây, bạn chắc chắn sẽ không
+ 🍀 mong đợi nó ở mọi thiết bị của chúng tôi mà
+ 🍀 bạn chọn và sử dụng và vì vậy chúng tôi
+ 🍀 cam kết biến điều đó thành hiện thực nhưng nó
+ 🍀 tạo ra câu hỏi về cách chính xác
+ 🍀 bạn có nói về nó không
+ 🍀 và hàm luôn thắng và nó đang sống.
+ 🍀 Tôi nghĩ mặc dù vậy và tôi biết một trong
+ 🍀 những điều mà tôi cũng nghĩ rằng bị
+ 🍀 bỏ qua về apple là apple có thể thành công như thế nào
+ 🍀 khi chơi các trò chơi dài nhanh chóng
+ 🍀 ui rõ ràng là một trò chơi dài và  nó
+ 🍀 đã được giới thiệu ở trạng thái mà nó
+ 🍀 rõ ràng là chưa sẵn sàng để sử dụng
+ 🍀 để tạo
+ 🍀 tất cả các ứng dụng, vâng, tất cả các ứng dụng, bạn biết đấy nhưng
+ 🍀 nó phải được giới thiệu vào một lúc nào đó
+ 🍀 và có một kế hoạch trong tương lai và tự nó
+ 🍀 nhanh chóng,
+ 🍀 tôi đã  là chất xúc tác, đó là thứ mà chúng tôi đã nói
+ 🍀 khá rõ ràng rằng chúng tôi đã nói rằng chúng tôi đang
+ 🍀 làm việc này, chúng tôi đang làm việc đó trước tiên
+ 🍀 với một số ứng dụng này, cuối cùng nó
+ 🍀 sẽ đến tay các nhà phát triển bên thứ ba của bạn
+ 🍀 và chúng tôi tiếp tục xây dựng
+ 🍀 các công nghệ như kim loại mà bạn bắt đầu  ở đây
+ 🍀 và bạn đầu tư và bạn đầu tư và bạn
+ 🍀 đầu tư và
+ 🍀 vâng, chúng là một số lượng lớn các
+ 🍀
+ 🍀 trò chơi dài. Tôi nghĩ rằng một trong
+ 🍀 những trò chơi dài đã thành hiện thực
+ 🍀 trong bài phát biểu quan trọng của năm nay hoặc ít nhất là trong
+ 🍀 tâm trí tôi.
+ 🍀 thực sự có vẻ như đó chính xác là những gì chúng ta đang
+ 🍀 nói đến rằng các tính năng này áp dụng cho
+ 🍀 ios ipad os mac os
+ 🍀 um
+ 🍀 tôi nghĩ rằng thậm chí nhiều năm
+ 🍀 trước nó không đến mức tất cả
+ 🍀 mọi thứ đều được đồng bộ hóa, bạn biết đấy, chúng
+ 🍀 sẽ giống như thế này  là những gì chúng tôi đã hoàn thành trong
+ 🍀 năm nay và bạn biết đấy,
+ 🍀 iphone là
+ 🍀 thiết bị thay đổi thế giới này
+ 🍀 có thể phải xuất hiện đầu tiên
+ 🍀 và
+ 🍀 uh,
+ 🍀 các nền tảng khác mà bạn biết, chẳng
+ 🍀 hạn như mac, chẳng hạn,
+ 🍀 bạn biết mac os
+ 🍀 10
+ 🍀 đã ở một vị trí tuyệt vời
+ 🍀 vào thời điểm tên thay đổi
+ 🍀 mac os 10 bây giờ là mac os nhưng đã
+ 🍀 từng có os 10 ở giữa,
+ 🍀 tôi không thích cái đó,
+ 🍀 chúng tôi đã sửa nó, dù sao thì
+ 🍀 bạn cũng phải có mac trong tên,
+ 🍀
+ 🍀 chúng tôi đồng ý
+ 🍀 [  Tiếng cười]
+ 🍀 nhưng tôi thực sự nghĩ rằng có thể cảm nhận được
+ 🍀 uh lặp đi lặp lại như thế nào trong
+ 🍀 bài phát biểu quan trọng ngày hôm qua
+ 🍀 và điều này có sẵn trên hai
+ 🍀 nền tảng khác mà bạn biết
+ 🍀 chúng tôi đã tham gia phân đoạn nào và bạn cũng
+ 🍀 biết nam và uh
+ 🍀 hãy nghĩ về  các tin nhắn uh sẽ
+ 🍀 là một ví dụ tuyệt vời đúng không, chúng tôi
+ 🍀 có một số ứng dụng đến với mac
+ 🍀 chỉ nhờ
+ 🍀 chất xúc tác trước khi có chất xúc tác, những ứng dụng đó
+ 🍀 không có, có những ứng dụng khác mà
+ 🍀 chúng tôi thực sự
+ 🍀 đã viết lại ứng dụng hoặc đã tạo
+ 🍀 ứng dụng gốc cho mac từ  hết chất xúc tác
+ 🍀 uh để thay thế một ứng dụng mac mà
+ 🍀 trước đây chúng tôi đã thực hiện tất cả
+ 🍀 các tính năng tin nhắn này
+ 🍀 mà chúng tôi đã thông báo rằng uh bạn biết
+ 🍀 khả năng chỉnh sửa tin nhắn và thu hồi tin
+ 🍀 nhắn, v.v.
+ 🍀
+ 🍀 mac vào cùng năm
+ 🍀 và thực tế là chúng tôi đã đầu tư vào
+ 🍀 chất xúc tác, chất xúc tác sau đó là
+ 🍀 nền tảng để xây dựng một ứng dụng tốt hơn nhiều
+ 🍀 cho ứng dụng tin nhắn dành cho mac
+ 🍀 chia sẻ mã trên tất cả các nền tảng
+ 🍀 có nghĩa là những cải tiến này
+ 🍀 đối với tin nhắn hoàn toàn có ở mọi nơi chúng tôi  đã công bố
+ 🍀 các tính năng tuyệt vời cho bản đồ, chúng ở
+ 🍀 khắp mọi nơi trên tất cả các nền tảng, vì vậy
+ 🍀
+ 🍀 đây là tầm nhìn mà chúng tôi đã có từ
+ 🍀 lâu về một nơi chúng tôi có thể đến nhưng
+ 🍀 phải mất nhiều năm để xây dựng
+ 🍀 con đường đến đó và
+ 🍀
+ 🍀 triết lý của chúng tôi  không phải là giữ
+ 🍀 bí mật điều này cho bạn biết bảy năm rồi cuối cùng
+ 🍀 lại lộ ra bởi vì
+ 🍀 cách bạn đạt được điều đó là đưa nó ra khỏi đó,
+ 🍀 nơi cộng đồng có thể bắt đầu sử dụng
+ 🍀 nó ở nơi nó có ý nghĩa đối với họ  cung cấp cho
+ 🍀 bạn thông tin phản hồi và bạn có thể xây dựng nó
+ 🍀 trong nội bộ
+ 🍀 nhưng bạn chỉ cần
+ 🍀 để mắt đến giải thưởng,
+ 🍀
+ 🍀 vâng, thông điệp đối với tôi là
+ 🍀 đứa trẻ áp phích cho
+ 🍀 tiềm năng thực sự của chất xúc tác và và tôi sẽ
+ 🍀 nói với bạn điều đó một cách cụ thể có lẽ tôi đã
+ 🍀 đề cập đến điều đó vào năm ngoái
+ 🍀 có phải những cuộc họp webex đó luôn
+ 🍀 biến mất khỏi tâm trí tôi không nhưng tôi thực sự
+ 🍀 nghĩ không sao. tôi hiểu tại sao họ làm
+ 🍀 điều này để giữ nó.
+ 🍀
+ 🍀
+ 🍀 biết
+ 🍀 kịch bản ngớ ngẩn của apple tôi chạy mỗi năm một lần
+ 🍀 mà
+ 🍀 tôi đã làm tôi tôi
+ 🍀 không
+ 🍀 thường xuyên nhắn tin cho apple script nhưng tôi
+ 🍀 biết bạn biết một số và bạn biết tất cả
+ 🍀 chúng đều hoạt động và
+ 🍀 đó là những gì
+ 🍀 bạn biết đó là những gì bạn đã nói  với tôi, bạn
+ 🍀 sẽ làm như vậy,
+ 🍀 tôi nợ bạn một điểm đúng
+ 🍀 nhưng chúng ta có tất cả những phiên này mà bạn
+ 🍀 biết trong hội nghị, nơi chúng ta
+ 🍀 nói về những thứ như bạn biết
+ 🍀 cách xây dựng một ứng dụng xúc tác tuyệt vời cho mac hoặc
+ 🍀 xây dựng một ứng dụng giao diện người dùng nhanh tuyệt vời cho mac
+ 🍀 và một phần là do bạn chắc chắn đã mang đến
+ 🍀 điểm khởi đầu của mình có thể
+ 🍀 là gì trên ipad, ý nghĩa của việc biến
+ 🍀 nó thực sự trở thành một ứng dụng mac tuyệt vời và tất cả
+ 🍀 những công nghệ khác đó đều có sẵn
+ 🍀 cho bạn và tôi nghĩ các nhà phát triển
+ 🍀 thực sự
+ 🍀 yêu thích mac  và tôi nghĩ rằng nhiều
+ 🍀 nhà phát triển của chúng tôi đã làm đúng, đó là những gì họ
+ 🍀 sử dụng để áp dụng thủ công của họ
+ 🍀 muốn đưa vào công việc bổ sung để làm cho
+ 🍀 ứng dụng của họ trở nên
+ 🍀 tuyệt vời cho mac và đó là điều bạn
+ 🍀 lấy lõi đó và bạn có thể mở rộng nó và
+ 🍀 chắc chắn đó là của chúng tôi  triết lý, một số
+ 🍀 điều tôi muốn nói đến
+ 🍀 mặc dù là những ngoại lệ, một số
+ 🍀 điều, các tính năng
+ 🍀
+ 🍀 dành riêng cho một nền tảng
+ 🍀 và tôi nghĩ vì những lý do mà tôi nghĩ
+ 🍀 có ý nghĩa,
+ 🍀
+ 🍀 màn hình khóa iphone được mô phỏng lại
+ 🍀 uh
+ 🍀 uh bạn có biết khóa iphone không  màn hình
+ 🍀 chỉ dành cho iphone, ý tôi là bạn có thể
+ 🍀 tưởng tượng rằng có thể bạn biết rằng
+ 🍀 màn hình khóa ipad có thể có
+ 🍀 các tính năng tương tự sau này nhưng bạn biết đấy, điều đó
+ 🍀 có ý nghĩa ừm
+ 🍀 tôi chỉ thích điều đó và tôi rất
+ 🍀 vui khi thấy các bạn đã dành bao nhiêu thời gian cho
+ 🍀 bởi vì đối với tôi,
+ 🍀 một trong những điều tốt nhất mà apple
+ 🍀 luôn làm và điều đó đã thu hút tôi đến
+ 🍀 với máy tính apple
+ 🍀 là
+ 🍀 khả năng tiếp cận người dùng để
+ 🍀 làm nhiều việc hơn là chỉ nhấp nhấp nhấp nhấp mà
+ 🍀 thực sự biến nó thành của riêng họ và làm
+ 🍀 điều gì đó đúng đắn và bạn biết đấy  quay trở lại
+ 🍀 thẻ siêu tốc và những thứ tương tự như vậy,
+ 🍀 nhưng có một lịch sử phong phú
+ 🍀 về việc làm điều đó và với tôi,
+ 🍀 khả năng cấu hình màn hình khóa là một
+ 🍀 thứ giống như một bộ xây dựng lego
+ 🍀 để tạo màn hình khóa cho bạn,
+ 🍀 vâng
+ 🍀 và tôi nghĩ  nó không phải là lập trình
+ 🍀 mà nó giống như việc bạn tự
+ 🍀 thiết kế phần mềm của riêng mình và đó là
+ 🍀 điều mà bạn biết rằng
+ 🍀 mọi người đều có thể làm được nó đã vượt qua rất tốt,
+ 🍀 bạn biết đấy, tôi đã làm rất nhiều
+ 🍀 cuộc phỏng vấn báo chí ngày hôm qua và một trong những cuộc phỏng vấn
+ 🍀 yêu thích của tôi là một  trong số các nhà báo
+ 🍀 đã đến gặp tôi và tôi đã nói rằng chương trình mà
+ 🍀 anh ấy tham gia như thế nào, bạn đã để tôi ở màn hình khóa,
+ 🍀 đại loại là nói lên tất cả, ý tôi là nó đã nhận được
+ 🍀 phản ứng tuyệt vời từ đám đông ở đây, bạn
+ 🍀 biết ai đang cổ vũ nó và tất nhiên
+ 🍀 mọi người có gì  đã viết vì tôi
+ 🍀 nghĩ bạn sẽ thích sử dụng nó
+ 🍀 trên tất cả danh sách những thứ mà chúng ta uh
+ 🍀 tất cả chúng ta dành nhiều thời gian để nói về việc
+ 🍀 gọi khu vực đó màn hình khóa
+ 🍀 bắt đầu có vẻ
+ 🍀 như bạn gọi nó là gì  nhưng nó
+ 🍀 là bộ mặt này của điện thoại của bạn và
+ 🍀 đó là lý do tại sao nó rất riêng tư đúng không,
+ 🍀 mỗi khi bạn lấy điện thoại ra, bạn biết có
+ 🍀 rất nhiều điện thoại đặt trên bàn, bạn
+ 🍀 có thể đặt một chiếc ốp lưng lên chúng nhưng cái nào là
+ 🍀 của tôi.  với
+ 🍀 màn hình khóa của tôi và
+ 🍀 tôi nghĩ đó
+ 🍀 thực sự là một niềm đam mê trong nhóm của chúng tôi, xin chào,
+ 🍀 những người đã nhấn mạnh
+ 🍀 vai trò của chụp ảnh cá nhân và
+ 🍀 chúng tôi có thể làm gì với ảnh cá nhân của bạn
+ 🍀 bởi vì
+ 🍀 điều gì mang tính cá nhân hơn thế
+ 🍀 và
+ 🍀 uh nhưng làm những điều đẹp đẽ với
+ 🍀 uh với hình ảnh
+ 🍀 và đây là lĩnh vực mà
+ 🍀 ban đầu thông qua
+ 🍀 chụp ảnh ở chế độ chân dung và sau đó là tất cả công việc
+ 🍀 chúng tôi đã thực hiện theo chiều sâu, bạn
+ 🍀 biết đấy, chúng tôi đã bắt đầu xây dựng một cách để
+ 🍀 làm cho ảnh của bạn trở nên
+ 🍀 sống động và kỳ diệu hơn nhiều và
+ 🍀 uh chúng tôi  chúng tôi thực sự có thể áp dụng điều đó
+ 🍀 ở đây cho màn hình khóa, tôi biết bạn biết
+ 🍀 tôi hiện có một số ảnh của tôi và chúng
+ 🍀 chỉ là
+ 🍀 những bức ảnh của riêng bạn cảm thấy rất đặc biệt nếu chúng tôi
+ 🍀 có thể dành cho chúng
+ 🍀 sự quan tâm đó và thật thú vị khi
+ 🍀 sử dụng
+ 🍀 những công nghệ lớn này bạn  biết các lĩnh vực công nghệ
+ 🍀 như tất cả khoản đầu tư ml này mà chúng tôi đã thực hiện
+ 🍀 trong nhiếp ảnh điện toán và sau đó
+ 🍀 có thể áp dụng nó vào thứ gì đó mang lại
+ 🍀 trải nghiệm thẩm mỹ tuyệt đẹp khi
+ 🍀 có ảnh màn hình khóa cá nhân của riêng bạn
+ 🍀 vâng và các tiện ích màn hình khóa đã
+ 🍀 thực sự thành công.
+ 🍀 vâng, và các vật dụng
+ 🍀 thực sự là một phần của khả năng cấu hình
+ 🍀 đó, bộ công cụ
+ 🍀 biến nó thành của riêng bạn và bạn có thể là
+ 🍀 một người tối giản hoàn toàn mà bạn biết, chỉ cần
+ 🍀 giữ thời gian hoặc bạn có thể biết
+ 🍀
+ 🍀 thời tiết và tôi quên bao nhiêu thứ khác
+ 🍀 các widget mà các bạn đã demo và ai biết được
+ 🍀 các nhà phát triển bên thứ ba sẽ nghĩ
+ 🍀 ra những gì nhưng nếu đó là thứ bạn quan tâm thì
+ 🍀 bạn biết đấy
+ 🍀 uh một widget tùy chỉnh cho
+ 🍀 bảng devops tại nơi làm việc của bạn, hãy để nó trên màn hình khóa của bạn.
+ 🍀
+ 🍀 Tôi nghĩ đó là một trong những điều thú vị
+ 🍀 mà  tôi đã vẽ từ tôi không biết
+ 🍀 các bạn có nghĩ về nó theo cách này không nhưng
+ 🍀 tôi đã nghĩ về cách iphone
+ 🍀 phát triển từ
+ 🍀 ban đầu đến chiếc iphone đầu tiên 2007
+ 🍀 cho đến bây giờ
+ 🍀 và
+ 🍀 một phần quan trọng của thời đại đó là tất cả
+ 🍀 các cuộc thảo luận của chúng ta về quyền riêng tư  quyền riêng tư
+ 🍀 và có tất cả các cách
+ 🍀 thể hiện nhưng cũng có loại
+ 🍀 iphone ban đầu
+ 🍀 được
+ 🍀 trượt để mở khóa ngay và bạn có thể đặt
+ 🍀 mật mã vào nó nhưng đó không phải là cách bạn
+ 🍀 sử dụng điện thoại đúng cách và tôi nghĩ rằng có lẽ
+ 🍀 đó là lý do chúng đến từ đâu  bạn vừa làm
+ 🍀 một việc gì đó để mở khóa điện thoại của mình và
+ 🍀 iphone là
+ 🍀 một chiếc điện thoại nên bạn trượt để mở khóa và nó
+ 🍀 giống như nút đẹp nhất mà bạn
+ 🍀 từng thấy và bạn biết rằng
+ 🍀 bạn ngay lập tức nhận được
+ 🍀
+ 🍀 tương tác đầu tiên với điện thoại này là
+ 🍀 khả năng phản hồi đáng kinh ngạc  của
+ 🍀 màn hình cảm ứng và nó thật thông minh và
+ 🍀 sau đó bạn biết rõ ràng là mọi người đều
+ 🍀 nhận ra rõ ràng bạn tôi không thể
+ 🍀 để điện thoại của mình
+ 🍀 trượt để mở khóa. Touch id là một phần rất quan trọng
+ 🍀 giúp việc đó trở nên dễ dàng vì
+ 🍀 trước khi có touch id  Theo quan điểm của bạn, mọi người đã để
+ 🍀 điện thoại của họ không được bảo vệ và
+ 🍀 một khi chúng tôi nghĩ ra id cảm ứng và
+ 🍀 rõ ràng là sau này bạn biết face id, việc
+ 🍀
+ 🍀
+ 🍀
+ 🍀 bảo mật điện thoại của bạn trở nên thật dễ dàng.
+ 🍀 mật khẩu và một lần nữa, chúng tôi đã đi tiên phong trong việc
+ 🍀 đó, bạn biết chúng tôi đang
+ 🍀 làm gì với touch id nhưng với tôi, với
+ 🍀 màn hình khóa có thể định cấu hình mới, nó
+ 🍀 mang lại cảm giác tôi có thể làm và xem
+ 🍀 những thứ hữu ích trên điện thoại của mình mà không cần truy cập
+ 🍀 vào điện thoại và  Tôi đồng ý rằng face id và
+ 🍀 touch id đã thay đổi cuộc chơi
+ 🍀 về mặt đó nhưng đối với tôi, điện thoại
+ 🍀 bây giờ là một nền tảng rất phong phú, ý tôi là bạn biết
+ 🍀 bạn biết và tôi biết rằng có
+ 🍀 những người tài năng như tick tock
+ 🍀 bạn biết những người có ảnh hưởng
+ 🍀 iphone là  máy tính duy nhất của họ và
+ 🍀 họ đang tạo ra
+ 🍀 tác phẩm nghệ thuật đáng kinh ngạc, bạn biết đấy,
+ 🍀 chỉnh sửa video và tất cả những thứ này.
+ 🍀 Điện thoại của bạn rất mạnh mẽ
+ 🍀 nhưng
+ 🍀 tại thời điểm này, việc truy cập vào điện thoại của tôi
+ 🍀 giống như đăng nhập vào máy mac của tôi hơn,
+ 🍀 đó là việc tôi truy cập vào điện thoại của mình  để
+ 🍀 làm điều gì đó nghiêm túc đôi khi tôi chỉ
+ 🍀 muốn xem tỷ số thể thao bạn biết đấy và tôi
+ 🍀 không muốn vào điện thoại của mình và không
+ 🍀 nói face id và touch id không đủ dễ dàng
+ 🍀 nhưng sau đó nó giống như vâng, sau đó bạn
+ 🍀 phải nhấn vào bên phải  ứng dụng hoặc bất cứ thứ gì
+ 🍀 giống như vậy nếu bạn thực sự quan tâm đến
+ 🍀 trận chung kết nba, hãy đặt một tiện ích trên màn hình khóa của bạn,
+ 🍀 vâng tôi nghĩ đó cũng là lúc
+ 🍀 yếu tố gây mất tập trung
+ 🍀 vì bạn có thể thấy rằng nếu bạn có thể nhận được
+ 🍀 câu trả lời trong nháy mắt
+ 🍀 thì bạn sẽ không  'không mở khóa và sau đó khi
+ 🍀 bạn mở khóa điện thoại của mình, bạn gần như
+ 🍀 quên mất lý do tại sao bạn vào đó ngay từ đầu
+ 🍀 như ồ, để tôi đi kiểm tra
+ 🍀 và gửi thư rồi
+ 🍀 bạn biết đúng nhưng bạn chỉ nhận được
+ 🍀 câu trả lời ở đó và sau đó bạn  tiếp tục
+ 🍀 cuộc sống của bạn và chúng tôi chắc chắn bạn
+ 🍀 biết với rất nhiều tính năng tập trung
+ 🍀 và nhiều tính năng khác, chúng tôi thực sự đang cố gắng
+ 🍀 đảm bảo rằng mọi người có
+ 🍀 mối quan hệ lành mạnh với
+ 🍀 thiết bị của họ và tôi nghĩ  thực sự
+ 🍀 đưa thông tin bạn cần trong
+ 🍀 nháy mắt ngay tại đó uh là một phần của việc mang lại
+ 🍀 sự cân bằng đó
+ 🍀 ừm uh vậy hãy chuyển sang máy mac
+ 🍀 và tôi sẽ đề cập rằng tôi sẽ nói về
+ 🍀 một tính năng mà tôi nghĩ tôi nghĩ tôi không
+ 🍀 thích
+ 🍀 được rồi,
+ 🍀 đó là
+ 🍀 tùy chọn hệ thống được mô phỏng lại uh cho
+ 🍀 các cài đặt không thích cái tên
+ 🍀 tôi cũng không thích cái tên đó
+ 🍀 nhưng tôi thừa nhận rằng tôi có
+ 🍀 xu hướng hoài niệm điều đó
+ 🍀 có lẽ sẽ khiến tôi không phù hợp với
+ 🍀 việc tiếp thị sản phẩm
+ 🍀 ừm
+ 🍀 nhưng đó là  không chỉ cái tên đã thay đổi mà các
+ 🍀
+ 🍀 tùy chọn hệ thống đã được mô phỏng lại phù hợp
+ 🍀 hơn rất nhiều với
+ 🍀 các cài đặt trên hệ điều hành ios và ipad
+ 🍀 và uh tôi hiểu đó là bản beta dành cho nhà phát triển đầu tiên
+ 🍀 nhưng từ những gì tôi thấy về nó ngày hôm qua
+ 🍀 có vẻ như là một bước lùi có vẻ
+ 🍀
+ 🍀 như trên
+ 🍀
+ 🍀
+ 🍀 các tùy chọn bàn di chuột mac hiện tại có video tuyệt vời này,
+ 🍀 nó chỉ hiển thị cho bạn tất cả
+ 🍀 các cử chỉ bạn có thể thực hiện một cách trực quan và đối
+ 🍀 với tôi khi xem qua ứng dụng cài đặt mac mới
+ 🍀 , tất cả chỉ là một  rất nhiều
+ 🍀 hộp kiểm,
+ 🍀 vâng, vâng, trên mặt trận đó, tôi phải nói
+ 🍀 rằng thật khó khăn khi chúng tôi bị
+ 🍀 đánh giá bởi các bản beta của mình bởi vì cái đó
+ 🍀 thực sự sắp ra mắt, đó là một phần
+ 🍀 công việc mà chúng tôi sẽ đánh giá các bản beta.  Tôi
+ 🍀 không muốn đến đó nhưng
+ 🍀 nhưng đó là tôi có thể nói với bạn
+ 🍀 rằng đó là trường hợp mà chúng tôi chỉ
+ 🍀 có một tầm nhìn hơi khác đối với
+ 🍀 những video đó mà chúng tôi nghĩ rằng chúng tôi có
+ 🍀 thứ gì đó tốt hơn nhưng chúng chưa hoàn thành
+ 🍀 đang được sản xuất, vì vậy chúng tôi không muốn
+ 🍀 nhồi nhét các video cũ vào, vì vậy chúng tôi
+ 🍀 sẽ có trải nghiệm phong phú hơn
+ 🍀 ở đó nhưng tôi nghĩ về mặt
+ 🍀 cài đặt nói
+ 🍀 chung là có trong quá trình chuyển đổi từ
+ 🍀 tùy chọn hệ thống sang  cài đặt bạn biết chúng tôi
+ 🍀 có tôi tôi nghĩ nếu bạn nhìn vào
+ 🍀 nguồn gốc của hệ thống ban đầu tối đa
+ 🍀 thì nó chắc chắn là
+ 🍀 ở thời đại uh mà chúng ta không
+ 🍀 sử dụng nhiều nội dung uh trên web
+ 🍀 nơi cuộn đến để truy cập nội dung
+ 🍀 uh không
+ 🍀 phổ biến lắm và thực sự
+ 🍀 việc cuộn trong lịch sử thậm chí còn
+ 🍀 khó hơn và tẻ nhạt hơn đúng không và vì vậy
+ 🍀 bạn biết các cài đặt hiện có của mac,
+ 🍀 đó là một bộ
+ 🍀 hộp bento nhỏ phức tạp được chế tạo cẩn thận và sau đó
+ 🍀 lồng vào bảng điều khiển này để lấy
+ 🍀 bảng điều khiển này sang bảng điều khiển khác và bạn
+ 🍀 biết đấy, trời ơi khi chúng tôi đang cố gắng
+ 🍀 xây dựng ngày càng nhiều trải nghiệm vào
+ 🍀 hệ thống,
+ 🍀 thực sự
+ 🍀 rất
+ 🍀 khó để đạt được
+ 🍀 sự rõ ràng và đơn giản trong
+ 🍀 những ràng buộc đó và
+ 🍀 khi nào
+ 🍀 chúng tôi có thể làm điều gì đó
+ 🍀 dễ quét hơn nhiều uh  một cách tuyến tính, uh thực sự
+ 🍀 dễ dàng hơn về mặt nhận thức để tiếp nhận uh
+ 🍀 thứ gì đó trong đó nội dung uh
+ 🍀 mở rộng tốt hơn nhiều vì vậy bạn biết đấy, tôi cuộn
+ 🍀 xuống tôi có thể hiểu được điều đó uh nó uh
+ 🍀 tôi nghĩ nó mang lại cho chúng tôi uh và mang lại cho
+ 🍀 nhóm thiết kế của chúng tôi uh thứ gì đó thực sự
+ 🍀 hơn thế nữa  phù hợp với nhiệm vụ, nó
+ 🍀 thực sự có rất nhiều thủ công uh và tôi nghĩ rằng
+ 🍀 nếu nó chưa được phát sóng thì đó sẽ là một
+ 🍀 phiên wwdc nơi chúng tôi thậm chí còn nói về
+ 🍀 tập hợp
+ 🍀 các loại điều khiển mới mà chúng tôi đã giới thiệu
+ 🍀 để chúng tôi có thể đạt được trên mac
+ 🍀 sự cân bằng phù hợp của một cái gì đó,
+ 🍀 loại điều khiển phù hợp không quá nặng,
+ 🍀 rất dễ đọc và có thể quét được, đồng thời có
+ 🍀 thể tương tác rõ ràng
+ 🍀 và vì vậy, có rất nhiều
+ 🍀 thủ công thậm chí chỉ trên tất cả các yếu tố hình thức phù hợp
+ 🍀 để tạo ra
+ 🍀 trải nghiệm tuyệt vời ở đó  Vì vậy, chúng tôi
+ 🍀 vẫn sẽ tinh chỉnh các
+ 🍀 chi tiết ở đây uh nhưng tôi nghĩ đây
+ 🍀 sẽ là một bước thực sự tốt
+ 🍀 cho mac và đây là điều tôi sẽ nói 100%
+ 🍀 không phải là động lực thúc đẩy của chúng tôi đôi khi
+ 🍀 mọi người cũng lo lắng  bạn chỉ đang dùng
+ 🍀 những gì bạn đã làm trên ios cho mac, đây không phải là
+ 🍀
+ 🍀 động lực thúc đẩy nhưng
+ 🍀 ừm,
+ 🍀 sự quen thuộc cũng rất hữu ích với
+ 🍀 mọi người vì họ hiểu rõ tôi biết
+ 🍀 cách truy cập cài đặt wi-fi của mình ở
+ 🍀 đây và bây giờ là ở đây  một
+ 🍀 địa điểm hoàn toàn khác và được hiển thị theo một
+ 🍀 cách hoàn toàn khác mức độ mà chúng tôi
+ 🍀 có thể mang lại kiểu song song đó. Tôi
+ 🍀 nghĩ rằng đó là một hệ thống đơn giản hơn để nhiều
+ 🍀 người dùng của chúng tôi điều chỉnh, vì vậy chúng tôi
+ 🍀 nghĩ rằng đó là một giao diện tốt hơn, chúng tôi cũng
+ 🍀 cho rằng tính nhất quán là rất cao  hữu ích
+ 🍀 ở đây
+ 🍀 bạn rất
+ 🍀 thuyết phục tôi nghĩ có một thứ khác
+ 🍀 bạn nói đúng đấy,
+ 🍀 đừng rút tiền mà hãy
+ 🍀 tiết kiệm nó cho năm sau
+ 🍀 ừm
+ 🍀 tính năng tiếp theo tôi muốn nói đến
+ 🍀 là quản lý sân khấu vâng, điều đó thực sự uh uh
+ 🍀
+ 🍀 khiến tôi nghĩ vậy để  tôi giải quyết vấn đề này theo
+ 🍀 cách của tôi tôi không tôi chưa bao giờ sử dụng
+ 🍀 không gian tôi biết những người khác tôi không
+ 🍀 nghĩ không gian là một tính năng xấu và tôi
+ 🍀 không nghĩ rằng mình đã từng tuyên bố rằng
+ 🍀 đó chỉ là không'  không bao giờ phù hợp với bộ não của tôi
+ 🍀 ừm, đôi khi tôi có nhiều màn hình
+ 🍀 được thiết lập
+ 🍀 và với hai màn hình vật lý, tôi sẽ
+ 🍀 nói rằng tôi sẽ đặt email và tin nhắn của mình ở đây
+ 🍀 vì đó giống như
+ 🍀 giao tiếp và sau đó mọi thứ khác
+ 🍀 tôi sẽ làm qua  về cái này và sau đó điều đó
+ 🍀 có ý nghĩa với tôi nhưng có một màn hình
+ 🍀 nơi có không gian ở đây
+ 🍀 và tôi biết họ thậm chí còn sắp xếp nó
+ 🍀 chỉ là
+ 🍀 nó không bao giờ phù hợp với tôi vì tôi nghĩ rằng tôi
+ 🍀 cần thực sự thấy nó cần phải như vậy
+ 🍀 nó không thể biến mất đối với tôi đúng không hoặc sau đó
+ 🍀 nó biến mất khỏi não tôi và điều
+ 🍀 tôi thực sự thích ở người quản lý sân khấu uh
+ 🍀 tôi chưa thử mà
+ 🍀 chỉ xem bản demo nhưng
+ 🍀 tôi thích rằng bạn vẫn có thể thấy mọi thứ
+ 🍀 trên màn hình
+ 🍀 và uh tôi  Tôi chỉ tò mò
+ 🍀 suy nghĩ đằng sau điều này ồ vâng không có
+ 🍀 người quản lý sân khấu, ý tôi là thật buồn cười, điều này uh
+ 🍀 đã là một dự án tâm huyết của một nhóm
+ 🍀 chúng tôi trong
+ 🍀 một thời gian dài khó tin nếu bạn
+ 🍀 biết một trong những thành viên chủ chốt của nhóm
+ 🍀 đã làm việc  trên một trong
+ 🍀 những bản beta của mac os 10 sớm nhất, hồi đó có một
+ 🍀 chế độ cửa sổ duy nhất
+ 🍀 và có một số người nghĩ
+ 🍀 rằng chúng tôi giống như có điều gì đó ở đó
+ 🍀 để có ý tưởng rằng hầu hết thời gian tôi
+ 🍀 có thể tập trung vào một việc tại một thời điểm
+ 🍀 nhưng hãy tiếp cận những thứ khác ngay bây giờ nếu bạn
+ 🍀 biết rằng hoạt ảnh
+ 🍀 quá nhiều và khả năng tiếp cận
+ 🍀 những thứ của bạn không đủ tốt
+ 🍀 và trong nhiều năm, chúng tôi tiếp tục quay lại
+ 🍀 với cách làm thế nào để chúng tôi có được
+ 🍀 ý tưởng này  bởi vì
+ 🍀 tôi nghĩ rằng trước tiên tôi muốn chắc chắn
+ 🍀 và tôi nghĩ những gì bạn nói về dấu cách
+ 🍀 là một suy nghĩ thực sự tuyệt vời uh uh
+ 🍀 vì
+ 🍀 mac có rất nhiều cách khác nhau để
+ 🍀 quản lý cửa sổ rất quan trọng đối với
+ 🍀 trải nghiệm mac và mac cung cấp như vậy
+ 🍀 nhiều cách khác nhau để làm điều đó và nếu bạn
+ 🍀 khảo sát tất cả mọi người ở đây trong số khán giả này
+ 🍀 và xem cách họ sử dụng máy Mac của họ,
+ 🍀 họ giống như hàng trăm
+ 🍀 kiểu tương tác khác nhau và một số người
+ 🍀 sẽ luôn sử dụng điều khiển nhiệm vụ
+ 🍀 và một số người sẽ  đang
+ 🍀 thu nhỏ cửa sổ của họ và một số người
+ 🍀 sẽ sử dụng
+ 🍀 dấu cách và một số người sẽ
+ 🍀 giấu lệnh h và sau đó đưa chúng
+ 🍀 trở lại một số người sử dụng tài liệu của họ một số
+ 🍀 người là trình duyệt lệnh phải không, ý tôi là
+ 🍀 chỉ là một tập hợp những thứ khác nhau không thể tin được
+ 🍀 và để  rõ ràng là
+ 🍀 người quản lý giai đoạn không phải là câu trả lời duy nhất
+ 🍀 để kết thúc tất cả. Tôi nghĩ nhiều người sẽ
+ 🍀 rất hài lòng với các mẫu hiện có của họ
+ 🍀 và chúng tôi không nói với bạn rằng
+ 🍀 bạn đang làm sai nếu bạn
+ 🍀 hài lòng với cách mọi thứ hoạt động  đối với bạn
+ 🍀 thích
+ 🍀 gắn bó với điều đó
+ 🍀 nhưng đối với nhiều người trong chúng ta, uh
+ 🍀 có cảm giác này vì chúng ta sử dụng mac
+ 🍀 theo cách thông thường mà mac là
+ 🍀 trải nghiệm mac theo mặc định là lộn xộn,
+ 🍀 bạn mở một thứ và
+ 🍀 sau đó bạn truy cập  lấy thứ tiếp theo và nó
+ 🍀 chất đống chúng lên trên đống lộn xộn đó và bạn tiếp tục làm
+ 🍀 thứ tiếp theo bạn chất đống đống lộn xộn đó và
+ 🍀 vì vậy bạn liên tục sống trong
+ 🍀 mớ hỗn độn đó
+ 🍀 hoặc bạn liên tục dọn dẹp sau
+ 🍀 khi bạn đi và vì những thứ đó  chúng tôi
+ 🍀 đang chuyển đổi giữa những thứ chúng tôi
+ 🍀 chỉ đang chuyển đổi giữa các đống lộn xộn khác nhau
+ 🍀 và vì vậy khi chúng tôi đến một
+ 🍀 giao diện nơi chúng tôi có thể tập trung vào
+ 🍀 một thứ tại một thời điểm vẫn có
+ 🍀 những thứ có thể truy cập được khi chúng tôi muốn
+ 🍀 và sau đó tạo ra những loại đó  ồ,
+ 🍀 tôi đang làm việc trên ghi chú này và
+ 🍀 bản trình bày này cùng một lúc mà tôi
+ 🍀 muốn coi đó là một việc làm cho việc đó trở nên
+ 🍀 thực sự dễ dàng để tiếp thu
+ 🍀 tốt, sau đó tôi có thể chuyển sang các nhiệm vụ khác, đó
+ 🍀 có thể là một cách tuyệt vời để làm việc vì vậy tôi  nghĩ rằng sẽ rất
+ 🍀 thú vị khi thấy ừm
+ 🍀 trong giai đoạn thử nghiệm, mọi
+ 🍀 người đồng cảm với
+ 🍀 ý tưởng này và những người nói rằng bạn biết nó
+ 🍀 không dành cho tôi nhưng chúng tôi nghĩ rằng chúng tôi biết điều đó
+ 🍀 từ những người trong chúng tôi, những người đã sống với
+ 🍀 nó trong nhiều tháng nay  rằng uh có một
+ 🍀 nhóm gồm một nhóm chúng tôi,
+ 🍀 uh bạn biết cách làm việc mới yêu thích của chúng tôi
+ 🍀 uh trên mac và chúng tôi sẽ
+ 🍀 tiếp tục điều chỉnh nó, chúng tôi biết uh sau đó
+ 🍀 có một số ý tưởng để
+ 🍀 chỉnh sửa nó trong suốt mùa hè, uh, nhưng
+ 🍀 nhìn chung, chúng tôi thực sự hài lòng với nó
+ 🍀 và sau đó, tất nhiên, đó
+ 🍀 thực sự là một sự trùng hợp ngẫu nhiên. Tôi phải nói
+ 🍀 rằng chúng tôi thấy mình đến từ một
+ 🍀 hướng hoàn toàn khác
+ 🍀 với ipad
+ 🍀 và nhận ra  uh họ đã đến cùng một
+ 🍀
+ 🍀 địa điểm và thật kỳ
+ 🍀 lạ khi điều đó xảy ra uh nhưng chúng tôi
+ 🍀 nhận ra rằng với ipad, bạn có
+ 🍀 trải nghiệm rõ ràng theo mặc định một
+ 🍀 cửa sổ tại một thời điểm nhưng bạn muốn có
+ 🍀 thể mang đến
+ 🍀 nhiều hơn  có nhiều quyền truy cập hơn vào những thứ
+ 🍀 đa nhiệm hơn và vì vậy chúng tôi có thể
+ 🍀 nắm bắt được một phần tinh thần của
+ 🍀 ipad nhưng vẫn mở nó theo một
+ 🍀 cách rất lớn đối với các cửa sổ chồng chéo và đó là
+ 🍀 cảm giác truy cập đa nhiệm rộng hơn
+ 🍀
+ 🍀 đúng vì một trong những điều  điều đó đối với
+ 🍀 tôi luôn bị thiếu với ipad os
+ 🍀 đa nhiệm
+ 🍀 là
+ 🍀 khái niệm về một ngăn xếp vâng đúng rồi
+ 🍀 và cuối cùng các bạn đã thực sự nghĩ ra
+ 🍀 một số ý tưởng hay
+ 🍀 để sắp
+ 🍀 xếp cạnh nhau những thứ bạn
+ 🍀 biết và uh
+ 🍀 nhưng  nhưng ngay cả khi đó bạn đã đánh mất
+ 🍀 trục z có thể xếp một
+ 🍀 vài thứ
+ 🍀 uh và trình quản lý sân khấu cho ipad có vẻ như đó là
+ 🍀 một cách hay để mang theo một số
+ 🍀 thứ đó và bạn giống như một số lớp
+ 🍀 và bạn có thể mở thư bằng
+ 🍀 một cái gì đó khác và bật một cái về phía trước
+ 🍀 để nó không phải ở trong một
+ 🍀 cột mỏng, nó có thể chồng lên nhau cùng một
+ 🍀 lúc không phải ai cũng phải làm điều đó để
+ 🍀 tạo ra không phải ai cũng phải làm điều đó, tôi
+ 🍀 mong đợi có rất nhiều ipad  người dùng, ý tôi
+ 🍀 là ipad có
+ 🍀 trải nghiệm người dùng thành công phi thường mà nhiều người có thể
+ 🍀 sử dụng ngay từ lần đầu tiên họ chạm vào
+ 🍀 thiết bị của họ và họ hoàn toàn hài lòng
+ 🍀 với nó và điều đó hoàn toàn tuyệt vời với chúng tôi,
+ 🍀 nhưng ngày càng có nhiều
+ 🍀 người  đang đẩy nó nhiều hơn
+ 🍀 vào các hình thức năng suất khác nhau,
+ 🍀 nơi họ muốn có
+ 🍀 trải nghiệm phong phú hơn một chút, có thể
+ 🍀 ở đó bạn muốn sử dụng
+ 🍀 màn hình ngoài, có thể họ đang ngồi với
+ 🍀 bàn di chuột
+ 🍀 và chúng tôi nghĩ rằng người quản lý sân khấu tìm thấy
+ 🍀 sự cân bằng phù hợp và
+ 🍀 chắc chắn là một  trong số những điều mà tất cả chúng ta đã
+ 🍀 trải nghiệm với máy Mac với thứ
+ 🍀 tự z đó là đôi khi tôi có cửa sổ ghi chú
+ 🍀 ở đây và khi tôi sử dụng nó, tôi
+ 🍀 muốn nó có chiều rộng đầy đủ, tôi không muốn nó được
+ 🍀 xếp thành một cột nhỏ
+ 🍀 và tôi  muốn có thể nhìn thấy nó và
+ 🍀 có lẽ tôi thậm chí có thể đọc một số phần của nó mà tôi
+ 🍀 muốn xem trong khi vẫn có cửa sổ safari của mình,
+ 🍀
+ 🍀
+ 🍀 bạn biết đấy, ba phần tư màn hình
+ 🍀 rộng phải không để khả năng có
+ 🍀 cả hai ở đó hoàn toàn có thể truy cập được
+ 🍀 không  nhưng không được lát gạch
+ 🍀 là
+ 🍀 một phần thực sự quan trọng của
+ 🍀 trải nghiệm mac và chúng tôi muốn mang điều đó
+ 🍀 lên ipad mà không
+ 🍀 làm mất đi sự thật rằng ipad
+ 🍀 theo mặc định là một trải nghiệm rất tập trung uh
+ 🍀 và một trải nghiệm không phải là bạn không chỉ
+ 🍀 tích lũy hằng số  lộn xộn và phải
+ 🍀 tích cực lo lắng về
+ 🍀 việc quản lý cửa sổ và chúng tôi cảm thấy như
+ 🍀 người quản lý sân khấu uh là
+ 🍀 một sự cân bằng thực sự tuyệt vời ở đó vâng
+ 🍀 tôi hoàn toàn đồng ý về ipad
+ 🍀 vì tôi đã mở rộng các thành viên trong gia đình, những người mà
+ 🍀 bạn không biết về máy tính
+ 🍀
+ 🍀 trong nhiều năm nay đã phát triển mạnh  ipad của họ
+ 🍀 theo những cách mà họ đã không
+ 🍀 làm với max ngày nay không phải bạn
+ 🍀 biết không phải họ không thích máy mac của họ
+ 🍀 mà là họ đã làm họ chỉ làm nhiều hơn và
+ 🍀 thích nó hơn và họ sử dụng nó
+ 🍀 một cách tương đối đơn giản  theo cách đó nhưng điều
+ 🍀 sâu sắc là
+ 🍀 họ thích trải nghiệm máy tính
+ 🍀 trên ipad của họ hơn bao nhiêu và tôi nghĩ rằng
+ 🍀 việc biến nó thành thứ gì đó không phải
+ 🍀 lúc nào bạn cũng biết, bạn chỉ cần biết nếu
+ 🍀 bạn muốn sử dụng trình quản lý sân khấu trên ipad,
+ 🍀 bạn có thể ừm
+ 🍀 Tôi nghĩ điều thú vị nhất mà
+ 🍀 những đứa trẻ của tôi từng làm khi chúng ở
+ 🍀 độ tuổi trên bức ảnh màn hình khóa đó
+ 🍀 là tôi đi xuống sau khi chúng sử dụng
+ 🍀 máy Mac một lúc
+ 🍀 và tôi thấy
+ 🍀 tất cả các cửa sổ đều có  đã bị kéo xuống
+ 🍀 dưới
+ 🍀 cùng như thế này trong phần lớn màn hình bởi vì
+ 🍀 họ chỉ cần loại bỏ chúng bằng cách đẩy
+ 🍀 chúng thành một đống lớn xuống
+ 🍀 dưới cùng, tôi cũng thích đó là
+ 🍀 cách cửa sổ
+ 🍀 tôi sẽ lấy trộm cái này từ của tôi  pal
+ 🍀 matthew panzarino nhưng anh ấy có
+ 🍀 nhận xét rằng nếu trình quản lý sân khấu cho
+ 🍀 ipad os
+ 🍀 ra mắt trước và có thể giả sử
+ 🍀 như bốn bốn đến năm năm trước khi
+ 🍀 có nhiều sự kinh ngạc hơn trong
+ 🍀 cộng đồng về việc cộng đồng apple
+ 🍀 cam kết với mac
+ 🍀 thì nó sẽ có
+ 🍀 đó sẽ là trận đại hồng thủy đối với
+ 🍀 những người có nỗi sợ hãi đó bởi vì họ
+ 🍀 sẽ nói ở đây rằng họ đã thêm
+ 🍀 một tính năng vào ipad
+ 🍀
+ 🍀 để cho phép mọi người làm những việc như vậy
+ 🍀 trên ipad nên mac chắc chắn đã chết
+ 🍀 và tôi thực sự  tôi nghĩ đó là một
+ 🍀 quan sát quan trọng và tôi biết rằng tôi biết rằng
+ 🍀 thời đại đó đã
+ 🍀 khiến bạn phải há hốc mồm.
+ 🍀 Câu chuyện sai lầm điên rồ này
+ 🍀 là gì giống như việc
+ 🍀 bạn nhận được một chiếc ipad hoặc một chiếc máy tính
+ 🍀 mà bạn biết nó giống như
+ 🍀 mọi người nhận được cả hai ý tôi là nó thực sự là như vậy
+ 🍀 thực tế là phần lớn
+ 🍀 khách hàng sử dụng máy Mac đều có ipad và họ
+ 🍀 sử dụng cả hai.
+ 🍀
+ 🍀
+ 🍀
+ 🍀 sẽ giết một trong số
+ 🍀 họ, một trong số họ sẽ bị
+ 🍀 hy sinh, bạn biết đấy uh uh
+ 🍀 tôi chỉ không bao giờ có thể
+ 🍀 nghĩ rằng uh ừ
+ 🍀 đúng rồi, nó giống như một
+ 🍀 giả định rằng tất nhiên họ sẽ
+ 🍀 giết một người  chính xác là họ sẽ
+ 🍀 giết cái cũ hơn, vâng và chỉ vậy thôi
+ 🍀 nhưng bạn biết đấy và tôi nghĩ
+ 🍀 câu hỏi còn lại là tại sao họ lại giết một trong hai
+ 🍀
+ 🍀 người
+ 🍀 họ đúng không.
+ 🍀 rõ ràng ý tôi là một phần rất lớn ý tôi là tôi
+ 🍀 nghĩ nó đã bắt đầu một chút
+ 🍀 trước cả silicon của apple nhưng rõ ràng
+ 🍀 silicon của apple dành cho mac đã thúc đẩy nó bạn
+ 🍀 biết thời kỳ phục hưng còn bạn thì không và
+ 🍀 điều này thực sự nằm trên thẻ của tôi mà
+ 🍀 apple thì không'  Tôi không quan tâm đến cái mac đã
+ 🍀 kết thúc với m1 max rồi.
+ 🍀
+ 🍀
+ 🍀
+ 🍀
+ 🍀
+ 🍀
+ 🍀 bật nhưng thật
+ 🍀 tuyệt vời khi ở vào thời điểm mà
+ 🍀 niềm tin của cộng đồng xung quanh
+ 🍀 mac lớn đến mức
+ 🍀 chúng ta có thể làm bất cứ điều gì mình muốn với ipad
+ 🍀 ngay bây giờ và sẽ không có ai giống như ồ nhưng
+ 🍀 bạn biết điều này có nghĩa là bạn không '  Không quan tâm
+ 🍀 đến mac như không không không mac, tất cả chúng ta đều có thể
+ 🍀 cảm thấy rất rất thoải mái với
+ 🍀 máy mac của mình và nhân tiện, mac 38 tuổi
+ 🍀 vẫn còn khoảng một nửa số người mua
+ 🍀 mac, đó là chiếc mac đầu tiên của họ,
+ 🍀 nó không bao giờ tốt hơn vâng,
+ 🍀 các đối thủ cạnh tranh không thể tin được  đã đến,
+ 🍀 các đối thủ cạnh tranh đã ra đi và mac
+ 🍀 không bao giờ hoạt động tốt hơn và
+ 🍀
+ 🍀 ngày nay mọi người hài lòng với máy Mac của họ và Apple silicon là một phần
+ 🍀 của nó, mac os luôn ở đó và một
+ 🍀 phần rất lớn của trải nghiệm đó
+ 🍀 chưa bao giờ sánh kịp và vâng, đó là  tại sao
+ 🍀 rất nhiều người trong số chúng tôi bạn biết đấy, tôi đã đến với
+ 🍀 apple từ rất
+ 🍀 lâu
+ 🍀 rồi và hãy nhìn xem chúng tôi đến đây
+ 🍀 vì mac đúng không và đó cũng là điều đã
+ 🍀
+ 🍀 thực sự khiến chúng tôi phát điên khi thuyết linh hồn
+ 🍀 ra đời để giết mac mac
+ 🍀 như chúng tôi đã nói là nằm trong DNA của chúng tôi,
+ 🍀 giống như lý do tại sao chúng tôi đến đây, giống như chúng tôi yêu thích
+ 🍀 máy mac, giống như bạn biết rằng bạn sẽ phải
+ 🍀 lấy nó ra khỏi tay chúng tôi, ý tưởng này rằng
+ 🍀 chúng tôi sẽ cố gắng giết nó chỉ là điều
+ 🍀 đáng ghê tởm
+ 🍀 tôi đồng ý vì vậy
+ 🍀 điều này dẫn tôi đến tôi tôi đang làm tốt với
+ 🍀 các phân biệt của mình trong năm nay
+ 🍀 nhưng điều này dẫn tôi đến một phần quan trọng khác
+ 🍀 của bài phát biểu quan trọng ngày hôm qua đó là
+ 🍀 chơi game trên mac bởi vì đây là một
+ 🍀 lĩnh vực
+ 🍀 ở đây
+ 🍀 có lẽ là lĩnh vực lớn nhất vâng tôi nghĩ
+ 🍀 đó là  có thể an toàn để nói nhưng
+ 🍀 chắc chắn
+ 🍀 bạn biết tôi quên con số chính xác nhưng
+ 🍀 chẳng hạn như ngành công nghiệp trò chơi điện tử kiếm được bao nhiêu tiền
+ 🍀 so với
+ 🍀 ngành công nghiệp điện ảnh vâng hollywood
+ 🍀 ừm
+ 🍀 ý tưởng rằng apple không quan tâm
+ 🍀 đến thực tế là chơi game trên mac
+ 🍀 không
+ 🍀 lớn bằng chơi game trên
+ 🍀 máy tính
+ 🍀 ừm
+ 🍀 và tôi nghĩ rằng thông điệp trong
+ 🍀 bài phát biểu quan trọng ngày hôm qua là ồ không, chúng tôi quan tâm
+ 🍀 bạn biết chúng tôi đang làm việc này vâng vâng ý
+ 🍀 tôi là
+ 🍀 việc chuyển sang Apple silicon
+ 🍀 cuối cùng đã cho chúng tôi quyền kiểm soát
+ 🍀 loại đồ họa mà
+ 🍀 chúng tôi đã muốn sử dụng tối đa
+ 🍀 trong một thời gian dài và đó là
+ 🍀 đồ họa chơi game tuyệt vời, ý tôi là chúng
+ 🍀 tuyệt vời cho các phần khác trong trải nghiệm của chúng tôi
+ 🍀 nhưng trong nhiều năm,
+ 🍀 chúng tôi đã muốn xây dựng máy Mac có tất cả
+ 🍀 bạn biết đó là loại tiết kiệm năng lượng,
+ 🍀 có thể nhỏ gọn
+ 🍀 và cũng cực kỳ mạnh mẽ cho
+ 🍀 đồ họa
+ 🍀 và hiện tại có Apple silicon nơi
+ 🍀 mọi máy Mac chúng tôi bán và chúng tôi hiện đang bán
+ 🍀 nhiều hơn nữa,
+ 🍀 uh có
+ 🍀 đồ họa đồ họa tuyệt vời có khả năng
+ 🍀 chơi tốt nhất  các trò chơi
+ 🍀 tôi nghĩ chỉ thay đổi toàn bộ cục diện
+ 🍀 nếu bạn là nhà phát triển trò chơi uh và điều đó
+ 🍀 sẽ đúng ngay cả khi họ
+ 🍀 chỉ nhìn vào mac
+ 🍀 nhưng thực tế là bây giờ từ
+ 🍀 quan điểm nền tảng đồ họa,
+ 🍀 bạn có m1 ở mức tối đa  và bây giờ m2 và
+ 🍀 bạn có
+ 🍀 m1 trên ipad và bạn thực sự có
+ 🍀 cùng kiến ​​trúc gpu và cùng
+ 🍀 kiến ​​trúc phần mềm đó với kim loại
+ 🍀 mở rộng qua tất cả
+ 🍀 ipad và điện thoại
+ 🍀 để nhà phát triển trò chơi nhắm mục tiêu vào công cụ của họ
+ 🍀
+ 🍀 để xây dựng  lấy danh hiệu của họ,
+ 🍀 có một cơ hội lớn mà bạn biết rằng
+ 🍀 sân chơi khó khăn hơn một chút khi
+ 🍀 chúng tôi có sự kết hợp công nghệ khác nhau
+ 🍀 trong mac,
+ 🍀 giờ đây chúng tôi có những cỗ máy chơi game tuyệt vời mà
+ 🍀 mọi người chúng tôi bán và chúng tôi đang bán rất nhiều
+ 🍀 chúng và chúng tôi có  nền tảng phần mềm phù hợp
+ 🍀 vì vậy tôi nghĩ rằng
+ 🍀 tôi nghĩ đây là lúc
+ 🍀 và tôi nghĩ rằng rõ ràng ý tôi
+ 🍀 là nó gần như là một tuyên bố hiển nhiên
+ 🍀 nhưng có một yếu tố quy mô kinh tế
+ 🍀 ở đó mà ngay cả khi mac
+ 🍀 ngày nay bán chạy hơn bao giờ hết trong
+ 🍀 38  bản
+ 🍀 thân mac trong nhiều năm vẫn là
+ 🍀 một phân khúc nhỏ hơn của ngành công nghiệp máy tính và
+ 🍀 sự khác biệt với silicon của apple và
+ 🍀 với apis kim loại mà các bạn đã và
+ 🍀 đang phát triển, chúng tôi hiện đang lên đến kim loại ba,
+ 🍀 đó là cái mới cái
+ 🍀 mới cái này  tuần
+ 🍀 là
+ 🍀
+ 🍀 diện tích bề mặt tổng thể
+ 🍀 của
+ 🍀 số lượng thiết bị
+ 🍀
+ 🍀 hiện đang ở bên bạn giống như nơi có
+ 🍀 số lượng thiết bị mà bạn có thể nhắm mục tiêu
+ 🍀 với đồ họa cao cấp và apis kim loại
+ 🍀 và đây là nơi
+ 🍀 thành công to lớn của ios thực sự có thể
+ 🍀 nâng mac lên hàng đầu  các thuật ngữ
+ 🍀 và những gì chúng ta đã thấy giống như
+ 🍀 đồ họa của iphone, ý
+ 🍀 tôi là bạn vừa thấy
+ 🍀 biểu đồ hàm mũ ở đó
+ 🍀 cho đến thời điểm hiện tại
+ 🍀 các nhà phát triển trò chơi có thể mang công cụ bảng điều khiển của họ
+ 🍀 lên iphone
+ 🍀 và vì vậy nếu họ đang mang bảng điều khiển của họ
+ 🍀 động cơ cho iphone
+ 🍀 trên kim loại, giờ đây họ sẽ có
+ 🍀 động cơ bảng điều khiển của họ
+ 🍀 trên mac một cách hiệu quả để khoản
+ 🍀 đầu tư mà nỗ lực đó được đền đáp
+ 🍀 theo cách mà nó chưa từng
+ 🍀 có trước đây vì vậy
+ 🍀
+ 🍀 tôi nghĩ rằng nền tảng tổng hợp của apple dành cho trò chơi là một  cơ hội phi thường dành cho
+ 🍀 các nhà phát triển dành cho các nhà phát triển trò chơi nói
+ 🍀 riêng, vì
+ 🍀 vậy tôi hy vọng đây sẽ là
+ 🍀 thời điểm chưa từng có để chơi game trên mac
+ 🍀 trong những năm tới.
+ 🍀
+ 🍀
+ 🍀 con trai
+ 🍀 sau bài phát biểu quan trọng và đó là một trong đó là
+ 🍀 một câu chuyện thời sự về
+ 🍀 tôi thậm chí không biết chi tiết nhưng anh ấy
+ 🍀 thực sự thích chơi game và uh
+ 🍀 và anh ấy giống như này, đây là một vấn đề lớn
+ 🍀 thậm chí tôi không có cái này và tôi thì không'  Tôi không
+ 🍀 biết đó là gì, đó là một thứ gì đó cụ thể
+ 🍀 và tôi giống như ồ,
+ 🍀 đây là
+ 🍀 tôi sẽ tin tưởng vào phán đoán của anh ấy, được rồi,
+ 🍀
+ 🍀
+ 🍀 thật tuyệt khi bạn đã nghe nó ở đây [Cười] tác giả tiếp theo của quả cầu lửa táo bạo vâng vâng,
+ 🍀
+ 🍀 anh ấy sẽ có một trận đấu rất nặng nề
+ 🍀 tập trung
+ 🍀 nó giống như một trong những thứ mà bạn
+ 🍀 biết đấy, đôi khi ngày xưa
+ 🍀 khi tác giả của bộ truyện tranh hàng ngày
+ 🍀 qua đời hoặc nghỉ hưu và con cái của họ sẽ
+ 🍀 tiếp quản nó, bạn biết đấy, vâng, điều đó thật
+ 🍀 kinh khủng hoặc điều gì đó sẽ như thế
+ 🍀 bạn biết nếu họ có một
+ 🍀 phong cách nghệ thuật hoàn toàn khác
+ 🍀 [Tiếng cười]
+ 🍀 sang số tôi không thể bỏ qua chuyện này
+ 🍀 mà không nói về việc chơi xe mà tôi
+ 🍀 nghĩ thật
+ 🍀 ngạc nhiên tôi giống như tôi không thể tin
+ 🍀 rằng điều này đang xảy ra tôi không thể tin
+ 🍀 được  người ngủ gặp hôm qua vâng, có vẻ như
+ 🍀
+ 🍀 bạn biết ý tưởng ban đầu về carplay
+ 🍀 rõ ràng là nếu nhạc của bạn có trên điện thoại
+ 🍀 và một số nội dung khác của bạn có trên
+ 🍀 điện thoại và có một màn hình trong ô tô
+ 🍀 mà bạn muốn có thể phát nhạc của mình
+ 🍀 thông qua  ô tô và bạn muốn
+ 🍀 bạn có thể biết cả bản đồ, bản đồ phù hợp và
+ 🍀 các cuộc gọi điện thoại và
+ 🍀 ừm
+ 🍀 nhưng ý tưởng rằng carplay đang được
+ 🍀 mở rộng cho
+ 🍀
+ 🍀
+ 🍀 mọi thứ.
+ 🍀 về cơ bản
+ 🍀 nó là
+ 🍀 ừm
+ 🍀 và và rất nhiều đối tác trên
+ 🍀 trang trình bày đối tác đó. Tôi có nó trên đó là một trong
+ 🍀 những trang mà tôi, giới truyền thông sẽ
+ 🍀 chụp ảnh các trang trình bày đó.
+ 🍀 Điều đó dễ dàng hơn vì theo cách đó bạn không
+ 🍀 cần phải lướt qua  video sau đó để
+ 🍀 tìm cho họ rất nhiều đối tác ừm
+ 🍀 và
+ 🍀
+ 🍀 với tôi những con số đáng kinh ngạc 98 98 hoặc 97
+ 🍀 98 của những chiếc xe mới được bán ở Hoa Kỳ
+ 🍀 tôi đã kiểm tra tôi đang kiểm tra với một người mà
+ 🍀 tôi sẽ biết
+ 🍀 và với tôi con số mở mang tầm mắt hơn
+ 🍀 là  rằng 79 người mua ô tô mới ở Hoa Kỳ
+ 🍀 sẽ không xem xét một chiếc ô tô nếu không có thú chơi ô tô.
+ 🍀 Tôi nói
+ 🍀 đúng như vậy, thưa ngài, đó là
+ 🍀 điều có vẻ như
+ 🍀 không tương xứng với thị trường bởi vì
+ 🍀 chúng ta đang nói về thú chơi ô tô,
+ 🍀 cụ thể là
+ 🍀 iphone
+ 🍀 cụ thể và con số 79 dường như không
+ 🍀 tương xứng với
+ 🍀 số lượng thị phần của nó dành cho những người mua ô tô mới,
+ 🍀 đó thực sự
+ 🍀 là điều khiến tôi nghĩ rằng người dùng Android biết rằng
+ 🍀 cuối cùng họ sẽ mua.
+ 🍀 quyết định về thời hạn
+ 🍀 ở đây hãy
+ 🍀 suy nghĩ trước đó là cuộc chơi lâu dài đúng
+ 🍀
+ 🍀 không, điều đó thật tuyệt vời bởi vì
+ 🍀 chúng tôi có những khách hàng tuyệt vời như vậy và
+ 🍀 họ chiếm
+ 🍀 tỷ lệ áp đảo trong số người mua ô tô mới ở chúng tôi
+ 🍀 và thật thú vị khi bạn đề cập đến
+ 🍀 biểu đồ đối tác vì hãy nhớ rằng chúng tôi đã  chúng tôi
+ 🍀 lần đầu tiên ra mắt trò chơi ô tô vào năm 2013 tôi nghĩ
+ 🍀 rằng chúng tôi có hai đối tác phải không tôi đã quên
+ 🍀 đề cập đến điều đó vâng trên vị trí ban đầu đó
+ 🍀 và chúng tôi đã không mang nó đến bạn biết đấy chúng tôi
+ 🍀 đã không bắt đầu nhận được thông báo vào
+ 🍀 năm sau và chúng tôi đã nhận được rất nhiều  nhiều
+ 🍀 đối tác tham gia hơn nhưng thế giới đã thay đổi
+ 🍀 kể từ năm 2013 đúng không, ý tôi là bạn đã từng
+ 🍀 may mắn nếu bạn có một màn hình đủ lớn
+ 🍀 cho những gì chúng tôi muốn làm với
+ 🍀 carplay, bây giờ bạn biết rằng ô tô có đầy
+ 🍀 màn hình và các hệ thống phức tạp hơn
+ 🍀 và chúng tôi cần  một thế hệ
+ 🍀 chơi xe mới
+ 🍀 thực sự có thể mang lại cho bạn
+ 🍀 trải nghiệm tốt hơn trên tất cả các màn hình đó và
+ 🍀 trên tất cả các hệ thống đó và chúng tôi
+ 🍀 vẫn muốn các công ty xe hơi có thể
+ 🍀 thể hiện thương hiệu của họ, đó
+ 🍀 cũng là một phần quan trọng, đây cũng là một cách
+ 🍀 mà  iphone và ô tô kết
+ 🍀 hợp với nhau để bạn vẫn có được
+ 🍀 biểu hiện thương hiệu mà bạn biết trong những chiếc ô tô này nhưng
+ 🍀 bạn có được cảm giác iphone đó và sau đó là
+ 🍀 trải nghiệm đồng nhất mà bạn không cần phải
+ 🍀 rời khỏi trò giải trí của mình mà bạn
+ 🍀 biết để thay đổi nhiệt độ hoặc
+ 🍀 thay đổi đài phát thanh, bạn có thể làm
+ 🍀 tất cả
+ 🍀 trong một
+ 🍀 hệ thống.
+ 🍀 Tôi nghĩ rằng các nhà sản xuất ô tô mà chúng tôi đã nói chuyện để
+ 🍀 thấy rằng khách hàng tốt nhất của họ là
+ 🍀 khách hàng sử dụng iphone, khách hàng chơi xe của họ
+ 🍀 dành phần lớn thời gian của họ cho
+ 🍀 chơi xe, đó là thứ họ muốn sử dụng
+ 🍀 và  biết
+ 🍀 rằng những khách hàng táo bạo của họ
+ 🍀 muốn có nhiều trải nghiệm đó hơn, họ cho rằng
+ 🍀
+ 🍀 ranh giới giữa
+ 🍀 trải nghiệm chơi xe mà họ yêu thích và phần còn lại của
+ 🍀 chiếc xe
+ 🍀 không
+ 🍀 phục vụ tốt đối tượng quan trọng nhất của họ
+ 🍀 và vì vậy chúng tôi đã làm việc với
+ 🍀 họ để đưa ra giải pháp này  hàm nói
+ 🍀 điều gì đó cho phép họ thể hiện
+ 🍀 thương hiệu của mình, vì vậy bạn vẫn biết
+ 🍀 và sau đó và
+ 🍀 khách hàng của họ biết họ đã mua chiếc xe nào
+ 🍀 họ muốn xem đó là
+ 🍀 chiếc xe đó, đồng thời
+ 🍀 họ muốn có trải nghiệm nhất quán trên
+ 🍀 toàn bộ sản phẩm, v.v.
+ 🍀 tôi nghĩ đó là uh tôi nghĩ điều đó thật tuyệt vì
+ 🍀 tất cả những người liên quan đều
+ 🍀 biết đến quả táo
+ 🍀 và tôi nghĩ đó là tất cả những gì các bạn thường
+ 🍀 nói trong các sự kiện mà bạn biết
+ 🍀 trong một năm giống như câu thần chú
+ 🍀 chỉ có một quả táo, ừm, chỉ quả táo mới có thể làm được
+ 🍀 một số thứ bởi vì bạn được biết đến với
+ 🍀 việc kiểm soát toàn bộ tiện ích mà bạn
+ 🍀 xây dựng phần cứng,
+ 🍀 mạng bây giờ ngay cả trên mac, silicon
+ 🍀 uh
+ 🍀 và tất cả phần mềm và bạn
+ 🍀 biết và máy tính không phải là phần cứng
+ 🍀 với phần mềm hoặc phần mềm chỉ
+ 🍀 tình cờ có phần cứng,
+ 🍀 bạn không thể tách rời cả hai. Nó giống như hai
+ 🍀 mặt của một đồng
+ 🍀 xu nhưng làm thế nào để ô tô có thể chơi vuông với
+ 🍀 điều đó vì tôi không chắc làm thế nào bạn
+ 🍀 biết
+ 🍀 nó hoạt động như thế nào tại Apple nơi bạn'  được
+ 🍀 biết đến với việc xây dựng toàn bộ tiện ích và
+ 🍀 theo như tôi biết thậm chí không ai
+ 🍀 nghi ngờ rằng bạn đang chế tạo ô tô của riêng mình
+ 🍀
+ 🍀 [Cười]
+ 🍀 và vì vậy nó giống như một
+ 🍀 trò chơi phần mềm thuần túy vào thời điểm này. Tôi rất
+ 🍀 tò mò về cách các bạn
+ 🍀 bạn đã khịt mũi ở đó,
+ 🍀 bạn sẽ khịt mũi
+ 🍀 [Cười]
+ 🍀 nhưng có vẻ như bạn có vẻ được
+ 🍀 rất nhiều nhà sản xuất ô tô hoặc hầu hết các nhà sản xuất ô tô tin tưởng
+ 🍀 bởi vì slide đó có
+ 🍀 rất nhiều thành công.  muốn bán được nhiều
+ 🍀 xe hơn đúng không và theo quan điểm của Craig thì đây là
+ 🍀 khách hàng thích nó đúng, carplay đã nhận được
+ 🍀
+ 🍀 sự hài lòng của khách hàng cực kỳ cao, bạn đã thấy những con số 98
+ 🍀 đến 79
+ 🍀 nó đang hoạt động và giờ đây chúng tôi thậm chí còn làm việc
+ 🍀 thực sự
+ 🍀 tốt hơn cùng với
+ 🍀 thế hệ tiếp theo của trò chơi xe hơi này  bởi vì một lần nữa
+ 🍀 họ có thể thể hiện thương hiệu của mình
+ 🍀 thương hiệu đó không được thể hiện trong
+ 🍀 cuộc chơi xe hơi ngày nay đúng không, họ thực sự có thể thể hiện
+ 🍀 thương hiệu của mình uh trong thế hệ mới này tôi
+ 🍀 nghĩ mọi người đều rất hào hứng với
+ 🍀 điều đó
+ 🍀 và một lần nữa phản ứng
+ 🍀 ngày hôm qua đã
+ 🍀 kết thúc  trên đỉnh đó là vòng chuyền tia chớp tuyệt vời chìa khóa
+ 🍀
+ 🍀
+ 🍀 tốt
+ 🍀 tôi sẽ nói
+ 🍀 tôi sẽ nói tuyệt
+ 🍀 [Vỗ tay]
+ 🍀 không sáng lắm
+ 🍀 đây là chương trình trò chuyện
+ 🍀 nhưng tôi nhớ uh
+ 🍀 tôi có lẽ đã hơn 10 năm trước uh
+ 🍀 nhưng tôi đã tham dự wwdc và  đó là vào
+ 🍀 cuối tuần và tôi đã đến
+ 🍀 gặp một người nào đó và kết thúc
+ 🍀 phiên họp về bảo mật và điều đó
+ 🍀 thực sự thú vị và đã lâu
+ 🍀 rồi vẫn còn có q và a ở
+ 🍀 cuối phiên, ý tôi là  thực
+ 🍀 sự là bạn biết
+ 🍀 nên mọi người thường gặp trực tiếp bạn
+ 🍀 nói đồng ý và vào cuối
+ 🍀 phiên về bảo mật này, một người nào đó đã hỏi và
+ 🍀 một điều thực sự
+ 🍀 hiếm gặp nữa là đó là một câu hỏi thực sự hay
+ 🍀
+ 🍀 vì đó là một câu hỏi  không phải là một câu chuyện
+ 🍀 và những gì anh ấy nói giống như tôi đang kể một câu chuyện
+ 🍀 nhưng điều anh ấy hỏi là các
+ 🍀 bạn có suy nghĩ gì về
+ 🍀 việc bỏ qua những từ ngữ trong đó có thể
+ 🍀 phần lớn phiên thảo luận là về cách làm cho
+ 🍀 mật khẩu an toàn hơn và các tính năng của chuỗi khóa
+ 🍀 cũng như cách tạo
+ 🍀 mật khẩu nữa ừm, bạn có
+ 🍀 nghĩ đến việc chuyển qua mật khẩu không vì
+ 🍀 mật khẩu cho dù bạn làm gì cũng
+ 🍀 sẽ bị rò rỉ, bạn
+ 🍀 biết đấy, có vấn đề và tôi không biết
+ 🍀 người nói đó là ai nhưng có thể đó là uh
+ 🍀 e ivan christopher yvonne christi  tôi
+ 🍀 nghĩ có thể là như vậy và tôi nghĩ lúc đó anh ấy
+ 🍀 đang làm công tác an ninh nhưng dù
+ 🍀 đó là ai thì đó là một trong
+ 🍀 những câu trả lời hay nhất cho câu hỏi qa tôi từng
+ 🍀 nghe anh ấy đặt câu hỏi và
+ 🍀 anh ấy nhìn rồi nhìn xuống chân mình
+ 🍀
+ 🍀 vâng
+ 🍀 và mọi người đã cười và bởi vì họ đã
+ 🍀 hiểu vì họ là
+ 🍀 nhà phát triển của apple và họ biết rõ rằng anh ấy
+ 🍀 không thể nói về điều đó nhưng anh ấy nhận ra rằng
+ 🍀 anh ấy có thể nói đồng ý với câu hỏi đó
+ 🍀 nghe giống như yvonne
+ 🍀 nhưng đó là chìa khóa của quá khứ  đó là về việc
+ 🍀
+ 🍀 vượt qua điều
+ 🍀 cơ bản bất kể bạn làm gì để
+ 🍀 bảo vệ mật khẩu,
+ 🍀 đó là một
+ 🍀 khái niệm
+ 🍀 có vấn đề đúng và bạn đã nói về
+ 🍀 những trò chơi dài và đây chắc chắn là một trong
+ 🍀 những nơi
+ 🍀 để xây dựng đến nơi này, ý
+ 🍀
+ 🍀 tôi là  các khóa pass về cơ bản là
+ 🍀 uh phân phối các cặp khóa công khai riêng tư
+ 🍀 đúng không bạn có một khóa chung những gì bạn
+ 🍀 cung cấp cho một trang web là một
+ 🍀 khóa chung khóa riêng tư cần thiết
+ 🍀 để đăng nhập vào trang web đó không bao giờ rời khỏi
+ 🍀 thiết bị của bạn
+ 🍀 nhưng để điều đó trở nên thiết thực  bạn cần rất
+ 🍀 nhiều thứ, bạn cần chìa khóa đó để có
+ 🍀 thể di chuyển giữa các thiết bị khác của mình
+ 🍀 vì tất nhiên bạn muốn có thể
+ 🍀 đăng nhập từ mọi thứ và do đó, hãy
+ 🍀 tạo một thứ gì đó như móc khóa icloud
+ 🍀 nhưng cũng phải có thứ gì đó mà bạn
+ 🍀 có thể tin tưởng.  'không tiết lộ
+ 🍀 thông tin đăng nhập của bạn cho apple vì đó sẽ
+ 🍀 là một lỗ hổng khác nếu trang web của chúng tôi
+ 🍀 có thể bị vi phạm và
+ 🍀 mật khẩu của bạn có thể bị đọc hoặc các khóa trước đây của bạn
+ 🍀 cho dù các khóa riêng tư đó có thể được
+ 🍀 đọc hay không sẽ là một vấn đề nên chúng tôi phải
+ 🍀 xây dựng tất cả  của cơ sở hạ tầng đó
+ 🍀 nhưng nó cũng là nơi để nó hoạt động
+ 🍀
+ 🍀 và phải có một
+ 🍀 tiêu chuẩn công nghiệp có thể tương tác được bởi vì mọi người
+ 🍀 sẽ đăng nhập từ họ sẽ
+ 🍀 có một mật mã
+ 🍀 cuối cùng là mật khẩu mà có thể họ
+ 🍀 muốn  đăng nhập từ
+ 🍀 bảng điều khiển của họ uh bảng điều khiển trò chơi của họ hoặc
+ 🍀 một số tài khoản như vậy, đúng vậy, bạn
+ 🍀 sẽ cần có thể đi tới một
+ 🍀 máy tính khác và sử dụng điện thoại của mình để
+ 🍀 chuyển thông tin xác thực đó và vì vậy chúng tôi đã
+ 🍀 làm việc như một phần của  liên minh fido
+ 🍀 với một số người chơi nền tảng lớn khác
+ 🍀 để đảm bảo rằng
+ 🍀 đây là câu trả lời rõ ràng mà tất cả
+ 🍀 các trang web muốn áp dụng và
+ 🍀 họ sẽ mất một thời gian để thực hiện
+ 🍀 việc áp dụng đó nhưng đó là
+ 🍀 giải pháp duy nhất để  mật khẩu
+ 🍀 đang loại bỏ mật khẩu uh và
+ 🍀 đây thực sự là câu trả lời đúng
+ 🍀 icloud private relay
+ 🍀 một trong những tính năng yêu thích của tôi được công bố
+ 🍀 vào năm ngoái
+ 🍀 uh vẫn đang trong giai đoạn thử nghiệm
+ 🍀 và tôi không biết gì
+ 🍀 về nó trong tuần này
+ 🍀 tình trạng của nó là gì
+ 🍀 chuyển tiếp icloud private chúng tôi vẫn vận chuyển và vận hành
+ 🍀 nó ổn nhưng
+ 🍀 vâng, chúng tôi yêu thích nó nhưng bạn có nghĩ rằng đó là
+ 🍀 một năm thành công trong lĩnh vực này không vâng
+ 🍀 vâng và khả năng tương thích cũng thực sự
+ 🍀 rất tốt vâng vâng
+ 🍀 tôi nghĩ đó là một điều tuyệt vời vâng chúng tôi
+ 🍀 không phải chúng tôi đã không định thời gian cho phiên bản beta, phiên bản
+ 🍀 beta không phải là phiên bản beta của nó
+ 🍀
+ 🍀 không phải về
+ 🍀 phần mềm vận chuyển trên các thiết bị,
+ 🍀 mà là về việc có được
+ 🍀
+ 🍀 khả năng tương thích trong cộng đồng,
+ 🍀 uh
+ 🍀 ở đúng nơi và vì vậy,
+ 🍀 thời điểm mà chúng tôi  đến phiên bản không beta,
+ 🍀 bạn sẽ không biết wwdc không thực sự là
+ 🍀 thời điểm cho loại thứ đó vì
+ 🍀 bản chất chỉ một lúc trước là phiên bản beta,
+ 🍀 vâng nhưng uh uh tôi là tôi tôi nghĩ tất cả chúng ta đều là
+ 🍀 những người hâm mộ cuồng nhiệt của  tính năng này và nó đang
+ 🍀
+ 🍀 hoạt động
+ 🍀
+ 🍀
+ 🍀
+ 🍀
+ 🍀 rất tốt.
+ 🍀 có một góc độ riêng tư đối với vấn đề này và liệu
+ 🍀 có phải vì các ứng dụng thời tiết vốn dĩ
+ 🍀 cần vị trí của bạn
+ 🍀 và vị trí của bạn vốn dĩ là riêng tư
+ 🍀 và có
+ 🍀 ngành công nghiệp
+ 🍀 môi giới dữ liệu khổng lồ khổng lồ gây sốc đến kinh ngạc này, những người chỉ nhắm mục tiêu cụ thể vào
+ 🍀 các ứng dụng thời tiết mà bạn biết tôi đã nói chuyện
+ 🍀 với các nhà phát triển ứng dụng thời tiết  và họ
+ 🍀 giống như bạn không thể tin rằng bạn biết tôi tôi
+ 🍀 muốn thay đổi địa chỉ email của mình vì
+ 🍀 nó chứa đầy những
+ 🍀 nhà môi giới dữ liệu này muốn xem liệu
+ 🍀 tôi có bán dữ liệu vị trí của người dùng của mình không,
+ 🍀 đó là một phần của  suy nghĩ là một
+ 🍀 phần của quyền riêng tư vâng, đúng vậy, vâng
+ 🍀 và một điều khác mà tôi đã nghe
+ 🍀 từ các nhà phát triển ngày hôm qua, họ không thể
+ 🍀 tin được mức giá giống như 500
+ 🍀 000
+ 🍀
+ 🍀 cuộc gọi api [Âm nhạc] miễn phí và sau đó,
+ 🍀 giá chỉ bằng một nửa so với những gì  nó ở dưới
+ 🍀 bầu trời tối và không chỉ là
+ 🍀 cạnh tranh với các nguồn thời tiết khác
+ 🍀 và uh uh
+ 🍀
+ 🍀 chỉ tò mò về cách bạn thấy rằng
+ 🍀 tôi nghĩ rõ ràng chúng ta cần phải được điều chỉnh
+ 🍀 [Cười]
+ 🍀 không nhưng tôi nghĩ điều đó thật tuyệt cho người dùng của chúng tôi được rồi
+ 🍀
+ 🍀 được rồi  câu hỏi cuối cùng
+ 🍀 uh
+ 🍀 nóng lòng muốn xem clip nhỏ đó sẽ
+ 🍀 có một
+ 🍀 quá trình chỉnh sửa ở đây
+ 🍀 chúng tôi sẽ phát ra tiếng bíp yeah
+ 🍀 uh
+ 🍀 tôi không biết 20 25 năm trước tôi đã
+ 🍀 mua một chiếc áo phông ngớ ngẩn một chiếc kẹp theo phong cách thập niên 80
+ 🍀 nghệ thuật của một vài đứa trẻ giống như một chiếc máy tính
+ 🍀 thông thường theo phong cách thập niên 80,
+ 🍀
+ 🍀 giống như có thể chúng đang ở trường và
+ 🍀 chúng đang
+ 🍀 đập bàn phím và
+ 🍀 khẩu hiệu trên áo phông giống như trong một phông
+ 🍀 chữ bong bóng, máy tính rất thú vị và hữu ích
+ 🍀 và tôi yêu  chiếc áo phông đó và tôi không
+ 🍀 còn mặc nó nữa vì tôi nghĩ rằng tôi đã mặc nó
+ 🍀 nhiều đến mức vợ tôi đã vứt nó đi
+ 🍀 nhưng tôi đã suy nghĩ về việc tôi không
+ 🍀 biết tại sao năm nay cụm từ đó lại
+ 🍀 gây được tiếng vang đối với tôi ừm
+ 🍀 và  Tôi có thể và điều thực sự khiến
+ 🍀
+ 🍀 tôi đưa nó lên làm
+ 🍀 câu hỏi cuối cùng dành cho các bạn là
+ 🍀 trải nghiệm đó vào ngày hôm qua
+ 🍀
+ 🍀 hoặc ngày hôm qua và chủ nhật uh với
+ 🍀 các nhà phát triển từ khắp nơi trên thế giới và
+ 🍀 họ
+ 🍀 chỉ là sự nhiệt tình của họ để  đích thân trở lại đây
+ 🍀 và rất hào hứng muốn biết điều gì sẽ xảy
+ 🍀 ra trong bài phát biểu quan trọng
+ 🍀 bạn nghĩ điều gì sẽ xảy ra ở
+ 🍀 aquino bạn nghĩ điều gì sẽ là
+ 🍀 bài phát biểu quan trọng
+ 🍀 ngoài thực tế là
+ 🍀 máy tính rất thú vị và  hữu ích
+ 🍀 có một số loại
+ 🍀 người và
+ 🍀 hóa ra có rất nhiều người trong số họ
+ 🍀 đặc biệt nghĩ rằng máy tính apple rất
+ 🍀 thú vị và hữu ích và bạn nói rằng bạn biết đó là lý
+ 🍀 do tại sao bạn đến làm việc tại apple mà bạn
+ 🍀 không tìm việc trong
+ 🍀 ngành máy tính  bạn muốn có một
+ 🍀 công việc tại apple
+ 🍀 đúng không và không có kế hoạch b vì
+ 🍀 không có gì khác giống như mac
+ 🍀 và tôi chỉ là
+ 🍀 câu hỏi cuối cùng, tôi chỉ tự hỏi liệu
+ 🍀 các bạn có biết
+ 🍀 bạn quyết định ai đi trước không  nhưng
+ 🍀 lần đầu tiên quay
+ 🍀 trở lại là khi nào khi bạn nhận ra
+ 🍀 rằng
+ 🍀 máy tính apple khác biệt
+ 🍀 và bạn đã yêu chúng rất nhiều.
+ 🍀 Tôi thực sự sẽ hẹn hò với chính mình.
+ 🍀 Tôi lớn tuổi hơn và có lẽ tôi sẽ  đầu
+ 🍀 tiên,
+ 🍀 quả táo đầu tiên mà tôi sử dụng là lisa
+ 🍀 và tôi đã đến trường đại học michigan và
+ 🍀 họ đã đầu tư rất nhiều vào lisa's, chúng tôi có
+ 🍀 hợp đồng thuê ở khắp mọi nơi với giá 15
+ 🍀 nghìn đô la hoặc đại loại như vậy và chúng tôi có rất nhiều trong
+ 🍀 số đó, có
+ 🍀 lẽ tôi không biết'  Tôi không biết liệu chúng tôi có phải là
+ 🍀 khách hàng lớn nhất cho các hợp đồng cho thuê hay không nhưng chúng tôi có
+ 🍀 rất nhiều khách hàng trong số họ và uh và tôi đã làm
+ 🍀 mọi thứ tôi như thế này thật
+ 🍀 không thể tin được ý tôi là và một lần nữa tôi sẽ sử dụng
+ 🍀 những chiếc máy rõ ràng và mọi thứ bạn biết uh
+ 🍀 bạn biết rồi bạn  biết tất cả những thứ cũ mà
+ 🍀 bạn biết chiếc commodore 64 của tôi là thứ đầu tiên của tôi
+ 🍀 và tôi đã như thể wow điều này thật
+ 🍀 không thể tin được và sau đó tôi nhớ mình
+ 🍀 đã hơi p vì hợp đồng thuê đã
+ 🍀 hết
+ 🍀 và đây là thứ nhỏ bé được gọi là
+ 🍀 mac
+ 🍀 và tất cả  đột nhiên nó trở nên khá
+ 🍀 tuyệt và tôi
+ 🍀 bạn biết mà không cần xem lại toàn bộ
+ 🍀 lịch sử của mình tôi chỉ
+ 🍀 bị nghiện nó có lẽ là
+ 🍀 dùng sai từ uh nó có thể uh uh rất
+ 🍀
+ 🍀 gần với nó bạn biết đấy uh
+ 🍀 và uh và bắt đầu làm việc tại
+ 🍀 trường đại học michigan trong phòng máy tính
+ 🍀 và thực sự trở thành
+ 🍀 chuyên gia mac và theo quan điểm của bạn,
+ 🍀 điều đó dẫn đến việc
+ 🍀 bạn biết phải ở đây và
+ 🍀 và tôi luôn nói với mọi người rằng tôi
+ 🍀 không thể tưởng tượng được việc làm công việc của mình
+ 🍀 bất cứ nơi nào khác
+ 🍀 đúng bởi vì
+ 🍀 sự tích hợp phần cứng và phần mềm đó
+ 🍀 cho phép chúng tôi bạn biết đến
+ 🍀 vị trí này, bạn biết đấy, tôi luôn nói với
+ 🍀 mọi người rằng có một danh sách nhỏ
+ 🍀 các nhà cung cấp phần cứng
+ 🍀 đẳng cấp
+ 🍀 thế giới.  các nhà cung cấp phần mềm đẳng cấp mà chúng tôi tham
+ 🍀 gia, chúng tôi là những công ty duy nhất thực sự
+ 🍀 đúng và điều đó có nghĩa là
+ 🍀 thay vì có
+ 🍀 các công ty khác nhau với
+ 🍀 các chương trình nghị sự khác nhau, chúng tôi
+ 🍀 kiểm soát tất cả như bạn đã nói, toàn bộ
+ 🍀 tiện ích sao cho nếu chúng tôi có thể tưởng tượng được thì
+ 🍀 chúng tôi thực sự có thể  tạo nó ngay tại đây và
+ 🍀 chúng tôi có thể làm rất tốt việc tạo ra
+ 🍀 nó
+ 🍀 và tôi không thể tưởng tượng được việc cố gắng làm
+ 🍀 những gì tôi làm hoặc những gì chúng tôi làm với bất kỳ
+ 🍀 đối thủ cạnh tranh nào của chúng tôi, điều đó sẽ rất bực bội
+ 🍀 đúng không nhưng thay vào đó, nó rất bổ ích để
+ 🍀 làm  những gì chúng ta làm và có những ngày như
+ 🍀 ngày hôm qua và nói về
+ 🍀 những thứ như thế này, tôi chỉ vâng,
+ 🍀 đó là lý do tại sao tôi ở đây 36 năm sau, vì vậy,
+ 🍀 những câu chuyện của tôi không liên quan đến
+ 🍀 lisa nhưng không phải vậy,
+ 🍀 nó không quá khác biệt khi tôi
+ 🍀 là 10 tôi lần đầu tiên tôi tiếp xúc với
+ 🍀 máy tính là một chiếc apple ii plus
+ 🍀 và bạn biết đấy, đó
+ 🍀 thực sự là điều mà quả táo
+ 🍀 đại diện cho những gì vào thời điểm đó ít hơn mà bạn biết
+ 🍀 vào thời điểm đó nhiều hơn về những gì máy tính
+ 🍀 đại diện và nó  vừa bắn pháo
+ 🍀 hoa ý tôi là tôi đã biết từ
+ 🍀 thời điểm đó trở đi đây là điều tôi
+ 🍀 muốn làm
+ 🍀 nhưng đó là khi
+ 🍀 máy mac ra đời vào năm 1984 và tôi có
+ 🍀 bạn của bố tôi, tôi nghĩ lúc đó tôi 14 tuổi hay
+ 🍀 gì đó  bạn của bố tôi,
+ 🍀 tôi đã được đưa cho một chiếc để đánh giá và ông ấy đã
+ 🍀 đưa nó cho tôi nhưng không đưa cho tôi, cho tôi mượn
+ 🍀 một lúc
+ 🍀 và
+ 🍀 đó là lúc tôi nói với
+ 🍀 bản thân mình rằng bạn biết đấy, một ngày nào đó tôi phải làm việc tại Apple
+ 🍀 và
+ 🍀 suy nghĩ của tôi là tôi muốn trở thành một trong số
+ 🍀 những người
+ 🍀 có thể xây dựng một thứ như vậy và là
+ 🍀 người có sự quan tâm và
+ 🍀 kỹ năng
+ 🍀
+ 🍀 để tạo ra một thứ như thế này, ý tôi là
+ 🍀 nó rất mở mang tầm mắt về thứ
+ 🍀 này  công nghệ này mà tôi đã
+ 🍀 yêu thích
+ 🍀 cách nó có thể được
+ 🍀 khai thác và nó có thể có
+ 🍀 ý nghĩa gì
+ 🍀 và uh và tôi đã không thất vọng uh
+ 🍀 khi tìm ra những người đó
+ 🍀 khi cuối cùng tôi cũng ở trong số họ và
+ 🍀 uh rằng  vượt ra ngoài
+ 🍀 những bức tường này ý tôi là đó chính là
+ 🍀 cộng đồng này
+ 🍀 uh tôi nghĩ đó là điều đặc biệt tôi
+ 🍀 nghĩ đó là lý do tại sao mọi người
+ 🍀 dù là nhà phát triển muốn đến đây
+ 🍀 vì họ chia sẻ mối quan hệ đó
+ 🍀 không chỉ với chúng tôi mà còn với nhau,
+ 🍀 có những công ty khác có
+ 🍀 nhà phát triển  hội nghị tôi không thể tưởng tượng được
+ 🍀 một hội nghị khác
+ 🍀 sẽ có cảm giác như
+ 🍀 năm nay một lần nữa tôi không thể nhắc lại đủ tôi
+ 🍀 thực sự nghĩ rằng điều này sẽ trở
+ 🍀 thành wwdc tốt nhất
+ 🍀 chưa từng có
+ 🍀 không phải vì bạn không thể làm những thứ tốt hơn hay
+ 🍀 có một bài thuyết trình tốt hơn sau này nhưng
+ 🍀 hy vọng rằng chúng ta sẽ không bao giờ có
+ 🍀 một bài thuyết trình sau hai năm
+ 🍀 như chúng ta vừa có khi có cảm xúc
+ 🍀 dồn nén này
+ 🍀
+ 🍀 ừm mong muốn dồn nén được kết nối yeah yeah
+ 🍀 và
+ 🍀 giữa những người cùng chí hướng, những người đều
+ 🍀 thấy giống nhau  đại loại như tại sao bạn lại
+ 🍀 xây dựng một ứng dụng chỉ dành cho lời mời của iphone
+ 🍀 thay vì sử dụng đa nền tảng, bạn có thể
+ 🍀
+ 🍀 tăng gấp đôi thị phần của mình hoặc bất cứ điều gì nhưng
+ 🍀 có vẻ như
+ 🍀 các nhà phát triển ở đây là những người
+ 🍀 thấy như vậy bởi vì tôi muốn làm tất
+ 🍀 cả  và làm cho nó tốt như
+ 🍀 phần mềm của apple và cách duy nhất để làm điều đó là
+ 🍀 có nguồn gốc từ nền tảng và làm
+ 🍀 mọi thứ đúng cách
+ 🍀 cho nền tảng và
+ 🍀 uh
+ 🍀 dù sao thì đó cũng là những câu trả lời hay và tôi
+ 🍀 thực sự thích điều đó và uh đã
+ 🍀 mang lại cho chúng tôi  Cuối cùng ừm
+ 🍀 uh mọi người tôi cần cảm ơn
+ 🍀 ừm
+ 🍀 trước tiên tôi muốn cảm ơn tất cả khán giả ở đây
+ 🍀
+ 🍀 [Vỗ tay]
+ 🍀 Tôi sẽ không bao giờ cảm thấy cũ khi
+ 🍀 mọi người
+ 🍀 giành lấy những tấm vé này nhanh nhất
+ 🍀 có thể,
+ 🍀 đó là một đặc ân đáng kinh ngạc và  và tôi
+ 🍀 nghe nói họ sẽ bán với giá 2 000
+ 🍀 đô la
+ 🍀 bạn đã bán của bạn
+ 🍀 vì bạn không cần không ai muốn
+ 🍀 của tôi
+ 🍀 tôi cũng muốn cảm ơn chính Apple
+ 🍀 đây là trong tòa nhà của Apple có
+ 🍀 những người của Apple
+ 🍀 đã giúp đỡ tôi và trong  những cách mà sẽ mất
+ 🍀 một giờ nữa để nói về
+ 🍀 tất cả những cách mà nó đã được giúp đỡ và
+ 🍀 uh nó có ý nghĩa rất lớn đối với tôi, đó là buổi biểu diễn của tôi
+ 🍀 nhưng năm nay tôi thực sự không thể
+ 🍀 làm được nếu không có táo và
+ 🍀 tôi cũng thực sự đánh giá cao điều đó.  cảm
+ 🍀 ơn ừm
+ 🍀
+ 🍀 tôi muốn cảm ơn sandwich uh họ đã
+ 🍀 chỉnh sửa chương trình trong vài năm qua
+ 🍀 và làm một công việc phi thường
+ 🍀 claude uh
+ 🍀 zines từ sandwich đang ở đây, anh ấy sẽ
+ 🍀 lấy đoạn phim này từ những
+ 🍀 chiếc máy quay tuyệt vời này và đưa chúng vào một
+ 🍀 ổ cứng và bắt đầu chỉnh sửa nó
+ 🍀 trên đường trở về los angeles sau khi chúng ta
+ 🍀 kết thúc
+ 🍀 để
+ 🍀 bạn biết rằng có vài trăm bạn đang
+ 🍀 nghe tôi nói ngay bây giờ và một ngày nào đó
+ 🍀 sẽ có hàng nghìn người
+ 🍀 xem nội dung này trên youtube, tất cả các bạn
+ 🍀 đang xem trên youtube uh
+ 🍀 my  cảm ơn bánh mì là dành cho bạn uh
+ 🍀 và một lần nữa tôi không biết mình sẽ làm gì
+ 🍀 nếu không có bánh mì giúp thực hiện chương trình này
+ 🍀 tôi không thực sự có kế hoạch
+ 🍀 sản xuất video
+ 🍀 tôi muốn cảm ơn uh
+ 🍀 gia đình tôi  muốn cảm ơn vợ và
+ 🍀 con trai tôi
+ 🍀 uh
+ 🍀 tôi nghĩ điều đó nói lên tất cả
+ 🍀 rằng hai năm qua thật khó khăn
+ 🍀 và tôi không biết cũng như không thể chọn được hai
+ 🍀 người tốt hơn để cùng trải qua những năm tháng đó
+ 🍀 ngoài vợ tôi, amy và con trai tôi, jonas uh
+ 🍀 anh ấy sẽ tốt nghiệp trung học vào thứ bảy và
+ 🍀 tôi rất tự hào về anh ấy
+ 🍀 uh và bạn biết đấy, tôi muốn cảm ơn craig
+ 🍀 và hàm
+ 🍀 cảm ơn bạn đã ở đây một lần nữa vì đã
+ 🍀 có chúng tôi vâng cảm ơn bạn hy vọng gặp lại
+ 🍀 bạn vào năm sau
+ 🍀 [Vỗ tay]
+ 🍀 bạn

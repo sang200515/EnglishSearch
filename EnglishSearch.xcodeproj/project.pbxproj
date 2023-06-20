@@ -28,6 +28,10 @@
 		9481787C2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 9481787A2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt */; };
 		948178812A4219E800FF2130 /* [English]S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 9481787F2A4219E800FF2130 /* [English]S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship[Checksub.com].txt */; };
 		948178892A421BD100FF2130 /* [English]Ruth Zukerman, Co-Founder of SoulCycle and Flywheel Sports[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 948178872A421BD100FF2130 /* [English]Ruth Zukerman, Co-Founder of SoulCycle and Flywheel Sports[Checksub.com].txt */; };
+		9481788D2A421D1900FF2130 /* [English]Apple CEO Tim Cook on The David Rubenstein Show[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 9481788B2A421D1900FF2130 /* [English]Apple CEO Tim Cook on The David Rubenstein Show[Checksub.com].txt */; };
+		948178902A421E2900FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 9481788E2A421E2800FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt */; };
+		948178942A421F5200FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 948178922A421F5100FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt */; };
+		948178952A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 948178932A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt */; };
 		94B04ADF2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94B04ADE2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt */; };
 		94B04AE32A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94B04AE22A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */; };
 		94D8CD442A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94D8CD432A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt */; };
@@ -77,6 +81,10 @@
 		9481787A2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt"; sourceTree = "<group>"; };
 		9481787F2A4219E800FF2130 /* [English]S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship[Checksub.com].txt"; sourceTree = "<group>"; };
 		948178872A421BD100FF2130 /* [English]Ruth Zukerman, Co-Founder of SoulCycle and Flywheel Sports[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Ruth Zukerman, Co-Founder of SoulCycle and Flywheel Sports[Checksub.com].txt"; sourceTree = "<group>"; };
+		9481788B2A421D1900FF2130 /* [English]Apple CEO Tim Cook on The David Rubenstein Show[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Apple CEO Tim Cook on The David Rubenstein Show[Checksub.com].txt"; sourceTree = "<group>"; };
+		9481788E2A421E2800FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]The Talk Show Live From WWDC 2023[Checksub.com].txt"; sourceTree = "<group>"; };
+		948178922A421F5100FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt"; sourceTree = "<group>"; };
+		948178932A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]The Talk Show Live From WWDC 2022[Checksub.com].txt"; sourceTree = "<group>"; };
 		94B04ADD2A41195C007FAB49 /* docs.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = docs.md; sourceTree = "<group>"; };
 		94B04ADE2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt"; sourceTree = "<group>"; };
 		94B04AE22A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt"; sourceTree = "<group>"; };
@@ -145,6 +153,10 @@
 		94D8CD512A42000E004BE080 /* Podcast🌺 */ = {
 			isa = PBXGroup;
 			children = (
+				948178932A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt */,
+				948178922A421F5100FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt */,
+				9481788E2A421E2800FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt */,
+				9481788B2A421D1900FF2130 /* [English]Apple CEO Tim Cook on The David Rubenstein Show[Checksub.com].txt */,
 				948178872A421BD100FF2130 /* [English]Ruth Zukerman, Co-Founder of SoulCycle and Flywheel Sports[Checksub.com].txt */,
 				9481787F2A4219E800FF2130 /* [English]S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship[Checksub.com].txt */,
 				9481787A2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt */,
@@ -306,6 +318,7 @@
 				942F0A272A40AEA000E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 21 to 35 [DownSub.com].txt in Resources */,
 				94B04ADF2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt in Resources */,
 				94EBDF752A3D8CB20095C776 /* transcript2.pdf in Resources */,
+				948178952A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt in Resources */,
 				942F0A452A40B8D700E50FDE /* [English (auto-generated)-Vietnamese] ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 [DownSub.com].txt in Resources */,
 				942F0A2B2A40B1D900E50FDE /* [English (auto-generated)-Vietnamese] Lisas real Sister! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */,
 				94D8CD632A420318004BE080 /* [English]Jennifer Hyman, Co-founder and CEO, Rent the Runway[Checksub.com].txt in Resources */,
@@ -317,8 +330,10 @@
 				94D8CD872A420A3D004BE080 /* [English]Dean Jon Levin and Professor Neil Malhotra_ Social Innovation at the Stanford GSB[Checksub.com].txt in Resources */,
 				94EBDF772A3D8E1F0095C776 /* transcript.txt in Resources */,
 				942F0A3F2A40B72B00E50FDE /* [English (auto-generated)-Vietnamese] 1000 Basic English Question and Answers and more for daily conversation [DownSub.com].txt in Resources */,
+				948178902A421E2900FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt in Resources */,
 				94EBDF6F2A3D88CD0095C776 /* transcript2.txt in Resources */,
 				94779E912A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt in Resources */,
+				948178942A421F5200FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt in Resources */,
 				94D8CD8C2A420B12004BE080 /* [English]Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton[Checksub.com].txt in Resources */,
 				94D8CD7B2A420751004BE080 /* [English]Stanford Doerr School of Sustainability Chat with  John Doerr, Jon Levin, and Arun Majumdar[Checksub.com].txt in Resources */,
 				94D8CD832A42093D004BE080 /* [English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt in Resources */,
@@ -338,6 +353,7 @@
 				94D8CD532A420019004BE080 /* [English]S02E13 Grit & Growth _ Scaling Your Business_ It’s All About The People[Checksub.com].txt in Resources */,
 				94D8CD772A420677004BE080 /* [English]Tristan Walker, CEO of Walker & Company_ The Problem with Sameness[Checksub.com].txt in Resources */,
 				942F0A332A40B35C00E50FDE /* [English-Vietnamese] Speak With Me_ 2 Hour English Speaking Practice [DownSub.com].txt in Resources */,
+				9481788D2A421D1900FF2130 /* [English]Apple CEO Tim Cook on The David Rubenstein Show[Checksub.com].txt in Resources */,
 				942F0A1D2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */,
 				942F0A312A40B2E500E50FDE /* [English (auto-generated)-Vietnamese] 1.5 HOUR English Conversation Lesson [DownSub.com].txt in Resources */,
 			);
