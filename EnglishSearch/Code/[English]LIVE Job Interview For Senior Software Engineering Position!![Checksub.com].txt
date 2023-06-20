@@ -1,0 +1,1182 @@
+[Music]  ➤  [Âm nhạc]
+what's going on youtube welcome back to  ➤  chuyện gì đang xảy ra trên youtube chào mừng các bạn đã quay trở lại
+the channel we got a pretty exciting  ➤  kênh, hôm nay chúng ta có một video khá thú vị.
+video today i'm going to be doing a live  ➤  Tôi sẽ thực hiện một
+interview with one of my employees to  ➤  cuộc phỏng vấn trực tiếp với một trong những nhân viên của mình để
+see if he's ready to get promoted from a  ➤  xem liệu anh ấy đã sẵn sàng để được thăng chức từ
+junior level developer to a senior level  ➤  nhà phát triển cấp cơ sở lên cấp cao hay chưa
+ios developer here so like i said it's  ➤  nhà phát triển ios cấp độ ở đây vì vậy như tôi đã nói đây
+going to be a real life interview this  ➤  sẽ là một cuộc phỏng vấn thực tế, điều này
+is going to determine whether or not he  ➤  sẽ quyết định xem anh ấy
+gets the job this has not been practiced  ➤  có nhận được công việc hay không, điều này chưa được thực hành,
+he has no idea what i'm going to ask him  ➤  anh ấy không biết tôi sẽ yêu cầu anh ấy
+to do so this is going to give you guys  ➤  làm gì nên đây là  sẽ cung cấp cho các bạn
+an idea of what it takes to get to that  ➤  ý tưởng về những gì cần thiết để đạt được vị trí
+senior level ios developer  ➤  nhà phát triển ios cấp cao đó,
+position  ➤
+so get excited for the video guys we're  ➤  vì vậy hãy hào hứng với video này nhé các bạn, chúng ta
+going to go ahead and get started here  ➤  sẽ tiếp tục và bắt đầu ngay tại đây
+in a second with brandon my employee  ➤  với brandon nhân viên của tôi,
+who's been working with me for two years  ➤  người đang làm việc với tôi  được hai năm
+now he's been coding for three years and  ➤  rồi, anh ấy đã viết mã được ba năm và
+i think he's ready to take a jump to  ➤  tôi nghĩ anh ấy đã sẵn sàng để nhảy lên
+that next level so let's go ahead and  ➤  cấp độ tiếp theo, vì vậy hãy tiếp tục và
+find out if he has what it takes  ➤  tìm hiểu xem anh ấy có những gì
+[Music]  ➤  [Âm nhạc] được rồi, có chuyện gì
+okay what's up brandon uh welcome to the  ➤  vậy, chào mừng bạn đến với
+interview man we have the google doc  ➤  cuộc phỏng vấn, chúng tôi  mở tài liệu google
+opened up with what the objectives for  ➤  với mục tiêu của
+this interview are  ➤  cuộc phỏng vấn này là gì, vì
+so basically you're gonna have 30  ➤  vậy về cơ bản, bạn sẽ có 30
+minutes of straight up coding time okay  ➤  phút viết mã ngay lập tức, được rồi,
+we're going to go through this for about  ➤  chúng ta sẽ xem xét vấn đề này trong khoảng
+five minutes and then we'll do five  ➤  năm phút và sau đó chúng ta sẽ thực hiện năm
+minutes at the end with you know some  ➤  phút sau  cuối cùng bạn biết một số
+feedback and some questions  ➤  phản hồi và một số câu hỏi,
+um basically one just want to see how  ➤  về cơ bản, người ta chỉ muốn xem
+far you can get um so let's talk about  ➤  bạn có thể đi được bao xa, vậy hãy nói về
+the objectives really quick so i want  ➤  các mục tiêu thật nhanh, vì vậy tôi muốn
+you to build an application that  ➤  bạn xây dựng một ứng dụng
+displays a list of courses okay so you  ➤  hiển thị danh sách các khóa học.
+might be asking what a course is well  ➤  hỏi xem khóa học có tốt không,
+you're going to be given a url  ➤  bạn sẽ nhận được một url
+with some data  ➤  có một số dữ liệu
+and okay all that data will represent  ➤  và được rồi, tất cả dữ liệu đó sẽ đại diện cho
+the courses that i want you to display  ➤  các khóa học mà tôi muốn bạn hiển thị
+and you can see that url link down below  ➤  và bạn có thể thấy liên kết url đó bên dưới vâng,
+yes right here yep okay so  ➤  ngay tại đây, vâng, lý tưởng nhất là
+ideally each course should display three  ➤  mỗi  khóa học nên hiển thị ba
+things a course image a course title and  ➤  thứ một hình ảnh khóa học một tiêu đề khóa học và
+a number of lessons in the course  ➤  một số bài học trong khóa học
+um at a minimum  ➤  ở mức tối thiểu
+i want you to be able to at least get  ➤  tôi muốn bạn ít nhất có thể lấy
+some data from the api  ➤  một số dữ liệu từ api
+and display at the minimum the course  ➤  và hiển thị ở mức tối thiểu tiêu đề khóa học
+title  ➤
+okay the course image and the number of  ➤  được hình ảnh khóa học  và số lượng
+lessons in the course  ➤  bài học trong khóa học
+are a nice to have okay we might not  ➤  rất tốt, được chứ, chúng tôi có thể không
+have enough time for that  ➤  có đủ thời gian cho việc đó.
+okay um  ➤
+and the data should essentially be  ➤
+displayed in a scrollable list okay  ➤
+so  ➤
+uh we saw the url below and then there's  ➤
+a screenshot of what the application  ➤  ứng dụng
+could potentially look like depending on  ➤  có thể trông như thế nào tùy thuộc vào
+how far we get  ➤  khoảng cách chúng ta đi được,
+so each one of those  ➤  vì vậy mỗi mục trong số đó
+items represents what we're going to  ➤  đại diện cho những gì chúng ta sẽ
+call a course  ➤  gọi là một khóa học,
+okay  ➤  được rồi, hãy
+really quickly shout out to let's build  ➤  nhanh chóng kêu gọi chúng tôi xây dựng
+that app.com for providing this api  ➤  ứng dụng đó.com để cung cấp api này, hãy
+shout out to brian boone he's a great  ➤  hét lên với brian boone, anh ấy  một
+youtuber and coder so thanks man all  ➤  youtuber và lập trình viên tuyệt vời, cảm ơn mọi người, được
+right so really quickly i just want to  ➤  rồi, rất nhanh, tôi chỉ muốn
+get some of your thoughts on how you're  ➤  biết một số suy nghĩ của bạn về cách bạn
+going to build this out  ➤  sẽ xây dựng điều này,
+i just want to see how you think sort of  ➤  tôi chỉ muốn xem bạn nghĩ như thế nào
+on a high level with how we're going to  ➤  ở cấp độ cao với cách chúng tôi'  chúng ta sẽ
+architect this app before we actually  ➤  thiết kế ứng dụng này trước khi chúng ta thực sự
+get started with the coding so just go  ➤  bắt đầu viết mã, vì vậy hãy tiếp tục
+ahead and sort of walk me through how  ➤  và hướng dẫn tôi cách
+you would build something like this yeah  ➤  bạn sẽ xây dựng một thứ như thế này, vâng, vì
+so i can see here that it you know we  ➤  vậy tôi có thể thấy ở đây rằng bạn biết chúng tôi
+have courses up here and it says  ➤  có các khóa học ở đây và nó nói rằng
+uh we have a title down here but we just  ➤  uh  chúng tôi có một tiêu đề ở đây nhưng chúng tôi chỉ
+have cells that are in a list format to  ➤  có các ô ở định dạng danh sách đối với
+me i instantly think table view because  ➤  tôi tôi nghĩ ngay rằng chế độ xem bảng vì định
+of a list format okay whereas collection  ➤  dạng danh sách được trong khi chế độ xem bộ sưu tập
+views i do a grid format okay um i think  ➤  tôi sử dụng định dạng lưới được rồi tôi nghĩ
+i'm going to start off by just building  ➤  tôi sẽ bắt đầu bằng  chỉ cần xây dựng
+a table view and  ➤  một chế độ xem bảng và
+i'll go into the  ➤  tôi sẽ truy cập vào
+url and see what kind of things that we  ➤  url và xem những thứ chúng tôi
+need from there  ➤  cần từ đó
+okay let me just open up xcode  ➤  được rồi, hãy để tôi mở xcode
+all right so uh  ➤  được rồi, vậy uh
+yeah let's go ahead and get started so  ➤  yeah, hãy tiếp tục và bắt đầu vì vậy
+you said you wanted to start by building  ➤  bạn đã nói rằng bạn muốn bắt đầu trước  xây dựng chế độ
+a table view are you going to be using  ➤  xem bảng, bạn sẽ
+storyboards here are you going to be how  ➤
+are you going to be building the ui yeah  ➤
+personally i like to just use ui kit  ➤  sử dụng
+storyboards are just a little bit  ➤  bảng phân cảnh ở đây, bạn sẽ như thế nào?
+um  ➤
+more time consuming to use for me  ➤
+personally i like to just i do it  ➤  tôi chỉ thích tôi làm điều đó
+programmatically okay  ➤  theo chương trình là được rồi
+in order to do that  ➤  để làm điều đó
+if  ➤  nếu
+if you had to though could you uh could  ➤  nếu bạn phải làm vậy bạn có thể
+you build something else yeah i don't  ➤  xây dựng thứ gì đó khác không vâng tôi không
+mind storyboards i just uh have been  ➤  bận tâm đến bảng phân cảnh tôi chỉ uh
+working with ui kit a lot lately just  ➤  gần đây tôi đã làm việc với bộ công cụ giao diện người dùng rất nhiều
+doing it yeah coding programmatically um  ➤  vâng mã hóa theo chương trình
+it's uh i think it's actually referred  ➤  ừm uh tôi nghĩ nó thực sự được gọi
+to as auto layout but i get what you're  ➤  là bố cục tự động nhưng tôi hiểu những gì bạn đang
+saying um just like programmatic ui  ➤  nói um giống như việc xây dựng giao diện người dùng theo chương trình
+building right  ➤
+correct okay cool  ➤  đúng đúng được tuyệt vời
+um do me a favor go ahead and close out  ➤  um giúp tôi tiếp tục và đóng
+that right menu bar so we can just get a  ➤  thanh menu bên phải để chúng ta có thể  chỉ cần
+little bit more code on screen yeah i'm  ➤  thêm một chút mã trên màn hình vâng, tôi
+actually gonna move you up so you can  ➤  thực sự sẽ chuyển bạn lên trên để bạn có thể
+see me i'm uh  ➤  nhìn thấy tôi. Tôi đang
+testing some of your xcode navigation  ➤  kiểm tra một số kỹ năng điều hướng xcode của bạn
+skills here  ➤  ở đây
+all right um  ➤  được rồi,
+so so just walk me through what you're  ➤  vậy hãy chỉ cho tôi những gì bạn đang
+doing here i want you to be pretty  ➤  làm ở đây  tôi muốn bạn trở nên xinh đẹp
+with uh your stuff sure so instead of  ➤  uh đồ của bạn chắc chắn vậy nên thay vì
+one second give you an idea of time we  ➤  một giây, hãy cho bạn biết thời gian chúng ta
+have 30 minutes from now so it's 3 50.  ➤  có 30 phút kể từ bây giờ vì vậy bây giờ là 3 giờ 50.
+we're gonna i'm going to cut you short  ➤  chúng tôi sẽ cắt ngắn cho bạn
+at 4 20. okay  ➤  ở 4 giờ 20. được không
+[Music]  ➤  [Âm nhạc]
+okay  ➤  được rồi,
+um basically instead of using  ➤  về cơ bản thay vì sử dụng
+storyboards i'm just gonna put my root  ➤  bảng phân cảnh, tôi sẽ đặt bộ điều khiển chế độ xem gốc của mình
+view controller as a controller that i  ➤  làm bộ điều khiển mà tôi
+create up here so okay okay  ➤  tạo ra ở đây, vậy được rồi, được rồi,
+wow  ➤  wow [
+[Music]  ➤  Âm nhạc]
+and really quickly um  ➤  và thực sự nhanh chóng,
+speed is a priority here so like  ➤  tốc độ là ưu tiên hàng đầu ở đây, vì vậy hãy
+code organization and like  ➤  tổ chức mã và thích
+all that stuff uh comes second to  ➤  uh tất cả những thứ đó đứng thứ hai vì
+so you just want to get the stuff on the  ➤  vậy bạn chỉ muốn lấy những thứ trên
+screen bang as much of this out as you  ➤  màn hình ra càng nhiều càng tốt vì bạn có thể
+can okay sure so so maybe like you could  ➤  chắc chắn như vậy nên có thể giống như bạn có thể
+like talk you know say hey i know this  ➤  thích nói chuyện bạn biết đấy nói này tôi biết đây
+isn't the best way of doing this but for  ➤  không phải là cách tốt nhất  làm điều này nhưng vì
+the the purposes of this video and the  ➤  mục đích của video này và
+time constraints we have uh you can you  ➤  những hạn chế về thời gian mà chúng tôi có uh bạn có thể cho tôi
+have a little bit of leeway to make this  ➤  một chút thời gian để làm cho điều này hơi
+somewhat messy  ➤
+sure all right so i'm just going to make  ➤
+a classier call of course controller  ➤  lộn xộn không.
+and i'm just going to make it a ui  ➤  Tôi sẽ biến nó thành một ui
+sorry  ➤  xin lỗi
+and you gotta you  ➤  và bạn cũng phải
+take off that capital o of course as  ➤  lấy số vốn đó ra, tất nhiên, vâng,
+well  ➤
+yep  ➤
+it takes a little too fast there it's  ➤  hơi nhanh một chút ở đó, không
+all good  ➤  sao
+all right  ➤  cả,
+so we're making it a table view  ➤  vì vậy chúng tôi đang biến nó thành một chế độ xem bảng
+well um i see something wrong already  ➤  tốt, tôi hiểu rồi  đã có gì đó không ổn
+in uh  ➤
+in how you set up the table view right  ➤  trong cách bạn thiết lập chế độ xem bảng đúng như vậy,
+so you're confirming yeah  ➤  vì vậy bạn đang xác nhận vâng,
+okay good glad you caught that yeah  ➤  tốt, rất vui vì bạn đã nắm bắt được điều đó, vâng, chúng
+okay let's just put a uh  ➤  ta hãy đặt
+background  ➤  nền
+[Music]  ➤  [Âm nhạc] uh,
+okay so what's the what's the purpose of  ➤  được rồi, mục đích của
+this here  ➤  việc này là gì,
+i just want to make sure that the table  ➤  tôi chỉ muốn  để đảm bảo rằng chế
+view is going to show up okay so you're  ➤  độ xem bảng sẽ hiển thị ổn, vì vậy bạn
+just kind of going like step by step  ➤  chỉ cần thực hiện từng bước
+correct okay i'm just going to go into  ➤  chính xác, được rồi, tôi sẽ đi vào
+the scene delegate and in order to see  ➤  đại biểu cảnh và để xem
+that controller  ➤  bộ điều khiển đó,
+um i have to do a couple things here so  ➤  tôi phải làm  một số thứ ở đây để
+window will equal  ➤  cửa sổ sẽ bằng
+[Music]  ➤  [Âm nhạc]
+uh i do want this to be a navigation  ➤  uh tôi muốn đây là
+controller i forgot to mention that  ➤  bộ điều khiển điều hướng tôi quên đề cập rằng
+there are no problems  ➤  không có vấn đề gì nên
+so the root view controller will now be  ➤  bộ điều khiển chế độ xem gốc bây giờ sẽ là
+this  ➤
+controller but our root view controller  ➤  bộ điều khiển này nhưng bộ điều khiển chế độ xem gốc
+for our window  ➤  cho cửa sổ của chúng tôi
+will have to be  ➤  sẽ có  trở thành
+the controller  ➤  bộ điều khiển
+[Music]  ➤  [Âm nhạc]
+so now when i run  ➤  vì vậy bây giờ khi tôi chạy,
+i'm just going to change this i don't  ➤  tôi sẽ thay đổi điều này. Tôi không
+like when it shows up  ➤  thích khi nó hiển thị dưới
+as an iphone 7. so our zoom keeps  ➤  dạng iphone 7. Vì vậy, chức năng thu phóng của chúng tôi liên tục
+popping up so i just have to go out  ➤  bật lên nên tôi phải ra ngoài.
+okay so are you running your code now is  ➤  bạn đang chạy mã của mình bây giờ đó là
+that what you're doing yep i'm about to  ➤  những gì bạn đang làm vâng, tôi sắp
+run it just to make sure that we have a  ➤  chạy nó chỉ để đảm bảo rằng chúng tôi có
+background color red okay  ➤  màu nền là màu đỏ, vì vậy
+so we'll see what shows up here  ➤  chúng tôi sẽ xem những gì hiển thị ở đây
+uh looks like your build failed  ➤  uh có vẻ như bản dựng của bạn bị lỗi,
+let's see what's going on here  ➤  hãy xem những gì  tiếp tục ở đây,
+oh  ➤  ồ
+i have to add these constructors okay  ➤  tôi phải thêm các hàm tạo này, được rồi,
+cool yeah you gotta add your constructor  ➤  tuyệt, vâng, bạn phải thêm hàm tạo của mình
+just want to make sure that um the table  ➤  chỉ muốn đảm bảo rằng ừm,
+view is actually showing up right that  ➤  chế độ xem bảng đang thực sự hiển thị đúng, điều đó
+makes sense  ➤  hợp lý
+yeah  ➤
+and once it does we can start building  ➤  và một khi chúng ta có thể bắt đầu xây dựng chế độ
+out the table view  ➤  xem bảng
+the cells looked pretty big  ➤  các ô trông khá lớn
+so i will build this um let's just start  ➤  vì vậy tôi sẽ xây dựng cái này ừm, hãy bắt đầu
+with uh  ➤  với uh
+just you know not just a regular cell  ➤  chỉ là bạn biết không chỉ là một ô thông thường
+like i said bare minimum we just want to  ➤  như tôi đã nói ở mức tối thiểu, chúng tôi chỉ muốn
+get the course name in us in like in the  ➤  lấy tên khóa học giống như trong
+table view there  ➤  chế độ xem bảng ở đó,
+um so don't worry about the size and  ➤  ừm, đừng  lo lắng về kích thước và
+stuff but we we can get to that later if  ➤  nội dung nhưng chúng ta có thể giải quyết vấn đề đó sau nếu
+we have the time  ➤  có thời gian,
+sure  ➤  chắc chắn rằng
+i'm just gonna start there was it showed  ➤  tôi sẽ bắt đầu ở đó, nó hiển
+up red in the background  ➤  thị màu đỏ trong nền,
+okay so that means your root view  ➤  được rồi, điều đó có nghĩa là bộ điều khiển chế độ xem gốc của bạn
+controller is uh working  ➤  đang hoạt động bình
+all right okay  ➤  thường
+[Music]  ➤  [  Âm nhạc]
+extension  ➤  tiện ích mở rộng bộ
+[Music]  ➤
+push controller so i'm just gonna  ➤  điều khiển đẩy [Âm nhạc] vì vậy tôi sẽ chỉ
+conform to these protocols  ➤  tuân theo các giao thức này được
+delegate and finally  ➤  ủy quyền và cuối cùng là
+[Music]  ➤
+data source  ➤  nguồn dữ liệu [Âm nhạc]
+these protocols will come into play  ➤  các giao thức này sẽ
+automatically  ➤  tự động phát
+[Music]  ➤  [Âm nhạc] ồ
+oh we're already in the table there you  ➤  chúng ta đã ở trong bảng rồi đấy, bạn
+go right  ➤  đi đúng
+you don't you don't need to conform to  ➤  không  'Bạn không cần phải tuân theo
+them  ➤  chúng
+because uh the table view controller  ➤  vì uh, lớp trình điều khiển chế độ xem bảng
+class already does right  ➤  đã có kích thước phù hợp
+size  ➤
+[Music]  ➤  [Âm nhạc]
+self rowette  ➤  tự chèo được rồi,
+okay  ➤
+so you just walk me through what exactly  ➤  vì vậy bạn chỉ cần hướng dẫn tôi chính xác những gì
+you're doing here  ➤  bạn đang làm ở đây,
+sure so i want to return a table view  ➤  vì vậy tôi muốn trả lại chế độ xem bảng
+cell  ➤  di động
+um so i'm just conforming to this  ➤  ừm vì vậy tôi chỉ tuân theo
+protocol here to do that and then this  ➤  giao thức này ở đây để làm điều đó và sau đó điều này
+will tell me the number of  ➤  sẽ cho tôi biết số
+well that's sections  ➤  giếng đó là các phần
+what number of rows  ➤  bao nhiêu hàng
+right so essentially  ➤  đúng vì vậy về cơ bản,
+this is like setting up your table view  ➤  điều này giống như thiết lập chế độ xem bảng của bạn
+right  ➤  chính
+exactly yeah you're using these  ➤  xác, vâng bạn đang sử dụng những thứ này
+functions to do that okay yeah thank you  ➤  các chức năng để làm điều đó được rồi vâng, cảm ơn bạn
+once again what's the first one doing  ➤  một lần nữa, cái đầu tiên hoạt động
+well this it's going to return a ui  ➤  tốt cái này sẽ trả về một
+table view cell so it's like you know  ➤  ô xem bảng ui để bạn biết
+what kind of cell do you want to show up  ➤  loại ô nào bạn muốn hiển thị
+in the table view okay and then what  ➤  trong chế độ xem bảng được rồi thì sao
+does the second one do this is just the  ➤  cái thứ hai làm điều này chỉ là
+number of rows in the section so a  ➤  số lượng hàng trong phần nên
+number of uh basically um the number of  ➤  về cơ bản là một số ô, ừm, số lượng ô
+cells okay cool  ➤  ổn, vì vậy
+so it's asking for a ui table himself so  ➤  nó đang tự yêu cầu một bảng ui, vì vậy
+i'm just gonna say let's sell equal a  ➤  tôi sẽ nói rằng hãy bán bằng một
+table view and we're gonna make it a  ➤  lượt xem bảng và chúng tôi  Tôi sẽ biến nó thành
+so what are you trying to do here  ➤  vậy bạn đang cố gắng làm gì ở đây.
+i'm trying to return a table view cell  ➤  Tôi đang cố gắng trả lại một ô xem bảng
+and make it a reusable cell  ➤  và biến nó thành một ô có thể tái sử dụng được,
+okay so you do table view and then what  ➤  vậy bạn thực hiện chế độ xem bảng và sau đó
+[Music]  ➤  [Âm nhạc]
+a dq musical cell  ➤  một ô âm nhạc dq
+right uh you gotta capitalize the view  ➤  phải không bạn phải không  viết hoa chế độ xem
+in table view  ➤  trong chế độ xem bảng
+there you go  ➤  ở đó,
+thank you  ➤  cảm ơn bạn,
+let's reuse identifier in  ➤  hãy sử dụng lại số nhận dạng trong
+this pad  ➤  bảng này
+[Music]  ➤  [Âm nhạc]
+okay okay  ➤  được rồi, được rồi, chúng ta
+uh let's just do uh let's just ask for  ➤  hãy làm đi, chúng ta hãy hỏi
+an integer we'll just return three okay  ➤  một số nguyên, chúng ta sẽ trả lại ba, được rồi,
+uh i did configure ui here but i'll have  ➤  tôi đã định cấu hình ui ở đây nhưng tôi sẽ  phải
+to  ➤
+configure table view  ➤  định cấu hình chế độ xem bảng
+just have to register a cell and then  ➤  chỉ cần đăng ký một ô và sau đó
+set the delegate and data source to  ➤  đặt đại biểu và nguồn dữ liệu để
+register  ➤  đăng ký
+[Music]  ➤  [Âm nhạc]
+this one  ➤  cái này
+[Music]  ➤  [Âm nhạc]
+we have to make sure the reuse  ➤  chúng tôi phải đảm bảo
+identifier is the same  ➤  mã định danh sử dụng lại giống nhau
+uh so it's gonna be cell  ➤  uh vì vậy ô sẽ
+okay  ➤  ổn thôi
+um  ➤  ừm
+[Music]  ➤  [Âm nhạc  ] hiện tại điều
+that that's fine for now but is there a  ➤  đó ổn nhưng có
+better way of doing that  ➤  cách nào tốt hơn để làm điều đó không,
+yeah you can create a a constant up here  ➤  vâng, bạn có thể tạo một hằng số ở đây
+that's called reuse identifier just to  ➤  được gọi là mã định danh tái sử dụng chỉ để
+make sure you don't mess up  ➤  đảm bảo rằng bạn không gây rối
+so i get the benefit  ➤  để tôi nhận được lợi ích
+[Music]  ➤  [Âm nhạc]
+yeah just so  ➤  vâng chỉ
+because i'm putting in a string here  ➤  vì tôi  Tôi đang nhập một chuỗi ở đây
+that i'm typing in so if that if i were  ➤  mà tôi đang nhập vì vậy nếu tôi
+to make for example if i were to make  ➤  định viết chẳng hạn nếu tôi viết
+that lowercase okay it would register  ➤  chữ thường đó thì được, nó sẽ đăng ký
+the proper cell okay  ➤  ô thích hợp được
+and uh  ➤  và
+do you have to set the delegate and data  ➤  bạn có phải đặt đại biểu và
+source here  ➤  nguồn dữ liệu không  ở đây
+i  ➤  tôi
+i believe you do  ➤  tin rằng bạn
+pretty sure that you have to  ➤  khá chắc chắn rằng bạn phải
+[Music]  ➤  [Âm nhạc]
+okay so what are we hoping to see okay  ➤  được rồi, vậy chúng tôi hy vọng sẽ thấy gì được rồi vì vậy cho
+so  ➤
+this is good so far right um  ➤  đến nay điều này rất tốt đúng không
+we got about  ➤  chúng tôi còn khoảng
+22 minutes left  ➤  22 phút nữa được rồi
+okay so we want to get some stuff on the  ➤  vì vậy chúng tôi muốn có một số nội dung trên
+screen i have to go into that  ➤  màn hình tôi có  truy cập vào url đó
+url  ➤
+and see what kind of data  ➤  và xem
+we have here we're working with okay  ➤  chúng tôi đang làm việc với loại
+[Music]  ➤
+okay so we're getting some data here  ➤  dữ liệu nào ở đây.
+yeah this is a bunch of data and instead  ➤
+of uh just reading it i'm gonna put it  ➤  đặt nó
+in a json formatter okay cool  ➤  trong một trình định dạng json được rồi, tuyệt,
+um  ➤
+what's the benefit of that  ➤  ích lợi của nó là gì,
+it  ➤
+it makes the um data a lot easier to  ➤  nó làm cho dữ liệu um dễ đọc hơn rất nhiều,
+read so i'm gonna see what the data  ➤  vì vậy tôi sẽ xem dữ liệu
+contains okay  ➤  chứa những gì, được thôi,
+so it's pretty easy i'm just gonna  ➤  vì vậy khá dễ dàng, tôi sẽ sao
+copy it in here now you can see it comes  ➤  chép nó vào đây ngay bây giờ  bạn có thể thấy nó đi
+up with id name link i think you want  ➤  kèm với liên kết tên id tôi nghĩ bạn muốn
+that a couple of these  ➤  một vài trong số này hãy cho tôi
+let me see what you wanted in here  ➤  xem bạn muốn gì ở đây
+you want a course image course title and  ➤  bạn muốn hình ảnh khóa học Tên khóa học và
+number of lessons  ➤  số bài học
+um yeah but uh so what are you gonna do  ➤  ừm vâng nhưng bạn sẽ làm gì
+with this now  ➤  với cái này  bây giờ
+like what is this helping you figure out  ➤  giống như cái này đang giúp bạn tìm ra cái gì
+yeah so this is going to help me um  ➤  vậy vâng, vậy cái này sẽ giúp tôi
+build my my model or object so i can  ➤  xây dựng mô hình hoặc đối tượng của mình để tôi có thể
+place it in the table view my cell  ➤  đặt nó trong ô xem ô của mình, được rồi, vâng, vậy
+okay  ➤
+yeah so let's uh let's go ahead and do  ➤
+that now  ➤
+i'm just gonna create you don't have to  ➤  chúng ta hãy tiếp tục và làm điều đó ngay bây giờ.  chỉ cần tạo thôi, bạn không cần phải
+create a folder anything but again let's  ➤  tạo bất kỳ thư mục nào nhưng một lần nữa,
+just uh we're focusing on speed here  ➤  chúng ta hãy tập trung vào tốc độ ở đây
+okay  ➤  nhé, vì
+so i guess just create a model  ➤  vậy tôi đoán chỉ cần tạo một mô hình
+sure  ➤  để chắc chắn
+what were you going to do before you  ➤  bạn sẽ làm gì trước khi
+were going to create like a folder and a  ➤  tạo một thư mục và  một
+model file yeah  ➤  tệp mô hình vâng,
+make it a little bit more organized yeah  ➤  làm cho nó có tổ chức hơn một chút, vâng, chúng ta
+let's just let's just call it course um  ➤  hãy gọi nó là khóa học ừm
+and  ➤  và
+it's going to have a couple of things in  ➤  nó sẽ có một vài thứ trong
+it so  ➤  đó,
+sorry just make sure the things that i  ➤  xin lỗi, hãy đảm bảo rằng những thứ tôi
+have here  ➤  có ở đây là
+a linkedin image url id  ➤  id url hình ảnh được liên kết
+so  ➤  để
+our  ➤
+image  ➤  hình ảnh của chúng tôi
+[Music]  ➤  [Âm nhạc]
+let's take a little time here  ➤  hãy dành một chút thời gian ở đây,
+you're good  ➤
+i'll just help you out with the rest you  ➤
+have an id  ➤
+and that looks like  ➤
+right okay you definitely you have this  ➤  bạn ổn
+down so i'm just helping you along  ➤  tôi sẽ giúp bạn phần còn
+um and then you have a number of lessons  ➤  lại.  bạn có một số bài học
+and that's also an integer  ➤  và đó cũng là một số nguyên
+and how is that about uh just like just  ➤  và nó như thế nào uh chỉ giống
+like that um but the capital l there  ➤  như vậy ừm nhưng vốn l ở đó
+and that's awesome  ➤  và điều đó thật tuyệt vời
+i have a quick question for you before i  ➤  tôi có một câu hỏi nhanh cho bạn trước khi tôi
+move forward  ➤  tiếp tục
+um  ➤  ừm
+do all of these things have to be  ➤  tất cả những thứ này phải  là
+variables and if yes why  ➤  các biến và nếu có tại sao ừm
+um  ➤
+i believe that they will because they  ➤  tôi tin rằng chúng sẽ thay đổi bởi vì chúng
+will be changing  ➤  sẽ thay đổi
+i'm trying to think if  ➤  tôi đang cố nghĩ xem
+what the id represents but yes all these  ➤  id đại diện cho cái gì nhưng vâng tất cả
+things will  ➤  những thứ này sẽ
+when when would they change  ➤  thay đổi khi nào thì chúng sẽ thay đổi
+so you're just well having to stop from  ➤  nên bạn chỉ cần dừng lại
+the the api right  ➤  api đúng
+at what point would those things change  ➤  vào thời điểm nào những thứ đó sẽ thay đổi
+well i have  ➤  tốt tôi có
+multiple multiple names multiple image  ➤  nhiều tên nhiều url hình ảnh
+urls  ➤
+yeah but that just represents each  ➤  vâng nhưng điều đó chỉ đại diện cho từng
+object  ➤  đối tượng
+so at any point do you plan on changing  ➤  vì vậy tại bất kỳ thời điểm nào bạn có kế hoạch thay đổi
+the name of a course or the image url of  ➤  tên của khóa học hoặc url hình ảnh của
+a course  ➤  khóa học
+[Music]  ➤  [Âm nhạc]
+uh i no i don't okay so then then would  ➤  uh tôi không tôi không ổn vậy thì
+it would what do we think it could be  ➤  nó sẽ như thế nào chúng ta nghĩ nó có thể là gì nó có
+it could be a constant okay so let's go  ➤  thể là một hằng số được thôi, vậy hãy tiếp tục
+ahead and change that real quick  ➤  và thay đổi điều đó thật nhanh, được thôi, chúng ta
+okay  ➤
+just gonna have to copy just here  ➤  sẽ chỉ cần sao chép ở đây
+so  ➤  vì vậy
+uh yeah that's fine that's fine  ➤  uh vâng, điều đó ổn thôi  tốt, uh,
+uh really quickly i want to kind of  ➤  rất nhanh, tôi muốn
+drill down on this this seems like you  ➤  đi sâu vào vấn đề này, có vẻ như bạn
+might struggle with this a little bit so  ➤  có thể gặp khó khăn với điều này một chút, vậy
+what's one thing that could potentially  ➤  điều gì có khả năng
+change on this course object  ➤  thay đổi đối với đối tượng khóa học này,
+let's say i wanted to add a number of  ➤  giả sử tôi muốn thêm một số
+lessons okay okay so let's say i added a  ➤  bài học, được rồi, vậy hãy  giả sử tôi đã thêm một
+lesson to the course  ➤  bài học vào khóa học,
+yeah this would definitely need to be a  ➤  vâng, điều này chắc chắn cần phải là một
+variable okay  ➤  biến,
+cool  ➤
+yeah so yeah i just wanted to make sure  ➤  được rồi, thật tuyệt, vâng, vâng, tôi chỉ muốn đảm bảo rằng
+you understood the concept of a constant  ➤  bạn hiểu khái niệm về hằng
+versus a variable  ➤  số so với biến số
+and when to make one the other because  ➤  và khi nào thì tạo ra biến số này vì
+variables use up more memory than  ➤  biến số sử dụng nhiều hơn  bộ nhớ hơn hằng
+constants do  ➤  số làm như
+so whenever you can make something a  ➤  vậy bất cứ khi nào bạn có thể biến thứ gì đó thành hằng
+constant you should  ➤  số, bạn sẽ
+okay  ➤  ổn
+okay so this looks good so far let's  ➤  thôi, vì vậy điều này có vẻ tốt cho đến
+keep going  ➤
+yeah so now i just need to actually  ➤  nay, hãy tiếp tục, vâng, vì vậy bây giờ tôi chỉ cần thực sự
+fetch this data this course data from  ➤  tìm nạp dữ liệu này, dữ liệu khóa học này từ
+the url okay  ➤  url, được thôi,
+i typically make a separate folder so  ➤  tôi thường tạo một thư mục riêng vì vậy
+once again we don't have to die  ➤  một lần nữa chúng ta không phải chết
+um you don't focusing on speed you know  ➤  ừm, bạn không tập trung vào tốc độ, bạn biết đấy,
+so  ➤
+uh i guess okay if you're you're going  ➤  tôi đoán là được nếu bạn đồng ý,
+with it let's just go with it  ➤  hãy cứ làm với nó,
+yeah just shouldn't name the file but  ➤  vâng, không nên đặt tên cho tệp mà
+let's call this uh service okay  ➤  hãy gọi  uh dịch vụ này ổn
+and i'm just going to create a function  ➤  và tôi sẽ tạo một chức năng
+in here called  ➤  ở đây có tên là
+i actually want to make this i have to  ➤  tôi thực sự muốn làm cái này tôi phải
+share it so static  ➤  chia sẻ nó thật tĩnh
+okay  ➤  nhé
+i'm just going to create my function  ➤  tôi sẽ tạo chức năng của mình
+here so function we're going to call it  ➤  ở đây vì vậy chức năng chúng tôi sẽ gọi nó
+fetch data  ➤  tìm nạp dữ liệu
+and i'm going to have a completion which  ➤  và tôi sắp hoàn thành, đó
+will  ➤  sẽ
+be array of courses okay  ➤  là một loạt các khóa học, vì
+so let me just do that really quickly  ➤  vậy hãy để tôi làm điều đó thật nhanh và
+escaping  ➤  thoát ra
+and you're going to see that this course  ➤  và bạn sẽ thấy rằng khóa học này
+will come up yep  ➤  sẽ xuất hiện, vâng,
+okay  ➤  được rồi,
+uh dude do me a favor and let's make  ➤  anh bạn giúp tôi một việc nhé.  làm cho
+that completion input parameter let's  ➤  tham số đầu vào hoàn thành đó, hãy
+make it a lowercase  ➤  biến nó thành chữ thường,
+we want our input parameters to be  ➤  chúng tôi muốn các tham số đầu vào của chúng tôi là chữ thường ở
+lowercase there we go cool  ➤  đó chúng ta sẽ ổn
+all right so what now  ➤  thôi, vậy bây giờ thì sao, vâng,
+yeah so basically i'm i just need to  ➤  về cơ bản, tôi chỉ cần
+have a url here so  ➤  có một url ở đây vì vậy
+i'm gonna ask for string just get the  ➤  tôi sẽ yêu cầu chuỗi chỉ  lấy
+string quickly okay  ➤  sợi dây nhanh lên nhé
+[Music]  ➤  [Âm nhạc]
+we're on the right track  ➤  chúng ta đang đi đúng hướng
+[Music]  ➤  [Âm nhạc]
+all right so now let's turn it into a  ➤  được rồi, vậy bây giờ hãy biến nó thành một
+string okay  ➤  sợi dây nhé,
+i have to use this um can you do me a  ➤  tôi phải sử dụng cái này. ừm, bạn có thể giúp tôi không
+favor go ahead and full screen this just  ➤
+let's get a little bit more room to see  ➤  thêm một chút chỗ để xem
+oh yeah  ➤  ồ vâng,
+so i'm actually going to put a guard  ➤  vì vậy tôi thực sự sẽ đặt một
+statement on this url  ➤  tuyên bố bảo vệ trên url này
+okay just because i'm sure that the url  ➤  chỉ vì tôi chắc chắn rằng url đó
+exists if it doesn't then we can just  ➤  tồn tại nếu nó không tồn tại thì chúng ta có thể
+stop there okay  ➤  dừng lại ở đó. OK
+makes sense  ➤
+[Music]  ➤  [Âm nhạc  ]
+hopefully  ➤  hy vọng chúng
+let's do that all right um i'm gonna use  ➤  ta hãy làm điều đó được rồi ừm tôi sẽ sử dụng
+this url section this is to go into the  ➤  phần url này, phần này là để truy cập vào
+uh the url and get some data back on it  ➤  uh url và lấy lại một số dữ liệu trên đó.
+okay cool  ➤
+all right let's see we want a completion  ➤
+handler  ➤
+yes  ➤
+okay it's asking for url we have our url  ➤  có url của chúng tôi
+and then we're gonna have data  ➤  và sau đó chúng tôi sẽ có dữ liệu
+[Music]  ➤  [Âm nhạc]
+response  ➤  phản hồi
+[Music]  ➤  [Âm nhạc]
+and error  ➤  và lỗi
+okay  ➤  được rồi
+uh you're going to want to make that  ➤  uh bạn sẽ muốn biến
+error lowercase  ➤  lỗi đó thành chữ thường
+sometimes it xcode will mess that up  ➤  đôi khi xcode sẽ làm hỏng điều đó
+yeah okay cool so  ➤  vâng, được rồi,
+first things first i want to make sure  ➤  điều đầu tiên tôi muốn  đảm bảo
+that data i'm actually receiving or  ➤  rằng dữ liệu tôi đang thực sự nhận hoặc
+retrieving data from the url  ➤  truy xuất dữ liệu từ url được rồi.
+okay  ➤
+art statement  ➤  tuyên bố nghệ thuật
+[Music]  ➤  [Âm nhạc]
+all right so  ➤  được rồi,
+really quickly  ➤  nhanh
+um  ➤
+let's go ahead and see if we can call  ➤  lên, chúng ta hãy tiếp tục và xem liệu chúng ta có thể gọi
+this function and like print out some  ➤  chức năng này và chẳng hạn như in ra một số
+data let's see if we're getting some  ➤  dữ liệu, hãy xem liệu chúng ta có thể  lấy lại một số
+data back  ➤  dữ liệu
+sure i want you to see i want to see how  ➤  chắc chắn tôi muốn bạn thấy tôi muốn xem cách
+you implement this so  ➤  bạn triển khai điều này vì vậy hãy quay lại
+go back into the function and let's uh  ➤  chức năng và cho
+you know maybe add a print statement or  ➤  biết bạn có thể thêm câu lệnh in hoặc
+something  ➤  thứ gì đó
+sure um  ➤  chắc chắn
+to see if we're getting data back where  ➤  để xem liệu chúng tôi có lấy lại dữ liệu
+would you add that print statement  ➤  không bạn  thêm câu lệnh in đó
+let's see  ➤  để xem
+i would have to add that here  ➤  tôi sẽ phải thêm nó ở đây
+yeah this is where i'm asking for data  ➤  vâng, đây là nơi tôi đang yêu cầu dữ liệu.
+so right  ➤  Vì vậy, về
+so essentially what does this completion  ➤  cơ bản, khối hoàn thành này
+block like represent what's happening  ➤  đại diện cho những gì đang xảy ra
+once we're inside of this block  ➤  khi chúng ta ở trong khối này,
+uh i'm going to basically make the data  ➤  tôi sẽ làm  về cơ bản làm cho dữ liệu
+into a course object okay okay cool cool  ➤  thành một đối tượng khóa học được rồi được rồi tuyệt vời, vậy vâng, hãy
+so yeah let's just let's just  ➤  cứ
+like  ➤  như thế nào
+yeah yeah yeah that's fine  ➤  vâng vâng vâng điều đó
+all right so where would you call this  ➤  tốt thôi, vậy bây giờ bạn sẽ gọi chức năng này ở đâu
+function now  ➤
+well i would need so i want this course  ➤  tôi sẽ cần vì vậy tôi muốn mảng khóa học này
+array to show up on my course controller  ➤  hiển thị trong khóa học của mình  bộ điều khiển
+so i can have access to it so if i  ➤  để tôi có thể có quyền truy cập vào nó vì vậy nếu tôi
+wanted to fetch the function i would do  ➤  muốn tìm nạp chức năng tôi sẽ làm
+that in here i would just  ➤  điều đó ở đây tôi sẽ
+i could actually do that  ➤  thực sự có thể làm điều đó
+i could call this function here  ➤  tôi có thể gọi chức năng này ở đây
+called  ➤  được gọi là
+uh looks like you're  ➤  uh có vẻ như bạn ở
+outside of your uh your class bracket  ➤  ngoài khung lớp của bạn uh
+there  ➤  ở đó
+but  ➤  nhưng ồ
+oh sorry about that oh good  ➤  xin lỗi về điều đó ồ tốt
+[Music]  ➤  [Âm nhạc]
+yeah that's right  ➤  vâng đúng vậy
+[Music]  ➤  [Âm nhạc] được rồi
+okay cool  ➤  tuyệt vời
+uh so i would say  ➤  uh vì vậy tôi sẽ nói rằng tôi
+i believe we called it  ➤  tin rằng chúng tôi đã gọi
+and just make sure  ➤  và chỉ cần đảm bảo
+yep  ➤
+service  ➤  dịch vụ
+dot share okay  ➤  chấm chia sẻ ổn
+and when i do this you'll see this fetch  ➤  và khi tôi làm điều này, bạn sẽ thấy dữ liệu tìm nạp này
+data here okay looking good so far yeah  ➤  Ở đây ổn, nhìn vẫn ổn cho đến nay, vâng,
+so i can call this whatever  ➤  vì vậy tôi có thể gọi đây là bất kỳ
+data  ➤  dữ liệu nào
+but let me finish up this api thought  ➤  nhưng hãy để tôi kết thúc api này. Tôi nghĩ
+well i i want to just see if we're  ➤  tốt. Tôi muốn xem liệu chúng tôi có
+getting data back  ➤  lấy lại được dữ liệu hay
+oh okay let's actually just go ahead and  ➤  không, được rồi, hãy thực sự tiếp tục và
+try to run it i want to see if uh  ➤  thử chạy nó, tôi muốn  xem
+well you already did the print statement  ➤  bạn đã thực hiện câu lệnh in
+right  ➤  ngay
+in the i'm correct yeah right so we can  ➤  trong câu
+just leave that blank so uh what do we  ➤
+do from here  ➤
+i have to call fetch data here okay  ➤  lệnh in chưa.
+so  ➤
+uh when it when you call it and viewed  ➤  và đã xem
+it load what's gonna happen what are we  ➤  nó tải điều gì sẽ xảy ra chúng ta đang
+expecting here  ➤  mong đợi điều gì ở đây
+i'm just expecting a print statement  ➤  tôi chỉ mong đợi một bản in
+okay so let's go see if we get it back  ➤  được thôi vậy hãy đi xem liệu chúng ta có lấy lại được không
+uh  ➤  uh
+nothing  ➤  không có gì
+um  ➤  ừm
+so let's go back let's go back to uh the  ➤  vì vậy hãy quay lại chúng ta hãy quay lại uh
+service function  ➤  chức năng dịch vụ
+maybe one of our guard statements failed  ➤  có thể là một trong những người bảo vệ của chúng tôi  các câu lệnh không thành công,
+let's see how i want to see how you  ➤  hãy xem cách tôi muốn xem bạn
+would uh sort of debug this  ➤  sẽ
+okay  ➤
+so  ➤
+here uh guard that data so i should have  ➤
+data if not it won't even print  ➤
+right so  ➤
+how do we uh  ➤
+you're forgetting a small little trick  ➤  gỡ lỗi như thế nào.  thủ thuật
+that a lot of people forget with url  ➤  mà nhiều người quên với
+sessions  ➤  các phiên url
+got about 15 minutes left here  ➤  còn khoảng 15 phút ở đây
+so i'll give you a hint um  ➤  vì vậy tôi sẽ cho bạn một gợi ý ừm
+everything inside your completion block  ➤  mọi thứ bên trong khối hoàn thành của bạn
+looks good  ➤  có vẻ tốt
+you're just forgetting a small thing  ➤  bạn chỉ quên một điều nhỏ
+it's not a big deal i just want to see  ➤  nó không phải là vấn đề lớn tôi chỉ muốn xem
+if you can remember  ➤  nếu bạn có thể nhớ rằng
+you got to do something with the url  ➤  bạn phải làm gì đó với
+session to make sure it works  ➤  phiên url để đảm bảo rằng nó hoạt động ồ
+oh um  ➤
+i believe it's dot resume there you go  ➤  tôi tin rằng nó sẽ tiếp tục ở đó bạn đi bạn hiểu rồi
+you got it  ➤
+yeah  ➤  vâng,
+so where do you add that  ➤  vậy bạn thêm nó vào đâu
+uh right here good good man okay  ➤  uh ngay tại đây tốt, bạn tốt, được rồi,
+so now let's run the code again and see  ➤  bây giờ chúng ta hãy chạy  mã lại và xem
+if that fixed our problem  ➤  điều đó có khắc phục được sự cố của chúng tôi
+so let's go back see if we get some data  ➤
+okay um  ➤  không, vì vậy, hãy quay lại xem liệu chúng tôi có
+failed to log metrics well you're  ➤
+actually getting some data you're it's  ➤  nhận được một số dữ liệu
+uh you see where it says 2073 bytes  ➤
+yes i do that's that's how the data is  ➤  không.  cách dữ liệu được
+represented okay right so uh we can just  ➤  trình bày ổn, đúng vậy, uh chúng ta có thể
+keep going now i just wanted to make  ➤  tiếp tục ngay bây giờ tôi chỉ muốn
+sure that we actually got some data back  ➤  đảm bảo rằng chúng ta thực sự đã lấy lại được một số dữ liệu
+or with you know so you successfully are  ➤  hoặc với bạn biết để bạn tiếp cận thành công
+reaching out to the endpoint and you're  ➤  với điểm cuối và bạn đang
+getting data back now let's  ➤  lấy lại dữ liệu ngay bây giờ.
+now where do we go from here  ➤  bây giờ chúng ta sẽ bắt đầu từ đâu đây.
+well i'm going to do a do and catch  ➤  Tôi sẽ thực hiện một câu lệnh do và catch
+statement  ➤
+okay  ➤  nhé,
+it's like a if else  ➤  nó giống như một câu if other
+[Music]  ➤  [Âm nhạc]
+so i actually have to  ➤  vì vậy tôi thực sự phải
+decode this data that i'm getting so i'm  ➤  giải mã dữ liệu mà tôi đang nhận được nên tôi
+just going to say let  ➤  sẽ nói hãy để
+so essentially you're doing you're  ➤  vì vậy về cơ bản bạn đang làm bạn đang
+taking the data  ➤  lấy dữ liệu
+and what are you doing with it  ➤  và bạn đang làm gì với
+i'm taking that data and i'm basically  ➤  dữ liệu đó tôi đang lấy dữ liệu đó và về cơ bản tôi đang
+trying to get a course object from that  ➤  cố lấy một đối tượng khóa học từ
+data and i use json decoder too good  ➤  dữ liệu đó và tôi sử dụng bộ giải mã json quá tốt
+[Music]  ➤  [Âm nhạc]
+[Music]  ➤  [  Âm nhạc]
+okay and i want to decode  ➤  được rồi và tôi muốn giải mã
+this  ➤
+[Music]  ➤  [Âm nhạc] này
+and from the data that we have up here  ➤  và từ dữ liệu chúng tôi có ở đây,
+okay  ➤  được rồi,
+oh i need to conform to decodable so  ➤  tôi cần tuân thủ để có thể giải mã được,
+of course yeah so how do we do that i'm  ➤  tất nhiên là có, vậy chúng ta làm điều đó như thế nào, tôi
+just need to go into here and see where  ➤  chỉ cần vào đây và xem
+i got my struct and it needs to conform  ➤  Tôi đã lấy cấu trúc của mình ở đâu và nó cần phải phù hợp
+to decodable okay cool that should be  ➤  với khả năng giải mã được, được rồi, tuyệt, sẽ
+okay  ➤  ổn
+all right  ➤  thôi,
+let's see if that error goes away  ➤  hãy xem liệu lỗi đó có biến mất không, vâng,
+yeah looks uh  ➤  có vẻ
+so uh you got you're getting another  ➤  như vậy, uh, bạn hiểu rồi, bạn đang gặp một
+error there let's see what let's see  ➤  lỗi khác ở đó, hãy xem
+what's happening there  ➤  điều gì đang xảy ra ở đó,
+uh requires  ➤  uh  yêu cầu ồ xin lỗi, được rồi, tuyệt, vâng,
+oh sorry so okay cool yeah definitely  ➤  chắc chắn
+that  ➤  điều đó
+should be okay now  ➤  sẽ ổn thôi, vâng,
+yeah that's okay we haven't really dealt  ➤  không sao, chúng tôi chưa thực sự giải quyết vấn đề
+with this  ➤  này,
+okay so i'm just gonna handle my  ➤  vì vậy tôi sẽ xử lý
+completion now  ➤  phần hoàn thành của mình ngay bây giờ,
+so what are you doing on the with the  ➤  vậy bạn đang làm gì với
+dispatch q main there  ➤  công văn q chính ở đó
+um  ➤  ừm
+i'm not entirely sure  ➤  tôi  'Tôi không hoàn toàn chắc chắn
+that's fine  ➤  rằng điều đó ổn, vâng, được thôi,
+yeah  ➤
+okay let's uh  ➤  uh,
+let's let's do the let's do the  ➤  hãy
+completion outside of that and see what  ➤  hoàn thành việc bên ngoài đó và xem điều gì
+happens  ➤  sẽ xảy ra nhé,
+okay sure  ➤  hãy chắc chắn rằng
+you can keep it there yeah  ➤  bạn có thể giữ nó ở đó, vâng, được rồi,
+okay it looks like you just need a  ➤  có vẻ như bạn chỉ cần một
+bracket after  ➤  dấu ngoặc sau khi
+catch  ➤  bắt
+yeah  ➤  vâng,
+that should be up let's see  ➤  điều đó sẽ ổn thôi  chúng ta hãy xem nào, mọi
+all right everything's okay  ➤  thứ đều ổn,
+well just say  ➤  chỉ cần nói
+let air  ➤  let air
+get your  ➤  get your
+[Music]  ➤  [Âm nhạc]
+all right got about  ➤
+uh just shot at 10 minutes left  ➤
+okay so i want to see if we can get some  ➤  được rồi.
+data on the screen  ➤
+yeah let's see if we can do that so  ➤  Vì vậy,
+i called my  ➤  tôi đã gọi
+data in here  ➤  dữ liệu của mình ở đây
+so if i want to get data on the screen  ➤  vì vậy nếu tôi muốn lấy dữ liệu trên màn hình,
+i'm going to need to put a um array  ➤  tôi sẽ cần đặt một biến mảng um
+variable here  ➤  ở đây
+so i can access it because i fetch data  ➤  để tôi có thể truy cập vì tôi tìm nạp dữ liệu
+here i have it here  ➤  ở đây tôi có dữ liệu ở đây
+okay  ➤  được rồi,
+yeah i need to access it so let's just  ➤  tôi cần truy cập  Vì vậy, hãy
+call  ➤  gọi
+this courses  ➤  đây là các khóa học
+and it will be a type  ➤  và nó sẽ là một loại
+ray  ➤  tia
+and i will say  ➤  và tôi sẽ nói
+it set  ➤  nó được thiết lập
+and i'm just going to say table view  ➤  và tôi sẽ chỉ nói chế độ xem bảng
+so once  ➤  vì vậy một khi biến
+uh this courses uh variable gets set  ➤  uh của khóa học này được thiết lập,
+it's going to reload  ➤  nó sẽ tải lại được,
+okay  ➤
+so it looks like you're getting an error  ➤  vì vậy có vẻ như bạn'  đang gặp lỗi
+up there let's take a look at that  ➤  ở trên đó, hãy xem
+sure  ➤
+[Music]  ➤  [Âm nhạc] chắc chắn đó.
+so it says expected member name or  ➤  Vì vậy, nó cho biết tên thành viên dự kiến ​​hoặc
+constructor call after type name  ➤  hàm tạo gọi sau tên loại vâng
+yeah constructor call  ➤  hàm tạo gọi được,
+okay so what does that constructor  ➤  vậy hàm tạo đó gọi là gì,
+called do  ➤
+um i'm actually putting an array i'm  ➤  tôi thực sự đang đặt một mảng.
+saying it's equal to an array now okay  ➤  nói rằng bây giờ nó bằng một mảng được rồi,
+cool yeah i'm constructing an array  ➤
+right  ➤
+okay good  ➤  tuyệt, vâng,
+all right now we just have to append so  ➤
+i have to we're actually i'm sorry i  ➤  tôi
+have to set this courses here okay  ➤  đang xây dựng một mảng.
+so  ➤
+now courses  ➤
+will equal  ➤  sẽ tương đương với
+say data because that's already uh okay  ➤  dữ liệu vì điều đó đã ổn rồi, được rồi,
+okay  ➤
+so let's see what we have we actually  ➤
+shouldn't have anything because i  ➤
+haven't  ➤
+um  ➤
+at least we're not getting any  ➤
+uh errors  ➤
+xcode  ➤
+[Music]  ➤
+okay so  ➤  vậy hãy xem chúng ta có
+this is uh  ➤
+what i wanted to come back to with that  ➤  gì.  muốn quay lại với
+dispatch main so click on that error and  ➤  công văn chính đó, vì vậy hãy nhấp vào lỗi đó và
+see what it says  ➤  xem nó nói gì
+uh here yeah  ➤  uh ở đây vâng
+must be used from main thread only right  ➤  chỉ được sử dụng từ luồng chính
+so  ➤  vì vậy
+you had the right idea and i i steered  ➤  bạn đã hiểu đúng và tôi đã hướng dẫn
+you away from it so let's go back to  ➤  bạn tránh xa nó vì vậy hãy quay lại
+that service  ➤  dịch vụ đó
+okay because i just wanted to see if you  ➤  được thôi vì tôi chỉ muốn xem liệu bạn
+like understand why that's used so  ➤  có muốn hiểu lý do tại sao nó được sử dụng hay không nên
+it says that you have to reload the  ➤  nó nói rằng bạn phải tải lại
+table view on the main thread  ➤  chế độ xem bảng trên luồng chính ồ
+oh i understand right so  ➤  tôi hiểu rồi, vậy
+just  ➤  hãy
+do what you were going to do before  ➤  làm những gì bạn định làm trước khi
+yeah you just have to put this here  ➤  vâng, bạn chỉ cần đặt cái này  ở đây
+right  ➤  đúng như
+so essentially  ➤  vậy về cơ bản bất
+whenever you do anything with the ui  ➤  cứ khi nào bạn làm bất cứ điều gì với giao diện người dùng, điều đó
+it that has to happen on the main thread  ➤  phải xảy ra trên luồng chính,
+it can't happen on a background thread  ➤  nó không thể xảy ra trên luồng nền,
+um  ➤  ừm,
+so like  ➤  vì vậy
+we can just keep going and talk about  ➤  chúng ta có thể tiếp tục và nói về
+that later i wanna i wanna ask you some  ➤  điều đó sau. Tôi muốn tôi muốn hỏi bạn một số
+questions about that later  ➤  câu hỏi  về điều đó sau này
+i just uh don't wanna hold you up here  ➤  tôi chỉ uh không muốn giữ bạn ở đây
+you got about five minutes  ➤  bạn có khoảng năm phút vâng,
+yeah so let me just go in here and  ➤  vì vậy hãy để tôi vào đây và
+say cell  ➤  nói di động
+well i need a text so let's make a text  ➤  tôi cần một tin nhắn vì vậy hãy soạn tin nhắn
+here  ➤  ở đây để
+so the cell  ➤  di động
+uh  ➤
+automatically are it actually has a text  ➤  tự động thực sự có  một
+label property let's just see if you can  ➤  thuộc tính nhãn văn bản, hãy xem liệu bạn có thể
+access that and and uh do something with  ➤  truy cập vào thuộc tính đó hay không và uh hãy làm điều gì đó đúng với
+it  ➤  nó
+right because i don't want you to have  ➤  vì tôi không muốn bạn phải
+to go make a custom cell right now  ➤  tạo một ô tùy chỉnh ngay bây giờ,
+right  ➤
+uh text label it should be  ➤  uh nhãn văn bản.
+yup  ➤
+all right let's see where this is it's  ➤  đây sẽ
+going to be our  ➤  là khóa học của chúng ta,
+course  ➤
+okay yeah i just want to i want each  ➤  được rồi, vâng, tôi chỉ muốn tôi muốn mỗi
+cell to have the course name  ➤  ô có tên khóa học
+[Music]  ➤  [Âm nhạc]
+let me just make sure this is correct  ➤  để tôi đảm bảo rằng điều này là chính xác để
+so we have an array here  ➤  chúng ta có một mảng ở đây.
+yup should be courses oh this is  ➤
+not going to work courses dot  ➤  các khóa học làm việc dot
+hmm  ➤  hmm
+that's not gonna work  ➤  sẽ không hoạt động trong
+one second  ➤  một giây
+so once this is set  ➤  vì vậy một khi điều này được thiết lập
+[Music]  ➤  [Âm nhạc]
+good set  ➤  thiết lập tốt
+so what are you what are you trying to  ➤  vậy bạn là gì bạn đang cố gắng
+do here walk me through what you're  ➤  làm gì ở đây hãy hướng dẫn tôi những gì bạn đang
+trying to do yeah i can't i need to  ➤  cố gắng làm vâng tôi không thể tôi cần
+bring out the each course's name  ➤  mang theo  ra tên của từng khóa học
+but i don't have i only have access  ➤  nhưng tôi không có tôi chỉ có quyền truy cập
+um i have an array here  ➤  ừm tôi có một mảng ở đây
+for course objects  ➤  dành cho các đối tượng của khóa học
+i don't understand why it's not  ➤  tôi không hiểu tại sao nó không
+being able to access because well  ➤  thể truy cập được vì
+courses is an array  ➤  các khóa học cũng là một mảng
+[Music]  ➤  [Âm nhạc]
+okay  ➤  được rồi
+let me create a new constant okay  ➤  để tôi tạo một  hằng số mới được rồi,
+so let's uh  ➤  chúng ta hãy uh,
+okay  ➤
+equal  ➤
+courses  ➤  các khóa học bình đẳng
+[Music]  ➤  [Âm nhạc] được rồi,
+okay  ➤
+i can say so now what does that course  ➤  tôi có thể nói vậy bây giờ tên khóa học đó
+name represent now  ➤  đại diện cho cái gì vậy
+so what are you doing with the index  ➤  bạn đang làm gì với
+path dot row  ➤  đường dẫn chỉ mục hàng chấm vâng,
+yeah this should actually not be called  ➤  cái này thực sự không nên được gọi là
+core stand you can call whatever you  ➤  giá đỡ cốt lõi, bạn có thể gọi là gì tùy ý
+want but that wouldn't be correct right  ➤  muốn nhưng điều đó sẽ không chính xác ngay
+now i'm going to say let course equal  ➤  bây giờ tôi sẽ nói hãy để khóa học bằng
+courses so that will be  ➤  các khóa học để đó sẽ là
+the courses index path that row is  ➤  đường dẫn chỉ mục khóa học mà hàng đó
+filled with courses therefore if i go  ➤  chứa đầy các khóa học do đó nếu tôi đi
+into index path dot row it's just going  ➤  vào đường dẫn chỉ mục hàng chấm nó sẽ
+to give me back hey go in find the first  ➤  trả lại cho tôi  này đi vào tìm
+course then go to the next row the next  ➤  khóa học đầu tiên sau đó đi đến hàng tiếp theo tiếp theo
+okay so now course is going to equal  ➤  được rồi vì vậy bây giờ khóa học sẽ bằng
+just one course okay  ➤  chỉ một khóa học thôi được
+say  ➤  nói
+let  ➤  cho
+me sorry  ➤  tôi xin lỗi
+[Music]  ➤  [Âm nhạc]
+equal  ➤  bằng
+[Music]  ➤  [Âm nhạc]
+uh course  ➤  uh khóa học
+dot  ➤  chấm
+name there we go  ➤  tên ở đó chúng ta đi
+should okay and then cell label dot text  ➤  nên được rồi di động  nhãn chấm văn bản nhãn bằng tên
+label equal course  ➤  khóa học
+name  ➤
+should work okay this actually won't  ➤  sẽ hoạt động tốt, điều này thực sự sẽ không
+work um  ➤  hoạt động ừm
+so that text label is a ui label  ➤  vì vậy nhãn văn bản là nhãn giao diện người dùng
+so  ➤  vậy
+what what's uh what's going on here  ➤  chuyện gì đang xảy ra ở đây
+you're saying cell dot text label equals  ➤  bạn đang nói ô dấu chấm văn bản nhãn bằng
+course name  ➤  tên khóa học
+yeah so this course name is a string  ➤  vâng vậy tên khóa học này là  một chuỗi
+right but the text label is a label so  ➤  đúng nhưng nhãn văn bản là một nhãn, vì vậy
+you have to access something  ➤  bạn phải truy cập vào
+on the text label and set it to that  ➤
+course name  ➤
+okay  ➤
+dot text  ➤  nội dung nào đó trên nhãn văn bản và đặt nó thành tên khóa học đó.  còn
+there we go  ➤
+okay so  ➤
+that's looking good we're running a  ➤
+little low on time you got about two  ➤  hai
+minutes left  ➤  phút nữa, được rồi,
+okay let's see if anything shows up here  ➤  hãy xem có gì xuất hiện ở đây không,
+so you got  ➤  vì vậy bạn có chỉ
+a crash  ➤
+index out of range so i'm probably  ➤  số sự cố nằm ngoài phạm vi, vì vậy tôi có thể
+returning  ➤  trả lại
+three it needs to be this course  ➤  ba, nó cần phải là khóa học này,
+just make sure that's correct yep  ➤  chỉ cần đảm bảo rằng đó là chính xác,
+courses that count okay so what does  ➤  vâng, các khóa học được tính là
+that do there why was it crashing  ➤  ổn.  nó có bị lỗi không
+and what how about why did that fix it  ➤  và tại sao lại sửa nó
+yeah because i probably have more okay  ➤  đúng vậy vì tôi có thể đã ổn hơn
+so first of all  ➤  nên trước hết
+you did great that is uh  ➤  bạn đã làm rất tốt đó là uh
+you got the course titles coming up on  ➤  bạn có tiêu đề khóa học xuất hiện trên
+the screen so that's great  ➤  màn hình nên điều đó thật tuyệt
+um  ➤
+right on time but i do want you to  ➤  đúng lúc nhưng tôi muốn  bạn
+explain to me why it was crashing  ➤  giải thích cho tôi lý do tại sao nó bị lỗi
+and how you fixed it so let's go back to  ➤  và cách bạn sửa nó, vì vậy hãy quay lại
+the code  ➤  mã
+sure so if i say hey only return three  ➤  chắc chắn vì vậy nếu tôi nói này chỉ trả về ba
+but i have more it's going  ➤  nhưng tôi có nhiều hơn nó sẽ
+it's going to the index path dot row and  ➤  chuyển đến hàng dấu chấm đường dẫn chỉ mục và
+i have way more courses than three  ➤  tôi có nhiều khóa học hơn  hơn ba
+courses and i'm saying hey only return  ➤  khóa học và tôi đang nói này, chỉ trả lại
+three that's not that's not what i want  ➤  ba khóa học, đó không phải là điều tôi muốn.
+i want to return how many courses are in  ➤  Tôi muốn trả lại số khóa học có trong
+account  ➤  tài khoản.
+i don't know if that's a good  ➤  Tôi không biết liệu đó có phải là
+explanation how many you want to return  ➤  lời giải thích hợp lý không. Bạn muốn trả lại bao nhiêu khóa học
+what  ➤  .
+i'm sorry so basically i'm saying hey  ➤  Tôi xin lỗi.  Vì vậy, về cơ bản, tôi đang nói này,
+uh here return  ➤  uh đây, trả lại
+uh this course's name and i'm saying  ➤  uh tên khóa học này và tôi đang nói
+but this courses in uh array has way  ➤  nhưng các khóa học trong mảng uh này có
+more than three courses it can have you  ➤  nhiều hơn ba khóa học, bạn có thể
+know 80 100 courses right if i say only  ➤  biết 80 100 khóa học phải không nếu tôi nói chỉ
+return three  ➤  trả lại ba khóa học
+it's gonna it's not gonna understand  ➤  thì không phải đâu  sẽ hiểu
+it's gonna crash  ➤  nó sẽ sụp đổ
+right  ➤  đúng không
+but why  ➤  nhưng tại sao
+because you're only returning three  ➤  vì bạn chỉ trả lại ba
+cells but you have  ➤  ô nhưng bạn có
+yeah potentially x amount of spells x  ➤  khả năng x số lượng phép thuật x
+amount of sales so you have to make it  ➤  số lượng bán hàng, vì vậy bạn phải thực hiện sao cho
+so that what like what is the courses  ➤  các khóa học là gì
+dot count do what is return courses dot  ➤  đếm số chấm làm gì trả lại các khóa học  dot
+com doing  ➤  com đang làm
+yeah that's going to return how many  ➤  yeah, điều đó sẽ trả về số lượng
+courses are in the actual array  ➤  khóa học trong mảng thực tế
+and give you back  ➤  và trả lại cho bạn số ô
+that number of cells yeah yeah  ➤  đó yeah yeah các khóa học.
+courses.count right cool yeah okay man  ➤
+well  ➤
+um you got that done um  ➤
+that was pretty good with the amount of  ➤
+time that we had you worked through some  ➤  rằng chúng tôi đã giúp bạn khắc phục một số
+bugs pretty well  ➤  lỗi khá tốt.
+how did you feel about that  ➤  Bạn cảm thấy thế nào về điều đó.
+pretty good  ➤
+the time thing was a little bit tough  ➤  Khá tốt. Thời gian có một chút khó khăn
+because usually i think about things  ➤  vì tôi thường nghĩ về mọi thứ
+step by step  ➤  từng bước một
+so i guess having a time restriction  ➤  nên tôi đoán có giới hạn về thời gian nên
+i did have to think a little bit  ➤  tôi đã phải suy nghĩ một chút
+differently on hey i need to make this  ➤  khác đi này, tôi cần làm điều này
+happen in a way that i'm not really used  ➤  xảy ra theo cách mà tôi không thực sự
+to but i think since i understand it to  ➤  quen nhưng tôi nghĩ vì tôi hiểu nó ở
+a certain level i was able to get  ➤  một mức độ nhất định nên tôi có thể vượt
+through it but it was very new to me to  ➤  qua nó nhưng nó rất mới đối với tôi để
+code like for example i usually create  ➤  viết mã chẳng hạn  tôi thường tạo
+new files it wasn't a big deal right  ➤  các tệp mới, đó không phải là vấn đề lớn đúng không,
+i just had to work through some yes but  ➤  tôi chỉ phải làm việc với một số vâng nhưng
+that you know that's sort of the purpose  ➤  bạn biết đó là mục đích
+of the interview i want to like we want  ➤  của cuộc phỏng vấn tôi muốn thích chúng tôi muốn
+to see how you uh one you know react to  ➤  xem bạn, một người mà bạn biết phản ứng như thế nào với
+some different constraints like  ➤  một số  các ràng buộc khác nhau như
+um  ➤  ừm,
+obviously you would never be put under a  ➤  rõ ràng là bạn sẽ không bao giờ bị
+30-minute time constraint in the real  ➤  giới hạn thời gian 30 phút trong
+world but you know want to see how you  ➤  thế giới thực nhưng bạn biết đấy, bạn muốn xem cách bạn
+think on your feet and you did pretty  ➤  suy nghĩ trên đôi chân của mình và bạn đã làm khá
+well you got you got the the stuff to  ➤  tốt, bạn có công cụ để
+work you fetch data from an api and  ➤  làm việc bạn tìm nạp dữ liệu  từ một api và
+you're just playing it in the table view  ➤  bạn chỉ đang phát nó trong chế độ xem bảng
+and everything is working so that's  ➤  và mọi thứ đang hoạt động, điều đó thật
+great man  ➤  tuyệt vời, ừm,
+um  ➤
+so that's going to do it for the  ➤  vì vậy điều đó sẽ phù hợp với
+interview um you did pretty well uh in  ➤  cuộc phỏng vấn, ừm, bạn đã làm khá tốt, uh trong
+the the rest of the video i'll let you  ➤  phần còn lại của video, tôi sẽ để bạn
+know if you got the job or not uh you  ➤  biết bạn có nhận được công việc hay không uh bạn
+have to wait to find out until it goes  ➤  phải đợi để tìm hiểu cho đến khi nó được
+live on youtube uh go ahead and unshare  ➤  phát trực tiếp trên youtube uh hãy tiếp tục và không chia sẻ
+your screen  ➤  màn hình của bạn
+all right guys so that was the interview  ➤  nhé các bạn, vì vậy đó là cuộc phỏng vấn
+that is actually a real life interview  ➤  thực sự là một cuộc phỏng vấn ngoài đời thực
+that i got for a senior ios developer  ➤  mà tôi đã nhận cho một sinh viên năm cuối  Vị trí nhà phát triển ios
+position  ➤
+wasn't using that exact api but the  ➤  không sử dụng api chính xác đó nhưng
+concept was the exact same so that is  ➤  khái niệm này hoàn toàn giống nhau, vì vậy đó là
+what you can expect to see  ➤  những gì bạn có thể thấy
+for a mid to senior level ios developer  ➤  trong cuộc phỏng vấn nhà phát triển ios cấp trung đến cấp cao,
+interview  ➤
+right so i'm going to talk about a  ➤  vì vậy tôi sẽ nói về một
+couple things in this recap uh one how  ➤  vài điều trong bản tóm tắt này  uh,
+brandon did and whether or not he got  ➤  Brandon đã làm như thế nào và liệu anh ấy có nhận được
+the job some things he did well some  ➤  công việc hay không. Một số điều anh ấy đã làm tốt. Một số
+things i think he could have done better  ➤  điều tôi nghĩ anh ấy có thể làm tốt hơn
+and  ➤  và
+what you guys can sort of expect and be  ➤  những gì các bạn có thể mong đợi và được
+expected to know in an interview and  ➤  kỳ vọng sẽ biết trong một cuộc phỏng vấn và
+what i would be looking for  ➤  những gì tôi sẽ tìm kiếm.
+as an interviewer when i'm interviewing  ➤  với tư cách là một người phỏng vấn khi tôi đang phỏng vấn
+a mid to senior level candidate for an  ➤  một ứng viên cấp trung đến cấp cao cho vị trí
+ios developer  ➤  nhà phát triển ios,
+so first off i think brandon did a  ➤  vì vậy trước tiên tôi nghĩ brandon đã
+pretty good job uh overall i'm gonna  ➤  làm khá tốt, uh về tổng thể, tôi sẽ
+give him a seven and a half to an eight  ➤  cho anh ấy điểm bảy rưỡi đến tám
+out of ten  ➤  trên mười.
+um big thing was that he got the job  ➤  điều đó là anh ấy đã
+done right so he was actually able to  ➤  hoàn thành công việc đúng cách nên anh ấy thực sự có thể
+fetch some information from an api and  ➤  lấy một số thông tin từ một api và
+display it in a list or a table view  ➤  hiển thị nó trong một danh sách hoặc một chế độ xem bảng,
+which is what it's called in ios world  ➤  đó là những gì nó được gọi trong thế giới ios một
+successfully and he did that within the  ➤  cách thành công và anh ấy đã làm điều đó trong
+given time constraints which is uh you  ➤  những giới hạn thời gian nhất định.  uh bạn
+know pretty impressive  ➤  biết đấy, khá ấn tượng
+so i did not expect him to be able to  ➤  nên tôi không mong đợi anh ấy có thể
+get the images on screen and stuff  ➤  đưa hình ảnh lên màn hình và những thứ khác
+because that involves like building out  ➤  bởi vì điều đó liên quan đến việc xây dựng
+some custom cells and within 30 minutes  ➤  một số ô tùy chỉnh và trong vòng 30 phút,
+you just don't really have the time for  ➤  bạn thực sự không có thời gian cho
+that so one thing he did great was  ➤  việc đó nên có một điều  anh ấy đã làm rất tốt là
+getting the job done right he also coded  ➤  hoàn thành tốt công việc anh ấy cũng đã viết mã
+uh at a pretty high level in my opinion  ➤  uh ở mức khá cao theo ý kiến ​​​​của tôi, anh ấy
+he had like uh good architecture skills  ➤  có kỹ năng kiến ​​trúc tốt,
+so  ➤  vì vậy
+he had the goal in mind of creating a  ➤  anh ấy có mục tiêu tạo ra một
+modular code base where you create  ➤  cơ sở mã mô-đun nơi bạn tạo
+separate files for things or you create  ➤  các tệp riêng biệt cho mọi thứ hoặc bạn  tạo ra
+what's called a separation of concerns  ➤  thứ được gọi là tách biệt các mối quan tâm,
+that's something that i really look for  ➤  đó là điều mà tôi thực sự tìm kiếm
+with a senior level candidate right you  ➤  với một ứng viên cấp cao đúng không, bạn
+don't want to just stick everything in  ➤  không muốn chỉ dán mọi thứ vào cùng
+the same file  ➤  một tệp, đó là
+that's kind of what we ended up doing  ➤  điều cuối cùng chúng tôi đã làm,
+which is okay i told him to do that in  ➤  điều đó không sao cả, tôi đã bảo anh ấy làm điều đó  vì
+the interest of time but you guys  ➤  lợi ích của thời gian nhưng các bạn
+noticed when he created like a separate  ➤  đã chú ý khi anh ấy tạo ra một lớp riêng biệt
+class for the service or the api that  ➤  cho dịch vụ hoặc api
+creates something called a separation of  ➤  tạo ra một thứ gọi là sự phân tách
+concerns which is what i was looking for  ➤  các mối quan tâm, đó là thứ tôi đang tìm kiếm.
+um so modular code base huge plus  ➤
+architecture skills huge plus  ➤
+um he knew to use a table view he was  ➤  biết cách sử dụng chế độ xem bảng, anh ấy có
+able to explain why to use a table view  ➤  thể giải thích lý do tại sao nên sử dụng chế độ xem bảng,
+um you know so that's just like some ios  ➤  bạn biết đấy, giống như một số
+specific things i was looking for so  ➤  thứ dành riêng cho ios mà tôi đang tìm kiếm nên về
+overall that's some of the those are  ➤  tổng thể, đó là một số trong số đó là
+some of the things he did you know very  ➤  một số thứ mà anh ấy biết rất
+well his code was very clean  ➤  rõ  mã của anh ấy rất rõ ràng
+and you know that's a huge plus  ➤  và bạn biết đấy, đó là một điểm cộng rất lớn,
+so some of the things he could have done  ➤  vì vậy một số điều anh ấy có thể làm
+better and whether or not he's going to  ➤  tốt hơn và liệu anh ấy có
+get the job  ➤  nhận được công việc hay không,
+so uh  ➤  vì vậy
+he did fumble around a little bit with  ➤  anh ấy đã loay hoay một chút với
+some of the questions i was asking him  ➤  một số câu hỏi mà tôi đã hỏi anh ấy
+right so  ➤  đúng vậy, đó
+that's something you would expect a  ➤  là điều mà bạn mong đợi một
+senior level candidate to be able to  ➤  ứng viên cấp cao có thể
+answer  ➤  trả lời
+but someone who's a little bit more  ➤  nhưng ai đó cấp cao hơn một chút
+senior who has a little bit more ios  ➤  có
+knowledge right for example when i asked  ➤  kiến ​​​​thức về ios hơn một chút, chẳng hạn như khi tôi hỏi
+him about the main thread question like  ➤  anh ấy về câu hỏi chủ đề chính như
+i asked him you know whether you should  ➤  tôi đã hỏi anh ấy bạn biết đấy  bạn có nên
+why are you reloading the table view on  ➤  tải lại chế độ xem bảng trên
+the main thread or versus a background  ➤  luồng chính hay so với
+thread that's a very ios specific  ➤  luồng nền hay không, đó là một câu hỏi rất cụ thể về ios
+question has to do with main threads  ➤  liên quan đến chủ đề chính luồng nền,
+background threads the concept of  ➤  khái niệm về
+threading in general that's pretty  ➤  luồng nói chung là
+complex concept  ➤  khái niệm khá phức tạp
+but it's not hard to learn right  ➤  nhưng không khó để tìm hiểu đúng không
+another thing that he struggled a little  ➤  một điều khác mà anh ấy gặp chút khó khăn
+bit with was uh  ➤  là uh
+setting some data um you know he  ➤  thiết lập một số dữ liệu ừm bạn biết đấy anh ấy
+struggled with the using the model  ➤  gặp khó khăn với việc sử dụng đúng mô hình
+correctly to set some data on the cell  ➤  để thiết lập một số dữ liệu trên ô
+but he was able to figure it out which  ➤  nhưng anh ấy đã có thể tìm ra nó
+was huge um he also struggled a little  ➤  rất lớn ừm anh ấy cũng gặp khó khăn một
+bit with like the variables versus  ➤  chút  giống như các biến so với
+constants right but he was able to i was  ➤  hằng đúng nhưng anh ấy đã có thể tôi đã
+sort of able to work him through it so  ➤  có thể giúp anh ấy vượt qua nó vì vậy
+what he really displayed to me was where  ➤  những gì anh ấy thực sự thể hiện với tôi là anh
+he was lacking a little bit of knowledge  ➤  ấy còn thiếu một chút kiến ​​​​thức ở đâu mà
+he was able to work through it in a  ➤  anh ấy có thể vượt qua nó trong một
+pressurized environment with my help  ➤  môi trường áp lực  với sự giúp đỡ của tôi,
+right so that's something that's really  ➤  vì vậy điều thực sự
+huge is someone coachable  ➤  to lớn là một người có thể huấn luyện được họ
+are they able to learn things sort of  ➤  có thể học mọi thứ một cách
+quickly and on the fly which he was able  ➤  nhanh chóng và nhanh chóng, điều mà anh ấy có thể
+to do so that was really great a 10 out  ➤  làm được, điều đó thực sự tuyệt vời 10
+of 10 would have been he just you know  ➤  trên 10 sẽ là anh ấy như bạn biết
+flew through the whole interview no  ➤  đã bay  trong toàn bộ cuộc phỏng vấn không có
+mistakes no help for me  ➤  sai lầm nào không giúp được gì cho tôi
+but that's pretty hard to do in that  ➤  nhưng điều đó khá khó thực hiện trong
+environment um especially with his level  ➤  môi trường đó, đặc biệt là với mức độ kinh nghiệm của anh ấy, vì
+of experience so overall guess what guys  ➤  vậy hãy đoán xem chàng trai nào đã
+kid got the job i'm promoting him uh  ➤  nhận được công việc tôi đang thăng chức cho anh ấy uh
+he's gonna be you know getting some more  ➤  anh ấy sẽ đảm nhận thêm
+responsibility with the apps that we  ➤  trách nhiệm  với các ứng dụng mà chúng tôi
+build for my company uh it's a small  ➤  xây dựng cho công ty của tôi, uh, đó là một
+development company we do private  ➤  công ty phát triển nhỏ, chúng tôi thực hiện
+contracts uh where we build apps for  ➤  các hợp đồng riêng, uh, nơi chúng tôi xây dựng ứng dụng cho
+people  ➤  mọi người
+and he's going to be promoted to a  ➤  và anh ấy sẽ được thăng chức thành
+senior level developer he's got a lot of  ➤  nhà phát triển cấp cao, anh ấy vẫn còn rất nhiều
+work to do still  ➤  việc phải làm
+but he's going to be learning on the job  ➤  nhưng anh ấy sẽ  đang học hỏi trong công việc
+that's something he's displayed  ➤  đó là điều mà anh ấy đã thể hiện
+uh an ability to do really well at so  ➤  uh khả năng làm rất tốt điều
+last thing uh before we finally end this  ➤  cuối cùng uh trước khi chúng ta kết thúc
+video is uh you know what can you expect  ➤  video này là uh bạn biết bạn có thể mong đợi điều gì
+from a real life interview was that a  ➤  từ một cuộc phỏng vấn ngoài đời thực đó là một
+real life interview so the answer one to  ➤  cuộc phỏng vấn ngoài đời thực nên câu trả lời là một  vâng,
+that is yes that's actually an interview  ➤  đó thực sự là một cuộc phỏng vấn
+that i have gotten um for an ios  ➤  mà tôi đã nhận được một
+developer senior position  ➤  vị trí cấp cao của nhà phát triển ios
+using a different api but the concept  ➤  bằng cách sử dụng một api khác nhưng khái niệm này
+was the exact same so brandon  ➤  hoàn toàn giống nhau nên
+i just changed the interview around a  ➤  tôi chỉ thay đổi cuộc phỏng vấn một
+little bit for brandon  ➤  chút cho brandon
+and actually gave him a real life  ➤  và thực sự đã cho anh ấy một cuộc sống thực
+interview that i've gotten for another  ➤  cuộc phỏng vấn mà tôi đã nhận cho một
+company not the one i currently work at  ➤  công ty khác không phải công ty tôi hiện đang làm việc
+because i'm not allowed to do that i  ➤  vì tôi không được phép làm điều đó tôi
+have an nda signed with uh facebook but  ➤  đã ký hợp đồng với uh facebook nhưng
+um that was an interview that i did get  ➤  ừm, đó là cuộc phỏng vấn mà tôi đã nhận được một
+for another position for another company  ➤  vị trí khác cho một công ty khác.
+where i got the job so um  ➤  tôi đã nhận được công việc nên ừm, đó
+that is something you can expect to see  ➤  là thứ mà bạn có thể thấy
+in a real life interview  ➤  trong một cuộc phỏng vấn ngoài đời thực.
+something i'm looking for with  ➤  thứ mà tôi đang tìm kiếm ở
+candidates is like  ➤  các ứng viên giống như
+uh can they work within the full life  ➤  uh họ có thể làm việc trong toàn bộ
+cycle of an app right can they go and  ➤  vòng đời của một ứng dụng không, họ có thể đi và
+get data from somewhere and display it  ➤  lấy dữ liệu từ đâu đó không  và hiển thị nó
+somewhere and can they do that  ➤  ở đâu đó và họ có thể làm điều đó một
+effectively and efficiently with clean  ➤  cách hiệu quả và hiệu quả với mã sạch,
+code  ➤
+that's a lot of what app development is  ➤  đó là phần lớn phát triển ứng dụng mà
+you know you'll get an api with some  ➤  bạn biết bạn sẽ nhận được một api với một số
+data you've got to be able to look at  ➤  dữ liệu mà bạn có để có thể xem
+the api build out your model your data  ➤  api xây dựng mô hình của bạn  mô hình dữ liệu của bạn
+model and then do something with that  ➤  và sau đó làm điều gì đó để
+display it to the user somehow right so  ➤  hiển thị nó cho người dùng bằng cách nào đó đúng cách để
+he was able to do that really well and  ➤  anh ấy có thể làm điều đó thực sự tốt và
+that's something that you guys can  ➤  đó là điều mà các bạn có thể
+expect in a real-life ios interview  ➤  mong đợi trong một cuộc phỏng vấn ios ngoài đời thực,
+obviously there's a lot more things that  ➤  rõ ràng là còn nhiều điều nữa
+could happen but that is something that  ➤  có thể xảy ra nhưng  đó là điều mà
+i personally look for  ➤  cá nhân tôi tìm kiếm xem
+whether  ➤  liệu
+in a senior level candidate you know i  ➤  ở ứng viên cấp cao mà bạn biết tôi
+think that's a great sort of practice  ➤  nghĩ đó là một loại bài kiểm tra thực hành tuyệt vời
+test so you guys should uh be able to  ➤  vì vậy các bạn cũng có thể
+do the same thing i'll provide a link to  ➤  làm được điều tương tự. Tôi sẽ cung cấp liên kết tới
+the api in this description so you guys  ➤  api trong phần mô tả này.  các bạn
+can see if you can actually build that  ➤  có thể xem liệu bạn có thực sự có thể xây dựng nó hay không
+and i'll provide you with the source  ➤  và tôi sẽ cung cấp cho bạn
+code as well all right guys that's going  ➤  mã nguồn cũng như tất cả những người phù hợp sẽ
+to wrap it up for this video hope you  ➤  hoàn thiện nó cho video này, hy vọng các
+guys enjoyed make sure you smash that  ➤  bạn thích. Hãy chắc chắn rằng bạn đập
+like and subscribe button if you want to  ➤  nút thích và đăng ký nếu bạn muốn  để
+see more content like this we'll see the  ➤  xem thêm nội dung như thế này, chúng ta sẽ thấy
+next one guys peace out  ➤  phần tiếp theo nhé các bạn
+[Music]  ➤  [Âm nhạc]

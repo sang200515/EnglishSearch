@@ -1,0 +1,1642 @@
+what's going on youtube welcome back to  ➤  chuyện gì đang xảy ra trên youtube chào mừng các bạn quay trở lại
+the channel hope you guys are doing well  ➤  kênh, hy vọng các bạn đang làm tốt
+and ready to code so really quickly  ➤  và sẵn sàng viết mã, vì vậy hãy nhanh chóng
+let's talk about what we're going to be  ➤  nói về những gì chúng ta sẽ
+building  ➤  xây dựng
+in this video we're going to build this  ➤  trong video này, chúng ta sẽ xây dựng một
+awesome uh swift ui pokedex here  ➤  ui pokedex tuyệt vời này tại đây
+using the newest iteration of swift ui  ➤  bằng cách sử dụng  phiên bản mới nhất của swift ui
+or swift ui 2.0  ➤  hoặc swift ui 2.0,
+so there's some awesome new features  ➤  vì vậy sẽ có một số tính năng mới tuyệt vời
+that we're going to be going over how to  ➤  mà chúng ta sẽ tìm hiểu về cách
+implement  ➤  triển khai
+using swift ui2 and we're going to be  ➤  bằng swift ui2 và chúng ta sẽ
+doing this in the mvvm architecture  ➤  thực hiện điều này trong mẫu kiến ​​trúc mvvm,
+pattern so this is going to be a  ➤  vì vậy điều này sẽ  là một
+full-scale  ➤
+mvvm app with a networking layer models  ➤  ứng dụng mvvm quy mô đầy đủ với
+view models  ➤  các mô hình xem mô hình lớp mạng
+and all that awesome stuff all of this  ➤  và tất cả những thứ tuyệt vời đó, tất cả
+data is going to be populated  ➤  dữ liệu này sẽ được điền
+from an api and we're going to be  ➤  từ một api và chúng tôi sẽ
+building it this out all in one video  ➤  xây dựng tất cả điều này trong một video
+so without me wasting any more of your  ➤  để tôi không lãng phí  Bất kỳ lúc nào của bạn,
+time let's go ahead and start building  ➤  hãy tiếp tục và bắt đầu xây dựng cái
+this  ➤  thứ chết tiệt này,
+so open up a new project in xcode select  ➤  vì vậy hãy mở một dự án mới trong xcode, chọn
+app hit next and you're going to want to  ➤  ứng dụng, nhấn tiếp theo và bạn sẽ muốn
+make sure you have all three of these  ➤  đảm bảo rằng bạn đã chọn tất cả ba
+things selected before you create your  ➤  thứ này trước khi tạo
+project so swift ui  ➤  dự án của mình thật nhanh  giao diện người dùng
+for the interface lifecycle is swift ui  ➤  cho vòng đời của giao diện là ứng dụng giao diện người dùng nhanh chóng,
+app this is a new feature  ➤  đây là một tính năng mới
+and then language is swift so i'm going  ➤  và sau đó ngôn ngữ là nhanh chóng, vì vậy tôi sẽ
+to call this swift  ➤  gọi hướng dẫn này là swift
+or sorry pokedex swift  ➤  hoặc xin lỗi pokedex swift
+ui tutorial and i'm going to hit create  ➤  ui và tôi sẽ nhấn tạo
+and xcode is going to create this  ➤  và xcode sẽ tạo
+project for me  ➤  dự án này  đối với tôi
+so really quickly guys i do have some  ➤  rất nhanh các bạn ạ, tôi có một số
+extra functionality in this that we're  ➤  chức năng bổ sung trong cái này mà chúng tôi sẽ
+not going to be building so  ➤  không xây dựng nên
+i do have this like cool feature button  ➤  tôi có nút tính năng thú vị này
+and or sorry filter button that allows  ➤  và hoặc nút bộ lọc xin lỗi cho phép
+you to filter all the pokemon  ➤  bạn lọc tất cả pokemon
+then i also have you know the ability to  ➤  thì tôi cũng có bạn  biết khả năng
+click on  ➤  nhấp vào
+a page here and go to like a pokemon  ➤  một trang ở đây và chuyển đến
+detail view and have some of their stats  ➤  chế độ xem chi tiết về pokemon và hiển thị một số thống kê của chúng
+displayed with like a cool graph  ➤  giống như một biểu đồ thú vị
+if you guys want all this extra  ➤  nếu các bạn muốn tất cả chức năng bổ sung này,
+functionality  ➤
+the completed source code will be  ➤  mã nguồn hoàn chỉnh sẽ
+available on my website  ➤  có sẵn trên trang web của tôi
+at stefancodes.com shop and you'll be  ➤  tại stefancodes.  com và bạn sẽ có
+able to purchase that  ➤  thể mua nó
+and see the extra functionality in there  ➤  và xem chức năng bổ sung trong đó
+for your application it includes some  ➤  cho ứng dụng của bạn, nó bao gồm một số
+pretty cool  ➤
+uh stuff with swift ui like how to go  ➤  nội dung khá thú vị với giao diện người dùng nhanh như cách chuyển
+from one screen to the next  ➤  từ màn hình này sang màn hình tiếp theo
+and how to you know build some graphs  ➤  và cách bạn biết tạo một số biểu đồ
+and build some more a little bit more  ➤  và  xây dựng thêm một số giao diện người dùng phức tạp hơn một chút
+complex ui here  ➤  ở đây
+so once again that's available at  ➤  vì vậy một lần nữa nó có sẵn tại
+stefancodes.com shop the link is in the  ➤  cửa hàng stefancodes.com, liên kết nằm trong
+description to this video  ➤  phần mô tả của video này
+but anyway uh let's go ahead and get  ➤  nhưng dù sao thì chúng ta hãy tiếp tục và bắt
+started so  ➤  đầu vì vậy
+something i always do when i start a  ➤  điều tôi luôn làm khi bắt đầu một
+project is organize my directory  ➤  dự án là tổ chức  thư mục của tôi,
+so let's go ahead and go here and you  ➤  vì vậy hãy tiếp tục và đến đây và bạn
+can right click on your  ➤  có thể nhấp chuột phải vào
+the folder name of your project and say  ➤  tên thư mục của dự án của bạn và nói
+new group  ➤  nhóm mới
+or a quicker approach is you just  ➤  hoặc cách tiếp cận nhanh hơn là bạn chỉ cần
+highlight it and hold down command  ➤  tô sáng nó và giữ
+option and end so we're going to create  ➤  tùy chọn lệnh và kết thúc để chúng ta tạo
+three folders one for our model  ➤  ba  các thư mục một cho mô hình của chúng tôi,
+one for our views and one for our  ➤  một cho chế độ xem của chúng tôi và một cho
+view model okay so  ➤  chế độ xem của chúng tôi, vì vậy
+the first thing i want to do before we  ➤  điều đầu tiên tôi muốn làm trước khi
+get started with this app  ➤  bắt đầu với ứng dụng này
+is building out each one of our pokemon  ➤  là xây dựng từng tế bào pokemon của chúng tôi,
+cells  ➤
+so here's sort of the structure of how  ➤  vì vậy đây là cấu trúc của cách
+we're going to do this  ➤  chúng tôi'  chúng ta sẽ làm điều này,
+we're going to build the ui for the cell  ➤  chúng ta sẽ xây dựng giao diện người dùng cho ô
+and then we're going to populate our  ➤  và sau đó chúng ta sẽ điền vào chế
+main view here with a bunch of those  ➤  độ xem chính của mình ở đây với một loạt
+cells  ➤  các ô đó
+in this lazy in this uh sort of grid or  ➤  trong bố cục dạng lưới hoặc
+collection view layout  ➤  chế độ xem bộ sưu tập lười biếng này
+and then we are going to build our model  ➤  và sau đó chúng ta  chúng ta sẽ xây dựng mô hình
+or data model for our pokemon  ➤  hoặc mô hình dữ liệu cho pokemon của mình
+and then we're going to build our view  ➤  , sau đó chúng ta sẽ xây dựng mô hình chế độ xem của mình
+model and we're going to add the  ➤  và chúng ta sẽ thêm
+networking layer  ➤  lớp mạng
+as sort of the last step but uh first  ➤  vào bước cuối cùng nhưng trước tiên
+we're gonna build  ➤  chúng ta sẽ xây dựng
+the skeleton of the ui and we're gonna  ➤  khung của  giao diện người dùng và chúng tôi sẽ
+start with the pokemon  ➤  bắt đầu với ô pokemon,
+cell so go up to your view and we're  ➤  vì vậy hãy chuyển đến chế độ xem của bạn và chúng tôi
+gonna hit command  ➤  sẽ nhấn lệnh
+n and create a swift ui view and you're  ➤  n và tạo chế độ xem nhanh chóng cho giao diện người dùng và bạn
+gonna just go ahead  ➤  sẽ tiếp tục
+here and say pokemon cell  ➤  ở đây và nói ô pokemon
+okay so what do we want this view to  ➤  được rồi, vậy chúng ta sẽ làm gì  muốn chế độ xem này trông
+look like so we're gonna you know just  ➤  như thế nào, vì vậy, bạn biết đấy,
+do our best to make it look like this  ➤
+guy right here  ➤
+so uh first thing i'm gonna do is make  ➤  chúng tôi sẽ cố gắng hết sức để làm cho nó trông giống như anh chàng này ngay tại đây, vậy điều đầu tiên tôi sẽ làm là tạo
+this a z stack and  ➤  một ngăn xếp z và tiếp tục
+let's go ahead and hit resume on our  ➤  và nhấn tiếp tục trên
+preview provider so that we can see what  ➤  bản xem trước của chúng ta  nhà cung cấp để chúng ta có thể thấy
+this looks like it should just be a  ➤  nó trông như thế nào, nó chỉ nên là một
+blank  ➤
+white screen to start with  ➤  màn hình trắng trống để bắt đầu
+uh and while that is going let me talk  ➤  uh và trong khi đó, hãy để tôi nói
+about why so  ➤  về lý do tại sao
+we're gonna have this background layer  ➤  chúng ta sẽ có lớp nền này
+as like the  ➤
+like sort of bottom layer of our uh cell  ➤  giống như lớp dưới cùng của  uh ô của chúng tôi
+really quickly guys select iphone pro  ➤  thực sự nhanh chóng các bạn chọn iphone pro
+max or  ➤  max hoặc
+you know if you want to keep it as the  ➤  bạn biết nếu bạn muốn giữ nó như
+ipod 7 touch whatever the hell that is  ➤  ipod 7 touch bất kể cái quái gì
+you can do that but i like looking at it  ➤  bạn có thể làm điều đó nhưng tôi thích nhìn vào
+in this layout  ➤  bố cục này
+um so the z stack is going to be like  ➤  ừm vì vậy ngăn xếp z sẽ  giống như lớp
+the bottom or the background layer of  ➤  dưới cùng hoặc lớp nền của
+the cell  ➤  ô,
+so really quickly i'm going to just go  ➤  vì vậy rất nhanh, tôi sẽ tiếp tục ở
+ahead here and give this a background  ➤  đây và tạo cho lớp này một màu nền.
+of color.green  ➤  màu xanh lá cây
+and you notice that nothing happens just  ➤  và bạn nhận thấy rằng chưa có gì xảy ra
+yet um but you know once we start adding  ➤  ừm nhưng bạn biết đấy khi chúng ta bắt đầu thêm
+things to this cell  ➤  các thứ vào  ô này
+um you're going to see that background  ➤  ừm, bạn sẽ thấy
+color of green take effect so  ➤  màu nền xanh lá cây đó có hiệu lực
+really quickly let's just go ahead and  ➤  rất nhanh, hãy tiếp tục và
+add some text right here  ➤  thêm một số văn bản ngay tại đây
+and let's say bulbasaur  ➤  và giả sử như bóng đèn
+and you can see that it has that green  ➤  và bạn có thể thấy rằng nó có màu nền xanh lá cây đó
+background color right  ➤
+so really quickly um you know from a  ➤  rất nhanh ừm bạn  biết từ
+layout perspective we're going to want  ➤  góc độ bố cục, chúng tôi sẽ muốn
+uh inside of this z-stack we're going to  ➤  bên trong ngăn xếp z này, chúng tôi sẽ
+want to put a v-stack in there  ➤  muốn đặt một ngăn xếp v vào đó
+because we have things stacked  ➤  vì chúng tôi có những thứ được xếp
+vertically on top of each other or  ➤  chồng lên nhau theo chiều dọc hoặc
+you know in a vertical layout so i'm  ➤  bạn biết đấy trong bố cục dọc  Vì vậy, tôi
+going to wrap this text in a v stack so  ➤  sẽ bọc văn bản này trong ngăn xếp v để
+you guys can go ahead and hit command  ➤  các bạn có thể tiếp tục và nhấn lệnh
+and or hold down command and click on  ➤  và giữ lệnh rồi nhấp vào
+that and  ➤  đó và
+say embed in v stack now really quickly  ➤  nói nhúng vào ngăn xếp v ngay bây giờ thực sự nhanh chóng,
+this option only shows up if you have  ➤  tùy chọn này chỉ hiển thị nếu bạn có
+the preview provider open  ➤  nhà cung cấp dịch vụ xem trước  mở
+if i were to say like go up here and say  ➤  nếu tôi muốn nói như đi lên đây và nói
+show editor only  ➤  chỉ hiển thị trình chỉnh sửa
+and you click on that guy that option is  ➤  và bạn nhấp vào anh chàng đó, tùy chọn đó
+not available to you  ➤  không có sẵn cho bạn,
+so keep the canvas open and it makes  ➤  vì vậy hãy giữ khung vẽ mở và nó giúp
+your swift ui development a little bit  ➤  việc phát triển giao diện người dùng nhanh chóng của bạn
+easier  ➤  dễ dàng hơn một chút,
+so now we're gonna also want two things  ➤  vì vậy bây giờ chúng ta sẽ  cũng muốn có hai thứ
+down here right we're gonna want this  ➤  ngay tại đây, chúng ta sẽ muốn có
+little  ➤
+uh text guy and a picture so  ➤  anh chàng nhắn tin uh nhỏ này và một bức ảnh vì vậy
+within this v stack we want an h stack  ➤  trong ngăn xếp v này, chúng ta muốn có ngăn xếp h
+because this is  ➤  vì đây
+like the things that are stacked on top  ➤  giống như những thứ được xếp chồng lên
+of each other but  ➤  nhau nhưng
+you know the second layer is  ➤  bạn biết lớp thứ hai  được xếp chồng lên nhau
+horizontally stacked  ➤  theo chiều ngang
+so i'm going to go here and i'm going to  ➤  vì vậy tôi sẽ đi tới đây và tôi sẽ
+create an h stack and i'm going to say  ➤  tạo một ngăn xếp h và tôi sẽ nói
+text  ➤  văn bản
+as poison and then i'm also going to  ➤  là chất độc và sau đó tôi cũng sẽ
+create an  ➤  tạo một
+image um right now  ➤  hình ảnh ừm ngay bây giờ
+we don't have this image provided just  ➤  chúng tôi không có  hình ảnh này vừa được cung cấp
+yet um  ➤  ừm, hình ảnh
+this is available in the description of  ➤  này có sẵn trong phần mô tả của
+this video i'm going to drag and drop it  ➤  video này, tôi sẽ kéo và thả nó
+into my project  ➤  vào dự án của mình,
+it's just a little picture of bulbasaur  ➤  đó chỉ là một hình ảnh nhỏ về bulbasaur
+that we're gonna use as an image for  ➤  mà chúng tôi sẽ sử dụng làm hình ảnh cho
+like  ➤
+testing purposes or building out our ui  ➤  mục đích thử nghiệm hoặc xây dựng  giao diện người dùng của chúng tôi,
+so uh just go here and my image is just  ➤  uh, hãy đến đây và hình ảnh của tôi chỉ được
+called  ➤  gọi là
+one because bulbasaur is the first  ➤  một vì bóng đèn
+pokemon at least in the og version  ➤  ít nhất là pokemon đầu tiên trong phiên bản og
+and now if we hit try again and let it  ➤  và bây giờ nếu chúng tôi nhấn thử lại và để nó
+do its thing  ➤  làm việc của mình,
+it really quickly cheers guys i like to  ➤  nó thực sự nhanh chóng cổ vũ những người tôi thích
+drink and code  ➤  uống rượu và viết mã
+that's good we notice that we get like a  ➤  thật tốt, chúng tôi nhận thấy rằng chúng tôi giống như một
+massive image  ➤  hình ảnh khổng lồ
+of bulbasaur so let's go ahead and go  ➤  của bóng đèn, vì vậy hãy tiếp tục và tìm
+over how to fix this  ➤  hiểu cách khắc phục sự cố này,
+so we're going to go ahead and here and  ➤  vì vậy chúng tôi sẽ tiếp tục và ở đây và
+say dot  ➤  nói dấu chấm
+don't want that say dot resizable  ➤  không muốn điều đó nói dấu chấm có thể thay đổi kích thước
+and then dot say say dot scaled to  ➤  và sau đó dấu chấm nói nói  dấu chấm được thu
+scaled to fit  ➤  nhỏ để thu nhỏ cho phù hợp
+and then resume that and see if it  ➤  và sau đó tiếp tục lại điều đó và xem nó có
+changes anything  ➤  thay đổi gì không
+and it got even bigger so you guys are  ➤  và nó thậm chí còn lớn hơn vì vậy các bạn
+like stefan what the hell are you doing  ➤  giống như stefan bạn đang làm cái quái gì vậy
+i thought you were trying to help me not  ➤  tôi nghĩ bạn đang cố gắng giúp tôi không
+hurt me and  ➤  làm tổn thương tôi và
+just give it one second so we're going  ➤  hãy chờ một giây  vì vậy chúng ta sẽ
+to say  ➤  nói
+dot frame and then we're going to give  ➤  khung chấm và sau đó chúng ta sẽ cho chiều
+it a width of  ➤  rộng là
+68 and a height of 68.  ➤  68 và chiều cao là 68.
+and you notice it gets a lot smaller and  ➤  và bạn nhận thấy nó nhỏ hơn rất nhiều và
+that i  ➤  tôi
+am actually not trying to hurt you guys  ➤  thực sự không cố làm tổn thương các bạn,
+i am just teaching you how to code  ➤  tôi chỉ  dạy bạn cách viết mã
+so um now that's like the basic layout  ➤  nên ừm bây giờ giống như bố cục cơ bản
+of our cell right we obviously have  ➤  của ô của chúng ta, rõ ràng chúng ta
+to add some um some touches or some like  ➤  phải thêm một số ừm một số nét hoặc một số thứ như
+touching up to it and let's go ahead and  ➤  chạm vào nó và hãy tiếp tục và
+do that now  ➤  làm điều đó ngay bây giờ
+so first thing is we want this cell to  ➤  vì vậy điều đầu tiên là chúng ta muốn ô này
+be rounded so we're going to go to our z  ➤  được làm tròn nên chúng ta sẽ chuyển đến ngăn xếp z của mình,
+stack so if you guys get lost in like  ➤  vì vậy nếu các bạn bị lạc trong dấu ngoặc
+the bracket inferno uh  ➤  địa ngục uh,
+we know that we want to add this corner  ➤  chúng tôi biết rằng chúng tôi muốn thêm
+radius to  ➤  bán kính góc này vào
+the actual z stack or the like the um  ➤  ngăn xếp z thực tế hoặc tương tự như chính
+the cell itself and that's all sort of  ➤  ô đó và đó là  tất cả
+wrapped in a z stack so just click the  ➤  được bao bọc trong một ngăn xếp z, vì vậy chỉ cần nhấp vào
+opening bracket of your z stack  ➤  dấu ngoặc mở của ngăn xếp z của bạn
+and then you go beneath that and add all  ➤  , sau đó bạn đi xuống bên dưới đó và thêm tất cả
+your modifiers so i'm going to say  ➤  các công cụ sửa đổi của mình, vì vậy tôi sẽ nói
+corner radius  ➤  bán kính góc
+and it's going to be 12.  ➤  và nó sẽ là 12.
+and then if i hit resume  ➤  và sau đó nếu tôi nhấn tiếp tục
+every time i hit resume i'm going to  ➤  mỗi khi tôi nhấn tiếp tục, tôi sẽ đi
+take a drink  ➤  uống nước,
+we notice that the cell gets rounded  ➤  chúng tôi nhận thấy rằng ô được làm tròn
+right so  ➤  bên phải,
+that is looking decent so far but  ➤  trông có vẻ ổn cho đến nay nhưng
+certainly not good  ➤  chắc chắn là không tốt, vì vậy
+so let's go ahead and change our text  ➤  hãy tiếp tục và thay đổi màu văn bản của chúng ta
+colors  ➤
+to white and then add the appropriate  ➤  thành màu trắng, sau đó thêm
+padding so here  ➤  phần đệm thích hợp.  ở đây
+i'm going to say dot font  ➤  tôi sẽ nói phông chữ dấu chấm
+and that's going to be dot headline and  ➤  và đó sẽ là tiêu đề dấu chấm và
+then i'm going to say that foreground  ➤  sau đó tôi sẽ nói rằng màu nền trước
+color  ➤
+is not white so that looks pretty good  ➤  không phải là màu trắng nên trông khá đẹp
+but we do notice however that we want  ➤  nhưng tuy nhiên chúng tôi nhận thấy rằng chúng tôi muốn ngăn
+this v stack  ➤  chữ v này
+or this uh item this little text here  ➤  hoặc mục uh này  văn bản nhỏ này ở đây
+to be aligned to the left right so  ➤  được căn chỉnh sang trái, phải, vì vậy
+this is part of this uh like parent v  ➤  đây là một phần của ngăn xếp v giống như cha mẹ này
+stack  ➤
+and if we want everything to be aligned  ➤  và nếu chúng ta muốn mọi thứ được căn chỉnh
+to the left we can  ➤  sang trái, chúng ta có thể
+apply an alignment modifier to our v  ➤  áp dụng công cụ sửa đổi căn chỉnh cho ngăn xếp v của mình,
+stack  ➤
+so we're going to say dot leading right  ➤  vì vậy chúng ta sẽ nói  dấu chấm dẫn đầu ngay
+there and we notice that  ➤  tại đó và chúng tôi nhận thấy rằng
+it just gets shoved over to the left if  ➤  nó chỉ bị đẩy sang bên trái nếu
+i were to say dot trailing  ➤  tôi nói dấu chấm ở cuối thì
+it would get shoved over to the right so  ➤  nó sẽ bị đẩy sang bên phải, vì vậy
+another thing guys is v stacks only have  ➤  một điều nữa là các ngăn xếp v chỉ có
+three alignment options it's  ➤  ba tùy chọn căn chỉnh đó là
+leading center trailing h stacks have  ➤  ngăn xếp h ở giữa dẫn đầu có
+top center bottom right so you can align  ➤  trên cùng chính giữa phía dưới bên phải để bạn có thể căn chỉnh
+a vertically stacked thing to the left  ➤  một thứ được xếp chồng lên nhau theo chiều dọc với
+center or  ➤  tâm bên trái hoặc
+trailing edge and you can align a  ➤  cạnh sau và bạn có thể căn chỉnh một
+horizontally stacked thing  ➤  thứ được xếp chồng lên nhau theo chiều ngang
+to the top center or bottom edge so  ➤  với tâm trên cùng hoặc cạnh dưới cùng, vì
+that's uh pretty important to remember  ➤  vậy dù sao thì điều đó cũng khá quan trọng cần nhớ
+anyway  ➤
+um let's see now we need some padding on  ➤  ừm, hãy xem bây giờ chúng ta cần một số phần đệm  về
+that guy  ➤  anh chàng đó,
+so i'm going to go ahead here and say  ➤  vì vậy tôi sẽ tiếp tục ở đây và nói dấu chấm đệm chấm
+dot padding  ➤
+dot top and give it a pattern of 4 and  ➤  trên cùng và tạo cho nó một mẫu 4 và
+then give it a  ➤  sau đó cũng tạo cho nó một
+padding of dot leading as well  ➤  phần đệm có dấu chấm dẫn đầu
+so that looks pretty good now  ➤  để nó trông khá đẹp bây giờ
+i want us to modify this poison guy so  ➤  tôi muốn chúng ta sửa đổi anh chàng độc ác này  Vì vậy,
+here we're going to say dot font and  ➤  ở đây chúng ta sẽ nói phông chữ dấu chấm và chúng
+we're going to say dot sub headline  ➤  ta sẽ nói dòng tiêu đề phụ dấu chấm
+and then we're going to also say bold  ➤  và sau đó chúng ta cũng sẽ nói đậm
+okay and then we say foreground  ➤  được rồi và sau đó chúng ta nói màu nền trước
+foregroundcolor.white  ➤  foregroundcolor.white
+so that looks pretty good and now you  ➤  để nó trông khá đẹp và bây giờ các
+guys might be wondering how we get this  ➤  bạn có thể  tự hỏi làm thế nào chúng ta có được chế độ
+cool little  ➤
+capsule view here so we're going to  ➤  xem viên nang nhỏ thú vị này ở đây, vì vậy chúng ta sẽ
+apply what's called  ➤  áp dụng cái được gọi là
+an overlay and now we have to place this  ➤  lớp phủ và bây giờ chúng ta phải đặt
+overlay content in here so just hit  ➤  nội dung lớp phủ này vào đây, vì vậy chỉ cần nhấn
+enter  ➤  enter
+and then hit enter again  ➤  rồi nhấn enter lần nữa
+to sort of like open up these little  ➤  để giống như mở
+bracket these little parenthesis  ➤  các dấu ngoặc nhỏ này  các dấu ngoặc đơn nhỏ này
+and we're going to apply this rounded  ➤  và chúng ta sẽ áp dụng
+rectangle overlay  ➤  lớp phủ hình chữ nhật tròn này.
+it's going to have a corner radius of 20  ➤  Nó sẽ có bán kính góc là 20
+and then we're going to give it a  ➤  và sau đó chúng ta sẽ tô cho nó một
+fill of color  ➤  chấm màu,
+dot white dot opacity and say 0.25  ➤  độ mờ của chấm trắng và nói 0,25
+let me do this a little bit more and  ➤  để tôi làm điều này một chút  thêm nữa và hãy
+let's like  ➤
+zoom in so you guys can see that it  ➤  phóng to để các bạn có thể thấy rằng nó
+actually does have a little bit of  ➤  thực sự có một chút
+filling  ➤  lấp đầy
+now or this little rounded overlay um  ➤  hoặc lớp phủ tròn nhỏ này ừm
+but we need to uh go ahead and apply one  ➤  nhưng chúng ta cần tiếp tục và áp dụng
+more modifier to get this to work  ➤  thêm một công cụ sửa đổi để làm cho nó hoạt động,
+so go outside of this overlay guy and  ➤  vì vậy hãy bỏ qua phần này  anh chàng lớp phủ và
+we're going to apply  ➤  chúng tôi sẽ áp dụng
+a actual frame to this text so we're  ➤  một khung hình thực tế cho văn bản này, vì vậy chúng tôi
+going to go ahead here and say  ➤  sẽ tiếp tục ở đây và nói rằng
+dot frame width is going to be 100 and  ➤  chiều rộng khung hình chấm sẽ là 100 và
+height  ➤  chiều cao
+is going to be 24.  ➤  sẽ là 24.
+and resume means i got a drink  ➤  và tiếp tục có nghĩa là tôi đã uống
+okay so now that's not  ➤  được rồi.  vì vậy bây giờ đó không phải là
+exactly what we want right but it does  ➤  chính xác những gì chúng ta muốn đúng không nhưng nó
+expand the frame of this guy to  ➤  mở rộng khung hình của anh chàng này để
+widen out the frame of our cell and then  ➤  mở rộng khung hình của phòng giam của chúng ta và sau đó
+actually  ➤  thực sự
+give it like the desired size that we  ➤  cung cấp cho nó kích thước mong muốn mà chúng ta
+want so  ➤  muốn vì vậy
+something with swift you got swift ui if  ➤  một cái gì đó nhanh chóng bạn có nhanh chóng ui nếu
+you guys don't already know  ➤  các bạn không  'Tôi chưa biết
+is like views  ➤  giống như
+dimensions are sort of intrinsically  ➤  kích thước chế độ xem về bản chất được
+figured out  ➤  tìm ra
+based on the things that they are  ➤  dựa trên những thứ mà chúng được
+populated with so  ➤  phổ biến, vì vậy,
+uh if i you know comment out this line  ➤  nếu tôi biết, hãy nhận xét dòng này
+for the frame  ➤  cho khung,
+you notice that my cell gets smaller and  ➤  bạn nhận thấy rằng ô của tôi nhỏ hơn và
+it shrinks to the size  ➤  nó co lại theo kích thước
+to fit the um intrinsically  ➤  phù hợp với um về bản chất
+figured out or discerned frame of that  ➤  đã tìm ra hoặc phân biệt đúng khung của
+text  ➤  văn bản đó
+right and like things like text  ➤  và giống như những thứ như văn bản,
+they they have an intrinsic frame  ➤  chúng có khung nội tại
+because  ➤  vì
+swift ui can just sort of figure out the  ➤  swift ui có thể sắp xếp để tìm ra
+frame of it based on  ➤  khung của nó dựa trên
+the text content right but here we're  ➤  nội dung văn bản nhưng ở đây chúng tôi đang
+applying  ➤  áp dụng
+our own custom frame to it  ➤  khung tùy chỉnh của riêng nó cho nó
+and then after we do that it expands the  ➤  và sau khi chúng tôi làm điều đó, nó sẽ mở rộng
+height  ➤  chiều cao
+and or sorry mainly the width of the  ➤  và hoặc xin lỗi chủ yếu là chiều rộng của
+cell because we give it this like  ➤  ô vì chúng tôi cung cấp cho nó một
+extra bit of width so now what i want us  ➤  chút chiều rộng, vì vậy bây giờ điều tôi muốn chúng tôi
+to do  ➤
+is actually apply some padding to this  ➤  thực sự áp dụng một số phần đệm cho
+text and when we apply that padding to  ➤  văn bản này  và khi chúng ta áp dụng phần đệm đó cho
+the text  ➤  văn bản,
+it's going to have the effect of uh  ➤  nó sẽ có tác dụng
+expanding this little overlay as long as  ➤  mở rộng lớp phủ nhỏ này miễn là
+we apply that padding  ➤  chúng ta áp dụng phần đệm đó
+before we apply the overlay so we'll go  ➤  trước khi áp dụng lớp phủ, vì vậy chúng ta sẽ xem
+over what that means in just a second so  ➤  qua ý nghĩa của điều đó chỉ trong một giây, vì vậy
+go ahead and just say padding  ➤  hãy tiếp tục và  chỉ cần nói
+dot horizontal and say comma  ➤  phần đệm chấm ngang và nói dấu phẩy
+uh i believe it's 16  ➤  uh tôi tin rằng đó là 16
+oops and then say padding  ➤  rất tiếc và sau đó nói phần
+dot vertical is eight  ➤  đệm chấm dọc là 8
+so that looks uh pretty  ➤  vì vậy trông uh khá
+darn good right so let's talk about what  ➤  tuyệt phải không, vậy hãy nói về
+exactly this did  ➤  chính xác điều này đã làm gì
+so it applied some padding to the actual  ➤  để nó áp dụng một số phần đệm vào văn bản thực tế
+um  ➤  um
+text right so it said hey here's this  ➤  đúng không  nó nói này, đây là
+text  ➤  văn bản này
+and now this text has these padding  ➤  và bây giờ văn bản này có
+parameters  ➤  các tham số đệm này
+and then the overlay gets rendered  ➤  và sau đó lớp phủ được hiển thị
+around that padding so if we were to  ➤  xung quanh phần đệm đó, vì vậy nếu chúng ta
+like put this i  ➤  muốn đặt cái này, tôi
+say let's say after the overlay i think  ➤  nói hãy nói sau lớp phủ, tôi nghĩ
+it would have a different effect  ➤  nó sẽ có hiệu ứng khác
+so yeah it wouldn't do anything right so  ➤  nên vâng, nó sẽ  Tôi không làm bất cứ điều gì đúng nên
+the reason for that is because  ➤  lý do là vì
+uh when we apply this padding and we do  ➤  uh khi chúng tôi áp dụng phần đệm này và chúng tôi thực hiện
+it before  ➤  nó trước
+the overlay it's going to say okay  ➤  lớp phủ, sẽ có thông báo là
+you're applying this this padding to  ➤  bạn đang áp dụng phần đệm này cho
+this actual  ➤
+text and then you are applying an  ➤  văn bản thực tế này và sau đó bạn đang áp dụng một
+overlay  ➤  lớp phủ
+around that padding right so you have to  ➤  xung quanh đó  đệm đúng, vì vậy bạn phải
+apply the padding first  ➤  áp dụng phần đệm trước
+and then apply the overlay so that it  ➤  rồi mới áp dụng lớp phủ sao cho
+actually the padding  ➤  phần đệm thực sự
+is completed first and then the overlay  ➤  được hoàn thành trước và sau đó lớp phủ
+goes around all of the padding  ➤  bao quanh tất cả phần đệm
+and um really quickly guys there's just  ➤  và ừm, thực sự nhanh thôi,
+a couple more things  ➤
+we got to do so like i want to adjust  ➤  chúng ta còn phải làm một vài việc nữa  giống như tôi muốn điều chỉnh
+the padding of our picture  ➤  phần đệm của hình ảnh của chúng ta
+a little bit so we're going to go here  ➤  một chút, vì vậy chúng ta sẽ đến đây
+and say  ➤  và nói
+dot padding and you're going to say  ➤  phần đệm dấu chấm và bạn sẽ nói rằng
+you're going to open up a bracket do  ➤  bạn sẽ mở một dấu ngoặc do dấu
+bottom and comma dot trailing  ➤  dưới cùng và dấu phẩy
+and just do a padding of four so  ➤  và chỉ cần làm  một phần đệm gồm bốn vì vậy
+when you you can always do like  ➤  khi bạn luôn có thể làm như
+an array of padding and you have  ➤  một mảng phần đệm và bạn có sẵn
+leading bottom trailing and top  ➤  phần cuối và phần trên cùng
+available to you  ➤  cho bạn
+and then uh if you know that it's going  ➤  và sau đó, nếu bạn biết rằng nó sẽ
+to be the same for  ➤  giống với
+whatever you're applying in that set of  ➤  bất kỳ thứ gì bạn đang áp dụng trong bộ đó
+like  ➤  giống như
+padding in that padding array you can  ➤  phần đệm trong mảng phần đệm đó, bạn chỉ có thể
+just apply that single operator  ➤  áp dụng một toán tử
+or modifier of four instead of saying  ➤  hoặc công cụ sửa đổi bốn thay vì nói phần đệm
+padding bottom comma four and then on a  ➤  dưới cùng bằng dấu phẩy bốn và sau đó trên một
+new line saying padding trailing four  ➤  dòng mới nói phần đệm ở cuối bốn
+so it just helps you shorten things up a  ➤  để nó chỉ giúp bạn rút ngắn mọi thứ một
+little bit and you notice that it gives  ➤  chút và bạn nhận thấy rằng nó  cung cấp cho
+us  ➤  chúng tôi
+some spacing right there and  ➤  một số khoảng cách ngay tại đó và
+um i think i want us to actually make  ➤  ừm tôi nghĩ rằng tôi muốn chúng tôi thực sự tạo
+this a padding of eight  ➤  phần đệm này bằng tám ô
+yeah so that looks pretty good to me  ➤  vâng vì vậy nó trông khá ổn đối với tôi
+just double check everything with my  ➤  chỉ cần kiểm tra kỹ mọi thứ với mã của tôi
+code  ➤
+right okay um one more thing we also  ➤  đúng không, một điều nữa chúng tôi cũng
+want to apply  ➤  muốn áp dụng
+a little shadow um and we're so we're  ➤  một chút bóng  ừm và chúng ta
+gonna go here and say  ➤  sẽ đến đây và nói
+shadow oops  ➤  bóng tối rất tiếc
+shadow and then you're going to say  ➤  bóng tối và sau đó bạn sẽ nói
+color  ➤  màu sắc
+and we're just going to say dot green  ➤  và chúng ta sẽ nói bán kính chấm xanh lục
+radius is going to be  ➤  sẽ là
+6 x and y 0 0.  ➤  6 x và y 0 0.
+so that gives it sort of like more of a  ➤  do đó  mang lại cho nó một
+three-dimensional look  ➤  cái nhìn giống như ba chiều hơn
+and those are that's like a really small  ➤  và những thứ đó giống như một thứ thực sự nhỏ
+thing but  ➤  nhưng
+it really sort of helps give your app  ➤  nó thực sự giúp cung cấp cho ứng dụng của bạn
+like you know some layers  ➤  giống như bạn biết một số lớp
+to it so that things don't look so flat  ➤  của nó để mọi thứ trông không quá phẳng
+right  ➤  đúng
+so you guys can't you you may or may not  ➤  không các bạn  bạn có thể nhìn thấy hoặc không
+be able to see it in the completed app  ➤  thể nhìn thấy nó trong ứng dụng đã hoàn thành
+but there is actually a  ➤  nhưng thực sự có một
+shadow around each one of these cells  ➤  cái bóng xung quanh mỗi một trong các ô này
+and just like i said gives everything a  ➤  và giống như tôi đã nói, hãy tách mọi thứ ra một
+little bit more separation it makes  ➤  chút, nó làm cho
+everything look a little bit more  ➤  mọi thứ trông đẹp hơn một chút
+3d um so it's a small thing but you know  ➤  3d ừm vì vậy đó là một việc nhỏ nhưng bạn biết
+it uh it helps so now that we've done  ➤  đấy uh nó rất hữu ích vì vậy bây giờ chúng ta đã hoàn thành việc đó
+that  ➤
+um now what we want to do is populate  ➤  ừm bây giờ điều chúng ta muốn làm là điền vào
+our v stack or sorry our main view  ➤  ngăn xếp v của chúng ta hoặc xin lỗi, chế độ xem chính của chúng ta
+with um a bunch of these cells so let's  ➤  có một loạt các ô này, vì vậy hãy chuyển
+go to our view folder  ➤  sang  thư mục chế độ xem của chúng tôi
+hit command n swift ui view  ➤  nhấn lệnh n chế độ xem Swift ui
+and we're going to say pokedex view  ➤  và chúng tôi sẽ nói chế độ xem pokedex,
+so now let's go  ➤  vì vậy bây giờ chúng ta hãy
+and figure out how we're going to use  ➤  tìm hiểu cách chúng tôi sẽ sử dụng
+this new grid functionality that we get  ➤  chức năng lưới mới này mà chúng tôi nhận được
+from swift ui  ➤  từ Swift ui
+so basically guys first thing we want to  ➤  vì vậy về cơ bản, điều đầu tiên chúng tôi muốn làm là
+do is place this inside of a navigation  ➤  làm là đặt cái này bên trong chế độ xem điều hướng,
+view  ➤
+that's how we get this like navigation  ➤  đó là cách chúng tôi có thanh điều hướng này
+bar up at the top we get this navigation  ➤  ở trên cùng, chúng tôi có tiêu đề điều hướng này
+title  ➤
+and that sort of cool functionality  ➤  và loại chức năng thú vị đó
+there and  ➤  ở đó và
+you know that's not necessary for this  ➤  bạn biết điều đó không cần thiết cho
+iteration of the application but if you  ➤  lần lặp lại này của ứng dụng nhưng nếu bạn
+ever want to be able to  ➤  muốn  để có thể
+go to like a different view by clicking  ➤  thích một chế độ xem khác bằng cách nhấp
+on one of those cells or if you just  ➤  vào một trong các ô đó hoặc nếu bạn chỉ
+want the title up at the top  ➤  muốn tiêu đề ở trên cùng,
+you're going to want to place it inside  ➤  bạn sẽ muốn đặt nó bên trong
+the navigation view so  ➤  chế độ xem điều hướng, vì vậy
+just go ahead here and say navigation  ➤  chỉ cần tiếp tục ở đây và nói
+view and then within that navigation  ➤  chế độ xem điều hướng  và sau đó trong chế độ xem điều hướng đó,
+view  ➤
+so this is the equivalent of like a ui  ➤  vì vậy điều này tương đương với
+navigation controller  ➤  bộ điều khiển điều hướng giao diện người dùng,
+we're going to place a scroll view  ➤  chúng tôi sẽ đặt chế độ xem cuộn
+and within that scroll view we're going  ➤  và trong chế độ xem cuộn đó, chúng tôi sẽ
+to place something called a lazy v  ➤  đặt một thứ gọi là lưới lazy v,
+grid okay so this is basically the  ➤  vì vậy về cơ bản, đây là
+equivalent of creating  ➤  tương đương  Khi tạo chế
+a collection view you place this lazy v  ➤  độ xem bộ sưu tập, bạn đặt lưới v lười biếng này
+grid  ➤
+inside of a scroll view and that will  ➤  bên trong chế độ xem cuộn và điều đó sẽ
+give you  ➤  cung cấp cho bạn
+this scrollable grid effect here  ➤  hiệu ứng lưới có thể cuộn này ở đây,
+so what exactly is lazy v grid  ➤  vậy chính xác lưới v lười biếng là gì
+a lazy v grid means the items inside of  ➤  Lưới v lười biếng có nghĩa là các mục bên trong
+the grid  ➤  lưới
+um are loaded in a lazy  ➤  được tải trong chế độ lười biếng
+fashion right so what the does that  ➤  thời trang đúng vậy, điều đó có
+mean  ➤  nghĩa là cái quái gì, điều đó
+it means that um  ➤  có nghĩa là ừm, mọi
+things are only loaded at on an as  ➤  thứ chỉ được tải trên
+needed basis  ➤  cơ sở khi cần thiết,
+so basically this pokedex has 150 or 151  ➤  vì vậy về cơ bản, pokedex này có 150 hoặc 151
+cells whatever it is  ➤  ô, bất kể là gì,
+we're not loading all of those things at  ➤  chúng tôi sẽ không tải tất cả những thứ đó cùng một
+once right and this is especially  ➤  lúc và đây là  đặc biệt
+helpful when your v grid is populated  ➤  hữu ích khi lưới v của bạn được điền
+from an api call  ➤  từ một cuộc gọi api mà
+you don't want to load all of those  ➤  bạn không muốn tải tất cả
+things on screen at once i mean  ➤  những thứ đó trên màn hình cùng một lúc, ý tôi là hãy
+imagine if this were to scale and you  ➤  tưởng tượng nếu điều này được mở rộng và bạn
+had like a thousand or ten thousand or  ➤  có khoảng một nghìn, mười nghìn hoặc
+one million  ➤  một triệu
+cells right you don't want all of those  ➤  ô đúng không bạn  không muốn tất cả những thứ đó
+to load at once you only want them to  ➤  tải cùng một lúc mà bạn chỉ muốn chúng tải
+load  ➤
+as they are about to come on screen so  ➤  khi chúng sắp xuất hiện trên màn hình, vì vậy
+this is very similar to  ➤  điều này rất giống với
+the functionality of collection views  ➤  chức năng của chế độ xem bộ sưu tập
+and table  ➤  và
+table views from ui kit where cells were  ➤  chế độ xem bảng của bảng từ bộ ui nơi các ô được
+cued and dequeued out of memory  ➤  sắp xếp và loại bỏ  của bộ nhớ
+as they are about to come on screen so  ➤  khi chúng sắp xuất hiện trên màn hình rất
+really quickly  ➤  nhanh
+as a cell is about to come on screen or  ➤  vì một ô sắp xuất hiện trên màn hình hoặc
+go off of screen rather let's start with  ➤  biến mất khỏi màn hình thay vì hãy bắt đầu với điều
+that first  ➤  đó trước tiên,
+it gets dequeued into a memory cache and  ➤  nó sẽ được đưa vào bộ nhớ cache và
+the cell that's about to come on screen  ➤  ô sắp xuất hiện trên màn hình
+is only loaded as it's about to come  ➤  là  chỉ được tải khi nó sắp xuất hiện
+onto the screen it's not  ➤  trên màn hình, nó không được
+loaded on the initial loading of the  ➤  tải trong lần tải đầu tiên của chế
+view  ➤  độ xem
+and then as a cell that was previously  ➤  và sau đó khi một ô trước đó
+on the screen is about to come back into  ➤  trên màn hình sắp xuất hiện trở lại,
+view  ➤
+it is pulled from a memory cache and  ➤  nó được lấy từ bộ nhớ cache và
+then  ➤  sau đó được
+reloaded into the view so it gives you a  ➤  tải lại vào  view để nó cung cấp cho bạn
+really smooth scrolling functionality  ➤  chức năng cuộn thực sự mượt mà
+and that's what this lazy v grid is  ➤  và đó là tính năng của lưới lazy v này,
+going to be  ➤
+so if we open this up it's going to ask  ➤  vì vậy nếu chúng tôi mở nó lên, nó sẽ yêu cầu
+us for columns and content  ➤  chúng tôi cung cấp các cột và nội dung,
+right so we need some grid items here  ➤  vì vậy chúng tôi cần một số mục lưới ở đây,
+so we're going to create that up at the  ➤  vì vậy chúng tôi sẽ  tạo nó ở trên
+top so i'm going to say  ➤  cùng vì vậy tôi sẽ nói
+private let grid items equals  ➤  riêng tư hãy để các mục lưới bằng
+grid item and then just go ahead and say  ➤  mục lưới và sau đó chỉ cần tiếp tục và nói
+dot flexible  ➤  dấu chấm linh hoạt
+and then grid item dot flexible  ➤  và sau đó mục lưới dấu chấm linh hoạt Rất tiếc,
+oops don't say dot flexible you have to  ➤  đừng nói dấu chấm linh hoạt, bạn phải
+open it  ➤  mở nó
+up and then say dot flexible  ➤  lên và sau đó  giả sử
+grid item dot flexible  ➤  mục lưới chấm linh hoạt chấm linh hoạt,
+so this is basically telling our v grid  ➤  vì vậy về cơ bản, điều này nói với lưới v của chúng tôi
+that  ➤  rằng
+we only want two items per row  ➤  chúng tôi chỉ muốn hai mục trên mỗi hàng,
+so here's one row we want two items in  ➤  vì vậy đây là một hàng, chúng tôi muốn có hai mục trong
+that row  ➤  hàng đó,
+right so then for my columns guy i'm  ➤  vì vậy đối với các cột của tôi, tôi
+going to pass in those grid items  ➤  sẽ chuyển vào lưới đó  các mục
+and for my content i'm just going to go  ➤  và đối với nội dung của tôi, tôi sẽ
+in here and i'm going to say 4 each  ➤  vào đây và tôi sẽ nói 4 mỗi mục
+[Applause]  ➤  [Vỗ tay]
+and then hit enter on that and then here  ➤  rồi nhấn enter vào mục đó và sau đó ở đây
+we're going to say 0  ➤  chúng tôi sẽ nói 0
+dot dot less than 151  ➤  chấm chấm nhỏ hơn 151
+and then for content just go ahead and  ➤  và sau đó cho  nội dung chỉ cần tiếp tục và
+enter on that  ➤  nhập nội dung đó
+and delete all of that extra jargon you  ➤  và xóa tất cả biệt ngữ bổ sung mà bạn
+know just keep the underscore in  ➤  biết, chỉ cần giữ lại dấu gạch dưới
+and then you're just going to go ahead  ➤  và sau đó bạn sẽ tiếp tục
+and pass in your pokemon cell  ➤  và chuyển vào ô pokemon của mình.
+hit resume oh got a drink  ➤
+and you guys should notice that we get  ➤  chúng tôi nhận được
+this really awesome scrollable  ➤
+uh grid of our pokemon cells  ➤  lưới ô pokemon có thể cuộn thực sự tuyệt vời này,
+so uh we do notice however and if you  ➤  vì vậy, tuy nhiên, chúng tôi có chú ý và nếu các
+guys hit play  ➤  bạn nhấn play
+on the preview provider you can actually  ➤  trên nhà cung cấp bản xem trước, bạn thực sự có thể
+scroll  ➤  cuộn
+through this stuff so that's pretty cool  ➤  qua nội dung này, vì vậy điều đó khá tuyệt,
+uh one second guys getting a  ➤  uh một giây các bạn sẽ không cần
+nevermind all right so um  ➤  bận tâm nữa.
+we do notice that our spacing is a  ➤  chúng tôi nhận thấy rằng khoảng cách của chúng tôi hơi
+little bit off right so there's some  ➤  lệch một chút, vì vậy sẽ có
+more space  ➤  thêm không gian
+with our items here so in our lazy v  ➤  cho các mục của chúng tôi ở đây, vì vậy trong lưới lazy v của chúng tôi,
+grid  ➤
+you can actually just go ahead and  ➤  bạn thực sự có thể tiếp tục và
+replace  ➤  thay thế
+this content guy you don't need that  ➤  nội dung này mà bạn không cần mà
+you can just have that bracket but do  ➤  bạn chỉ cần có dấu ngoặc đó  nhưng hãy
+close off your parentheses so you do  ➤  đóng dấu ngoặc đơn của bạn để bạn
+have this guy here  ➤  có anh chàng này ở đây
+go ahead and say spacing is going to be  ➤  tiếp tục và nói rằng khoảng cách sẽ là
+20.  ➤  20. vì
+so we have column spacing go ahead and  ➤  vậy chúng tôi có khoảng cách cột, hãy tiếp tục và
+hit try again  ➤  nhấn thử lại
+so it's uh okay i believe we have to  ➤  vì vậy không sao, tôi tin rằng chúng tôi phải
+delete  ➤  xóa
+that yeah okay so you're  ➤  điều đó, vâng, vậy bạn  Nó sẽ giống
+it should look like this guys you have  ➤  như thế này nhé các bạn, bạn có
+columns and then spacing  ➤  các cột và sau đó
+and that is closed off by one  ➤  giãn cách và được đóng lại bằng một
+parentheses and then everything else is  ➤  dấu ngoặc đơn và sau đó mọi thứ khác chỉ được
+just  ➤
+wrapped in a bracket um so that looks  ➤  gói trong một dấu ngoặc vuông ừm để trông
+pretty good actually go ahead and change  ➤  khá ổn, hãy tiếp tục và thay đổi giá trị
+this to  ➤  này thành
+16. i think that looks a little bit  ➤  16. Tôi nghĩ rằng  trông đẹp hơn một chút
+better  ➤
+so that's essentially the ui skeleton  ➤  vì vậy về cơ bản đó là khung giao diện người dùng
+for our pokedex app and that really  ➤  cho ứng dụng pokedex của chúng tôi và điều đó thực sự
+wasn't that hard to build  ➤  không khó để xây dựng
+like the only complex part was actually  ➤  giống như phần phức tạp duy nhất thực sự là
+building out the ui  ➤  xây dựng giao diện người dùng
+of the cell and then you can see that  ➤  của ô và sau đó bạn có thể thấy rằng
+it's pretty darn easy  ➤  nó khá dễ dàng
+to just wrap all this stuff up into a  ➤  để  chỉ cần bọc tất cả những thứ này vào một chế độ
+scroll view  ➤  xem cuộn
+lazy v grid run it for each loop and  ➤  lazy v grid chạy nó cho từng vòng lặp và
+then  ➤  sau đó
+place the desired view that you want the  ➤  đặt chế độ xem mong muốn mà bạn muốn
+grid to be populated with  ➤  lưới được điền vào,
+so now we need to add our navigation  ➤  vì vậy bây giờ chúng tôi cần thêm tiêu đề điều hướng của mình
+title  ➤
+so something that's a little annoying is  ➤  để có điều hơi khó chịu
+that you would think that you would just  ➤  là  bạn sẽ nghĩ rằng bạn sẽ chỉ
+place this  ➤  đặt cái này
+on the navigation view guy so to say  ➤  trên anh chàng ở chế độ xem điều hướng để nói
+navigation title  ➤  tiêu đề điều hướng
+and let's say pokedex  ➤  và giả sử là pokedex
+and if you were to you know like stop  ➤  và nếu bạn là bạn, bạn biết như dừng
+and run that  ➤  và chạy thì
+nothing happens right so you actually  ➤  không có gì xảy ra đúng, vì vậy bạn thực sự
+need to place it inside  ➤  cần đặt nó bên
+of your navigation view so you would go  ➤  trong chế độ xem điều hướng của mình  Vì vậy, bạn sẽ đi
+one bracket up and then place that  ➤  lên một giá đỡ và sau đó đặt
+pokedex guy in there  ➤  anh chàng pokedex đó vào đó
+and then we should see pokedex showing  ➤  và sau đó chúng ta sẽ thấy pokedex hiển
+up right there  ➤  thị ngay tại đó,
+you can say pokedex pokemon doesn't  ➤  bạn có thể nói pokemon pokedex không
+really matter and then as i scroll  ➤  thực sự quan trọng và sau đó khi tôi cuộn,
+we notice that we get that cool  ➤  chúng tôi nhận thấy rằng chúng tôi có
+navigation bar functionality  ➤  chức năng thanh điều hướng thú vị đó
+right so now that we've accomplished the  ➤  ngay bây giờ chúng ta đã hoàn thành
+skeleton  ➤  bộ khung
+of the ui i want us to go ahead and  ➤  của giao diện người dùng, tôi muốn chúng ta tiếp tục và
+start introducing  ➤  bắt đầu giới thiệu
+our model and networking layer  ➤  mô hình và lớp mạng của mình.
+so well let's uh start by creating our  ➤  Vì vậy, chúng ta hãy bắt đầu bằng cách tạo
+pokemon data model  ➤  mô hình dữ liệu pokemon của mình
+and then we're going to go over reaching  ➤  và sau đó chúng ta sẽ tiếp cận
+out to our api and getting all this data  ➤  với  api của chúng tôi và lấy tất cả dữ liệu này
+and then we're going to use a view model  ➤  , sau đó chúng tôi sẽ sử dụng một mô hình chế độ xem
+to populate all of these pokemon cells  ➤  để điền vào tất cả các ô pokemon này,
+so really quickly just go ahead and hit  ➤  vì vậy hãy thực sự nhanh chóng tiếp tục và nhấn
+command  ➤  lệnh
+n on the model file select swift file  ➤  n trên tệp mô hình, chọn tệp nhanh,
+hit next and we're just going to call  ➤  nhấn tiếp theo và chúng tôi sẽ bắt đầu  để gọi
+this pokemon  ➤  pokemon này,
+so the concept behind this guys is that  ➤  vì vậy khái niệm đằng sau những người này là
+each cell is going to be populated with  ➤  mỗi ô sẽ chứa
+a pokemon  ➤  một pokemon
+and each one of these pokemon has you  ➤  và mỗi một trong số những pokemon này, bạn có
+know some common properties  ➤  biết một số thuộc tính chung,
+they have a name they have a type and  ➤  chúng có tên, chúng có một loại và
+then they have an  ➤  sau đó chúng có một
+image and we're also going to associate  ➤  hình ảnh và chúng tôi  'cũng sẽ liên kết
+a background color with each one of  ➤  màu nền với từng
+these pokemon  ➤  pokemon này,
+so let's go ahead and start coding out  ➤  vì vậy hãy tiếp tục và bắt đầu mã hóa
+what we want this class  ➤  những gì chúng ta muốn lớp này
+to look like so we're going to say  ➤  trông như thế nào, vì vậy chúng ta sẽ nói
+struct  ➤  cấu trúc
+pokemon and it's going to be it's going  ➤  pokemon và nó sẽ
+to conform  ➤  phù hợp
+to the decodable protocol as well as the  ➤  với  giao thức có thể giải mã cũng như
+identifiable protocol  ➤  giao thức có thể nhận dạng,
+then we're going to say let id int  ➤  sau đó chúng tôi sẽ nói let id int
+let name string  ➤  let name string
+let's image  ➤  let's image
+url is a string and  ➤  url is a string và
+then we say that type is a string  ➤  sau đó chúng tôi nói rằng loại đó là một chuỗi
+so this is all we need for the current  ➤  vì vậy đây là tất cả những gì chúng tôi cần cho
+setup of what we have um in the  ➤  thiết lập hiện tại của những gì chúng tôi  có
+completed source code guys  ➤  mã nguồn đã hoàn thành nhé mọi người,
+once again available at stefancodes.com  ➤  một lần nữa có sẵn tại
+shop  ➤  cửa hàng stefancodes.com,
+we introduce a couple more properties  ➤  chúng tôi giới thiệu thêm một số thuộc tính
+like height attack defense  ➤  như tổng trọng lượng phòng thủ tấn công chiều cao
+weight total and this description that  ➤  và mô tả này mà
+you see  ➤  bạn
+here as well but for this case we don't  ➤  cũng thấy ở đây nhưng trong trường hợp này, chúng tôi không
+need any of that stuff this is all we  ➤  cần bất kỳ thứ gì trong số đó  đây là tất cả những gì chúng ta
+need to display  ➤  cần hiển thị
+here so um now that we have our data  ➤  ở đây vì vậy bây giờ chúng ta đã có mô hình dữ liệu của mình,
+model  ➤
+let's go ahead and start uh  ➤
+looking start trying to implement  ➤
+our data model into our ui before we get  ➤
+to the networking stuff  ➤
+so i'm going to um  ➤  hãy tiếp tục và bắt đầu.
+go to let's see  ➤  chúng ta hãy xem
+pokemon cell oh my god  ➤  tế bào pokemon ôi chúa ơi, điều đó thật
+that's annoying so  ➤  khó chịu vì vậy
+xcode just crashed on me  ➤  xcode vừa đâm vào tôi,
+which is unfortunate so bear with me one  ➤  thật không may, vì vậy hãy kiên nhẫn với tôi một
+second guys  ➤  giây, các bạn chết tiệt,
+damn it pokedex swift ui  ➤  pokedex swift ui
+tutorial xcode project  ➤  hướng dẫn dự án xcode
+so i don't know what it is with this  ➤  vì vậy tôi không biết nó là gì với
+version of xcode but  ➤  phiên bản xcode này nhưng đó là
+that just randomly crashes  ➤  thứ chết tiệt  đôi khi chỉ bị treo ngẫu nhiên
+sometimes and it's  ➤  và nó
+pretty annoying but i mean  ➤  khá khó chịu nhưng ý tôi
+that's just xcode for you  ➤  là đó chỉ là xcode cho bạn
+one of the few complaints that i have  ➤  một trong số ít những lời phàn nàn mà tôi có
+about it  ➤  về nó
+and it doesn't even want to open for me  ➤  và nó thậm chí không muốn mở cho tôi
+so just bear with me while i get this  ➤  vì vậy hãy chịu đựng tôi trong khi tôi
+open back up guys  ➤  mở nó lên  Vì
+so basically what we want to do now is  ➤  vậy, về cơ bản, những gì chúng tôi muốn làm bây giờ là
+apply the apply our model to  ➤  áp dụng mô hình của chúng tôi cho
+um and link it up to our view layer  ➤  um và liên kết nó với lớp chế độ xem của chúng tôi,
+right so we want to like populate each  ➤  vì vậy chúng tôi muốn điền vào
+one of these views  ➤  từng chế độ xem này
+with this pokemon object and have all of  ➤  với đối tượng pokemon này và có tất cả
+that stuff be dynamically populated  ➤  những thứ đó được điền động
+as uh for each one of these pokemon  ➤  như uh cho mỗi một trong những pokemon này, vì
+right so obviously the name is just  ➤  vậy rõ ràng tên sẽ
+going to be  ➤
+whatever each one of the pokemon's name  ➤  giống như tên của mỗi pokemon
+is image url  ➤  là url hình ảnh
+for the image and type is going to be  ➤  cho hình ảnh và loại sẽ là
+string  ➤  chuỗi
+before we actually uh introduce the  ➤  trước khi chúng tôi thực sự giới thiệu
+concept of an image url  ➤  khái niệm về url hình ảnh
+we're just going to you know keep the  ➤  chúng tôi  Bạn sẽ biết rằng hãy giữ
+stock image of bulbasaur  ➤  hình ảnh lưu trữ của bulbasaur
+because this isn't going to be  ➤  vì điều này sẽ không
+functional until we actually apply our  ➤  hoạt động cho đến khi chúng tôi thực sự áp dụng lớp mạng của mình
+network layer  ➤
+and get the image url for each one of  ➤  và lấy url hình ảnh cho từng con
+these pokemon so  ➤  pokemon này, vì
+um let me go ahead and create some mock  ➤  vậy, hãy để tôi tiếp tục và tạo một số mô phỏng
+pokemon  ➤  pokemon,
+so let's say let  ➤  vì vậy hãy giả sử
+mock actually we'll do that in a second  ➤  thực sự chúng ta sẽ làm điều đó trong giây lát,
+let's just go back to our cell so view  ➤  hãy quay lại ô của chúng ta để xem ô
+pokemon cell and what we want to do is  ➤  pokemon và những gì chúng ta muốn làm là
+require that this pokemon cell be  ➤  yêu cầu ô pokemon này được
+initialized with a pokemon  ➤  khởi tạo với một pokemon,
+so we're just going to go up to the top  ➤  vì vậy chúng ta sẽ thực hiện  đi lên trên cùng
+here and say let pokemon  ➤  ở đây và nói hãy để pokemon
+be equal to pokemon right and if we go  ➤  bằng pokemon phải không và nếu chúng ta
+ahead and hit command b  ➤  tiếp tục và nhấn lệnh b,
+we're going to get some errors so  ➤  chúng ta sẽ gặp một số lỗi nên
+error it's not telling you exactly what  ➤  lỗi vẫn chưa cho bạn biết chính xác
+yet but basically  ➤  nhưng về cơ bản
+now we can't initialize this pokemon  ➤  bây giờ chúng ta không thể khởi tạo cái này
+cell without passing in a pokemon to it  ➤  ô pokemon mà không chuyển pokemon vào đó
+but before we get to that we're going to  ➤  nhưng trước khi chúng tôi làm được điều đó, chúng tôi sẽ
+go here and we're going to replace this  ➤  đến đây và chúng tôi sẽ thay thế
+text  ➤  văn bản này
+with pokemon dot name  ➤  bằng tên dấu chấm pokemon được
+got capitalized so whatever pokemon we  ➤  viết hoa nên bất kỳ pokemon nào chúng tôi
+pass in to the cell guys  ➤  chuyển cho các ô đó sẽ là
+it's going to populate this text right  ➤  điền văn bản này ngay
+here with the pokemon's name  ➤  tại đây với tên của pokemon
+and it's going to capitalize the first  ➤  và nó sẽ viết
+letter for us now  ➤  hoa chữ cái đầu tiên cho chúng tôi bây giờ ở
+here we want each pokemon's type so  ➤  đây chúng tôi muốn loại của từng pokemon vì vậy
+we're going to go ahead here and just  ➤  chúng tôi sẽ tiếp tục ở đây và chỉ cần
+say pokemon.type  ➤  nói pokemon.type
+and then here we're going to keep this  ➤  và sau đó chúng tôi sẽ giữ nguyên ở đây  đây
+as  ➤
+just that for now and then  ➤  chỉ là điều đó cho bây giờ và sau đó,
+um what i want us to do is  ➤  ừm, điều tôi muốn chúng ta làm là
+you know now we're going to create sort  ➤  bạn biết đấy, bây giờ chúng ta sẽ tạo ra một
+of like some mock pokemon  ➤  số giống như một số pokemon giả
+to actually see what this looks like  ➤  để thực sự xem nó trông như thế nào
+before we apply our networking layer  ➤  trước khi chúng ta áp dụng lớp mạng của mình,
+so go back to your model and let's just  ➤  vì vậy hãy quay lại mô hình của bạn  và hãy
+say let mock  ➤  nói giả sử
+pokemon be an array  ➤  pokemon là một mảng
+of pokemon  ➤  pokemon
+and do this like bracket opening like  ➤  và làm điều này giống như mở dấu ngoặc như
+that and just say dot init  ➤  thế và chỉ cần nói dot init
+and just do this and for the id say  ➤  và chỉ cần làm điều này và đối với id nói
+zero name you can say bulbasaur  ➤  tên không, bạn có thể nói url hình ảnh bulbasaur
+[Music]  ➤  [Âm nhạc]
+image url we're just gonna say one  ➤  chúng ta sẽ chỉ  giả sử một
+type is poison  ➤  loại là chất độc
+and then add a comma there and then  ➤  và sau đó thêm dấu phẩy vào đó, sau đó
+we're just gonna  ➤  chúng ta sẽ sao
+copy and paste this a bunch of times  ➤  chép và dán cái này nhiều lần
+right so each one of these guys has to  ➤  để mỗi người trong số những người này phải
+have a unique identifier  ➤  có một mã định danh duy nhất,
+i think five's enough for now  ➤  tôi nghĩ bây giờ năm cái là đủ
+so this mock pokemon array is just gonna  ➤  nên mảng pokemon giả này  sẽ chỉ
+give us  ➤  cung cấp cho chúng tôi
+like some mock data so here i can say  ➤  một số dữ liệu giả, vì vậy ở đây tôi có thể nói
+ivysaur  ➤  ivysaur
+keep the image url as one for now  ➤  giữ url hình ảnh như một
+because like i said we don't actually  ➤  vì như tôi đã nói, chúng tôi chưa thực sự
+have these images yet  ➤  có những hình ảnh này
+uh poison yeah that's fine  ➤  uh độc, vâng, tốt thôi,
+then this guy venusaur  ➤  anh chàng venusaur này,
+poison this guy we can make charmander  ➤  chúng ta có thể đầu độc anh chàng này  tạo charmander cho
+this guy we can make charmeleon  ➤  anh chàng này, chúng ta có thể tạo charmeleon
+in this guy we can make charizard  ➤  trong anh chàng này, chúng ta có thể tạo ra
+type is going to be fire fire  ➤  loại charizard sẽ là fire fire
+fire okay and then here just delete the  ➤  fire được rồi ở đây chỉ cần xóa
+comma on the last one  ➤  dấu phẩy ở cái cuối cùng
+and go ahead and uh go back to your  ➤  và tiếp tục và uh quay lại ô pokemon của bạn
+pokemon cell  ➤
+and then for the pokemon preview  ➤  và sau đó cho  bản xem trước pokemon
+we can now pass in one of these mock  ➤  bây giờ chúng ta có thể chuyển vào một trong
+pokemon from that array  ➤  những pokemon giả này từ mảng đó,
+so we're gonna say pokemon mock pokemon  ➤  vì vậy chúng ta sẽ nói pokemon giả pokemon
+and you can go ahead and say like give  ➤  và bạn có thể tiếp tục và nói như đưa cho
+me the  ➤  tôi
+the pokemon from index three  ➤  pokemon từ chỉ số ba, hãy
+go ahead and resume  ➤  tiếp tục và tiếp tục
+try again oops  ➤  thử lại.
+uh yeah so this also has  ➤  cái này cũng có
+a an error here so we can go ahead here  ➤  lỗi ở đây nên chúng ta có thể tiếp tục ở đây
+and say pokemon  ➤  và nói pokemon
+mock pokemon and then just go ahead here  ➤  giả pokemon và sau đó chỉ cần tiếp tục ở đây
+and say like give it the second one  ➤  và nói như đưa nó cái thứ hai
+and you guys should notice that some  ➤  và các bạn nên chú ý rằng một số
+different data starts coming up  ➤  dữ liệu khác nhau bắt đầu xuất hiện
+uh based on what we put in this sort of  ➤  uh dựa trên những gì chúng ta đặt  trong loại mảng pokemon lau này này,
+mop pokemon array hey  ➤
+eleven pro max sorry guys bear with me  ➤  mười một người chuyên nghiệp, xin lỗi các bạn, xin lỗi,
+it's not my fault it's xcodes  ➤  đó không phải là lỗi của tôi, đó là xcodes,
+all right um and while that loads  ➤  ừm và trong khi nó tải
+all right so you guys can see here that  ➤  ổn, vì vậy các bạn có thể thấy ở đây
+like it now is saying venusaur  ➤  giống như bây giờ nó đang nói venusaur
+if i were to you know do this with like  ➤  nếu tôi là bạn biết  làm điều này với
+uh four  ➤  khoảng bốn,
+it will say charmeleon and the type  ➤  nó sẽ nói charmeleon và loại
+changes here right so  ➤  thay đổi ở đây ngay
+now we notice that some of our data is  ➤  bây giờ, chúng tôi nhận thấy rằng một số dữ liệu của chúng tôi đang
+getting dynamically populated  ➤  được phổ biến động,
+which is pretty cool um so  ➤  điều này khá tuyệt, vì vậy
+now what we're going to do is actually  ➤  bây giờ những gì chúng tôi sẽ làm thực sự là
+introduce our networking layer  ➤  giới thiệu lớp mạng của chúng tôi
+and actually go ahead and fetch all of  ➤  và  thực sự hãy tiếp tục và tìm nạp tất cả
+these pokemon  ➤  các pokemon này
+from our api so really quickly guys i  ➤  từ api của chúng tôi, thực sự rất nhanh các bạn ạ, tôi
+have all of this  ➤  có tất cả
+json just sort of racked together here  ➤  json này sắp xếp cùng nhau ở đây
+and the url is in the description to  ➤  và url nằm trong phần mô tả của
+this video  ➤  video này,
+where all of this json or this json  ➤  nơi đặt tất cả json này hoặc điểm cuối json này
+endpoint is located  ➤
+if you guys want to see what this looks  ➤  nếu  các bạn muốn xem nó trông như thế nào
+like in more of a pretty printed version  ➤  trong một phiên bản in đẹp hơn,
+just go ahead and copy and paste this  ➤  chỉ cần tiếp tục, sao chép và dán
+link into your browser  ➤  liên kết này vào trình duyệt của bạn,
+hit command a to select all this stuff  ➤  nhấn lệnh a để chọn tất cả nội dung này
+and then i like using this  ➤  và sau đó tôi thích sử dụng
+json formatter um i'll apply i'll supply  ➤  trình định dạng json này ừm, tôi sẽ áp dụng  Tôi cũng sẽ cung cấp
+the link to this guy as well  ➤  liên kết tới anh chàng này, đó
+it's jsonformatter.curiousconcept.com  ➤  là jsonformatter.curiousconcept.com
+if you paste all of your raw json in  ➤  nếu bạn dán tất cả json thô của mình vào
+here and hit  ➤  đây và nhấn
+process it will actually like uh  ➤  process, nó sẽ thực sự giống như uh, hãy
+let me process this guy right  ➤  để tôi xử lý anh chàng này ngay
+so it'll actually process that data for  ➤  để nó thực sự xử lý dữ liệu đó cho
+you  ➤  bạn
+and give you some like object notation  ➤  và cung cấp cho bạn một số ký hiệu đối tượng
+of um what your json data looks like  ➤  giống như dữ liệu json của bạn trông giống
+in more of like a like a pretty printed  ➤  như một phiên bản được in đẹp hơn,
+version  ➤
+so we have like evolution chain height  ➤  vì vậy chúng tôi có chiều cao chuỗi tiến hóa
+id image url  ➤  id hình ảnh tên url
+name type weight all that stuff so this  ➤  trọng lượng tất cả những thứ đó vì vậy đây
+is all the json  ➤  là tất cả json
+that is represented in this url endpoint  ➤  được đại diện  trong điểm cuối url này
+here  ➤  ở đây,
+so now that we've done that  ➤  vì vậy bây giờ chúng ta đã hoàn thành việc đó,
+let's go back here and go to our view  ➤  hãy quay lại đây và chuyển đến mô hình chế độ xem của chúng ta
+model  ➤
+and we're going to hit command and  ➤  và chúng ta sẽ nhấn lệnh và
+introduce a new file called pokemon  ➤  giới thiệu một tệp mới có tên là
+view model  ➤  mô hình chế độ xem pokemon
+um so let's see let me open mine up  ➤  ừm, vậy hãy xem để tôi mở của tôi
+okay so let's import swift ui  ➤  nhé.  Vì vậy, hãy nhập Swift ui
+up at the top say class  ➤  lên trên cùng, nói
+pokemon viewmodel  ➤  mô hình chế độ xem pokemon của lớp
+and make it an observable object  ➤  và biến nó thành một đối tượng có thể quan sát được
+and then we're going to say at published  ➤  và sau đó chúng ta sẽ nói rằng
+var  ➤  var
+pokemon equals an empty array of pokemon  ➤  pokemon đã xuất bản bằng một mảng pokemon trống,
+so if you guys haven't seen this stuff  ➤  vì vậy nếu các bạn chưa xem nội dung này
+before i will  ➤  trước đây, tôi sẽ
+explain it a little bit later on really  ➤  giải thích nó một chút sau đó thực sự
+quickly  ➤  nhanh chóng, có
+it's like a little bit difficult to wrap  ➤  vẻ như hơi khó hiểu
+your head around but once  ➤  nhưng một khi
+you get the concept down it's not that  ➤  bạn nắm được khái niệm thì nó không
+hard to understand  ➤  khó hiểu lắm
+and it's going to be easier to  ➤  và sẽ dễ
+understand once we complete  ➤  hiểu hơn khi chúng ta hoàn thành
+the full life cycle of the project so  ➤  toàn bộ vòng đời của  dự án rất
+really quickly guys  ➤  nhanh các bạn
+as a like some sort of uh no no no don't  ➤  giống như một số loại uh không không không
+make it global  ➤  làm cho nó toàn cầu,
+let's go ahead here and say let base url  ➤  hãy tiếp tục ở đây và nói hãy để url cơ sở
+equal  ➤  bằng nhau
+and i'm going to copy and paste this guy  ➤  và tôi sẽ sao chép và dán anh chàng này
+like i said this is available to you in  ➤  như tôi đã nói cái này có sẵn cho bạn  trong
+the description to this video  ➤  phần mô tả của video này,
+so just go ahead and wrap it in quotes  ➤  vì vậy hãy tiếp tục và đặt nó trong dấu ngoặc kép
+okay so this is the url that all of our  ➤  nhé, vì vậy đây là url chứa tất cả
+json data is located at so right here  ➤  dữ liệu json của chúng ta nên ngay tại đây,
+we're going to write a function to fetch  ➤  chúng ta sẽ viết một hàm để tìm nạp
+our pokemon  ➤  pokemon của mình,
+so i'm going to say guard let url equal  ➤  vì vậy tôi sẽ  để nói rằng hãy bảo vệ, hãy để url bằng
+url  ➤
+string and then pass in our base url  ➤  chuỗi url và sau đó chuyển vào url cơ sở của chúng tôi, nếu không, hãy quay lại sau đó tôi sẽ nói rằng
+else return  ➤
+then i'm going to say url session  ➤
+dot shared that data task  ➤
+with request oops  ➤
+data task  ➤
+this guy so select with requests  ➤
+completion handler and all that stuff  ➤  phiên url.
+um wait uh  ➤  uh,
+i think it's we can just pass in our url  ➤  tôi nghĩ rằng chúng ta có thể chuyển lỗi phản hồi dữ liệu url của chúng ta,
+data response  ➤
+error in all right just go ahead and hit  ➤  chỉ cần tiếp tục và nhấn
+command b to make sure we have no errors  ➤  lệnh b để đảm bảo rằng chúng ta không có lỗi
+here right  ➤  ở đây, vì
+so for those of you who don't know  ➤  vậy đối với những người không biết
+what's going on we are essentially  ➤  chuyện gì đang xảy ra, về cơ bản chúng ta
+just creating a url request to retrieve  ➤  chỉ  tạo một yêu cầu url để truy xuất
+all of the data from this this endpoint  ➤  tất cả dữ liệu từ điểm cuối này
+right here so we want to get all of that  ➤  ngay tại đây, vì vậy chúng tôi muốn đưa tất cả
+data into our app  ➤  dữ liệu đó vào ứng dụng của mình
+and then we're going to map all of that  ➤  và sau đó chúng tôi sẽ ánh xạ tất cả
+incoming data into  ➤  dữ liệu đến đó vào
+an array of pokemon using this pokemon  ➤  một mảng pokemon bằng cách sử dụng
+model that we just created so this  ➤  mô hình pokemon này  mà chúng tôi vừa tạo nên về
+we essentially want to create this like  ➤  cơ bản, chúng tôi muốn tạo mảng này giống như
+mock pokemon  ➤
+array but we want it to be populated  ➤  mảng pokemon giả nhưng chúng tôi muốn nó được phổ biến
+with  ➤  với
+you know data that we're actually  ➤  bạn biết dữ liệu mà chúng tôi thực sự
+getting from our api not data that we  ➤  nhận được từ api của chúng tôi chứ không phải dữ liệu mà chúng tôi
+just create  ➤  chỉ tạo
+manually so in here  ➤  thủ công nên ở đây
+we're going to say guard let data equal  ➤  chúng tôi sẽ  để nói bảo vệ hãy để dữ liệu bằng nhau,
+data  ➤  dữ liệu
+else return  ➤  khác trả về
+and then we're going to say guard let  ➤  và sau đó chúng ta sẽ nói bảo vệ hãy để
+pokemon equal try  ➤  pokemon bằng thử
+json decoder dot decode  ➤
+array of pokemon.cell oops  ➤  bộ giải mã json dot giải mã mảng của pokemon.cell Rất
+welcome damn it it has to be  ➤  tiếc, nó phải là
+capital p pokemon dot self from  ➤  vốn p pokemon tự chấm từ
+data and then we're going to say  ➤  dữ liệu và sau đó chúng ta'  tôi sẽ nói
+dispatch  ➤  công văn
+q dot main dot async  ➤  q dot main dot async
+self.pokemon equals pokemon and do not  ➤  self.pokemon bằng pokemon và đừng
+forget to say dot resume  ➤  quên nói dot tiếp tục
+all right guys so in theory this  ➤  nhé các bạn, vì vậy về lý thuyết, điều này
+should work but unfortunately  ➤  sẽ hoạt động nhưng thật không may,
+the data is a little bit janky  ➤  dữ liệu hơi lộn xộn
+in our uh in our json so we have this  ➤  trong json của chúng tôi, vì vậy chúng tôi có  Điều này
+annoying like  ➤  gây phiền nhiễu như
+null guy here so basically what i did  ➤  anh chàng null ở đây, vì vậy về cơ bản những gì tôi đã làm
+was i created all this data in firebase  ➤  là tôi đã tạo tất cả dữ liệu này trong firebase
+and then this is like the rest api  ➤  và sau đó đây giống như phiên bản api còn lại
+version of that data  ➤  của dữ liệu đó
+and i did that because you don't really  ➤  và tôi đã làm điều đó bởi vì bạn không thực sự
+want to have to you know  ➤  muốn bạn biết
+i didn't want to have to integrate  ➤  tôi đã làm '  Tôi không muốn tích hợp
+firebase into our project just to get  ➤  firebase vào dự án của chúng tôi chỉ để lấy
+all this data  ➤  tất cả dữ liệu này
+but for some reason they put null right  ➤  nhưng vì một số lý do, họ đặt null ngay
+there so we have to remove  ➤  tại đó nên chúng tôi phải xóa
+that null and comma just to get all  ➤  null và dấu phẩy đó chỉ để lấy tất
+of this uh json data so  ➤  cả dữ liệu uh json này, vì vậy
+if you guys go back to the json  ➤  nếu các bạn quay lại
+formatter you can see this  ➤  trình định dạng json, bạn có thể thấy
+null guy right here and that's pretty  ➤  anh chàng null này ngay tại đây và điều đó khá
+annoying so basically  ➤  khó chịu nên về cơ bản,
+we just have to write a little function  ➤  chúng tôi chỉ cần viết một hàm nhỏ
+to  ➤  để
+um remove that from the json data that  ➤  loại bỏ nó khỏi dữ liệu json mà
+we get back  ➤  chúng tôi lấy lại,
+so i'm going to write this quick  ➤  vì vậy tôi sẽ viết tiện ích mở rộng nhanh này
+extension  ➤
+and it's going to be on data it's going  ➤  và nó sẽ  để có dữ liệu, nó sẽ
+to say funk  ➤  nói
+parse data and we're going to just  ➤  dữ liệu phân tích cú pháp funk và chúng tôi sẽ
+remove a string  ➤  xóa một chuỗi
+from the data block and it's going to  ➤  khỏi khối dữ liệu và nó sẽ
+return an  ➤  trả về một
+optional data object so i'm going to say  ➤  đối tượng dữ liệu tùy chọn, vì vậy tôi sẽ nói
+let data as string equal  ➤  hãy để dữ liệu dưới dạng chuỗi
+string data self  ➤  tự mã hóa dữ liệu chuỗi bằng nhau
+encoding is utf-8  ➤  là utf-8
+let parsed data string  ➤  hãy để chuỗi dữ liệu được phân tích cú pháp bằng
+equal data as string dot replacing  ➤  dữ liệu dưới dạng chuỗi dấu chấm thay thế
+occurrences of our string  ➤  các lần xuất hiện của chuỗi của chúng tôi
+with not with just a blank string  ➤  bằng không chỉ bằng một chuỗi trống,
+then we're going to say guard let data  ➤  sau đó chúng tôi sẽ nói rằng hãy bảo vệ hãy để dữ liệu bằng
+equal  ➤
+parsed data string  ➤  chuỗi dữ liệu được phân tích cú pháp dữ liệu dấu chấm
+dot data using utf-8  ➤  bằng cách sử dụng utf-8 nếu
+else return nil  ➤  không thì trả về con số không
+then we're going to say return data so  ➤  thì chúng tôi  'sẽ nói dữ liệu trả về, vì vậy
+basically guys what we just did there  ➤  về cơ bản, những gì chúng tôi vừa làm ở đó
+was we are gonna look at  ➤  là chúng tôi sẽ xem
+you know the data that we get back which  ➤  bạn biết dữ liệu mà chúng tôi lấy lại
+is gonna be this guy  ➤  sẽ là anh chàng này
+and it's gonna give us back all you know  ➤  và nó sẽ trả lại cho chúng tôi tất cả
+this  ➤
+stuff here and then we're just gonna we  ➤  những gì bạn biết ở đây và sau đó chúng tôi  'Chúng tôi sẽ
+created this function to be able to  ➤  tạo chức năng này để có thể
+remove  ➤  xóa
+a string from that data and we want to  ➤  một chuỗi khỏi dữ liệu đó và chúng tôi muốn
+remove that  ➤  xóa
+null in the comma so we're going to call  ➤  null đó trong dấu phẩy, vì vậy chúng tôi sẽ gọi
+this function  ➤
+part called parse data and we're going  ➤  phần chức năng này được gọi là dữ liệu phân tích cú pháp và chúng tôi sẽ
+to remove  ➤  xóa
+that string from it and then convert it  ➤  chuỗi đó  từ nó và sau đó chuyển đổi nó
+back to a data object and return that  ➤  trở lại thành một đối tượng dữ liệu và trả lại
+that way we can decode our pokemon  ➤  theo cách đó chúng ta có thể giải mã đối tượng pokemon của mình
+object from that data  ➤  từ dữ liệu đó,
+so here all you have to do is go and say  ➤  vì vậy, ở đây tất cả những gì bạn phải làm là đi và nói
+data.parse  ➤  data.parse
+data remove string and say null  ➤  data remove string và nói
+comma okay and that looks pretty  ➤  dấu phẩy null được rồi và có vẻ như vậy  khá
+good  ➤  tốt,
+so let's go ahead and see how we're  ➤  vì vậy hãy tiếp tục và xem chúng ta
+actually going to apply  ➤  sẽ thực sự áp dụng
+this now so we're going to go back to  ➤  điều này như thế nào ngay bây giờ vì vậy chúng ta sẽ quay lại
+our view god dammit xcode crashed on me  ➤
+again what the dude  ➤
+pokedex swift ui tutorial.xcode project  ➤  chế độ xem của mình.
+it's like so ridiculous that that  ➤  thật nực cười khi điều đó
+happens i don't understand what the hell  ➤  xảy ra, tôi không hiểu chuyện quái quỷ gì
+is happening there  ➤  đang xảy ra ở đó
+but anyway guys um so  ➤  nhưng dù sao thì các bạn ừm, vì vậy
+after we fetch that data then  ➤  sau khi chúng tôi lấy dữ liệu đó,
+what we need to do is actually populate  ➤  điều chúng tôi cần làm là thực sự đưa vào
+our screen our main screen here  ➤  màn hình của chúng tôi màn hình chính của chúng tôi ở đây
+with all of that uh that array of  ➤  với tất cả dàn
+pokemon that we get back  ➤  pokemon đó.  chúng ta quay lại
+so let's see still being an to  ➤  vì vậy hãy xem tôi vẫn là một thằng khốn nạn,
+me  ➤
+sorry for the inconvenience here guys or  ➤  xin lỗi vì sự bất tiện ở đây các bạn hay
+just blame apple  ➤  chỉ đổ lỗi cho quả táo chết tiệt
+not me  ➤  không phải tôi, vậy
+all right so um now  ➤  nên bây giờ
+when we call this fetch pokemon function  ➤  khi chúng ta gọi chức năng tìm nạp pokemon này,
+it's going to reach out to the api  ➤  nó sẽ tiếp cận với api,
+it's going to parse that data for us so  ➤  nó sẽ phân tích cú pháp đó  dữ liệu cho chúng tôi để
+it gives it back to us in the right  ➤  nó trả lại cho chúng tôi ở định dạng phù hợp
+format  ➤
+and then we're going to in this guard  ➤  và sau đó chúng tôi sẽ thực hiện trong tuyên bố bảo vệ này,
+statement it's going to use all that  ➤  nó sẽ sử dụng tất cả
+data  ➤  dữ liệu đó
+and it's going to use our json decoder  ➤  và nó sẽ sử dụng bộ giải mã json của chúng tôi
+and give us back an array of pokemon  ➤  và trả lại cho chúng tôi một mảng pokemon.
+so that's the whole reason we conform to  ➤  toàn bộ lý do chúng tôi tuân theo
+the decodable protocol here  ➤  giao thức có thể giải mã ở đây
+if you guys aren't familiar with this i  ➤  nếu các bạn không quen với điều này, tôi
+can't explain everything in this video  ➤  không thể giải thích mọi thứ trong video này
+but essentially it just looks at the raw  ➤  nhưng về cơ bản, nó chỉ xem xét
+data that you get back  ➤  dữ liệu thô mà bạn nhận được
+and if these uh properties match up with  ➤  và liệu các thuộc tính uh này có khớp với
+what comes back from the data it  ➤  những gì  trở lại từ dữ liệu, nó
+automatically assigns the properties  ➤  tự động gán các thuộc tính
+to that pokemon object so  ➤  cho đối tượng pokemon đó, vì vậy
+then we reload the data on the main  ➤  sau đó chúng tôi tải lại dữ liệu trên
+thread and say self.pokemon equals  ➤  luồng chính và nói self.pokemon bằng
+pokemon  ➤  pokemon
+and what is self.pokemon it's this  ➤  và self.pokemon là gì, đây là
+published variable here  ➤  biến đã xuất bản ở đây
+so basically this published variable  ➤  nên về cơ bản, biến đã xuất bản này
+guys is  ➤  sẽ
+going to be applied in our pokemon view  ➤  diễn ra  được áp dụng trong chế độ xem pokemon của chúng tôi,
+so i'm going to go back to our sorry our  ➤  vì vậy tôi sẽ quay lại chế độ xem pokedex xin lỗi của chúng tôi vì vậy
+pokedex  ➤
+view so here we're going to  ➤  ở đây chúng tôi sẽ
+create our view model in our pokedex  ➤  tạo mô hình chế độ xem của chúng tôi trong chế độ xem pokedex của chúng tôi
+view so i'm going to say  ➤  vì vậy tôi sẽ nói
+at observed object var  ➤  ở đối tượng được quan sát
+view model equals pokemon  ➤  mô hình chế độ xem var bằng
+view model  ➤  mô hình xem pokemon
+[Applause]  ➤  [Vỗ tay]
+and just go ahead and build that to make  ➤  và chỉ cần tiếp tục và xây dựng nó để
+sure everything  ➤  đảm bảo mọi thứ
+is working  ➤  đang hoạt động
+and it says build succeeded which is  ➤  và nó nói rằng quá trình xây dựng đã thành công, điều đó thật
+awesome so  ➤  tuyệt vời vì vậy
+basically guys we just need to modify  ➤  về cơ bản, chúng ta chỉ cần sửa đổi
+this for loop here now  ➤  điều này cho vòng lặp ở đây ngay bây giờ
+so instead of just saying for each and  ➤  thay vì chỉ nói cho từng và
+just having some  ➤  chỉ cần có  một số
+static you know set of indexes or  ➤  tĩnh mà bạn biết tập hợp các chỉ mục hoặc
+indices  ➤  chỉ số, chúng
+we're going to say view model dot  ➤  tôi sẽ nói mô hình xem pokemon chấm
+pokemon  ➤
+and then we're going to replace this  ➤  và sau đó chúng tôi sẽ thay thế
+underscore with a pokemon  ➤  dấu gạch dưới này bằng một pokemon
+and then here instead of picking from  ➤  và sau đó ở đây thay vì chọn từ
+our mock pokemon data  ➤  dữ liệu pokemon giả của chúng tôi,
+we're just going to say pokemon and  ➤  chúng tôi sẽ nói  pokemon và
+build that  ➤  xây dựng nó
+and everything should be fine and i just  ➤  và mọi thứ sẽ ổn và tôi chỉ
+want to go ahead and make sure this  ➤  muốn tiếp tục và đảm bảo rằng nó
+works before we move forward  ➤  hoạt động trước khi chúng tôi tiếp tục,
+so we're going to replace our content  ➤  vì vậy chúng tôi sẽ thay thế chế độ xem nội dung của chúng tôi
+view  ➤
+as the root view with our pokedex view  ➤  dưới dạng chế độ xem gốc bằng chế độ xem pokedex của chúng tôi,
+so just hop here  ➤  vì vậy chỉ cần truy cập vào đây
+and into the pokedex swift ui tutorial  ➤  và vào  pokedex swift ui tệp ứng dụng hướng dẫn
+app file  ➤
+and just go ahead and replace that with  ➤  và chỉ cần tiếp tục và thay thế tệp đó bằng
+you know your root view  ➤  chế độ xem gốc của bạn
+if you guys did all that in the content  ➤  nếu các bạn đã làm tất cả điều đó trong
+view it's fine i just wanted to show you  ➤  chế độ xem nội dung thì tốt thôi, tôi chỉ muốn chỉ cho bạn
+how to do that right there and let's  ➤  cách thực hiện điều đó ngay tại đó và chúng ta hãy
+actually  ➤  thực sự
+freaking run this thing i don't know if  ➤  chạy thứ này  Tôi không biết liệu
+we've actually run this guy yet  ➤  chúng ta đã thực sự chạy anh chàng này chưa,
+um let me do it on the 11 pro max  ➤  hãy để tôi làm điều đó trên 11 pro max
+because i already have that simulator  ➤  vì tôi đã mở trình giả lập đó
+open  ➤
+and let's see what happens  ➤  và hãy xem điều gì sẽ xảy ra
+and nothing is actually going to happen  ➤  và sẽ không có gì thực sự xảy ra
+right now because  ➤  ngay bây giờ vì
+that api call has not fired off  ➤  cuộc gọi api đó đã  không bị tắt
+so here we can just go ahead and say  ➤  vì vậy ở đây chúng ta có thể tiếp tục và nói
+init  ➤  init
+and then call fetch pokemon so you know  ➤  và sau đó gọi tìm nạp pokemon để bạn biết
+basically fetch pokemon has to get  ➤  về cơ bản tìm nạp pokemon phải được
+called in order for all this stuff to  ➤  gọi để tất cả những thứ này
+work  ➤  hoạt động
+so now that we've done that  ➤  vì vậy bây giờ chúng ta đã hoàn thành việc
+run it again  ➤  chạy lại
+and it should start looking a little bit  ➤  và nó nên  bắt đầu trông đẹp hơn một chút
+better  ➤
+so this is really cool guys like we're  ➤  vì vậy đây thực sự là những người tuyệt vời như chúng ta đang
+noticing  ➤  nhận thấy
+that all of these cells are now  ➤  rằng tất cả các ô này hiện đang
+populating with some dynamic data you  ➤  điền một số dữ liệu động, bạn
+can see the types here are custom  ➤  có thể thấy các loại ở đây là tùy chỉnh,
+the names are custom but the background  ➤  tên là tùy chỉnh nhưng ô nền có
+cell the background color  ➤  màu nền
+and the pictures still need to be  ➤  và  hình ảnh vẫn cần được
+populated with the correct data so  ➤  điền với dữ liệu chính xác, vì vậy
+that's what we're going to do next and  ➤  đó là những gì chúng ta sẽ làm tiếp theo và
+then i'm  ➤  sau đó tôi
+going to go over and explain the concept  ➤  sẽ xem xét và giải thích khái niệm
+between  ➤  giữa
+uh behind this published bar and this  ➤  uh đằng sau thanh đã xuất bản này và
+observable object stuff  ➤  nội dung đối tượng có thể quan sát này,
+so if we go back to our pokemon object  ➤  vì vậy nếu chúng ta quay lại  đối tượng pokemon của chúng tôi,
+we have this  ➤  chúng tôi có
+image url property right here guys but  ➤  thuộc tính url hình ảnh này ngay tại đây, nhưng
+back in our pokemon cell  ➤  quay lại ô pokemon của chúng tôi,
+we're just having each one of our images  ➤  chúng tôi chỉ có mỗi một hình ảnh của chúng tôi
+being populated with the  ➤  được phổ biến với
+asset that we have locally in our  ➤  nội dung mà chúng tôi có cục bộ trong
+project what we want to do is actually  ➤  dự án của mình, điều chúng tôi muốn làm là thực sự
+be able to  ➤  có thể
+have our project process and download an  ➤  có quy trình dự án của chúng tôi và tải xuống một
+image url so the concept of an image url  ➤  url hình ảnh, vì vậy khái niệm url hình ảnh
+is your image is located somewhere on  ➤  là hình ảnh của bạn được đặt ở đâu đó trên
+the internet  ➤  internet
+and it has a url location and  ➤  và nó có một vị trí url và
+uh basically we want to add some  ➤  về cơ bản, chúng tôi muốn thêm một số
+functionality to our app where we can  ➤  chức năng vào ứng dụng của mình, nơi chúng tôi có thể
+take that url in and download the image  ➤  lấy url đó trong  và tải hình ảnh
+to our application  ➤  xuống ứng dụng của chúng tôi,
+so in order to do that i'm going to have  ➤  vì vậy để làm được điều đó, tôi sẽ yêu cầu
+us go ahead and install  ➤  chúng tôi tiếp tục và cài đặt
+a swift package so go to file  ➤  một gói Swift, vì vậy hãy chuyển đến tệp
+hit swift packages and go to add package  ➤  nhấn các gói Swift và đi đến phần
+dependency  ➤  phụ thuộc gói
+and i'm going to go ahead and paste this  ➤  và tôi sẽ tiếp tục và dán
+guy in here and something called  ➤  anh chàng này ở đây và một thứ gọi là
+kingfisher and guys you can get the link  ➤  chim bói cá và các bạn có thể lấy liên kết
+to this this the guy the url i just  ➤  đến anh chàng này url tôi vừa
+pasted in there  ➤  dán vào đó
+in the description to this video so  ➤  trong phần mô tả của video này nên
+essentially a swift package  ➤  về cơ bản, một gói Swift
+is the equivalent of a cocoapod it's  ➤  tương đương với một chiếc ca cao, nó
+like dropping a third-party api into our  ➤  giống như đánh rơi một phần ba-  bên vào ứng dụng của chúng tôi
+application  ➤
+and this is essentially what we're going  ➤  và đây thực chất là những gì chúng tôi sẽ
+to use to manage our  ➤  sử dụng để quản lý
+image loading right and the reason it's  ➤  quyền tải hình ảnh của mình và lý do
+better to use a third-party api for this  ➤  tốt hơn là sử dụng api của bên thứ ba cho việc này
+is because it has a bunch of  ➤  là vì nó có rất nhiều
+functionality that you're going to want  ➤  chức năng mà bạn sẽ sử dụng  muốn
+when it comes to downloading images in  ➤  tải xuống hình ảnh trong
+your project like image caching  ➤  dự án của bạn như lưu trữ hình ảnh
+and doing it in the most efficient way  ➤  và thực hiện nó theo cách hiệu quả nhất
+possible and instead of writing that  ➤  có thể và thay vì
+image  ➤
+networking layer yourself you can just  ➤  tự viết lớp mạng hình ảnh đó, bạn có thể chỉ cần
+follow these couple easy steps to do it  ➤  làm theo vài bước đơn giản sau để thực hiện,
+so go ahead and just select kingfisher  ➤  vì vậy hãy tiếp tục và chỉ cần chọn bói cá nhanh chóng
+swift ui  ➤  ui
+after you paste that in there and it  ➤  sau khi bạn dán nó vào đó và nó
+should download that swift package for  ➤  sẽ tải xuống gói Swift đó cho
+you  ➤  bạn
+and um now we're going to use this  ➤  và bây giờ chúng ta sẽ sử dụng
+pokemon image url  ➤  url hình ảnh pokemon này
+and we're going to use this kingfisher  ➤  và chúng ta sẽ sử dụng hướng dẫn chim bói cá này
+guide to actually download the correct  ➤  để thực sự tải xuống
+image for us  ➤  hình ảnh chính xác cho chúng ta,
+so let's go back to our pokemon cell and  ➤  vì vậy hãy bắt đầu  quay lại ô pokemon của chúng tôi và
+up at the top go ahead and just say  ➤  lên trên cùng, hãy tiếp tục và chỉ cần nói
+import kingfisher  ➤  import kingfisher
+swift ui so you guys will notice that  ➤  swift ui để các bạn sẽ nhận thấy rằng
+you can now import this module  ➤  bây giờ bạn có thể nhập mô-đun này
+into your project because we just  ➤  vào dự án của mình vì chúng tôi vừa
+downloaded this swift package dependency  ➤  tải xuống phần phụ thuộc gói swift này
+so um now go ahead here and  ➤  nên bây giờ hãy tiếp tục ở đây và
+replace image with kf image  ➤  thay thế  hình ảnh với hình ảnh kf
+and then you're going to just say  ➤  và sau đó bạn sẽ chỉ nói
+url string  ➤  url chuỗi url
+pokemon dot image url  ➤  pokemon chấm url hình ảnh
+just like that and you guys will notice  ➤  giống như vậy và các bạn sẽ nhận thấy
+that if you run your project again  ➤  rằng nếu bạn chạy lại dự án của mình,
+you'll notice all the correct pokemon  ➤  bạn sẽ thấy tất cả
+images showing  ➤  các hình ảnh pokemon chính xác hiển
+up in your project so you notice it  ➤  thị trong dự án của mình, vì vậy bạn  lưu ý rằng
+takes a second to load  ➤  phải mất một giây để tải
+and that's because it has to fetch all  ➤  và đó là bởi vì nó phải tìm nạp tất cả
+and download all of those images  ➤  và tải xuống tất cả những hình ảnh đó
+but um and you guys notice that if you  ➤  nhưng ừm và các bạn lưu ý rằng nếu bạn
+scroll really fast  ➤  cuộn thật nhanh
+like you can see the lazy v grid effect  ➤  như bạn có thể thấy hiệu ứng lưới v lười biếng
+happening here  ➤  xảy ra ở đây
+where you notice those images haven't  ➤  nơi bạn nhận thấy những hình ảnh đó  'không
+been loaded  ➤  được tải
+until these cells come into view on the  ➤  cho đến khi các ô này xuất hiện trên
+screen  ➤  màn hình
+right and you can see that because for a  ➤  bên phải và bạn có thể thấy điều đó bởi vì trong một
+second they're all blank  ➤  giây, tất cả chúng đều trống
+right and then the image shows up and  ➤  và sau đó hình ảnh hiển thị và
+that's because  ➤  đó là do
+the api calls the api call isn't being  ➤  cuộc gọi api cuộc gọi api không được
+made  ➤  thực hiện
+until it's necessary to make it aka when  ➤  cho đến khi  cần phải làm cho nó hay còn gọi là khi
+the cell comes on screen  ➤  ô xuất hiện trên màn hình
+but if you scroll back up you'll notice  ➤  nhưng nếu bạn cuộn ngược lên, bạn sẽ nhận thấy
+that all the images remain  ➤  rằng tất cả các hình ảnh vẫn
+there and that's because it has a  ➤  ở đó và đó là vì nó có
+caching function  ➤  chức năng lưu vào bộ đệm
+where if the image has already been  ➤  trong đó nếu hình ảnh đã được
+downloaded it gets put into a memory  ➤  tải xuống thì nó sẽ được đưa vào bộ nhớ
+cache so that it doesn't have to  ➤  bộ đệm để nó không phải
+reach out to the api and re-download the  ➤  tiếp cận với api và tải xuống lại
+image every time you bring the cell back  ➤  hình ảnh mỗi khi bạn đưa ô trở lại
+into view  ➤  chế độ xem, đó là
+so that's why it's helpful to just go  ➤  lý do tại sao bạn nên tiếp
+ahead and use the third party api  ➤  tục và sử dụng api của bên thứ ba
+for this image functionality so the last  ➤  cho chức năng hình ảnh này.  bước cuối cùng
+remaining step  ➤  còn lại
+is going to be um  ➤  sẽ là
+getting the correct background color for  ➤  lấy màu nền chính xác cho
+each one of our cells  ➤  từng ô của chúng ta,
+so i'm going to hop back into our  ➤  vì vậy tôi sẽ quay lại
+pokemon view model in order for us to do  ➤  mô hình chế độ xem pokemon của chúng ta để chúng ta thực hiện
+this  ➤  điều này, vì
+so let me open my code back up  ➤  vậy hãy để tôi mở mã sao lưu
+and essentially guys we're going to  ➤  và về cơ bản các bạn nhé  chúng ta sẽ
+create like a background color property  ➤  tạo giống như một thuộc tính màu nền
+on this um pokemon view model guy  ➤  trên anh chàng mô hình chế độ xem pokemon này,
+so we're going to say var background  ➤  vì vậy chúng ta sẽ nói màu nền var
+color  ➤
+and it's going to be a color  ➤  và nó sẽ là một màu
+and we're just going to do a switch on  ➤  và chúng ta sẽ thực hiện chuyển đổi
+uh  ➤  uh
+hmm let me see  ➤  hmm để tôi  xem
+pokemon.type  ➤  pokemon.type
+no that's not gonna work okay um  ➤  không, cái đó sẽ không hoạt động được đâu ừm
+so actually what i think i'm gonna do  ➤  vậy thực ra điều tôi nghĩ tôi sẽ làm là
+is you can go ahead and cut this guys  ➤  bạn có thể tiếp tục và cắt những người này,
+we're gonna create  ➤  chúng ta sẽ tạo ra
+um  ➤  một
+another struct for this  ➤  cấu trúc khác cho việc này, hãy để
+let me think about the best way to do  ➤  tôi nghĩ về cách tốt nhất để làm
+this so basically we want to determine  ➤  điều này  Vì vậy, về cơ bản, chúng tôi muốn xác định
+the background color based on  ➤  màu nền dựa trên
+the pokemon's type  ➤  loại của pokemon,
+um we can just write a function so let's  ➤  ừm, chúng tôi chỉ có thể viết một hàm, vậy giả
+say funk background color  ➤  sử màu nền funk
+for type type which is a string  ➤  cho loại loại là một chuỗi
+and it's going to return us with a color  ➤  và nó sẽ trả về cho chúng tôi một màu
+right so then let's just do a switch on  ➤  phù hợp, vậy hãy làm một  bật
+type  ➤  loại
+and we're going to say case fire  ➤  và chúng tôi sẽ nói case fire
+return dot red case  ➤  return dot red case
+poison return  ➤  Poison return
+dot green  ➤  dot green
+case water  ➤  case water
+[Music]  ➤  [Âm nhạc]
+return dot teal or actually guys go  ➤  return dot teal hoặc thực sự các bạn hãy
+ahead and make this  ➤  tiếp tục và tạo
+ui color because it gives us a little  ➤  màu giao diện người dùng này vì nó cho chúng ta
+bit more  ➤  thêm một chút
+color options and then here say system  ➤  tùy chọn màu sắc và sau đó  ở đây nói hệ thống
+red  ➤  màu đỏ
+here's a system green  ➤  đây là hệ thống màu xanh lá cây
+and then for water we're going to say  ➤  và sau đó đối với nước, chúng ta sẽ nói
+return dot system  ➤  trở lại hệ thống dấu chấm
+teal and you know i think you guys get  ➤  màu xanh mòng két và bạn biết đấy, tôi nghĩ các bạn đã hiểu
+the idea behind this i'm going to go  ➤  ý tưởng đằng sau điều này. Tôi sẽ tiếp
+ahead and just paste  ➤  tục và chỉ cần dán
+the rest of the stuff in here and you  ➤  phần còn lại của nội dung vào  ở đây và
+guys can just you know pause the video  ➤  các bạn có thể chỉ cần tạm dừng video
+and type it out i don't want to spend  ➤  và gõ nó ra tôi không muốn mất
+too much time  ➤  quá nhiều thời gian để
+typing this stuff out this video is  ➤  gõ nội dung này ra video này
+already getting pretty long  ➤  đã khá dài
+and default just say return dot system  ➤  và mặc định chỉ cần nói trở lại hệ thống dấu chấm
+indigo  ➤  indigo
+so let's just talk about this function  ➤  vì vậy chúng ta hãy nói về điều này  hoạt động
+really quickly before we implement it  ➤  rất nhanh trước khi chúng tôi triển khai nó,
+so basically we're going to call this  ➤  vì vậy về cơ bản, chúng tôi sẽ gọi hàm này
+function  ➤
+and it's going to ask us for a type  ➤  và nó sẽ hỏi chúng tôi về một loại,
+so we pass in that type and we're doing  ➤  vì vậy chúng tôi chuyển loại đó và chúng tôi đang
+a switch  ➤
+on it and we're saying hey whenever the  ➤  bật nó và chúng tôi sẽ nói xin chào bất cứ khi nào
+type is fire give me back  ➤  loại đó  là lửa trả lại cho tôi
+a red color when it's poison give me  ➤  màu đỏ khi nó là chất độc trả lại cho tôi màu
+back green when it's water give me oh  ➤  xanh lá cây khi nó là nước trả lại cho tôi ồ
+yes when it's water give me back blue uh  ➤  vâng khi nó là nước trả lại cho tôi màu xanh uh
+or teal  ➤  hoặc xanh mòng két
+we can replace this let's say system  ➤  chúng ta có thể thay thế cái này giả sử hệ thống có
+blue and then replace this guy with like  ➤  màu xanh lam và sau đó thay thế anh chàng này bằng
+system teal  ➤  hệ thống giống như màu xanh mòng
+i think that's better but anyway let's  ➤  két tôi  nghĩ rằng điều đó tốt hơn nhưng dù sao thì chúng ta hãy
+go ahead and see where we want to call  ➤  tiếp tục và xem nơi chúng ta muốn gọi
+this function  ➤  chức năng này
+so in our pokemon cell we this is where  ➤  vì vậy trong ô pokemon của chúng ta, đây là nơi
+we set the background color  ➤  chúng ta đặt màu nền
+right um  ➤  phù hợp,
+actually guys so we don't have access to  ➤  thực ra các bạn nên chúng ta không có quyền truy cập vào
+the pokemon view model here  ➤  mô hình chế độ xem pokemon ở đây
+and instead of creating an instance or  ➤  và thay vào đó  về việc tạo một phiên bản hoặc
+we could just say let  ➤  chúng ta có thể nói let
+view model pokemon view model  ➤  view model pokemon view model
+and then we could go down here and say  ➤  và sau đó chúng ta có thể đi xuống đây và nói
+view model  ➤  view model
+or we could say uh color  ➤  hoặc chúng ta có thể nói uh color
+view model dot background color for  ➤  view model dot background color for
+pokemon.type  ➤  pokemon.type
+and let's go ahead and run this and see  ➤  và hãy tiếp tục và chạy cái này và xem
+if it works really quickly  ➤  nếu nó hoạt động thực sự nhanh chóng
+and it's not going to i'm going to  ➤  và nó sẽ không hoạt động, tôi sẽ
+delete the preview on the cell  ➤  xóa phần xem trước trên ô
+because you know we need to pass in a  ➤  vì bạn biết chúng ta cần chuyển vào một
+view model now  ➤  mô hình chế độ xem ngay bây giờ và
+and here view model  ➤  ở đây, chế độ xem mô hình,
+you can just go ahead and pass in our  ➤  bạn có thể tiếp tục và chuyển vào
+viewmodel guy  ➤  chế độ xem của chúng tôi, anh bạn hãy
+let me just close out the editor so we  ➤  để tôi  chỉ cần đóng trình chỉnh sửa để chúng tôi
+have more room to see the code  ➤  có nhiều chỗ hơn để xem mã
+and let's see if this works and then i'm  ➤  và hãy xem liệu nó có hoạt động không, sau đó tôi
+going to go back through and explain  ➤  sẽ quay lại và giải thích
+all of this stuff guys so you can see  ➤  tất cả những nội dung này để bạn có thể thấy
+all of this working really nicely now  ➤  tất cả những thứ này đang hoạt động rất tốt.
+we got this really cool visually  ➤
+appealing um  ➤
+sort of layout and uh there's one more  ➤  kiểu bố cục này thực sự rất hấp dẫn về mặt hình ảnh và uh, còn một
+thing we got to do  ➤  điều nữa chúng ta phải làm là
+go back to your pokemon cell and instead  ➤  quay lại ô pokemon của bạn và thay
+of just applying a  ➤  vì chỉ áp dụng một
+static green color um  ➤  màu xanh lá cây tĩnh,
+let's go up to the top here or  ➤  chúng ta hãy đi lên trên cùng ở đây hoặc
+yeah we we want to put this inside of  ➤  vâng, chúng tôi muốn đặt cái này  bên trong
+like a property  ➤  giống như một tài sản,
+so let me see if i can do that let color  ➤  vì vậy hãy để tôi xem liệu tôi có thể làm điều đó để màu sắc
+equal  ➤  bằng nhau
+and just put color in there that work  ➤  và chỉ cần đặt màu vào đó để hoạt động, vì
+so let's see if we can put this up at  ➤  vậy hãy xem liệu chúng ta có thể đưa cái này lên
+the top  ➤  trên cùng không,
+yeah i cannot use instance member  ➤  vâng, tôi không thể sử dụng pokemon thành viên cá thể
+pokemon  ➤
+so we could just init do an init guy  ➤  nên chúng ta có thể bắt đầu làm  một anh chàng init
+here  ➤  ở đây
+say pokemon pokemon view model  ➤  nói pokemon pokemon view model
+view model pokemon view model  ➤  view model pokemon view model
+and then i can say let color  ➤  và sau đó tôi có thể nói hãy để màu
+like this we can call it background  ➤  như thế này, chúng ta có thể gọi nó là màu nền
+color  ➤
+to be more specific then i'll just go  ➤  để cụ thể hơn, sau đó tôi sẽ chỉ vào
+here and say self.pokemon equals pokemon  ➤  đây và nói self.pokemon bằng pokemon
+self.viewmodel equals viewmodel and  ➤  self.viewmodel  bằng với viewmodel và
+self.color  ➤  self.color
+or backgroundcolor  ➤  hoặc backgroundcolor
+equals and then i can copy and paste  ➤  bằng nhau và sau đó tôi có thể sao chép và dán
+this guy in there and delete this guy  ➤  anh chàng này vào đó và xóa anh chàng này
+here okay so  ➤  ở đây, vậy
+now we can go ahead and place this  ➤  bây giờ chúng ta có thể tiếp tục và đặt
+background color  ➤  màu nền này
+here and we can also place it  ➤  ở đây và chúng ta cũng có thể đặt nó
+right there  ➤  ngay tại đó
+right because you guys will notice that  ➤  bởi vì các bạn  sẽ nhận thấy rằng
+each one of our cells has a shadow color  ➤  mỗi ô của chúng ta có màu bóng là
+of green but we want it to have a shadow  ➤  xanh lục nhưng chúng ta muốn nó có
+color of whatever the background color  ➤  màu bóng tương ứng với bất kỳ màu nền nào
+of the cell is  ➤  của ô, vì
+so we just created this uh sort of class  ➤  vậy chúng ta chỉ cần tạo uh loại thuộc
+level property here  ➤  tính cấp lớp này ở đây
+in this initializer so we can have  ➤  trong bộ khởi tạo này để chúng ta có thể  có quyền
+access to that in multiple places  ➤  truy cập vào đó ở nhiều nơi,
+so we don't have to copy and paste this  ➤  vì vậy chúng tôi không phải sao chép và dán
+ugly  ➤
+like big block of code or line of code  ➤  khối mã hoặc dòng mã xấu xí này
+in multiple places so now if we run our  ➤  vào nhiều nơi, vì vậy bây giờ nếu chúng tôi chạy mã của mình,
+code guys  ➤
+the project should be complete so if you  ➤  dự án sẽ hoàn tất, vì vậy nếu bạn
+understand everything that's going on  ➤  hiểu mọi thứ thì đó là  tiếp tục
+uh you don't need to stick around for  ➤  uh bạn không cần phải chờ đợi
+the explanations because that's all the  ➤  những lời giải thích vì đó là tất cả
+rest of this video is going to be  ➤  phần còn lại của video này.
+um i hope you guys enjoyed it if you  ➤  Tôi hy vọng các bạn sẽ thích nó nếu bạn
+choose to leave now  ➤  chọn rời đi ngay bây giờ
+but if you want to stick around for some  ➤  nhưng nếu bạn muốn xem một số
+explanations  ➤  lời giải thích thì
+um it's going to take about another you  ➤  ừm  bạn biết đấy, sẽ mất khoảng
+know three to four minutes or  ➤  ba đến bốn phút nữa hoặc
+maybe less to to explain everything we  ➤  có thể ít hơn để giải thích mọi thứ chúng tôi
+just did  ➤  vừa làm
+so really quickly i told you guys i was  ➤  rất nhanh, tôi đã nói với các bạn rằng tôi
+going to explain  ➤  sẽ giải thích
+the concept of this published variable  ➤  khái niệm về biến được công bố này
+in this observable object guys so this  ➤  trong đối tượng có thể quan sát này, vì vậy đây
+is a  ➤  là một
+concept that is unique to swift ui  ➤  khái niệm  đó là duy nhất đối với Swift ui
+and the concept of declarative or  ➤  và khái niệm về lập trình khai báo hoặc
+reactive programming  ➤  phản ứng,
+right so basically we're declaring this  ➤  vì vậy về cơ bản, chúng tôi đang khai báo
+pokemon view model to be an observable  ➤  mô hình chế độ xem pokemon này là một
+observable object  ➤  đối tượng có thể quan sát được
+and then over in our pokedex view  ➤  và sau đó trong chế độ xem pokedex của chúng tôi,
+we create this observed object and then  ➤  chúng tôi tạo đối tượng được quan sát này và sau đó
+create  ➤  tạo
+an instance of our viewmodel so  ➤  một phiên bản của chúng tôi  viewmodel, vì vậy
+we're saying that this viewmodel  ➤  chúng tôi đang nói rằng viewmodel này
+conforms to or inherits from the  ➤  tuân theo hoặc kế thừa từ
+observable object  ➤
+superclass and then when we create it in  ➤  lớp cha đối tượng có thể quan sát được và sau đó khi chúng tôi tạo nó trong
+the view  ➤  chế độ xem,
+it's an observed object so basically  ➤  nó là một đối tượng được quan sát nên về cơ bản giống như
+the like how this all comes together is  ➤  cách tất cả điều này kết hợp với nhau
+that when you have a published variable  ➤  khi bạn có một biến được xuất bản
+like this  ➤  như thế này
+on an observable object class whenever  ➤  trên một lớp đối tượng có thể quan sát bất cứ khi nào
+this guy gets  ➤  anh chàng này bị
+changed whether things get added to it  ➤  thay đổi cho dù mọi thứ được thêm vào nó,
+things get removed from it  ➤  mọi thứ sẽ bị xóa khỏi nó
+or it starts out as empty and then we  ➤  hay nó bắt đầu trống rỗng và sau đó chúng tôi
+populate it using an api call  ➤  điền vào nó bằng lệnh gọi api
+when you have a reference to that view  ➤  khi bạn có tham chiếu đến mô hình chế độ xem đó
+model  ➤
+inside of your view and you're doing  ➤  bên trong chế độ xem của mình và  bạn đang làm
+something with that published variable  ➤  gì đó với biến đã xuất bản đó
+so you know when this app starts out  ➤  để bạn biết khi ứng dụng này bắt đầu
+pokemon is  ➤  pokemon
+empty and then we have to reach out to  ➤  trống và sau đó chúng tôi phải liên hệ với
+our api  ➤  api của mình để
+get all that data that we need import it  ➤  lấy tất cả dữ liệu mà chúng tôi cần nhập
+into our application  ➤  vào ứng dụng của chúng tôi
+parse all of the data and map it into  ➤  phân tích tất cả dữ liệu và ánh xạ nó  vào
+our  ➤
+desired custom object of this pokemon  ➤  đối tượng tùy chỉnh mong muốn của chúng tôi về
+guy so that takes a little bit of time  ➤  anh chàng pokemon này, do đó sẽ mất một chút thời gian
+even if it's just a second if it's half  ➤  ngay cả khi chỉ là một giây nếu chỉ nửa
+a second the bottom line is  ➤  giây thì điểm mấu chốt là
+this array starts out as empty and then  ➤  mảng này bắt đầu trống và sau đó
+when it gets populated um  ➤  khi nó được đưa vào
+back in our view it's going to say hey  ➤  lại trong chế độ xem của chúng tôi thì đó là  Tôi sẽ nói này,
+this is a published variable that is  ➤  đây là một biến đã xuất bản, là
+part  ➤
+of an ob of an observable object  ➤  một phần của ob của một đối tượng có thể quan sát được
+and this view model has been declared as  ➤  và mô hình chế độ xem này đã được khai báo là
+an observed object meaning  ➤  một đối tượng được quan sát, nghĩa
+hey we're sort of listening for changes  ➤  là chúng tôi đang lắng nghe những thay đổi
+that happen  ➤  xảy ra
+with this view model so when that  ➤  với mô hình chế độ xem này vì vậy khi
+pokemon guide gets published or when it  ➤  pokemon đó  hướng dẫn được xuất bản hoặc khi nó
+gets set  ➤  được thiết lập
+right then this for each loop  ➤  đúng thì điều này cho mỗi vòng lặp
+is going to get executed again  ➤  sẽ được thực hiện lại
+and it's gonna say okay hey now this  ➤  và nó sẽ ổn thôi, bây giờ
+pokemon  ➤
+array has a bunch of things in it so now  ➤  mảng pokemon này có rất nhiều thứ trong đó, vì vậy bây giờ
+we're gonna do a for each loop on it  ➤  chúng ta sẽ thực hiện cho mỗi vòng lặp trên đó
+and we're gonna look at each one of the  ➤  và chúng ta sẽ xem xét từng con
+pokemon inside of that  ➤  pokemon bên trong cái đó
+for inside of that for each loop and now  ➤  để biết bên trong cái đó cho mỗi vòng lặp và bây giờ
+we're going to create  ➤  chúng ta sẽ tạo
+a pokemon cell using each one of those  ➤  một ô pokemon bằng cách sử dụng từng con pokemon đó
+pokemon  ➤
+so really quickly just to do a recap on  ➤  thật nhanh chỉ để tóm tắt
+everything i just said  ➤  mọi thứ tôi  như đã nói về
+is basically this view model is  ➤  cơ bản, mô hình khung nhìn này là
+something that we're listening  ➤  thứ mà chúng ta đang lắng nghe
+to changes on right it's an observable  ➤  những thay đổi bên phải, nó là một đối tượng có thể quan sát được
+object  ➤
+and then in the view class you say hey  ➤  và sau đó trong lớp khung nhìn, bạn nói này,
+we are observing this guy so you have to  ➤  chúng ta đang quan sát anh chàng này, vì vậy bạn phải
+declare  ➤  khai báo
+it as something that is observable and  ➤  nó là thứ có thể quan sát được và
+then in the view  ➤  sau đó trong  chế độ xem
+you have to actually observe it right  ➤  bạn phải thực sự quan sát nó đúng
+just because it's observable doesn't  ➤  chỉ vì nó có thể quan sát được không có
+mean it's actually being listened to  ➤  nghĩa là nó thực sự được lắng nghe
+by anything just because someone's  ➤  bởi bất cứ thứ gì chỉ vì ai đó
+talking doesn't mean anyone's actually  ➤  đang nói không có nghĩa là có ai đó thực sự
+listening to them  ➤  lắng nghe họ
+you need a talker and a listener right  ➤  bạn cần một người nói và một người nghe đúng
+so this pokemon view model guy is  ➤  vậy mô hình chế độ xem pokemon này  anh chàng
+essentially  ➤  về cơ bản là
+the talker right it's observable and  ➤  người nói chuyện, nó có thể quan sát được và
+then in the pokedex view it's observed  ➤  sau đó trong chế độ xem pokedex, nó được quan sát,
+so  ➤  vì vậy
+then you have your published variable of  ➤  bạn có biến pokemon đã xuất bản của mình,
+pokemon  ➤
+meaning that hey because it's part of an  ➤  nghĩa là vì nó là một phần của
+observable object whenever it gets  ➤  đối tượng có thể quan sát bất cứ khi nào nó được
+published or whenever it gets set  ➤  xuất bản hoặc bất cứ khi nào nó được thiết lập
+then we're going to reconfigure our view  ➤  thì chúng ta sẽ  định cấu hình lại chế độ xem của chúng tôi
+with  ➤  với
+this pokemon array so back here  ➤  mảng pokemon này, vì vậy ở đây
+you know inside of our scroll view we  ➤  bạn biết bên trong chế độ xem cuộn của chúng tôi, chúng tôi
+have this lazy v grid  ➤  có lưới v lười biếng này
+and we have that for each loop on the  ➤  và chúng tôi có lưới đó cho mỗi vòng lặp trên
+viewmodel.pokemon guy so if i hold down  ➤  anh chàng viewmodel.pokemon vì vậy nếu tôi giữ
+option and click on it it's a pokemon  ➤  tùy chọn và nhấp vào nó thì đó là một pokemon
+you know get set guy right so  ➤  bạn  biết cách thiết lập đúng,
+that means that whenever it gets updated  ➤  điều đó có nghĩa là bất cứ khi nào nó được cập nhật,
+we're going to re-listen to all those  ➤  chúng tôi sẽ lắng nghe lại tất cả
+changes  ➤  những thay đổi đó,
+do a for loop through each one of those  ➤  thực hiện một vòng lặp for qua từng
+pokemon items  ➤  mục pokemon đó,
+look at each pokemon and go into this  ➤  nhìn vào từng pokemon và đi vào khối này
+block  ➤
+and then create our pokemon cell where  ➤  rồi tạo pokemon của chúng ta  ô nơi
+we pass in the pokemon  ➤  chúng tôi chuyển pokemon vào
+and that's how each one of these guys  ➤  và đó là cách mỗi người trong số những người này
+gets populated with our dynamic pokemon  ➤  được phổ biến dữ liệu pokemon động của chúng tôi
+data and we passed in this view model  ➤  và chúng tôi chuyển vào mô hình chế độ xem này
+because we need a reference to it to be  ➤  vì chúng tôi cần tham chiếu đến nó để có
+able to get the background color  ➤  thể lấy đúng màu nền
+right so we put this function for  ➤  nên chúng tôi đặt chức năng này  để
+getting the background color  ➤  lấy màu nền
+on each one of our pokemon we switch  ➤  cho mỗi pokemon của chúng ta, chúng ta chuyển
+through the type property  ➤  qua thuộc tính type
+which is right here and it's just a  ➤  ở ngay đây và nó chỉ là một
+string  ➤  chuỗi,
+um ideally you guys would want to make  ➤  ừm, lý tưởng nhất là các bạn muốn biến
+this an enumeration  ➤  điều này thành một bảng liệt kê
+but you know i didn't really want to  ➤  nhưng bạn biết đấy, tôi thực sự không muốn
+take the time to do that this is just  ➤  dành thời gian  để làm điều đó, đây chỉ là
+sort of more of a quick fix  ➤  một cách khắc phục nhanh hơn
+for it and uh so yeah  ➤  cho nó và uh, vâng,
+you do that and then  ➤  bạn làm điều đó và sau đó
+each one of our pokemon cells gets  ➤  mỗi ô pokemon của chúng ta được
+populated with a pokemon and a viewmodel  ➤  điền bằng một pokemon và một chế độ xem
+and it has to have a background color  ➤  và nó phải có màu nền
+and in the initializer block  ➤  và trong trình khởi tạo  chặn,
+we set the background color to be equal  ➤  chúng tôi đặt màu nền bằng
+to the viewmodel background color  ➤  với màu nền của chế độ xem mô hình
+guy and then here you know we  ➤  và sau đó, bạn biết đấy, chúng tôi
+dynamically  ➤  tự động
+populate all of our data and use this  ➤  điền tất cả dữ liệu của mình và sử dụng thuộc
+kingfisher image property  ➤  tính hình ảnh chim bói cá này
+to download our images from our api  ➤  để tải xuống hình ảnh của chúng tôi từ api của chúng tôi
+so that's going to wrap it up for this  ➤  để hoàn thiện nó cho
+video guys like i said  ➤  video này  những người như tôi đã nói
+if you want the completed version of the  ➤  nếu bạn muốn phiên bản hoàn chỉnh của
+app where you can actually  ➤  ứng dụng, nơi bạn thực sự có thể
+apply some awesome filters here to you  ➤  áp dụng một số bộ lọc tuyệt vời ở đây.
+know  ➤
+add some cooler functionality to the app  ➤
+and uh you know bring it to life a  ➤
+little bit more where you can actually  ➤
+you know click on pokemon and get some  ➤  nhấp vào pokemon và nhận một số
+details about them  ➤  thông tin chi tiết về chúng
+just like this that's going to be  ➤  giống như thế này sẽ
+available  ➤  có
+on my website at stefancodes.com shop  ➤  trên trang web của tôi tại cửa hàng stefancodes.com,
+where you can purchase the completed  ➤  nơi bạn có thể mua mã nguồn đã hoàn thành
+source code for the whole project  ➤  cho toàn bộ dự án,
+um so i hope you guys like this video  ➤  vì vậy tôi hy vọng các bạn thích video này.
+you know  ➤
+if you do go ahead and subscribe to the  ➤  hãy tiếp tục và đăng ký
+channel there's gonna be a lot more  ➤  kênh, sẽ có nhiều
+stuff like this coming out  ➤  nội dung tương tự như thế này sắp ra mắt và
+also don't forget to check me out on  ➤  đừng quên theo dõi tôi trên
+instagram  ➤  instagram
+uh my personal instagram is linked in  ➤  uh instagram cá nhân của tôi được liên kết trong
+the description here  ➤  phần mô tả ở đây
+it's just you know stefan.dallas and  ➤  chỉ là bạn biết stefan.dallas và
+then my  ➤  sau đó là của tôi
+app stuff instagram is appstuffllc  ➤  nội dung ứng dụng instagram là appstuffllc
+and like i said don't forget to  ➤  và như tôi đã nói, đừng quên
+subscribe to the channel guys appreciate  ➤  đăng ký kênh, mọi người, đánh giá cao
+your support  ➤  sự hỗ trợ của bạn,
+also don't forget to check out my  ➤  cũng đừng quên xem
+courses on udemy  ➤  các khóa học của tôi trên udemy,
+links to all that stuff is in the  ➤  liên kết đến tất cả nội dung đó
+description as well  ➤  cũng có trong phần mô tả.
+so that's going to be it for this one  ➤  nó cho một
+guys we'll see you later peace out  ➤  người này, chúng tôi sẽ gặp lại bạn sau hòa bình
