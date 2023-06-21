@@ -16,6 +16,9 @@
 		941A7DDD2A43784E0078ACF2 /* docs.md in Resources */ = {isa = PBXBuildFile; fileRef = 94B04ADD2A41195C007FAB49 /* docs.md */; };
 		941A7DDF2A4379460078ACF2 /* The Happiness Expert That Made 51 Million People Happier.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DDE2A4379460078ACF2 /* The Happiness Expert That Made 51 Million People Happier.txt */; };
 		941A7DE52A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DE42A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt */; };
+		941A7DE72A437B000078ACF2 /* The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DE62A437B000078ACF2 /* The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt */; };
+		941A7DE92A437BFE0078ACF2 /* Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DE82A437BFE0078ACF2 /* Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt */; };
+		941A7DEB2A437D110078ACF2 /* Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DEA2A437D110078ACF2 /* Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt */; };
 		942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */; };
 		942F0A1D2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */; };
 		942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */; };
@@ -78,6 +81,9 @@
 		941A7DDB2A43781A0078ACF2 /* The Number One Reason Why You’re Not Succeeding .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Number One Reason Why You’re Not Succeeding .txt"; sourceTree = "<group>"; };
 		941A7DDE2A4379460078ACF2 /* The Happiness Expert That Made 51 Million People Happier.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Happiness Expert That Made 51 Million People Happier.txt"; sourceTree = "<group>"; };
 		941A7DE42A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Marketing Secrets Apple & Tesla Always Use.txt"; sourceTree = "<group>"; };
+		941A7DE62A437B000078ACF2 /* The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt"; sourceTree = "<group>"; };
+		941A7DE82A437BFE0078ACF2 /* Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt"; sourceTree = "<group>"; };
+		941A7DEA2A437D110078ACF2 /* Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt"; sourceTree = "<group>"; };
 		942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt"; sourceTree = "<group>"; };
 		942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt"; sourceTree = "<group>"; };
 		942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt"; sourceTree = "<group>"; };
@@ -198,6 +204,9 @@
 		941A7DE32A4379C40078ACF2 /* chapter4 */ = {
 			isa = PBXGroup;
 			children = (
+				941A7DEA2A437D110078ACF2 /* Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt */,
+				941A7DE82A437BFE0078ACF2 /* Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt */,
+				941A7DE62A437B000078ACF2 /* The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt */,
 				941A7DE42A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt */,
 				941A7DDE2A4379460078ACF2 /* The Happiness Expert That Made 51 Million People Happier.txt */,
 			);
@@ -243,7 +252,6 @@
 		94E751832A407A7100F20840 /* Conversation🌸 */ = {
 			isa = PBXGroup;
 			children = (
-				94B04ADD2A41195C007FAB49 /* docs.md */,
 				942F0A262A40AEA000E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 21 to 35 [DownSub.com].txt */,
 				942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */,
 				942F0A3C2A40B6F500E50FDE /* [English (auto-generated)-Vietnamese] English Conversation_ Learn while you Sleep - Fast Vocabulary Increase with Jessica [DownSub.com].txt */,
@@ -282,6 +290,7 @@
 		94EBDF512A3D73A70095C776 /* EnglishSearch */ = {
 			isa = PBXGroup;
 			children = (
+				94B04ADD2A41195C007FAB49 /* docs.md */,
 				94D8CD512A42000E004BE080 /* Podcast🌺 */,
 				94E751832A407A7100F20840 /* Conversation🌸 */,
 				94779E842A3DD6EE001DEFEA /* Code🌼 */,
@@ -368,12 +377,14 @@
 			files = (
 				941A7DDA2A43776B0078ACF2 /* Opens Up About His Struggle With Loneliness, Love & Dating! | E230.txt in Resources */,
 				941A7DD22A436A750078ACF2 /* How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt in Resources */,
+				941A7DE92A437BFE0078ACF2 /* Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt in Resources */,
 				94D8CD442A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt in Resources */,
 				94D8CD572A420121004BE080 /* [English]S03E02 Grit & Growth _ Executive Coaching_ From Self-Doubt to Self-Awareness[Checksub.com].txt in Resources */,
 				942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */,
 				94D8CD732A4205D1004BE080 /* [English]The Inside Scoop on the SEC with Former Commissioner Allison Herren Lee[Checksub.com].txt in Resources */,
 				94D8CD4E2A41F882004BE080 /* [English]Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5[Checksub.com].txt in Resources */,
 				941A7DDC2A43781A0078ACF2 /* The Number One Reason Why You’re Not Succeeding .txt in Resources */,
+				941A7DE72A437B000078ACF2 /* The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt in Resources */,
 				942F0A2F2A40B29A00E50FDE /* [English (auto-generated)-Vietnamese] Advanced English Conversation_ Talking Jobs and Time Off (British & American English with subtitles) [DownSub.com].txt in Resources */,
 				94D8CD482A41EED6004BE080 /* [English]LIVE Job Interview For Senior Software Engineering Position!![Checksub.com].txt in Resources */,
 				94779E952A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt in Resources */,
@@ -413,6 +424,7 @@
 				94B04AE32A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt in Resources */,
 				942F0A392A40B5D500E50FDE /* [English (auto-generated)] 200 English Questions and Answers and more for Everyday Conversation by Topic [DownSub.com].txt in Resources */,
 				948178812A4219E800FF2130 /* [English]S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship[Checksub.com].txt in Resources */,
+				941A7DEB2A437D110078ACF2 /* Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt in Resources */,
 				94D8CD8F2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt in Resources */,
 				94D8CD672A4203E1004BE080 /* [English]Whitney Wolfe, Founder and CEO of Bumble and Co-Founder of Tinder[Checksub.com].txt in Resources */,
 				942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */,
