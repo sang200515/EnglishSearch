@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941A7DD22A436A750078ACF2 /* How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DD12A436A750078ACF2 /* How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt */; };
+		941A7DD42A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DD32A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt */; };
+		941A7DD62A43718C0078ACF2 /* The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DD52A4371880078ACF2 /* The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt */; };
+		941A7DD82A43764D0078ACF2 /* Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DD72A43764D0078ACF2 /* Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt */; };
 		942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */; };
 		942F0A1D2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */; };
 		942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */; };
@@ -61,6 +65,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		941A7DD12A436A750078ACF2 /* How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt"; sourceTree = "<group>"; };
+		941A7DD32A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Barbara Corcoran Turning $1,000 to $1Billion  E204.txt"; sourceTree = "<group>"; };
+		941A7DD52A4371880078ACF2 /* The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt"; sourceTree = "<group>"; };
+		941A7DD72A43764D0078ACF2 /* Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt"; sourceTree = "<group>"; };
 		942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt"; sourceTree = "<group>"; };
 		942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt"; sourceTree = "<group>"; };
 		942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt"; sourceTree = "<group>"; };
@@ -155,6 +163,10 @@
 		94D8CD512A42000E004BE080 /* Podcast🌺 */ = {
 			isa = PBXGroup;
 			children = (
+				941A7DD72A43764D0078ACF2 /* Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt */,
+				941A7DD52A4371880078ACF2 /* The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt */,
+				941A7DD32A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt */,
+				941A7DD12A436A750078ACF2 /* How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt */,
 				948178962A42247B00FF2130 /* [English]Learn English with Taylor Swift Talk Show - English Subtitles[Checksub.com].txt */,
 				948178932A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt */,
 				948178922A421F5100FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt */,
@@ -309,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941A7DD22A436A750078ACF2 /* How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt in Resources */,
 				94D8CD442A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt in Resources */,
 				94D8CD572A420121004BE080 /* [English]S03E02 Grit & Growth _ Executive Coaching_ From Self-Doubt to Self-Awareness[Checksub.com].txt in Resources */,
 				942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */,
@@ -320,8 +333,10 @@
 				94779E8D2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt in Resources */,
 				942F0A272A40AEA000E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 21 to 35 [DownSub.com].txt in Resources */,
 				94B04ADF2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt in Resources */,
+				941A7DD42A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt in Resources */,
 				94EBDF752A3D8CB20095C776 /* transcript2.pdf in Resources */,
 				948178952A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt in Resources */,
+				941A7DD82A43764D0078ACF2 /* Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt in Resources */,
 				942F0A452A40B8D700E50FDE /* [English (auto-generated)-Vietnamese] ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 [DownSub.com].txt in Resources */,
 				942F0A2B2A40B1D900E50FDE /* [English (auto-generated)-Vietnamese] Lisas real Sister! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */,
 				94D8CD632A420318004BE080 /* [English]Jennifer Hyman, Co-founder and CEO, Rent the Runway[Checksub.com].txt in Resources */,
@@ -337,6 +352,7 @@
 				94EBDF6F2A3D88CD0095C776 /* transcript2.txt in Resources */,
 				948178982A42247C00FF2130 /* [English]Learn English with Taylor Swift Talk Show - English Subtitles[Checksub.com].txt in Resources */,
 				94779E912A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt in Resources */,
+				941A7DD62A43718C0078ACF2 /* The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt in Resources */,
 				948178942A421F5200FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt in Resources */,
 				94D8CD8C2A420B12004BE080 /* [English]Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton[Checksub.com].txt in Resources */,
 				94D8CD7B2A420751004BE080 /* [English]Stanford Doerr School of Sustainability Chat with  John Doerr, Jon Levin, and Arun Majumdar[Checksub.com].txt in Resources */,
