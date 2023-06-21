@@ -11,6 +11,11 @@
 		941A7DD42A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DD32A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt */; };
 		941A7DD62A43718C0078ACF2 /* The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DD52A4371880078ACF2 /* The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt */; };
 		941A7DD82A43764D0078ACF2 /* Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DD72A43764D0078ACF2 /* Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt */; };
+		941A7DDA2A43776B0078ACF2 /* Opens Up About His Struggle With Loneliness, Love & Dating! | E230.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DD92A43776B0078ACF2 /* Opens Up About His Struggle With Loneliness, Love & Dating! | E230.txt */; };
+		941A7DDC2A43781A0078ACF2 /* The Number One Reason Why You’re Not Succeeding .txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DDB2A43781A0078ACF2 /* The Number One Reason Why You’re Not Succeeding .txt */; };
+		941A7DDD2A43784E0078ACF2 /* docs.md in Resources */ = {isa = PBXBuildFile; fileRef = 94B04ADD2A41195C007FAB49 /* docs.md */; };
+		941A7DDF2A4379460078ACF2 /* The Happiness Expert That Made 51 Million People Happier.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DDE2A4379460078ACF2 /* The Happiness Expert That Made 51 Million People Happier.txt */; };
+		941A7DE52A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DE42A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt */; };
 		942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */; };
 		942F0A1D2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */; };
 		942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */; };
@@ -69,6 +74,10 @@
 		941A7DD32A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Barbara Corcoran Turning $1,000 to $1Billion  E204.txt"; sourceTree = "<group>"; };
 		941A7DD52A4371880078ACF2 /* The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt"; sourceTree = "<group>"; };
 		941A7DD72A43764D0078ACF2 /* Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt"; sourceTree = "<group>"; };
+		941A7DD92A43776B0078ACF2 /* Opens Up About His Struggle With Loneliness, Love & Dating! | E230.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Opens Up About His Struggle With Loneliness, Love & Dating! | E230.txt"; sourceTree = "<group>"; };
+		941A7DDB2A43781A0078ACF2 /* The Number One Reason Why You’re Not Succeeding .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Number One Reason Why You’re Not Succeeding .txt"; sourceTree = "<group>"; };
+		941A7DDE2A4379460078ACF2 /* The Happiness Expert That Made 51 Million People Happier.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Happiness Expert That Made 51 Million People Happier.txt"; sourceTree = "<group>"; };
+		941A7DE42A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Marketing Secrets Apple & Tesla Always Use.txt"; sourceTree = "<group>"; };
 		942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt"; sourceTree = "<group>"; };
 		942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt"; sourceTree = "<group>"; };
 		942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt"; sourceTree = "<group>"; };
@@ -135,6 +144,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		941A7DE02A4379870078ACF2 /* chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				94D8CD762A420677004BE080 /* [English]Tristan Walker, CEO of Walker & Company_ The Problem with Sameness[Checksub.com].txt */,
+				94D8CD722A4205D1004BE080 /* [English]The Inside Scoop on the SEC with Former Commissioner Allison Herren Lee[Checksub.com].txt */,
+				94D8CD6E2A420539004BE080 /* [English]Cynt Marshall, CEO of the Dallas Mavericks[Checksub.com].txt */,
+				94D8CD6A2A420489004BE080 /* [English]Brian Chesky, Co-Founder and CEO of Airbnb_ Designing a 10-star Experience[Checksub.com].txt */,
+				94D8CD662A4203E1004BE080 /* [English]Whitney Wolfe, Founder and CEO of Bumble and Co-Founder of Tinder[Checksub.com].txt */,
+				94D8CD622A420318004BE080 /* [English]Jennifer Hyman, Co-founder and CEO, Rent the Runway[Checksub.com].txt */,
+				94D8CD5E2A42025A004BE080 /* [English]“Power” Fireside Chat_ Professor Jeff Pfeffer and Dean Jon Levin[Checksub.com].txt */,
+				94D8CD5A2A4201BA004BE080 /* [English]Jacqueline Novogratz, Founder and CEO of Acumen_ Balancing Humility with Audacity[Checksub.com].txt */,
+				94D8CD562A420121004BE080 /* [English]S03E02 Grit & Growth _ Executive Coaching_ From Self-Doubt to Self-Awareness[Checksub.com].txt */,
+				94D8CD522A420019004BE080 /* [English]S02E13 Grit & Growth _ Scaling Your Business_ It’s All About The People[Checksub.com].txt */,
+			);
+			path = chapter1;
+			sourceTree = "<group>";
+		};
+		941A7DE12A4379990078ACF2 /* chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				9481788B2A421D1900FF2130 /* [English]Apple CEO Tim Cook on The David Rubenstein Show[Checksub.com].txt */,
+				948178872A421BD100FF2130 /* [English]Ruth Zukerman, Co-Founder of SoulCycle and Flywheel Sports[Checksub.com].txt */,
+				9481787F2A4219E800FF2130 /* [English]S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship[Checksub.com].txt */,
+				9481787A2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt */,
+				94D8CD8E2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt */,
+				94D8CD8A2A420B12004BE080 /* [English]Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton[Checksub.com].txt */,
+				94D8CD862A420A3D004BE080 /* [English]Dean Jon Levin and Professor Neil Malhotra_ Social Innovation at the Stanford GSB[Checksub.com].txt */,
+				94D8CD822A42093D004BE080 /* [English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt */,
+				94D8CD7E2A42087C004BE080 /* [English]S02E06 Grit & Growth | Negotiation_ When to Stay and When to Walk Away[Checksub.com].txt */,
+				94D8CD7A2A420751004BE080 /* [English]Stanford Doerr School of Sustainability Chat with  John Doerr, Jon Levin, and Arun Majumdar[Checksub.com].txt */,
+			);
+			path = chapter2;
+			sourceTree = "<group>";
+		};
+		941A7DE22A4379AC0078ACF2 /* chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				941A7DDB2A43781A0078ACF2 /* The Number One Reason Why You’re Not Succeeding .txt */,
+				941A7DD92A43776B0078ACF2 /* Opens Up About His Struggle With Loneliness, Love & Dating! | E230.txt */,
+				941A7DD72A43764D0078ACF2 /* Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt */,
+				941A7DD52A4371880078ACF2 /* The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt */,
+				941A7DD32A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt */,
+				941A7DD12A436A750078ACF2 /* How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt */,
+				948178962A42247B00FF2130 /* [English]Learn English with Taylor Swift Talk Show - English Subtitles[Checksub.com].txt */,
+				948178932A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt */,
+				948178922A421F5100FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt */,
+				9481788E2A421E2800FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt */,
+			);
+			path = chapter3;
+			sourceTree = "<group>";
+		};
+		941A7DE32A4379C40078ACF2 /* chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+				941A7DE42A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt */,
+				941A7DDE2A4379460078ACF2 /* The Happiness Expert That Made 51 Million People Happier.txt */,
+			);
+			path = chapter4;
+			sourceTree = "<group>";
+		};
 		94779E842A3DD6EE001DEFEA /* Code🌼 */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,34 +232,10 @@
 		94D8CD512A42000E004BE080 /* Podcast🌺 */ = {
 			isa = PBXGroup;
 			children = (
-				941A7DD72A43764D0078ACF2 /* Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt */,
-				941A7DD52A4371880078ACF2 /* The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt */,
-				941A7DD32A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt */,
-				941A7DD12A436A750078ACF2 /* How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt */,
-				948178962A42247B00FF2130 /* [English]Learn English with Taylor Swift Talk Show - English Subtitles[Checksub.com].txt */,
-				948178932A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt */,
-				948178922A421F5100FF2130 /* [Vietnamese]The Talk Show Live From WWDC 2022[Checksub.com].txt */,
-				9481788E2A421E2800FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt */,
-				9481788B2A421D1900FF2130 /* [English]Apple CEO Tim Cook on The David Rubenstein Show[Checksub.com].txt */,
-				948178872A421BD100FF2130 /* [English]Ruth Zukerman, Co-Founder of SoulCycle and Flywheel Sports[Checksub.com].txt */,
-				9481787F2A4219E800FF2130 /* [English]S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship[Checksub.com].txt */,
-				9481787A2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt */,
-				94D8CD8E2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt */,
-				94D8CD8A2A420B12004BE080 /* [English]Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton[Checksub.com].txt */,
-				94D8CD862A420A3D004BE080 /* [English]Dean Jon Levin and Professor Neil Malhotra_ Social Innovation at the Stanford GSB[Checksub.com].txt */,
-				94D8CD822A42093D004BE080 /* [English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt */,
-				94D8CD7E2A42087C004BE080 /* [English]S02E06 Grit & Growth | Negotiation_ When to Stay and When to Walk Away[Checksub.com].txt */,
-				94D8CD7A2A420751004BE080 /* [English]Stanford Doerr School of Sustainability Chat with  John Doerr, Jon Levin, and Arun Majumdar[Checksub.com].txt */,
-				94D8CD762A420677004BE080 /* [English]Tristan Walker, CEO of Walker & Company_ The Problem with Sameness[Checksub.com].txt */,
-				94D8CD722A4205D1004BE080 /* [English]The Inside Scoop on the SEC with Former Commissioner Allison Herren Lee[Checksub.com].txt */,
-				94D8CD6E2A420539004BE080 /* [English]Cynt Marshall, CEO of the Dallas Mavericks[Checksub.com].txt */,
-				94D8CD6A2A420489004BE080 /* [English]Brian Chesky, Co-Founder and CEO of Airbnb_ Designing a 10-star Experience[Checksub.com].txt */,
-				94D8CD662A4203E1004BE080 /* [English]Whitney Wolfe, Founder and CEO of Bumble and Co-Founder of Tinder[Checksub.com].txt */,
-				94D8CD622A420318004BE080 /* [English]Jennifer Hyman, Co-founder and CEO, Rent the Runway[Checksub.com].txt */,
-				94D8CD5E2A42025A004BE080 /* [English]“Power” Fireside Chat_ Professor Jeff Pfeffer and Dean Jon Levin[Checksub.com].txt */,
-				94D8CD5A2A4201BA004BE080 /* [English]Jacqueline Novogratz, Founder and CEO of Acumen_ Balancing Humility with Audacity[Checksub.com].txt */,
-				94D8CD562A420121004BE080 /* [English]S03E02 Grit & Growth _ Executive Coaching_ From Self-Doubt to Self-Awareness[Checksub.com].txt */,
-				94D8CD522A420019004BE080 /* [English]S02E13 Grit & Growth _ Scaling Your Business_ It’s All About The People[Checksub.com].txt */,
+				941A7DE02A4379870078ACF2 /* chapter1 */,
+				941A7DE12A4379990078ACF2 /* chapter2 */,
+				941A7DE22A4379AC0078ACF2 /* chapter3 */,
+				941A7DE32A4379C40078ACF2 /* chapter4 */,
 			);
 			path = "Podcast🌺";
 			sourceTree = "<group>";
@@ -321,17 +366,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941A7DDA2A43776B0078ACF2 /* Opens Up About His Struggle With Loneliness, Love & Dating! | E230.txt in Resources */,
 				941A7DD22A436A750078ACF2 /* How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt in Resources */,
 				94D8CD442A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt in Resources */,
 				94D8CD572A420121004BE080 /* [English]S03E02 Grit & Growth _ Executive Coaching_ From Self-Doubt to Self-Awareness[Checksub.com].txt in Resources */,
 				942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */,
 				94D8CD732A4205D1004BE080 /* [English]The Inside Scoop on the SEC with Former Commissioner Allison Herren Lee[Checksub.com].txt in Resources */,
 				94D8CD4E2A41F882004BE080 /* [English]Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5[Checksub.com].txt in Resources */,
+				941A7DDC2A43781A0078ACF2 /* The Number One Reason Why You’re Not Succeeding .txt in Resources */,
 				942F0A2F2A40B29A00E50FDE /* [English (auto-generated)-Vietnamese] Advanced English Conversation_ Talking Jobs and Time Off (British & American English with subtitles) [DownSub.com].txt in Resources */,
 				94D8CD482A41EED6004BE080 /* [English]LIVE Job Interview For Senior Software Engineering Position!![Checksub.com].txt in Resources */,
 				94779E952A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt in Resources */,
 				94779E8D2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt in Resources */,
 				942F0A272A40AEA000E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 21 to 35 [DownSub.com].txt in Resources */,
+				941A7DDD2A43784E0078ACF2 /* docs.md in Resources */,
 				94B04ADF2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt in Resources */,
 				941A7DD42A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt in Resources */,
 				94EBDF752A3D8CB20095C776 /* transcript2.pdf in Resources */,
@@ -358,6 +406,7 @@
 				94D8CD7B2A420751004BE080 /* [English]Stanford Doerr School of Sustainability Chat with  John Doerr, Jon Levin, and Arun Majumdar[Checksub.com].txt in Resources */,
 				94D8CD832A42093D004BE080 /* [English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt in Resources */,
 				94D8CD7F2A42087C004BE080 /* [English]S02E06 Grit & Growth | Negotiation_ When to Stay and When to Walk Away[Checksub.com].txt in Resources */,
+				941A7DE52A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt in Resources */,
 				942F0A3D2A40B6F500E50FDE /* [English (auto-generated)-Vietnamese] English Conversation_ Learn while you Sleep - Fast Vocabulary Increase with Jessica [DownSub.com].txt in Resources */,
 				94D8CD5F2A42025A004BE080 /* [English]“Power” Fireside Chat_ Professor Jeff Pfeffer and Dean Jon Levin[Checksub.com].txt in Resources */,
 				942F0A292A40B13600E50FDE /* [English (auto-generated)-Vietnamese] 2 HOURS of English Conversation Dialogues Listening Practice [DownSub.com].txt in Resources */,
@@ -370,6 +419,7 @@
 				942F0A412A40B79400E50FDE /* [English (auto-generated)-Vietnamese] Daily English Conversation Practice by Topic - Questions and Answers in English Conversation [DownSub.com].txt in Resources */,
 				942F0A2D2A40B22800E50FDE /* [English (auto-generated)-Vietnamese] Clara is back! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */,
 				948178892A421BD100FF2130 /* [English]Ruth Zukerman, Co-Founder of SoulCycle and Flywheel Sports[Checksub.com].txt in Resources */,
+				941A7DDF2A4379460078ACF2 /* The Happiness Expert That Made 51 Million People Happier.txt in Resources */,
 				94D8CD532A420019004BE080 /* [English]S02E13 Grit & Growth _ Scaling Your Business_ It’s All About The People[Checksub.com].txt in Resources */,
 				94D8CD772A420677004BE080 /* [English]Tristan Walker, CEO of Walker & Company_ The Problem with Sameness[Checksub.com].txt in Resources */,
 				942F0A332A40B35C00E50FDE /* [English-Vietnamese] Speak With Me_ 2 Hour English Speaking Practice [DownSub.com].txt in Resources */,
