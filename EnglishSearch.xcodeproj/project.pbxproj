@@ -19,6 +19,12 @@
 		941A7DE72A437B000078ACF2 /* The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DE62A437B000078ACF2 /* The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt */; };
 		941A7DE92A437BFE0078ACF2 /* Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DE82A437BFE0078ACF2 /* Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt */; };
 		941A7DEB2A437D110078ACF2 /* Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DEA2A437D110078ACF2 /* Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt */; };
+		941A7DED2A437D880078ACF2 /* The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DEC2A437D880078ACF2 /* The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt */; };
+		941A7DEF2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DEE2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt */; };
+		941A7DF12A447AFC0078ACF2 /* The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DF02A447AFC0078ACF2 /* The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt */; };
+		941A7DF32A447B6D0078ACF2 /* TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became "Fittest Man On The Planet"Rich Roll.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DF22A447B6D0078ACF2 /* TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became "Fittest Man On The Planet"Rich Roll.txt */; };
+		941A7DF52A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DF42A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt */; };
+		941A7DF82A447D2F0078ACF2 /* abc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DF72A447D2F0078ACF2 /* abc.txt */; };
 		942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */; };
 		942F0A1D2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */; };
 		942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */; };
@@ -84,6 +90,12 @@
 		941A7DE62A437B000078ACF2 /* The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt"; sourceTree = "<group>"; };
 		941A7DE82A437BFE0078ACF2 /* Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt"; sourceTree = "<group>"; };
 		941A7DEA2A437D110078ACF2 /* Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt"; sourceTree = "<group>"; };
+		941A7DEC2A437D880078ACF2 /* The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt"; sourceTree = "<group>"; };
+		941A7DEE2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "From $0 to Millions In 2 Years Without Any Hard Work!.txt"; sourceTree = "<group>"; };
+		941A7DF02A447AFC0078ACF2 /* The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt"; sourceTree = "<group>"; };
+		941A7DF22A447B6D0078ACF2 /* TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became "Fittest Man On The Planet"Rich Roll.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became \"Fittest Man On The Planet\"Rich Roll.txt"; sourceTree = "<group>"; };
+		941A7DF42A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt"; sourceTree = "<group>"; };
+		941A7DF72A447D2F0078ACF2 /* abc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abc.txt; sourceTree = "<group>"; };
 		942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt"; sourceTree = "<group>"; };
 		942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt"; sourceTree = "<group>"; };
 		942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt"; sourceTree = "<group>"; };
@@ -204,6 +216,11 @@
 		941A7DE32A4379C40078ACF2 /* chapter4 */ = {
 			isa = PBXGroup;
 			children = (
+				941A7DF42A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt */,
+				941A7DF22A447B6D0078ACF2 /* TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became "Fittest Man On The Planet"Rich Roll.txt */,
+				941A7DF02A447AFC0078ACF2 /* The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt */,
+				941A7DEC2A437D880078ACF2 /* The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt */,
+				941A7DEE2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt */,
 				941A7DEA2A437D110078ACF2 /* Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt */,
 				941A7DE82A437BFE0078ACF2 /* Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt */,
 				941A7DE62A437B000078ACF2 /* The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt */,
@@ -211,6 +228,14 @@
 				941A7DDE2A4379460078ACF2 /* The Happiness Expert That Made 51 Million People Happier.txt */,
 			);
 			path = chapter4;
+			sourceTree = "<group>";
+		};
+		941A7DF62A447D1E0078ACF2 /* chapter5 */ = {
+			isa = PBXGroup;
+			children = (
+				941A7DF72A447D2F0078ACF2 /* abc.txt */,
+			);
+			path = chapter5;
 			sourceTree = "<group>";
 		};
 		94779E842A3DD6EE001DEFEA /* Code🌼 */ = {
@@ -245,6 +270,7 @@
 				941A7DE12A4379990078ACF2 /* chapter2 */,
 				941A7DE22A4379AC0078ACF2 /* chapter3 */,
 				941A7DE32A4379C40078ACF2 /* chapter4 */,
+				941A7DF62A447D1E0078ACF2 /* chapter5 */,
 			);
 			path = "Podcast🌺";
 			sourceTree = "<group>";
@@ -378,6 +404,7 @@
 				941A7DDA2A43776B0078ACF2 /* Opens Up About His Struggle With Loneliness, Love & Dating! | E230.txt in Resources */,
 				941A7DD22A436A750078ACF2 /* How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt in Resources */,
 				941A7DE92A437BFE0078ACF2 /* Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt in Resources */,
+				941A7DF52A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt in Resources */,
 				94D8CD442A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt in Resources */,
 				94D8CD572A420121004BE080 /* [English]S03E02 Grit & Growth _ Executive Coaching_ From Self-Doubt to Self-Awareness[Checksub.com].txt in Resources */,
 				942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */,
@@ -399,6 +426,7 @@
 				942F0A452A40B8D700E50FDE /* [English (auto-generated)-Vietnamese] ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 [DownSub.com].txt in Resources */,
 				942F0A2B2A40B1D900E50FDE /* [English (auto-generated)-Vietnamese] Lisas real Sister! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */,
 				94D8CD632A420318004BE080 /* [English]Jennifer Hyman, Co-founder and CEO, Rent the Runway[Checksub.com].txt in Resources */,
+				941A7DED2A437D880078ACF2 /* The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt in Resources */,
 				94D8CD5B2A4201BA004BE080 /* [English]Jacqueline Novogratz, Founder and CEO of Acumen_ Balancing Humility with Audacity[Checksub.com].txt in Resources */,
 				94D8CD6F2A420539004BE080 /* [English]Cynt Marshall, CEO of the Dallas Mavericks[Checksub.com].txt in Resources */,
 				9481787C2A42185200FF2130 /* [English]Sundar Pichai, CEO of Google and Alphabet[Checksub.com].txt in Resources */,
@@ -408,6 +436,7 @@
 				94EBDF772A3D8E1F0095C776 /* transcript.txt in Resources */,
 				942F0A3F2A40B72B00E50FDE /* [English (auto-generated)-Vietnamese] 1000 Basic English Question and Answers and more for daily conversation [DownSub.com].txt in Resources */,
 				948178902A421E2900FF2130 /* [English]The Talk Show Live From WWDC 2023[Checksub.com].txt in Resources */,
+				941A7DF12A447AFC0078ACF2 /* The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt in Resources */,
 				94EBDF6F2A3D88CD0095C776 /* transcript2.txt in Resources */,
 				948178982A42247C00FF2130 /* [English]Learn English with Taylor Swift Talk Show - English Subtitles[Checksub.com].txt in Resources */,
 				94779E912A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt in Resources */,
@@ -417,6 +446,8 @@
 				94D8CD7B2A420751004BE080 /* [English]Stanford Doerr School of Sustainability Chat with  John Doerr, Jon Levin, and Arun Majumdar[Checksub.com].txt in Resources */,
 				94D8CD832A42093D004BE080 /* [English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt in Resources */,
 				94D8CD7F2A42087C004BE080 /* [English]S02E06 Grit & Growth | Negotiation_ When to Stay and When to Walk Away[Checksub.com].txt in Resources */,
+				941A7DF82A447D2F0078ACF2 /* abc.txt in Resources */,
+				941A7DEF2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt in Resources */,
 				941A7DE52A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt in Resources */,
 				942F0A3D2A40B6F500E50FDE /* [English (auto-generated)-Vietnamese] English Conversation_ Learn while you Sleep - Fast Vocabulary Increase with Jessica [DownSub.com].txt in Resources */,
 				94D8CD5F2A42025A004BE080 /* [English]“Power” Fireside Chat_ Professor Jeff Pfeffer and Dean Jon Levin[Checksub.com].txt in Resources */,
@@ -428,6 +459,7 @@
 				94D8CD8F2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt in Resources */,
 				94D8CD672A4203E1004BE080 /* [English]Whitney Wolfe, Founder and CEO of Bumble and Co-Founder of Tinder[Checksub.com].txt in Resources */,
 				942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */,
+				941A7DF32A447B6D0078ACF2 /* TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became "Fittest Man On The Planet"Rich Roll.txt in Resources */,
 				942F0A412A40B79400E50FDE /* [English (auto-generated)-Vietnamese] Daily English Conversation Practice by Topic - Questions and Answers in English Conversation [DownSub.com].txt in Resources */,
 				942F0A2D2A40B22800E50FDE /* [English (auto-generated)-Vietnamese] Clara is back! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */,
 				948178892A421BD100FF2130 /* [English]Ruth Zukerman, Co-Founder of SoulCycle and Flywheel Sports[Checksub.com].txt in Resources */,
