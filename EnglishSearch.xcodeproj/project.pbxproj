@@ -25,6 +25,12 @@
 		941A7DF52A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DF42A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt */; };
 		941A7DF82A447D2F0078ACF2 /* How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DF72A447D2F0078ACF2 /* How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt */; };
 		941A7DFC2A447E4C0078ACF2 /* Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DFB2A447E4C0078ACF2 /* Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt */; };
+		941A7DFE2A447FB60078ACF2 /* The Shocking New Research On Why Men And Women Are No Longer Compatible.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DFD2A447FB60078ACF2 /* The Shocking New Research On Why Men And Women Are No Longer Compatible.txt */; };
+		941A7E002A44807C0078ACF2 /* How To Seduce Anyone, Build Confidence & Become Powerful | E232.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DFF2A44807C0078ACF2 /* How To Seduce Anyone, Build Confidence & Become Powerful | E232.txt */; };
+		941A7E022A44811E0078ACF2 /* The One Food (WE ALL EAT) That's Killing Us Slowly Max Lugavere | E223.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7E012A44811E0078ACF2 /* The One Food (WE ALL EAT) That's Killing Us Slowly Max Lugavere | E223.txt */; };
+		941A7E042A4486420078ACF2 /* he Secret Man Behind The World's Top Performers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7E032A4486420078ACF2 /* he Secret Man Behind The World's Top Performers.txt */; };
+		941A7E082A44872F0078ACF2 /* How To Overcome ANY Trauma & Live The Life You Deserve .txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7E072A44872E0078ACF2 /* How To Overcome ANY Trauma & Live The Life You Deserve .txt */; };
+		941A7E0A2A4488010078ACF2 /* The Advice Young People NEED To Hear.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7E092A4488010078ACF2 /* The Advice Young People NEED To Hear.txt */; };
 		942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */; };
 		942F0A1D2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */; };
 		942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */; };
@@ -96,6 +102,12 @@
 		941A7DF42A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt"; sourceTree = "<group>"; };
 		941A7DF72A447D2F0078ACF2 /* How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt"; sourceTree = "<group>"; };
 		941A7DFB2A447E4C0078ACF2 /* Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt"; sourceTree = "<group>"; };
+		941A7DFD2A447FB60078ACF2 /* The Shocking New Research On Why Men And Women Are No Longer Compatible.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "The Shocking New Research On Why Men And Women Are No Longer Compatible.txt"; sourceTree = "<group>"; };
+		941A7DFF2A44807C0078ACF2 /* How To Seduce Anyone, Build Confidence & Become Powerful | E232.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "How To Seduce Anyone, Build Confidence & Become Powerful | E232.txt"; sourceTree = "<group>"; };
+		941A7E012A44811E0078ACF2 /* The One Food (WE ALL EAT) That's Killing Us Slowly Max Lugavere | E223.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "The One Food (WE ALL EAT) That's Killing Us Slowly Max Lugavere | E223.txt"; sourceTree = "<group>"; };
+		941A7E032A4486420078ACF2 /* he Secret Man Behind The World's Top Performers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "he Secret Man Behind The World's Top Performers.txt"; sourceTree = "<group>"; };
+		941A7E072A44872E0078ACF2 /* How To Overcome ANY Trauma & Live The Life You Deserve .txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "How To Overcome ANY Trauma & Live The Life You Deserve .txt"; sourceTree = "<group>"; };
+		941A7E092A4488010078ACF2 /* The Advice Young People NEED To Hear.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "The Advice Young People NEED To Hear.txt"; sourceTree = "<group>"; };
 		942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt"; sourceTree = "<group>"; };
 		942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt"; sourceTree = "<group>"; };
 		942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt"; sourceTree = "<group>"; };
@@ -234,6 +246,12 @@
 			isa = PBXGroup;
 			children = (
 				941A7DFB2A447E4C0078ACF2 /* Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt */,
+				941A7DFD2A447FB60078ACF2 /* The Shocking New Research On Why Men And Women Are No Longer Compatible.txt */,
+				941A7DFF2A44807C0078ACF2 /* How To Seduce Anyone, Build Confidence & Become Powerful | E232.txt */,
+				941A7E012A44811E0078ACF2 /* The One Food (WE ALL EAT) That's Killing Us Slowly Max Lugavere | E223.txt */,
+				941A7E032A4486420078ACF2 /* he Secret Man Behind The World's Top Performers.txt */,
+				941A7E072A44872E0078ACF2 /* How To Overcome ANY Trauma & Live The Life You Deserve .txt */,
+				941A7E092A4488010078ACF2 /* The Advice Young People NEED To Hear.txt */,
 			);
 			path = chapter5;
 			sourceTree = "<group>";
@@ -406,6 +424,7 @@
 				941A7DE92A437BFE0078ACF2 /* Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt in Resources */,
 				941A7DF52A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt in Resources */,
 				94D8CD442A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt in Resources */,
+				941A7E042A4486420078ACF2 /* he Secret Man Behind The World's Top Performers.txt in Resources */,
 				94D8CD572A420121004BE080 /* [English]S03E02 Grit & Growth _ Executive Coaching_ From Self-Doubt to Self-Awareness[Checksub.com].txt in Resources */,
 				942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */,
 				94D8CD732A4205D1004BE080 /* [English]The Inside Scoop on the SEC with Former Commissioner Allison Herren Lee[Checksub.com].txt in Resources */,
@@ -420,7 +439,9 @@
 				941A7DDD2A43784E0078ACF2 /* docs.md in Resources */,
 				94B04ADF2A41E81B007FAB49 /* [English]Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI[Checksub.com].txt in Resources */,
 				941A7DD42A436EA80078ACF2 /* Barbara Corcoran Turning $1,000 to $1Billion  E204.txt in Resources */,
+				941A7E002A44807C0078ACF2 /* How To Seduce Anyone, Build Confidence & Become Powerful | E232.txt in Resources */,
 				94EBDF752A3D8CB20095C776 /* transcript2.pdf in Resources */,
+				941A7DFE2A447FB60078ACF2 /* The Shocking New Research On Why Men And Women Are No Longer Compatible.txt in Resources */,
 				948178952A421F5200FF2130 /* [English]The Talk Show Live From WWDC 2022[Checksub.com].txt in Resources */,
 				941A7DD82A43764D0078ACF2 /* Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt in Resources */,
 				942F0A452A40B8D700E50FDE /* [English (auto-generated)-Vietnamese] ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 [DownSub.com].txt in Resources */,
@@ -450,7 +471,9 @@
 				941A7DF82A447D2F0078ACF2 /* How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt in Resources */,
 				941A7DEF2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt in Resources */,
 				941A7DE52A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt in Resources */,
+				941A7E022A44811E0078ACF2 /* The One Food (WE ALL EAT) That's Killing Us Slowly Max Lugavere | E223.txt in Resources */,
 				942F0A3D2A40B6F500E50FDE /* [English (auto-generated)-Vietnamese] English Conversation_ Learn while you Sleep - Fast Vocabulary Increase with Jessica [DownSub.com].txt in Resources */,
+				941A7E0A2A4488010078ACF2 /* The Advice Young People NEED To Hear.txt in Resources */,
 				94D8CD5F2A42025A004BE080 /* [English]“Power” Fireside Chat_ Professor Jeff Pfeffer and Dean Jon Levin[Checksub.com].txt in Resources */,
 				942F0A292A40B13600E50FDE /* [English (auto-generated)-Vietnamese] 2 HOURS of English Conversation Dialogues Listening Practice [DownSub.com].txt in Resources */,
 				94B04AE32A41E965007FAB49 /* [English] Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14[Checksub.com].txt in Resources */,
@@ -459,6 +482,7 @@
 				941A7DEB2A437D110078ACF2 /* Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt in Resources */,
 				94D8CD8F2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt in Resources */,
 				94D8CD672A4203E1004BE080 /* [English]Whitney Wolfe, Founder and CEO of Bumble and Co-Founder of Tinder[Checksub.com].txt in Resources */,
+				941A7E082A44872F0078ACF2 /* How To Overcome ANY Trauma & Live The Life You Deserve .txt in Resources */,
 				942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */,
 				942F0A412A40B79400E50FDE /* [English (auto-generated)-Vietnamese] Daily English Conversation Practice by Topic - Questions and Answers in English Conversation [DownSub.com].txt in Resources */,
 				942F0A2D2A40B22800E50FDE /* [English (auto-generated)-Vietnamese] Clara is back! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */,
