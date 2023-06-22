@@ -22,9 +22,9 @@
 		941A7DED2A437D880078ACF2 /* The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DEC2A437D880078ACF2 /* The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt */; };
 		941A7DEF2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DEE2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt */; };
 		941A7DF12A447AFC0078ACF2 /* The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DF02A447AFC0078ACF2 /* The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt */; };
-		941A7DF32A447B6D0078ACF2 /* TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became "Fittest Man On The Planet"Rich Roll.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DF22A447B6D0078ACF2 /* TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became "Fittest Man On The Planet"Rich Roll.txt */; };
 		941A7DF52A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DF42A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt */; };
-		941A7DF82A447D2F0078ACF2 /* abc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DF72A447D2F0078ACF2 /* abc.txt */; };
+		941A7DF82A447D2F0078ACF2 /* How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DF72A447D2F0078ACF2 /* How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt */; };
+		941A7DFC2A447E4C0078ACF2 /* Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DFB2A447E4C0078ACF2 /* Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt */; };
 		942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */; };
 		942F0A1D2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */; };
 		942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */; };
@@ -93,9 +93,9 @@
 		941A7DEC2A437D880078ACF2 /* The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt"; sourceTree = "<group>"; };
 		941A7DEE2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "From $0 to Millions In 2 Years Without Any Hard Work!.txt"; sourceTree = "<group>"; };
 		941A7DF02A447AFC0078ACF2 /* The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt"; sourceTree = "<group>"; };
-		941A7DF22A447B6D0078ACF2 /* TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became "Fittest Man On The Planet"Rich Roll.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became \"Fittest Man On The Planet\"Rich Roll.txt"; sourceTree = "<group>"; };
 		941A7DF42A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt"; sourceTree = "<group>"; };
-		941A7DF72A447D2F0078ACF2 /* abc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abc.txt; sourceTree = "<group>"; };
+		941A7DF72A447D2F0078ACF2 /* How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt"; sourceTree = "<group>"; };
+		941A7DFB2A447E4C0078ACF2 /* Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt"; sourceTree = "<group>"; };
 		942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt"; sourceTree = "<group>"; };
 		942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt"; sourceTree = "<group>"; };
 		942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt"; sourceTree = "<group>"; };
@@ -216,8 +216,8 @@
 		941A7DE32A4379C40078ACF2 /* chapter4 */ = {
 			isa = PBXGroup;
 			children = (
+				941A7DF72A447D2F0078ACF2 /* How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt */,
 				941A7DF42A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt */,
-				941A7DF22A447B6D0078ACF2 /* TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became "Fittest Man On The Planet"Rich Roll.txt */,
 				941A7DF02A447AFC0078ACF2 /* The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt */,
 				941A7DEC2A437D880078ACF2 /* The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt */,
 				941A7DEE2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt */,
@@ -233,7 +233,7 @@
 		941A7DF62A447D1E0078ACF2 /* chapter5 */ = {
 			isa = PBXGroup;
 			children = (
-				941A7DF72A447D2F0078ACF2 /* abc.txt */,
+				941A7DFB2A447E4C0078ACF2 /* Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt */,
 			);
 			path = chapter5;
 			sourceTree = "<group>";
@@ -446,7 +446,8 @@
 				94D8CD7B2A420751004BE080 /* [English]Stanford Doerr School of Sustainability Chat with  John Doerr, Jon Levin, and Arun Majumdar[Checksub.com].txt in Resources */,
 				94D8CD832A42093D004BE080 /* [English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt in Resources */,
 				94D8CD7F2A42087C004BE080 /* [English]S02E06 Grit & Growth | Negotiation_ When to Stay and When to Walk Away[Checksub.com].txt in Resources */,
-				941A7DF82A447D2F0078ACF2 /* abc.txt in Resources */,
+				941A7DFC2A447E4C0078ACF2 /* Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt in Resources */,
+				941A7DF82A447D2F0078ACF2 /* How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt in Resources */,
 				941A7DEF2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt in Resources */,
 				941A7DE52A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt in Resources */,
 				942F0A3D2A40B6F500E50FDE /* [English (auto-generated)-Vietnamese] English Conversation_ Learn while you Sleep - Fast Vocabulary Increase with Jessica [DownSub.com].txt in Resources */,
@@ -459,7 +460,6 @@
 				94D8CD8F2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt in Resources */,
 				94D8CD672A4203E1004BE080 /* [English]Whitney Wolfe, Founder and CEO of Bumble and Co-Founder of Tinder[Checksub.com].txt in Resources */,
 				942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */,
-				941A7DF32A447B6D0078ACF2 /* TRANSFORM Your Life At Any Moment Alcoholic Lawyer That Became "Fittest Man On The Planet"Rich Roll.txt in Resources */,
 				942F0A412A40B79400E50FDE /* [English (auto-generated)-Vietnamese] Daily English Conversation Practice by Topic - Questions and Answers in English Conversation [DownSub.com].txt in Resources */,
 				942F0A2D2A40B22800E50FDE /* [English (auto-generated)-Vietnamese] Clara is back! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */,
 				948178892A421BD100FF2130 /* [English]Ruth Zukerman, Co-Founder of SoulCycle and Flywheel Sports[Checksub.com].txt in Resources */,
