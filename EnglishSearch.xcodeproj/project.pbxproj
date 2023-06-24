@@ -337,7 +337,7 @@
 			path = DownSub;
 			sourceTree = "<group>";
 		};
-		94D8CD512A42000E004BE080 /* Podcast🌺 */ = {
+		94D8CD512A42000E004BE080 /* Podcast */ = {
 			isa = PBXGroup;
 			children = (
 				941A7DE02A4379870078ACF2 /* chapter1 */,
@@ -346,10 +346,10 @@
 				941A7DE32A4379C40078ACF2 /* chapter4 */,
 				941A7DF62A447D1E0078ACF2 /* chapter5 */,
 			);
-			path = "Podcast🌺";
+			path = Podcast;
 			sourceTree = "<group>";
 		};
-		94E751832A407A7100F20840 /* Conversation🌸  */ = {
+		94E751832A407A7100F20840 /* Conversation */ = {
 			isa = PBXGroup;
 			children = (
 				94C396332A46CFEE004B5936 /* DownSub */,
@@ -370,7 +370,7 @@
 				942F0A302A40B2E500E50FDE /* 🌸  1.5 HOUR English Conversation Lesson .txt */,
 				942F0A322A40B35C00E50FDE /* 🌸 Speak With Me_ 2 Hour English Speaking Practice.txt */,
 			);
-			path = "Conversation🌸 ";
+			path = Conversation;
 			sourceTree = "<group>";
 		};
 		94EBDF462A3D73A70095C776 = {
@@ -393,8 +393,8 @@
 			isa = PBXGroup;
 			children = (
 				94B04ADD2A41195C007FAB49 /* docs.md */,
-				94D8CD512A42000E004BE080 /* Podcast🌺 */,
-				94E751832A407A7100F20840 /* Conversation🌸  */,
+				94D8CD512A42000E004BE080 /* Podcast */,
+				94E751832A407A7100F20840 /* Conversation */,
 				94779E842A3DD6EE001DEFEA /* Code */,
 			);
 			path = EnglishSearch;
