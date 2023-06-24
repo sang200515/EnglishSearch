@@ -1368,7 +1368,7 @@
   this function 🍀 chức năng này
   so in our pokemon cell we this is where 🍀 vì vậy trong ô pokemon của chúng ta, đây là nơi
   we set the background color 🍀 chúng ta đặt màu nền
-  right um 🍀 phù hợp,
+  right um 🍀 phù hợp,//TODO: 20:26 26/06
   actually guys so we don't have access to 🍀 thực ra các bạn nên chúng ta không có quyền truy cập vào
   the pokemon view model here 🍀 mô hình chế độ xem pokemon ở đây
   and instead of creating an instance or 🍀 và thay vào đó  về việc tạo một phiên bản hoặc
@@ -1641,3 +1641,4 @@
   so that's going to be it for this one 🍀 nó cho một
   guys we'll see you later peace out 🍀 người này, chúng tôi sẽ gặp lại bạn sau hòa bình
   
+//TODO: done 20:38 24/06
