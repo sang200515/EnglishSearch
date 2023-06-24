@@ -70,6 +70,8 @@
 		94BFF3FD2A46D1B4009DFB05 /* 🌸 Improve English Listening and Speaking Skills Everyday | English Conversation for Daily Life.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94BFF3FC2A46D1B4009DFB05 /* 🌸 Improve English Listening and Speaking Skills Everyday | English Conversation for Daily Life.txt */; };
 		94BFF3FF2A46D26E009DFB05 /* 🌸 English Listening Practice - Learn English Listening Comprehension.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94BFF3FE2A46D26E009DFB05 /* 🌸 English Listening Practice - Learn English Listening Comprehension.txt */; };
 		94BFF4012A46D31F009DFB05 /* 🌸 Common.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94BFF4002A46D31F009DFB05 /* 🌸 Common.txt */; };
+		94BFF4032A470C14009DFB05 /* 🌺 CommonPodcast.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94BFF4022A470C14009DFB05 /* 🌺 CommonPodcast.txt */; };
+		94BFF4052A470D49009DFB05 /* 🌺 CommPodcast2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94BFF4042A470D49009DFB05 /* 🌺 CommPodcast2.txt */; };
 		94C396302A46CEDC004B5936 /* 🌸 Improve English Listening and Speaking Skills Everyday Everyday English Conversations.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94C3962F2A46CEDC004B5936 /* 🌸 Improve English Listening and Speaking Skills Everyday Everyday English Conversations.txt */; };
 		94C396322A46CF30004B5936 /* 🌸 Speak American English in 100 Minutes Learn English Speaking Easily Quickly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94C396312A46CF30004B5936 /* 🌸 Speak American English in 100 Minutes Learn English Speaking Easily Quickly.txt */; };
 		94C396352A46CFFE004B5936 /* 🌸 English Listening Practice for Beginners Funny English Conversation for Daily Life.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94C396342A46CFFE004B5936 /* 🌸 English Listening Practice for Beginners Funny English Conversation for Daily Life.txt */; };
@@ -162,6 +164,8 @@
 		94BFF3FC2A46D1B4009DFB05 /* 🌸 Improve English Listening and Speaking Skills Everyday | English Conversation for Daily Life.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌸 Improve English Listening and Speaking Skills Everyday | English Conversation for Daily Life.txt"; sourceTree = "<group>"; };
 		94BFF3FE2A46D26E009DFB05 /* 🌸 English Listening Practice - Learn English Listening Comprehension.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌸 English Listening Practice - Learn English Listening Comprehension.txt"; sourceTree = "<group>"; };
 		94BFF4002A46D31F009DFB05 /* 🌸 Common.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌸 Common.txt"; sourceTree = "<group>"; };
+		94BFF4022A470C14009DFB05 /* 🌺 CommonPodcast.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌺 CommonPodcast.txt"; sourceTree = "<group>"; };
+		94BFF4042A470D49009DFB05 /* 🌺 CommPodcast2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌺 CommPodcast2.txt"; sourceTree = "<group>"; };
 		94C3962F2A46CEDC004B5936 /* 🌸 Improve English Listening and Speaking Skills Everyday Everyday English Conversations.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌸 Improve English Listening and Speaking Skills Everyday Everyday English Conversations.txt"; sourceTree = "<group>"; };
 		94C396312A46CF30004B5936 /* 🌸 Speak American English in 100 Minutes Learn English Speaking Easily Quickly.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌸 Speak American English in 100 Minutes Learn English Speaking Easily Quickly.txt"; sourceTree = "<group>"; };
 		94C396342A46CFFE004B5936 /* 🌸 English Listening Practice for Beginners Funny English Conversation for Daily Life.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌸 English Listening Practice for Beginners Funny English Conversation for Daily Life.txt"; sourceTree = "<group>"; };
@@ -345,6 +349,8 @@
 				941A7DE22A4379AC0078ACF2 /* chapter3 */,
 				941A7DE32A4379C40078ACF2 /* chapter4 */,
 				941A7DF62A447D1E0078ACF2 /* chapter5 */,
+				94BFF4022A470C14009DFB05 /* 🌺 CommonPodcast.txt */,
+				94BFF4042A470D49009DFB05 /* 🌺 CommPodcast2.txt */,
 			);
 			path = Podcast;
 			sourceTree = "<group>";
@@ -544,6 +550,7 @@
 				94D8CD5F2A42025A004BE080 /* 🌺 “Power” Fireside Chat_ Professor Jeff Pfeffer and Dean Jon Levin.txt in Resources */,
 				942F0A292A40B13600E50FDE /* 🌸  2 HOURS of English Conversation Dialogues Listening Practice .txt in Resources */,
 				94B04AE32A41E965007FAB49 /* 🌼 Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14.txt in Resources */,
+				94BFF4052A470D49009DFB05 /* 🌺 CommPodcast2.txt in Resources */,
 				941A7E922A46BDBF0078ACF2 /* 🌺 American English Conversations to Improve Listening & Speaking Fluency.txt in Resources */,
 				942F0A392A40B5D500E50FDE /* 🌸 200 English Questions and Answers and more for Everyday Conversation by Topic .txt in Resources */,
 				948178812A4219E800FF2130 /* 🌺 S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship.txt in Resources */,
@@ -561,6 +568,7 @@
 				941A7DDF2A4379460078ACF2 /* 🌺 The Happiness Expert That Made 51 Million People Happier.txt in Resources */,
 				94D8CD532A420019004BE080 /* 🌺 S02E13 Grit & Growth _ Scaling Your Business_ It’s All About The People.txt in Resources */,
 				94D8CD772A420677004BE080 /* 🌺 Tristan Walker, CEO of Walker & Company_ The Problem with Sameness.txt in Resources */,
+				94BFF4032A470C14009DFB05 /* 🌺 CommonPodcast.txt in Resources */,
 				942F0A332A40B35C00E50FDE /* 🌸 Speak With Me_ 2 Hour English Speaking Practice.txt in Resources */,
 				9481788D2A421D1900FF2130 /* 🌺 Apple CEO Tim Cook on The David Rubenstein Show.txt in Resources */,
 				942F0A1D2A40AB5300E50FDE /* 🌸  Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */,
