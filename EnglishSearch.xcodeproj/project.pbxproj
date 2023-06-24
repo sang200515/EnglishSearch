@@ -35,7 +35,7 @@
 		941A7E902A46BBFB0078ACF2 /* Learn Swift Fast (2020.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7E8F2A46BBFB0078ACF2 /* Learn Swift Fast (2020.txt */; };
 		941A7E922A46BDBF0078ACF2 /* American English Conversations to Improve Listening & Speaking Fluency.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7E912A46BDBF0078ACF2 /* American English Conversations to Improve Listening & Speaking Fluency.txt */; };
 		941A7E942A46BED10078ACF2 /* English Conversations - Practice Speak Like a Native English Speaker.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7E932A46BED10078ACF2 /* English Conversations - Practice Speak Like a Native English Speaker.txt */; };
-		941A7E962A46BF5C0078ACF2 /* 2222d.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7E952A46BF5C0078ACF2 /* 2222d.txt */; };
+		941A7E962A46BF5C0078ACF2 /* Daily Life English Conversation - English Speaking Practice for Everyone.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7E952A46BF5C0078ACF2 /* Daily Life English Conversation - English Speaking Practice for Everyone.txt */; };
 		942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */; };
 		942F0A1D2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */; };
 		942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */; };
@@ -51,6 +51,11 @@
 		942F0A3F2A40B72B00E50FDE /* [English (auto-generated)-Vietnamese] 1000 Basic English Question and Answers and more for daily conversation [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A3E2A40B72B00E50FDE /* [English (auto-generated)-Vietnamese] 1000 Basic English Question and Answers and more for daily conversation [DownSub.com].txt */; };
 		942F0A412A40B79400E50FDE /* [English (auto-generated)-Vietnamese] Daily English Conversation Practice by Topic - Questions and Answers in English Conversation [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A402A40B79400E50FDE /* [English (auto-generated)-Vietnamese] Daily English Conversation Practice by Topic - Questions and Answers in English Conversation [DownSub.com].txt */; };
 		942F0A452A40B8D700E50FDE /* [English (auto-generated)-Vietnamese] ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 [DownSub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A442A40B8D700E50FDE /* [English (auto-generated)-Vietnamese] ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 [DownSub.com].txt */; };
+		944AEE402A46CB5700B9A31C /* Basic English Speaking Practice - Easy way to Speak like a Native Speaker.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944AEE3F2A46CB5700B9A31C /* Basic English Speaking Practice - Easy way to Speak like a Native Speaker.txt */; };
+		944AEE432A46CBF900B9A31C /* Practice English Speaking with Dialogues - Everyday Life English Conversations.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944AEE422A46CBF900B9A31C /* Practice English Speaking with Dialogues - Everyday Life English Conversations.txt */; };
+		944AEE452A46CC6800B9A31C /* 90 minutes to Improve your Speaking Skills - Learn English Conversation for Everyday Life.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944AEE442A46CC6800B9A31C /* 90 minutes to Improve your Speaking Skills - Learn English Conversation for Everyday Life.txt */; };
+		944AEE472A46CCF100B9A31C /* 1 Hour to Practice English Speaking every day - Real life English Conversationr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944AEE462A46CCF100B9A31C /* 1 Hour to Practice English Speaking every day - Real life English Conversationr.txt */; };
+		944AEE492A46CD5000B9A31C /* Easy Learning English Conversation Practice - Listening English Lessons with Native English Speakers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944AEE482A46CD5000B9A31C /* Easy Learning English Conversation Practice - Listening English Lessons with Native English Speakers.txt */; };
 		94779E8D2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E8C2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt */; };
 		94779E912A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E902A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt */; };
 		94779E952A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt in Resources */ = {isa = PBXBuildFile; fileRef = 94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */; };
@@ -116,7 +121,7 @@
 		941A7E8F2A46BBFB0078ACF2 /* Learn Swift Fast (2020.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Learn Swift Fast (2020.txt"; sourceTree = "<group>"; };
 		941A7E912A46BDBF0078ACF2 /* American English Conversations to Improve Listening & Speaking Fluency.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "American English Conversations to Improve Listening & Speaking Fluency.txt"; sourceTree = "<group>"; };
 		941A7E932A46BED10078ACF2 /* English Conversations - Practice Speak Like a Native English Speaker.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "English Conversations - Practice Speak Like a Native English Speaker.txt"; sourceTree = "<group>"; };
-		941A7E952A46BF5C0078ACF2 /* 2222d.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2222d.txt; sourceTree = "<group>"; };
+		941A7E952A46BF5C0078ACF2 /* Daily Life English Conversation - English Speaking Practice for Everyone.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Daily Life English Conversation - English Speaking Practice for Everyone.txt"; sourceTree = "<group>"; };
 		942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt"; sourceTree = "<group>"; };
 		942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt"; sourceTree = "<group>"; };
 		942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt"; sourceTree = "<group>"; };
@@ -132,6 +137,11 @@
 		942F0A3E2A40B72B00E50FDE /* [English (auto-generated)-Vietnamese] 1000 Basic English Question and Answers and more for daily conversation [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English (auto-generated)-Vietnamese] 1000 Basic English Question and Answers and more for daily conversation [DownSub.com].txt"; sourceTree = "<group>"; };
 		942F0A402A40B79400E50FDE /* [English (auto-generated)-Vietnamese] Daily English Conversation Practice by Topic - Questions and Answers in English Conversation [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English (auto-generated)-Vietnamese] Daily English Conversation Practice by Topic - Questions and Answers in English Conversation [DownSub.com].txt"; sourceTree = "<group>"; };
 		942F0A442A40B8D700E50FDE /* [English (auto-generated)-Vietnamese] ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 [DownSub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English (auto-generated)-Vietnamese] ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 [DownSub.com].txt"; sourceTree = "<group>"; };
+		944AEE3F2A46CB5700B9A31C /* Basic English Speaking Practice - Easy way to Speak like a Native Speaker.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Basic English Speaking Practice - Easy way to Speak like a Native Speaker.txt"; sourceTree = "<group>"; };
+		944AEE422A46CBF900B9A31C /* Practice English Speaking with Dialogues - Everyday Life English Conversations.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Practice English Speaking with Dialogues - Everyday Life English Conversations.txt"; sourceTree = "<group>"; };
+		944AEE442A46CC6800B9A31C /* 90 minutes to Improve your Speaking Skills - Learn English Conversation for Everyday Life.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "90 minutes to Improve your Speaking Skills - Learn English Conversation for Everyday Life.txt"; sourceTree = "<group>"; };
+		944AEE462A46CCF100B9A31C /* 1 Hour to Practice English Speaking every day - Real life English Conversationr.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1 Hour to Practice English Speaking every day - Real life English Conversationr.txt"; sourceTree = "<group>"; };
+		944AEE482A46CD5000B9A31C /* Easy Learning English Conversation Practice - Listening English Lessons with Native English Speakers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Easy Learning English Conversation Practice - Listening English Lessons with Native English Speakers.txt"; sourceTree = "<group>"; };
 		94779E8C2A3FCB7A001DEFEA /* [English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer[Checksub.com].txt"; sourceTree = "<group>"; };
 		94779E902A3FD02B001DEFEA /* [English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers[Checksub.com].txt"; sourceTree = "<group>"; };
 		94779E942A3FD201001DEFEA /* [English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[English]DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_[Checksub.com].txt"; sourceTree = "<group>"; };
@@ -263,6 +273,22 @@
 			path = chapter5;
 			sourceTree = "<group>";
 		};
+		944AEE412A46CB8500B9A31C /* Daily Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				941A7E932A46BED10078ACF2 /* English Conversations - Practice Speak Like a Native English Speaker.txt */,
+				941A7E952A46BF5C0078ACF2 /* Daily Life English Conversation - English Speaking Practice for Everyone.txt */,
+				944AEE462A46CCF100B9A31C /* 1 Hour to Practice English Speaking every day - Real life English Conversationr.txt */,
+				944AEE482A46CD5000B9A31C /* Easy Learning English Conversation Practice - Listening English Lessons with Native English Speakers.txt */,
+				94D8CD622A420318004BE080 /* [English]Jennifer Hyman, Co-founder and CEO, Rent the Runway[Checksub.com].txt */,
+				944AEE3F2A46CB5700B9A31C /* Basic English Speaking Practice - Easy way to Speak like a Native Speaker.txt */,
+				944AEE422A46CBF900B9A31C /* Practice English Speaking with Dialogues - Everyday Life English Conversations.txt */,
+				944AEE442A46CC6800B9A31C /* 90 minutes to Improve your Speaking Skills - Learn English Conversation for Everyday Life.txt */,
+				942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */,
+			);
+			path = "Daily Conversation";
+			sourceTree = "<group>";
+		};
 		94779E842A3DD6EE001DEFEA /* Code🌼 */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +331,7 @@
 		94E751832A407A7100F20840 /* Conversation🌸 */ = {
 			isa = PBXGroup;
 			children = (
+				944AEE412A46CB8500B9A31C /* Daily Conversation */,
 				942F0A262A40AEA000E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 21 to 35 [DownSub.com].txt */,
 				942F0A222A40AE1800E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt */,
 				942F0A3C2A40B6F500E50FDE /* [English (auto-generated)-Vietnamese] English Conversation_ Learn while you Sleep - Fast Vocabulary Increase with Jessica [DownSub.com].txt */,
@@ -319,10 +346,6 @@
 				942F0A1C2A40AB5300E50FDE /* [English] Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt */,
 				942F0A302A40B2E500E50FDE /* [English (auto-generated)-Vietnamese] 1.5 HOUR English Conversation Lesson [DownSub.com].txt */,
 				942F0A322A40B35C00E50FDE /* [English-Vietnamese] Speak With Me_ 2 Hour English Speaking Practice [DownSub.com].txt */,
-				942F0A022A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt */,
-				941A7E932A46BED10078ACF2 /* English Conversations - Practice Speak Like a Native English Speaker.txt */,
-				941A7E952A46BF5C0078ACF2 /* 2222d.txt */,
-				94D8CD622A420318004BE080 /* [English]Jennifer Hyman, Co-founder and CEO, Rent the Runway[Checksub.com].txt */,
 			);
 			path = "Conversation🌸";
 			sourceTree = "<group>";
@@ -437,12 +460,13 @@
 				941A7DF52A447C6B0078ACF2 /* Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt in Resources */,
 				94D8CD442A41EDCB004BE080 /* [English]Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6[Checksub.com].txt in Resources */,
 				941A7E042A4486420078ACF2 /* he Secret Man Behind The World's Top Performers.txt in Resources */,
+				944AEE492A46CD5000B9A31C /* Easy Learning English Conversation Practice - Listening English Lessons with Native English Speakers.txt in Resources */,
 				94D8CD572A420121004BE080 /* [English]S03E02 Grit & Growth _ Executive Coaching_ From Self-Doubt to Self-Awareness[Checksub.com].txt in Resources */,
 				942F0A032A4090FF00E50FDE /* [English]Learn English Conversation - Oxford English Daily Conversation Part 2[Checksub.com].txt in Resources */,
 				94D8CD732A4205D1004BE080 /* [English]The Inside Scoop on the SEC with Former Commissioner Allison Herren Lee[Checksub.com].txt in Resources */,
 				94D8CD4E2A41F882004BE080 /* [English]Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5[Checksub.com].txt in Resources */,
 				941A7DDC2A43781A0078ACF2 /* The Number One Reason Why You’re Not Succeeding .txt in Resources */,
-				941A7E962A46BF5C0078ACF2 /* 2222d.txt in Resources */,
+				941A7E962A46BF5C0078ACF2 /* Daily Life English Conversation - English Speaking Practice for Everyone.txt in Resources */,
 				941A7DE72A437B000078ACF2 /* The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt in Resources */,
 				942F0A2F2A40B29A00E50FDE /* [English (auto-generated)-Vietnamese] Advanced English Conversation_ Talking Jobs and Time Off (British & American English with subtitles) [DownSub.com].txt in Resources */,
 				94D8CD482A41EED6004BE080 /* [English]LIVE Job Interview For Senior Software Engineering Position!![Checksub.com].txt in Resources */,
@@ -482,6 +506,7 @@
 				94D8CD832A42093D004BE080 /* [English]Anne Wojcicki, Co-founder and CEO of 23andMe[Checksub.com].txt in Resources */,
 				94D8CD7F2A42087C004BE080 /* [English]S02E06 Grit & Growth | Negotiation_ When to Stay and When to Walk Away[Checksub.com].txt in Resources */,
 				941A7DFC2A447E4C0078ACF2 /* Shopify President How To Become A Millionaire For The Price Of A Starbucks Coffee! E245.txt in Resources */,
+				944AEE452A46CC6800B9A31C /* 90 minutes to Improve your Speaking Skills - Learn English Conversation for Everyday Life.txt in Resources */,
 				941A7DF82A447D2F0078ACF2 /* How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt in Resources */,
 				941A7DEF2A447A120078ACF2 /* From $0 to Millions In 2 Years Without Any Hard Work!.txt in Resources */,
 				941A7DE52A437A460078ACF2 /* The Marketing Secrets Apple & Tesla Always Use.txt in Resources */,
@@ -494,6 +519,8 @@
 				941A7E922A46BDBF0078ACF2 /* American English Conversations to Improve Listening & Speaking Fluency.txt in Resources */,
 				942F0A392A40B5D500E50FDE /* [English (auto-generated)] 200 English Questions and Answers and more for Everyday Conversation by Topic [DownSub.com].txt in Resources */,
 				948178812A4219E800FF2130 /* [English]S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship[Checksub.com].txt in Resources */,
+				944AEE432A46CBF900B9A31C /* Practice English Speaking with Dialogues - Everyday Life English Conversations.txt in Resources */,
+				944AEE472A46CCF100B9A31C /* 1 Hour to Practice English Speaking every day - Real life English Conversationr.txt in Resources */,
 				941A7DEB2A437D110078ACF2 /* Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt in Resources */,
 				94D8CD8F2A420BD9004BE080 /* [English]Tony Elumelu, founder of The Tony Elumelu Foundation[Checksub.com].txt in Resources */,
 				94D8CD672A4203E1004BE080 /* [English]Whitney Wolfe, Founder and CEO of Bumble and Co-Founder of Tinder[Checksub.com].txt in Resources */,
@@ -501,6 +528,7 @@
 				942F0A232A40AE1900E50FDE /* [English] Basic English Conversation Practice for Kids _ Chapter 1 to 20 [DownSub.com].txt in Resources */,
 				942F0A412A40B79400E50FDE /* [English (auto-generated)-Vietnamese] Daily English Conversation Practice by Topic - Questions and Answers in English Conversation [DownSub.com].txt in Resources */,
 				942F0A2D2A40B22800E50FDE /* [English (auto-generated)-Vietnamese] Clara is back! - Conversation in English - English Communication Lesson [DownSub.com].txt in Resources */,
+				944AEE402A46CB5700B9A31C /* Basic English Speaking Practice - Easy way to Speak like a Native Speaker.txt in Resources */,
 				941A7E942A46BED10078ACF2 /* English Conversations - Practice Speak Like a Native English Speaker.txt in Resources */,
 				948178892A421BD100FF2130 /* [English]Ruth Zukerman, Co-Founder of SoulCycle and Flywheel Sports[Checksub.com].txt in Resources */,
 				941A7DDF2A4379460078ACF2 /* The Happiness Expert That Made 51 Million People Happier.txt in Resources */,
