@@ -500,7 +500,7 @@ we're going to place a scroll view 🍀 chúng tôi sẽ đặt chế độ xem 
 and within that scroll view we're going 🍀 và trong chế độ xem cuộn đó, chúng tôi sẽ
 to place something called a lazy v 🍀 đặt một thứ gọi là lưới lazy v,
 grid okay so this is basically the 🍀 vì vậy về cơ bản, đây là
-equivalent of creating 🍀 tương đương  Khi tạo chế
+equivalent of creating 🍀 tương đương  Khi tạo chế //TODO: 08-35 24/06
 a collection view you place this lazy v 🍀 độ xem bộ sưu tập, bạn đặt lưới v lười biếng này
 grid 🍀 
 inside of a scroll view and that will 🍀 bên trong chế độ xem cuộn và điều đó sẽ
