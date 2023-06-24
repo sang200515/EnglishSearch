@@ -344,13 +344,13 @@
 		94D8CD512A42000E004BE080 /* Podcast */ = {
 			isa = PBXGroup;
 			children = (
+				94BFF4042A470D49009DFB05 /* 🌺 CommPodcast2.txt */,
+				94BFF4022A470C14009DFB05 /* 🌺 CommonPodcast.txt */,
 				941A7DE02A4379870078ACF2 /* chapter1 */,
 				941A7DE12A4379990078ACF2 /* chapter2 */,
 				941A7DE22A4379AC0078ACF2 /* chapter3 */,
 				941A7DE32A4379C40078ACF2 /* chapter4 */,
 				941A7DF62A447D1E0078ACF2 /* chapter5 */,
-				94BFF4022A470C14009DFB05 /* 🌺 CommonPodcast.txt */,
-				94BFF4042A470D49009DFB05 /* 🌺 CommPodcast2.txt */,
 			);
 			path = Podcast;
 			sourceTree = "<group>";
