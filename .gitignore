@@ -4,6 +4,7 @@
 
 ## User settings
 xcuserdata/
+/Users/sang1/Desktop/Sang's Folder/EnglishSearch/EnglishSearch.xcodeproj/project.xcworkspace/xcuserdata
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
