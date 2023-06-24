@@ -1,441 +1,442 @@
-https://www.youtube.com/watch?v=RvzJLekIjRs&t=67s
-what's going on guys welcome back to the 🍀 chuyện gì đang xảy ra chào mừng các bạn quay trở lại
-channel hope you are doing well Stefan 🍀 kênh, hy vọng bạn đang làm tốt Stefan
-here from App stuff and in today's video 🍀 ở đây từ Nội dung ứng dụng và trong video ngày hôm nay,
-we're going to be covering the 🍀 chúng ta sẽ đề cập đến sự
-difference between State objects and 🍀 khác biệt giữa các đối tượng Trạng thái và
-observed objects this is a question I 🍀 các đối tượng được quan sát, đây là câu hỏi mà tôi
-get all the time and we're going to 🍀 luôn nhận được và chúng tôi'  Chúng tôi sẽ làm
-clear up any confusion you have about 🍀 sáng tỏ bất kỳ sự nhầm lẫn nào của bạn về
-those two in this video so let's go 🍀 hai điều đó trong video này, vì vậy hãy tiếp tục
-ahead and get started right now 🍀 và bắt đầu ngay bây giờ
-[Music] 🍀 [Âm nhạc]
-so to start things off guys we're going 🍀 để bắt đầu mọi thứ, chúng ta sẽ
-to talk about how view models work in 🍀 nói về cách các mô hình chế độ xem hoạt động trong
-Swift UI before we can understand the 🍀 Swift UI trước khi chúng ta có thể  hiểu sự
-difference between State and observed 🍀 khác biệt giữa Trạng thái và
-objects we first need to understand how 🍀 các đối tượng được quan sát, trước tiên chúng ta cần hiểu cách
-observable objects work and how view 🍀 các đối tượng có thể quan sát hoạt động và cách
-models work in general with swift UI 🍀 các mô hình chế độ xem nói chung hoạt động với Swift UI,
-then we can start to cover the 🍀 sau đó chúng ta có thể bắt đầu tìm hiểu
-differences between the two things so 🍀 sự khác biệt giữa hai điều, vì vậy
-let's take a look at this diagram that 🍀 hãy xem sơ đồ này
-explains the relationship between views 🍀 giải thích  mối quan hệ giữa các khung nhìn
-and view models we don't really care 🍀 và các mô hình khung nhìn, chúng ta không thực sự quan tâm
-about models in this thing we don't need 🍀 đến các mô hình trong vấn đề này, chúng ta không cần
-to look at the full scope of the mvvm 🍀 xem xét toàn bộ phạm vi của
-architecture simply just how views and 🍀 kiến ​​trúc mvvm, chỉ đơn giản là cách các khung nhìn và
-view models work together for the 🍀 các mô hình khung nhìn hoạt động cùng nhau cho
-purpose of this example so we can see 🍀 mục đích của ví dụ này để chúng ta có thể  thấy
-that view models are responsible for 🍀 rằng các mô hình chế độ xem chịu trách nhiệm
-notifying the view to update the user 🍀 thông báo cho chế độ xem để cập nhật
-interface and it does so through 🍀 giao diện người dùng và nó làm như vậy thông qua việc
-conforming to this observable object 🍀 tuân thủ giao thức đối tượng có thể quan sát này
-protocol and it uses published 🍀 và nó sử dụng
-properties which ultimately notifies the 🍀 các thuộc tính đã xuất bản để cuối cùng thông báo cho
-view to reconfigure itself so if we look 🍀 chế độ xem để tự cấu hình lại, vì vậy nếu chúng ta xem
-at the relationship between the two 🍀 xét mối quan hệ giữa hai
-things we see that the view model notify 🍀 điều  chúng ta thấy rằng mô hình khung nhìn thông báo
-the view model notifies and updates The 🍀 Mô hình khung nhìn thông báo và cập nhật Chế độ
-View and the view simply observes The 🍀 xem và chế độ xem chỉ đơn giản là quan sát Mô hình Chế độ
-View model so it's observing The View 🍀 xem vì vậy nó đang quan sát Mô hình Chế độ xem
-model and it does so through use of 🍀 và nó làm như vậy thông qua việc sử dụng
-State object or observed objects when 🍀 đối tượng Trạng thái hoặc các đối tượng được quan sát khi có
-changes happen on The View model The 🍀 thay đổi xảy ra trên Mô hình Chế độ
-View reconfigures itself with the 🍀 xem Chế độ xem  tự cấu hình lại với
-updated data so that's a really simple 🍀 dữ liệu được cập nhật để đó là một sự cố thực sự đơn giản
-breakdown of how views and view models 🍀 về cách các chế độ xem và mô hình chế độ xem
-work together basically the view model 🍀 hoạt động cùng nhau về cơ bản, mô hình chế độ xem
-has our data that the view needs and 🍀 có dữ liệu của chúng tôi mà chế độ xem cần và
-when that data changes or gets updated 🍀 khi dữ liệu đó thay đổi hoặc được cập nhật
-or deleted or whatever it may be it 🍀 hoặc xóa hoặc bất cứ điều gì nó có thể
-notifies the view to reconfigure or 🍀 thông báo cho chế độ xem  để cấu hình lại hoặc
-redraw itself with the updated data now 🍀 vẽ lại chính nó với dữ liệu được cập nhật bây giờ,
-it's very similar to how State 🍀 nó rất giống với cách Thuộc
-Properties work with views so if you 🍀 tính trạng thái hoạt động với chế độ xem, vì vậy nếu các
-guys are confused as to how State 🍀 bạn bối rối về cách
-properties and binding properties work 🍀 thuộc tính Trạng thái và thuộc tính ràng buộc hoạt động
-together I highly recommend checking 🍀 cùng nhau, tôi thực sự khuyên bạn nên xem
-that video out on my channel it's 🍀 video đó trên kênh của mình, video đó
-available in the description I have the 🍀 có sẵn trong  mô tả Tôi có
-link there make sure you check that out 🍀 liên kết ở đó, hãy chắc chắn rằng bạn kiểm tra nó
-because this definitely Builds on top of 🍀 vì điều này chắc chắn Xây dựng trên hết,
-that it's very important to understand 🍀 điều rất quan trọng là phải hiểu
-State and binding properties before we 🍀 Trạng thái và các thuộc tính ràng buộc trước khi chúng ta
-can understand State objects and 🍀 có thể hiểu các đối tượng Trạng thái và
-observed objects so once again the links 🍀 các đối tượng được quan sát, vì vậy một lần nữa các liên kết
-in the description for that video highly 🍀 trong phần mô tả cho video đó được đánh giá cao
-recommend checking that out but anyway 🍀 khuyên bạn nên kiểm tra điều đó nhưng dù sao thì
-guys let's go ahead and see if we can 🍀 mọi người hãy tiếp tục và xem liệu chúng ta có thể
-Implement a simple example of a view 🍀 Triển khai một ví dụ đơn giản về
-view model relationship where the view 🍀 mối quan hệ mô hình chế độ xem chế độ xem trong đó
-model is responsible for updating The 🍀 mô hình chế độ xem chịu trách nhiệm cập nhật Chế
-View with data so let's go ahead and hop 🍀 độ xem với dữ liệu, vì vậy hãy tiếp tục và chuyển
-into xcode now 🍀 sang xcode ngay bây giờ
-so I have a xcode project opened up here 🍀 để tôi có một  dự án xcode đã mở ở đây,
-guys you should do the same and it's the 🍀 các bạn cũng nên làm như vậy và đó là
-xcode project from the state versus 🍀 dự án xcode từ video trạng thái so với video
-binding video you're not going to need 🍀 ràng buộc, bạn sẽ không cần
-any code from that video you can start 🍀 bất kỳ mã nào từ video đó, bạn có thể bắt đầu làm
-fresh with a new project if you like but 🍀 mới với một dự án mới nếu bạn thích nhưng
-this stuff is very closely related so 🍀 nội dung này rất  có liên quan chặt chẽ với nhau vì vậy
-I'm putting it all together in one 🍀 tôi sẽ kết hợp tất cả lại với nhau trong một
-project so really quickly we're just 🍀 dự án để thực sự nhanh chóng, chúng tôi
-going to implement a simple counter and 🍀 sẽ triển khai một bộ đếm đơn giản và
-we are going to just be able to 🍀 chúng tôi sẽ chỉ có thể
-increment the counter by one when we 🍀 tăng bộ đếm lên một khi chúng tôi
-press a button so let's go ahead and do 🍀 nhấn một nút, vì vậy hãy tiếp tục và  làm
-that and also make sure we implement the 🍀 điều đó và cũng đảm bảo rằng chúng tôi triển khai việc
-use of a view model to help us out so 🍀 sử dụng mô hình chế độ xem để trợ giúp chúng tôi, vì vậy
-we're going to say we want a v-stack 🍀 chúng tôi sẽ nói rằng chúng tôi muốn
-text count 🍀 số lượng văn bản trong ngăn xếp v
-and it's just going to be zero for now 🍀 và hiện tại nó sẽ bằng 0
-and then we are going to create a button 🍀 và sau đó chúng tôi sẽ tạo một
-and it's going to say increase 🍀 và nó sẽ nói
-count and we'll leave the action blank 🍀 số lượng tăng lên và bây giờ chúng ta sẽ để trống hành động,
-for now let's go ahead and just create a 🍀 hãy tiếp tục và chỉ cần tạo một
-view model really quickly so we're going 🍀 mô hình chế độ xem thật nhanh chóng vì vậy chúng ta sẽ
-to say class 🍀 nói
-counter view model 🍀 mô hình chế độ xem bộ đếm lớp
-it's going to conform to this observable 🍀 nó sẽ tuân theo anh chàng đối tượng có thể quan sát này
-object 🍀 
-guy and then we are going to make a 🍀 và  sau đó chúng tôi sẽ tạo một
-published property 🍀 thuộc tính đã xuất bản
-for our counts set it equal to zero and 🍀 cho số đếm của chúng tôi, đặt nó bằng 0 và
-we're going to write a function here 🍀 chúng tôi sẽ viết một hàm ở đây
-called increase 🍀 có tên là tăng
-count 🍀 số đếm
-and say count plus equals one and then 🍀 và nói rằng đếm cộng bằng một và sau đó
-down here guys in our struct we are 🍀 ở đây, các bạn trong cấu trúc của chúng tôi, chúng tôi
-going to uh Implement an observed object 🍀 sẽ thực hiện  một đối tượng được quan sát
-that essentially observes the observable 🍀 về cơ bản quan sát đối tượng có thể quan sát được
-object of our view model so I'm going to 🍀 của mô hình chế độ xem của chúng tôi, vì vậy tôi sẽ
-say at observed object bar view model 🍀 nói ở đối tượng được quan sát, mô hình chế độ xem thanh
-equals counter view model 🍀 bằng với mô hình chế độ xem đối lập
-and then here I will replace the count 🍀 và sau đó ở đây tôi sẽ thay thế
-guy with my view model 🍀 anh chàng đếm bằng chế độ xem của tôi,
-let's see was my auto complete not 🍀 hãy xem ô tô của tôi đã hoàn thành chưa
-working there we go dot count and then 🍀 làm việc ở đó, chúng tôi đi đếm dấu chấm và sau đó
-here I will say viewmodel dot increase 🍀 ở đây tôi sẽ nói số lượng dấu chấm của viewmodel tăng lên
-count so super super simple right we 🍀 siêu siêu đơn giản, chúng ta
-just press this button now and it's 🍀 chỉ cần nhấn nút này ngay bây giờ và nó
-going to increase our count right 🍀 sẽ tăng số lượng của chúng ta ngay
-so this fully covers the relationship 🍀 để điều này bao hàm đầy đủ mối quan hệ
-between observable and observed objects 🍀 giữa các đối tượng có thể quan sát và được quan sát
-so we can see here that we are observing 🍀 để chúng ta có thể thấy  ở đây chúng tôi đang quan sát
-this view model and we are paying 🍀 mô hình chế độ xem này và chúng tôi đang
-attention to this count guy and it's a 🍀 chú ý đến anh chàng đếm này và đó là
-published property so that every time I 🍀 thuộc tính đã xuất bản để mỗi khi tôi
-hit this button it calls this increase 🍀 nhấn nút này, nó gọi
-count function it increases the count by 🍀 chức năng đếm tăng này, nó sẽ tăng số đếm lên
-one and then it re-updates my view with 🍀 một và sau đó nó cập nhật lại chế độ xem của tôi  với
-the updated count variable so that's the 🍀 biến đếm được cập nhật, đó là
-relationship between views and view 🍀 mối quan hệ giữa chế độ xem và
-models and how we use observed and 🍀 mô hình chế độ xem và cách chúng tôi sử dụng các đối tượng được quan sát và có
-observable objects so now let's talk 🍀 thể quan sát được, vì vậy bây giờ hãy nói
-about when you would want to use a state 🍀 về thời điểm bạn muốn sử dụng
-object versus an observed object and 🍀 đối tượng trạng thái so với đối tượng được quan sát và
-what the difference is between the two 🍀 sự khác biệt giữa hai
-things so you guys will notice that if I 🍀 điều là gì  các bạn sẽ nhận thấy rằng nếu tôi
-change my observed object to a state 🍀 thay đổi đối tượng được quan sát của mình thành
-object that absolutely nothing changes 🍀 đối tượng trạng thái thì hoàn toàn không có gì thay đổi,
-right so 🍀 vì vậy
-this really begs the question of what 🍀 điều này thực sự đặt ra câu hỏi về sự
-the heck is the difference between a 🍀 khác biệt giữa
-state object and an observed object and 🍀 đối tượng trạng thái và đối tượng được quan sát là cái quái gì và
-when do I want to use one versus the 🍀 khi nào thì tôi muốn sử dụng đối tượng này so với đối tượng đó?  cái
-other so we're going to do another 🍀 khác, vì vậy chúng tôi sẽ làm một
-example here to Showcase clearly what 🍀 ví dụ khác ở đây để giới thiệu rõ ràng sự
-the difference is between the two things 🍀 khác biệt giữa hai thứ
-and when you would want to use one 🍀 và khi nào bạn muốn sử dụng cái này
-versus when you would want to use the 🍀 so với khi nào bạn muốn sử dụng cái
-other so what we are going to do is 🍀 kia, vì vậy những gì chúng ta sẽ làm là
-create another view here and we're going 🍀 tạo ra cái khác  chế độ xem ở đây và chúng tôi sẽ
-to make it pretty similar to this it's 🍀 làm cho nó khá giống với chế độ xem này, nó
-just going to generate a random number 🍀 sẽ tạo ra một số ngẫu nhiên
-for us and then we are going to place 🍀 cho chúng tôi và sau đó chúng tôi sẽ đặt
-this view inside of that view so here's 🍀 chế độ xem này bên trong chế độ xem đó, vì vậy đây là
-what I'm talking about we're going to 🍀 những gì tôi đang nói về chúng tôi sẽ
-make a 🍀 
-let's actually just go ahead and copy 🍀 thực sự chúng ta hãy tiếp tục, sao chép
-and paste this guy because it's so 🍀 và dán anh chàng này vì nó rất
-similar 🍀 giống nhau
-and we're going to call this random 🍀 và chúng ta sẽ gọi số ngẫu nhiên này là Chế độ
-number View 🍀 xem
-and we're going to replace this state 🍀 và chúng ta sẽ thay thế đối tượng trạng thái này
-object with a state property 🍀 bằng thuộc tính trạng thái,
-so I'm going to say State private VAR 🍀 vì vậy tôi sẽ nói Trạng thái  số ngẫu nhiên VAR riêng tư
-random number 🍀 
-equals zero 🍀 bằng 0
-and I'm going to replace this guy with 🍀 và tôi sẽ thay thế anh chàng này bằng
-my random number 🍀 số ngẫu nhiên của tôi
-and this is going to say random 🍀 và điều này sẽ nói ngẫu nhiên
-and this will be generate 🍀 và điều này sẽ tạo ra
-random number 🍀 số ngẫu nhiên
-and for my action on this button we are 🍀 và đối với hành động của tôi trên nút này, chúng tôi
-just going to say uh parentheses 0 up to 🍀 sẽ nói uh dấu ngoặc đơn 0 lên  đến
-100 🍀 100
-uh dot random element 🍀 uh phần tử ngẫu nhiên chấm
-and force unwrap it so this will just 🍀 và buộc mở khóa nó, vì vậy điều này sẽ chỉ
-generate a random number for US between 🍀 tạo ra một số ngẫu nhiên cho Hoa Kỳ trong khoảng từ
-1 and 100 guys so 🍀 1 đến 100 người, vì vậy,
-oh we have to say random number 🍀 chúng ta phải nói số ngẫu nhiên
-equals 0 to 100. random element so that 🍀 bằng 0 đến 100. phần tử ngẫu nhiên
-will just update the state property and 🍀 sẽ chỉ cập nhật thuộc tính trạng thái và
-then ultimately change it down here so 🍀 sau đó  cuối cùng thay đổi nó ở đây, vì vậy
-now really quickly we need to just 🍀 bây giờ chúng ta cần
-update our previews so whatever you call 🍀 cập nhật các bản xem trước của mình thật nhanh chóng, vì vậy bất cứ điều gì bạn gọi là chế độ
-this view just go ahead and place it 🍀 xem này, hãy tiếp tục và đặt nó
-inside of the preview struct and you 🍀 bên trong cấu trúc xem trước và
-guys will notice that if I resume my 🍀 các bạn sẽ nhận thấy rằng nếu tôi tiếp tục
-preview I will now have this random 🍀 bản xem trước của mình thì bây giờ tôi sẽ có cái này ngẫu nhiên
-number of you in there and it will 🍀 số lượng bạn trong đó và nó sẽ
-generate a random number for me right so 🍀 tạo ra một số ngẫu nhiên cho tôi,
-pretty similar to what we have here 🍀 rất giống với những gì chúng tôi có ở đây
-except here we're using a view model 🍀 ngoại trừ ở đây chúng tôi đang sử dụng một mô hình chế độ xem
-right to showcase the difference between 🍀 để hiển thị sự khác biệt giữa
-State and observed objects which we are 🍀 Trạng thái và các đối tượng được quan sát mà chúng tôi
-about to see very very clearly so 🍀 sắp thấy rất rất  rõ ràng là
-really quickly I want us to replace the 🍀 rất nhanh, tôi muốn chúng ta thay thế
-state object guy with an observed object 🍀 đối tượng trạng thái bằng một đối tượng được quan sát,
-so this is going to showcase the 🍀 vì vậy điều này sẽ thể hiện sự
-difference between the two things guys 🍀 khác biệt giữa hai thứ, mọi người
-get ready so now what I want us to do is 🍀 hãy sẵn sàng vì vậy bây giờ điều tôi muốn chúng ta làm là
-inside of this v-stack 🍀 bên trong v-stack này,
-I want to just embed it in another 🍀 tôi muốn  chỉ cần nhúng nó vào một
-v-stack 🍀 ngăn xếp v khác
-and place my original view in there 🍀 và đặt chế độ xem ban đầu của tôi vào đó
-State versus Observer that guy the 🍀 Trạng thái so với Người quan sát mà anh chàng đó
-padding just to get some spacing between 🍀 đệm chỉ để có khoảng cách giữa
-the two things cool so here is the 🍀 hai thứ thật tuyệt, vì vậy đây là
-difference guys so let's increase the 🍀 sự khác biệt, vì vậy hãy tăng
-count by a couple things and then let's 🍀 số lượng lên một vài thứ và sau đó hãy
-generate a random number and pay 🍀 tạo một số ngẫu nhiên và
-attention to what happens to the count 🍀 chú ý đến những gì xảy ra với số đếm
-here as soon as I generate a random 🍀 ở đây ngay khi tôi tạo một số ngẫu nhiên,
-number it resets the count variable so 🍀 nó đặt lại biến đếm, vì vậy,
-let's try to figure out why that's 🍀 hãy thử tìm hiểu tại sao điều đó lại
-happening so in our random number view 🍀 xảy ra vì vậy trong chế độ xem số ngẫu nhiên của chúng ta,
-this random number guy is a state 🍀 anh chàng số ngẫu nhiên này là một
-property so every time this changes it 🍀 thuộc tính của trạng thái  vì vậy, mỗi khi điều này thay đổi, nó sẽ
-redraws the view you guys should 🍀 vẽ lại chế độ xem, các bạn nên
-remember that from the state versus 🍀 nhớ rằng từ trạng thái so với
-binding video so what happens is because 🍀 video ràng buộc, vì vậy điều gì xảy ra là do chế độ
-this view this guy right here is 🍀 xem này, anh chàng này ngay tại đây được
-contained within the body every time 🍀 chứa trong nội dung mỗi khi thuộc tính
-this state property changes it 🍀 trạng thái này thay đổi,
-completely throws it all out including 🍀 nó sẽ loại bỏ hoàn toàn tất cả, bao gồm
-the view model and recreates the view 🍀 cả  xem mô hình và tạo lại
-model and resets everything right so for 🍀 mô hình xem và đặt lại mọi thứ cho đúng, vì vậy,
-example guys if I want to change this 🍀 ví dụ: nếu tôi muốn thay đổi
-count variable to 5 🍀 biến đếm này thành 5,
-we'll notice that my count will say five 🍀 chúng tôi sẽ nhận thấy rằng số đếm của tôi sẽ là năm
-and I can increment it a couple times 🍀 và tôi có thể tăng nó lên một vài lần
-and then if I generate a random number 🍀 và sau đó nếu tôi tạo ngẫu nhiên  số
-it resets to the original value right so 🍀 nó đặt lại về giá trị ban đầu, vì vậy đó
-that's probably not how you want that to 🍀 
-function there might be certain 🍀 có thể không phải là cách bạn muốn nó hoạt động.
-situations where that's what you want 🍀 
-um but the difference between observed 🍀 
-objects and state objects is that state 🍀 
-objects will remain persistent and the 🍀 
-view model will not get thrown away and 🍀 không bị vứt bỏ và
-recreate itself so for example if I go 🍀 tự tạo lại, ví dụ như nếu tôi tiếp
-ahead and replace this with State object 🍀 tục và thay thế đối tượng này bằng đối tượng Trạng thái
-and let our preview refresh itself 🍀 và để bản xem trước của chúng tôi tự
-it's working it's working it's working 🍀 làm mới thì nó đang hoạt động.
-and I increment my counts a couple times 🍀 
-and then generate a random number you 🍀 
-guys notice that it holds on to that 🍀 nó giữ
-count variable so the difference between 🍀 biến đếm đó, vì vậy sự khác biệt giữa
-State objects and observed objects is 🍀 các đối tượng Trạng thái và các đối tượng được quan sát là
-this observed objects get thrown away 🍀 các đối tượng được quan
-with the view and they get recreated 🍀 sát này bị loại bỏ cùng với chế độ xem và chúng được tạo lại
-along with the view itself every time 🍀 cùng với chính chế độ xem mỗi khi thuộc
-this state property changes it throws 🍀 tính trạng thái này thay đổi, nó sẽ ném
-all this stuff away and recreates it 🍀 tất cả những thứ này đi và tạo lại nó
-with the updated state but with the 🍀 với trạng thái được cập nhật nhưng với
-state object it has persistence so it 🍀 đối tượng trạng thái, nó vẫn tồn tại lâu dài nên nó
-remembers the original view model and 🍀 nhớ mô hình chế độ xem ban đầu và
-all of the things about it the current 🍀 tất cả mọi thứ về nó, các
-values that it had whatever it may be 🍀 giá trị hiện tại mà nó có bất kể nó có thể là gì
-and it holds on to that stuff so it 🍀 và nó giữ nguyên những thứ đó để nó
-remains persistent so that anytime a 🍀 luôn tồn tại bất cứ lúc nào  một thuộc tính trạng thái
-state property changes it does not 🍀 thay đổi, nó không
-modify or or recreate our view model so 🍀 sửa đổi hoặc hoặc tạo lại mô hình chế độ xem của chúng tôi
-to Showcase that more clearly guys I'm 🍀 để Thể hiện rõ ràng hơn các bạn, tôi
-going to go ahead and add an init method 🍀 sẽ tiếp tục và thêm một phương thức init
-here and just say print 🍀 ở đây và chỉ cần nói rằng lỗi in
-debug 🍀 
-didn't it and let's go ahead and just 🍀 đã không xảy ra và hãy tiếp tục và chỉ cần
-run our application really quickly so 🍀 chạy  ứng dụng của chúng tôi rất nhanh, vì vậy
-just hit command R to run your project 🍀 chỉ cần nhấn lệnh R để chạy dự án của bạn
-and make sure that you guys have the 🍀 và đảm bảo rằng các bạn có chế
-correct root view of your application so 🍀 độ xem gốc chính xác cho ứng dụng của mình, vì vậy hãy
-make sure it's not this original view 🍀 đảm bảo rằng đó không phải là chế độ xem gốc
-that you have here you can just go to 🍀 mà bạn có ở đây, bạn chỉ cần truy cập
-your app file and replace it with random 🍀 tệp ứng dụng của mình và thay thế nó  với chế
-number view right there so let me bring 🍀 độ xem số ngẫu nhiên ngay tại đó, vì vậy hãy để tôi mang
-the simulator over here and pay 🍀 trình giả lập đến đây và
-attention to 🍀 chú ý đến
-the console here guys so you see did 🍀 bảng điều khiển ở đây để các bạn thấy
-init so we notice that our view model 🍀 init, vì vậy chúng tôi nhận thấy rằng mô hình chế độ xem của chúng tôi
-has initialized and every time I want to 🍀 đã được khởi tạo và mỗi khi tôi muốn
-increment my random number 🍀 tăng số ngẫu nhiên của mình thì
-my view model does not re-initialize 🍀 chế độ xem của tôi cũng vậy  không tự khởi tạo lại
-itself okay so that's working nicely now 🍀 được, vì vậy nó hoạt động tốt bây giờ,
-let's change this back to an observed 🍀 hãy thay đổi nó trở lại đối tượng được quan sát
-object and I bet you guys are smart 🍀 và tôi cá là các bạn đủ thông minh
-enough to guess what's going to happen 🍀 để đoán điều gì sẽ xảy ra, điều
-what we should see is that every time we 🍀 chúng ta sẽ thấy là mỗi khi chúng ta
-change the random number it's going to 🍀 thay đổi số ngẫu nhiên, nó sẽ
-give us back this print statement 🍀 cho  chúng tôi quay lại câu lệnh in này
-indicating to us that the view model has 🍀 cho chúng tôi biết rằng mô hình chế độ xem đã được
-reinitialized so I'm going to go ahead 🍀 khởi tạo lại, vì vậy tôi sẽ tiếp tục
-and run my code here and let's just pay 🍀 và chạy mã của mình ở đây và chúng ta hãy
-attention to the console guys so 🍀 chú ý đến những người điều khiển để
-increment my count everything is good my 🍀 tăng số lượng của tôi, mọi thứ đều tốt,
-view model is only initialized once but 🍀 mô hình chế độ xem của tôi chỉ được khởi tạo một lần  nhưng
-if I generate a random number it 🍀 nếu tôi tạo một số ngẫu nhiên, nó sẽ
-initializes again and again and again 🍀 khởi tạo lặp đi lặp lại nhiều
-and again so we can see here the 🍀 lần để chúng ta có thể thấy ở đây
-fundamental difference between State and 🍀 sự khác biệt cơ bản giữa Trạng thái và
-observed objects State objects have 🍀 
-persistence observed objects do not 🍀 các đối tượng được quan sát.
-meaning that when the view redraws 🍀 
-itself a state object will remain 🍀 
-persistent throughout the life cycle of 🍀 trong suốt vòng đời của
-the view The observed object will not it 🍀 chế độ xem Đối tượng được quan sát sẽ không
-will get thrown away and recreated as 🍀 bị loại bỏ và được tạo lại giống như
-the view does as we saw in our example 🍀 chế độ xem như chúng ta đã thấy trong ví dụ của mình
-here so the next question is well can 🍀 ở đây, vì vậy câu hỏi tiếp theo là bạn có thể
-you give me an example of when I would 🍀 cho tôi ví dụ về thời điểm tôi
-want to use one versus the other you 🍀 muốn sử dụng không  so với cái khác, các
-guys might be able to think of some on 🍀 bạn có thể tự nghĩ ra một số
-your own but I'm going to give you 🍀 nhưng tôi sẽ cung cấp cho bạn một
-another example to make this really 🍀 ví dụ khác để làm rõ điều này
-clear of how you utilize State and 🍀 về cách bạn sử dụng Trạng thái và
-observed objects together so we are 🍀 các đối tượng được quan sát cùng nhau, vì vậy chúng tôi
-going to create another view and we're 🍀 sẽ tạo một chế độ xem khác và chúng tôi'  Tôi
-going to add it to our original view 🍀 sẽ thêm nó vào chế độ xem ban đầu của chúng ta
-here it's going to act as sort of a 🍀 ở đây, nó sẽ hoạt động như một loại
-child view of the original View and I'm 🍀 chế độ xem con của Chế độ xem ban đầu và tôi
-going to give you guys a full breakdown 🍀 sẽ cung cấp cho các bạn bảng phân tích đầy đủ
-of the view structure and hierarchy that 🍀 về cấu trúc chế độ xem và phân cấp mà
-we have here in just a little bit to 🍀 chúng tôi có ở đây chỉ sau một chút  một chút để
-make this more clear for now let's just 🍀 làm cho điều này rõ ràng hơn, bây giờ chúng ta hãy
-go ahead and copy and paste this guy and 🍀 tiếp tục, sao chép và dán anh chàng này và
-create something called like child view 🍀 tạo một thứ gọi là chế độ xem con,
-it doesn't matter what we call it and we 🍀 không quan trọng chúng ta gọi nó là gì và chúng ta
-are going to delete this button okay and 🍀 sẽ xóa nút này, được rồi
-we're just going to have this guy 🍀 chúng ta sẽ làm  để anh chàng này
-display the count times two or something 🍀 hiển thị số lần hai hoặc đại loại
-like that so we can just go ahead and go 🍀 như vậy để chúng ta có thể tiếp tục và đi
-times two right there so what we're 🍀 lần hai ngay tại đó, vì vậy những gì chúng ta
-going to do here guys is pass along our 🍀 sẽ làm ở đây các bạn sẽ chuyển
-view model so I'm not going to 🍀 mô hình chế độ xem của chúng ta nên tôi sẽ không
-initialize our view model here I'm going 🍀 khởi tạo chế độ xem của chúng ta  mô hình ở đây, tôi sẽ
-to Simply pass it along 🍀 chỉ đơn giản chuyển nó dọc theo
-counter view model and then in my guy up 🍀 mô hình chế độ xem ngược và sau đó trong anh chàng của tôi ở
-here I'm going to embed this inside of 🍀 đây, tôi sẽ nhúng cái này vào trong
-another v-stack 🍀 một v-stack khác
-and go ahead and pass in my child view 🍀 và tiếp tục và chuyển vào chế độ xem con của tôi
-and it's going to be our G model that we 🍀 và nó sẽ là G của chúng ta  mô hình mà chúng tôi
-have up at the top so we're initializing 🍀 có ở trên cùng, vì vậy chúng tôi đang khởi tạo
-our view model here and we are passing 🍀 mô hình chế độ xem của mình ở đây và chúng tôi đang chuyển
-it along to the child view so let's go 🍀 nó sang chế độ xem con, vì vậy hãy tiếp tục
-ahead and just refresh our preview 🍀 và chỉ cần làm mới bản xem trước của chúng tôi
-really quickly and we just we should see 🍀 thật nhanh và chúng tôi sẽ thấy
-this showing up down here 🍀 điều này hiển thị ở đây
-um and we can maybe make this say like 🍀 um  và chúng ta có thể nói điều này giống như
-2x count 🍀 đếm gấp 2 lần
-okay and then if I increase the count 🍀 được rồi và sau đó nếu tôi tăng số đếm lên thì
-you guys will notice that this is always 🍀 các bạn sẽ nhận thấy rằng đây luôn
-just the count times two so in the 🍀 chỉ là số đếm nhân với hai vì vậy ở
-current state you guys might be able to 🍀 trạng thái hiện tại các bạn có thể
-guess what's going to happen right so if 🍀 đoán được điều gì sẽ xảy ra.
-I generate a random number it will reset 🍀 Tôi tạo một số ngẫu nhiên, nó sẽ đặt lại
-both of those things because it's 🍀 cả hai thứ đó vì nó đang
-recreating the view model every time a 🍀 tạo lại mô hình chế độ xem mỗi khi một
-random number generates so here's where 🍀 số ngẫu nhiên được tạo, vì vậy đây là nơi
-it gets really cool if I make this a 🍀 thực sự tuyệt vời nếu tôi đặt đối tượng này thành một
-state object and this is an observed 🍀 đối tượng trạng thái và đây là một đối tượng được quan sát
-object well you might think okay 🍀 tốt, bạn có thể nghĩ là
-well because this is an observed object 🍀 ổn  bởi vì đây là một đối tượng được quan sát,
-the 2x count guy will reset but this 🍀 anh chàng đếm 2x sẽ đặt lại nhưng điều này
-won't but that's actually not how it 🍀 sẽ không xảy ra nhưng đó thực sự không phải là cách nó
-works if I make it a state object and I 🍀 hoạt động nếu tôi biến nó thành một đối tượng trạng thái và
-then generate a random number because 🍀 sau đó tôi tạo một số ngẫu nhiên vì
-one of these things is a state object it 🍀 một trong những thứ này là một đối tượng trạng thái mà nó
-will hold on to both of those things 🍀 sẽ giữ  trên cả hai thứ đó,
-so that is the core of how to use State 🍀 vì vậy đó là cốt lõi của cách sử dụng Trạng thái
-and observed objects together when you 🍀 và các đối tượng được quan sát cùng nhau khi bạn
-have this sort of parent-child view 🍀 có loại mối quan hệ dạng xem cha-con này,
-relationship right this could be 🍀 đây có thể được
-considered our parent view and this is 🍀 coi là dạng xem gốc của chúng tôi và đây là
-our child view you make the original 🍀 dạng xem con của chúng tôi, bạn tạo ra
-instance of the view model a state 🍀 ví dụ ban đầu  của mô hình khung nhìn thành một
-object and every time you want to pass 🍀 đối tượng trạng thái và mỗi khi bạn muốn chuyển
-an instance of that view model along to 🍀 một thể hiện của mô hình khung nhìn đó sang
-your child views you can make those 🍀 các khung nhìn con của mình, bạn có thể đặt
-observed objects in this state you would 🍀 các đối tượng được quan sát đó ở trạng thái này, bạn sẽ
-not want to make this a state object 🍀 không muốn đặt đối tượng này thành một đối tượng trạng thái
-because that is unnecessary you don't 🍀 vì điều đó là không cần thiết.  'không
-want to pass or have state objects exist 🍀 muốn vượt qua hoặc có các đối tượng trạng thái tồn tại
-in child views you could end up with 🍀 trong các chế độ xem con, bạn có thể kết thúc với
-retain Cycles so you can make these 🍀 các Chu kỳ giữ lại để bạn có thể tạo
-observed objects and the original 🍀 các đối tượng được quan sát này và
-instance of the view model is 🍀 phiên bản gốc của mô hình chế độ xem được
-initialized as a state object and 🍀 khởi tạo dưới dạng một đối tượng trạng thái và
-everything that is passed along to a 🍀 mọi thứ được truyền cho một chế độ xem
-child view can be initialized as an 🍀 con  chế độ xem có thể được khởi tạo dưới dạng
-observed object and it won't get thrown 🍀 đối tượng được quan sát và nó sẽ không bị loại
-away what you don't want to do is 🍀 bỏ, điều bạn không muốn làm là
-initialize the original object of the 🍀 khởi tạo đối tượng ban đầu của
-view model as an observed object you 🍀 mô hình chế độ xem dưới dạng đối tượng được quan sát mà bạn
-want the original one to be a state 🍀 muốn đối tượng ban đầu là
-object and and every time you pass it 🍀 đối tượng trạng thái và mọi  khi bạn chuyển nó
-along to a child view you make those 🍀 sang chế độ xem con, bạn tạo các đối tượng quan sát
-child view view model instances observed 🍀 mô hình chế độ xem chế độ xem con đó
-objects so that's a really good example 🍀 để đó là một ví dụ thực sự tốt
-to showcase the differences in 🍀 để thể hiện sự khác biệt về
-functionality between State and observed 🍀 chức năng giữa Trạng thái và
-objects and when you would want to use 🍀 các đối tượng được quan sát và khi nào bạn muốn sử dụng
-one versus the other now to really 🍀 cái này so với cái kia bây giờ để thực sự
-clarify these Concepts I have a diagram 🍀 làm rõ những Khái niệm này. Tôi có một sơ đồ
-breakdown of how exactly this stuff 🍀 phân tích về cách chính xác công cụ này
-works in the example we just did so 🍀 hoạt động như thế nào trong ví dụ mà chúng ta vừa làm. Vì vậy,
-let's go ahead and check this out 🍀 hãy tiếp tục và kiểm tra điều này
-so we have a mock-up of the app that we 🍀 để chúng ta có một mô hình ứng dụng mà chúng ta
-just built to showcase the difference 🍀 vừa xây dựng để thể hiện sự khác biệt
-between these two things right so we 🍀 giữa hai điều này  đúng vậy chúng ta
-could consider this our main view right 🍀 có thể coi đây là chế độ xem chính của chúng ta ngay
-here this would be like the random 🍀 tại đây, đây sẽ giống như Chế độ
-number View and it's connected to some 🍀 xem số ngẫu nhiên và nó được kết nối với một số
-State Property so every time this state 🍀 Thuộc tính trạng thái nên mỗi khi thuộc tính trạng thái này
-property changes it redraws everything 🍀 thay đổi, nó sẽ vẽ lại mọi thứ bên
-inside of this main view so our child 🍀 trong chế độ xem chính này để chế độ xem con của chúng tôi
-view one was the counter view right 🍀 là chế độ xem đối lập  ngay
-where we initialized our state object 🍀 tại nơi chúng tôi đã khởi tạo mô hình chế độ xem đối tượng trạng thái của mình
-view model 🍀 
-and then we had another child view which 🍀 và sau đó chúng tôi có một chế độ xem con khác, đó
-was the times two view the 2x View and 🍀 là lần thứ hai chế độ xem Chế độ xem 2x và
-we passed that along as an observed 🍀 chúng tôi chuyển nó thành một đối tượng được quan sát,
-object so this is the relationship that 🍀 vì vậy đây là mối quan hệ mà
-you want to have between your state and 🍀 bạn muốn có giữa trạng thái của mình và
-observed objects guys just to cement 🍀 các đối tượng được quan sát  các bạn chỉ cần ghi nhớ
-this in your head one more time State 🍀 điều này một lần nữa trong đầu
-objects remain persistent throughout the 🍀 các đối tượng Trạng thái vẫn tồn tại trong suốt
-life cycle overview and observed objects 🍀 vòng đời tổng quan còn các đối tượng được quan sát thì
-do not so that is going to wrap it up 🍀 không. Vì vậy, chúng tôi sẽ kết thúc
-for this video on State versus observed 🍀 video này về Trạng thái so với
-object guys I hope you enjoyed it and 🍀 các đối tượng được quan sát. Tôi hy vọng các bạn thích nó và
-please make sure you like And subscribe 🍀 vui lòng thực hiện  chắc chắn bạn thích Và đăng ký
-to the channel to see more content like 🍀 kênh để xem thêm nội dung như
-this and check out my website at 🍀 thế này và xem trang web của tôi tại
-stefancodes.com for more exclusive and 🍀 stefancodes.com để biết thêm
-advanced material link is in the 🍀 liên kết tài liệu độc quyền và nâng cao nằm trong
-description thanks for watching this one 🍀 phần mô tả, cảm ơn vì đã xem phần này,
-guys we'll catch you in the next one 🍀 các bạn, chúng tôi sẽ gặp các bạn trong phần tiếp theo.
-peace out 🍀 ra
-[Music] 🍀 [Âm nhạc]
+  https://www.youtube.com/watch?v=RvzJLekIjRs&t=67s
+  what's going on guys welcome back to the 🍀 chuyện gì đang xảy ra chào mừng các bạn quay trở lại
+  channel hope you are doing well Stefan 🍀 kênh, hy vọng bạn đang làm tốt Stefan
+  here from App stuff and in today's video 🍀 ở đây từ Nội dung ứng dụng và trong video ngày hôm nay,
+  we're going to be covering the 🍀 chúng ta sẽ đề cập đến sự
+  difference between State objects and 🍀 khác biệt giữa các đối tượng Trạng thái và
+  observed objects this is a question I 🍀 các đối tượng được quan sát, đây là câu hỏi mà tôi
+  get all the time and we're going to 🍀 luôn nhận được và chúng tôi'  Chúng tôi sẽ làm
+  clear up any confusion you have about 🍀 sáng tỏ bất kỳ sự nhầm lẫn nào của bạn về
+  those two in this video so let's go 🍀 hai điều đó trong video này, vì vậy hãy tiếp tục
+  ahead and get started right now 🍀 và bắt đầu ngay bây giờ
+  [Music] 🍀 [Âm nhạc]
+  so to start things off guys we're going 🍀 để bắt đầu mọi thứ, chúng ta sẽ
+  to talk about how view models work in 🍀 nói về cách các mô hình chế độ xem hoạt động trong
+  Swift UI before we can understand the 🍀 Swift UI trước khi chúng ta có thể  hiểu sự
+  difference between State and observed 🍀 khác biệt giữa Trạng thái và
+  objects we first need to understand how 🍀 các đối tượng được quan sát, trước tiên chúng ta cần hiểu cách
+  observable objects work and how view 🍀 các đối tượng có thể quan sát hoạt động và cách
+  models work in general with swift UI 🍀 các mô hình chế độ xem nói chung hoạt động với Swift UI,
+  then we can start to cover the 🍀 sau đó chúng ta có thể bắt đầu tìm hiểu
+  differences between the two things so 🍀 sự khác biệt giữa hai điều, vì vậy
+  let's take a look at this diagram that 🍀 hãy xem sơ đồ này
+  explains the relationship between views 🍀 giải thích  mối quan hệ giữa các khung nhìn
+  and view models we don't really care 🍀 và các mô hình khung nhìn, chúng ta không thực sự quan tâm
+  about models in this thing we don't need 🍀 đến các mô hình trong vấn đề này, chúng ta không cần
+  to look at the full scope of the mvvm 🍀 xem xét toàn bộ phạm vi của
+  architecture simply just how views and 🍀 kiến ​​trúc mvvm, chỉ đơn giản là cách các khung nhìn và
+  view models work together for the 🍀 các mô hình khung nhìn hoạt động cùng nhau cho
+  purpose of this example so we can see 🍀 mục đích của ví dụ này để chúng ta có thể  thấy
+  that view models are responsible for 🍀 rằng các mô hình chế độ xem chịu trách nhiệm
+  notifying the view to update the user 🍀 thông báo cho chế độ xem để cập nhật
+  interface and it does so through 🍀 giao diện người dùng và nó làm như vậy thông qua việc
+  conforming to this observable object 🍀 tuân thủ giao thức đối tượng có thể quan sát này
+  protocol and it uses published 🍀 và nó sử dụng
+  properties which ultimately notifies the 🍀 các thuộc tính đã xuất bản để cuối cùng thông báo cho
+  view to reconfigure itself so if we look 🍀 chế độ xem để tự cấu hình lại, vì vậy nếu chúng ta xem
+  at the relationship between the two 🍀 xét mối quan hệ giữa hai
+  things we see that the view model notify 🍀 điều  chúng ta thấy rằng mô hình khung nhìn thông báo
+  the view model notifies and updates The 🍀 Mô hình khung nhìn thông báo và cập nhật Chế độ
+  View and the view simply observes The 🍀 xem và chế độ xem chỉ đơn giản là quan sát Mô hình Chế độ
+  View model so it's observing The View 🍀 xem vì vậy nó đang quan sát Mô hình Chế độ xem
+  model and it does so through use of 🍀 và nó làm như vậy thông qua việc sử dụng
+  State object or observed objects when 🍀 đối tượng Trạng thái hoặc các đối tượng được quan sát khi có
+  changes happen on The View model The 🍀 thay đổi xảy ra trên Mô hình Chế độ
+  View reconfigures itself with the 🍀 xem Chế độ xem  tự cấu hình lại với
+  updated data so that's a really simple 🍀 dữ liệu được cập nhật để đó là một sự cố thực sự đơn giản
+  breakdown of how views and view models 🍀 về cách các chế độ xem và mô hình chế độ xem
+  work together basically the view model 🍀 hoạt động cùng nhau về cơ bản, mô hình chế độ xem
+  has our data that the view needs and 🍀 có dữ liệu của chúng tôi mà chế độ xem cần và
+  when that data changes or gets updated 🍀 khi dữ liệu đó thay đổi hoặc được cập nhật
+  or deleted or whatever it may be it 🍀 hoặc xóa hoặc bất cứ điều gì nó có thể
+  notifies the view to reconfigure or 🍀 thông báo cho chế độ xem  để cấu hình lại hoặc
+  redraw itself with the updated data now 🍀 vẽ lại chính nó với dữ liệu được cập nhật bây giờ,
+  it's very similar to how State 🍀 nó rất giống với cách Thuộc
+  Properties work with views so if you 🍀 tính trạng thái hoạt động với chế độ xem, vì vậy nếu các
+  guys are confused as to how State 🍀 bạn bối rối về cách
+  properties and binding properties work 🍀 thuộc tính Trạng thái và thuộc tính ràng buộc hoạt động
+  together I highly recommend checking 🍀 cùng nhau, tôi thực sự khuyên bạn nên xem
+  that video out on my channel it's 🍀 video đó trên kênh của mình, video đó
+  available in the description I have the 🍀 có sẵn trong  mô tả Tôi có
+  link there make sure you check that out 🍀 liên kết ở đó, hãy chắc chắn rằng bạn kiểm tra nó
+  because this definitely Builds on top of 🍀 vì điều này chắc chắn Xây dựng trên hết,
+  that it's very important to understand 🍀 điều rất quan trọng là phải hiểu
+  State and binding properties before we 🍀 Trạng thái và các thuộc tính ràng buộc trước khi chúng ta
+  can understand State objects and 🍀 có thể hiểu các đối tượng Trạng thái và
+  observed objects so once again the links 🍀 các đối tượng được quan sát, vì vậy một lần nữa các liên kết
+  in the description for that video highly 🍀 trong phần mô tả cho video đó được đánh giá cao
+  recommend checking that out but anyway 🍀 khuyên bạn nên kiểm tra điều đó nhưng dù sao thì
+  guys let's go ahead and see if we can 🍀 mọi người hãy tiếp tục và xem liệu chúng ta có thể
+  Implement a simple example of a view 🍀 Triển khai một ví dụ đơn giản về
+  view model relationship where the view 🍀 mối quan hệ mô hình chế độ xem chế độ xem trong đó
+  model is responsible for updating The 🍀 mô hình chế độ xem chịu trách nhiệm cập nhật Chế
+  View with data so let's go ahead and hop 🍀 độ xem với dữ liệu, vì vậy hãy tiếp tục và chuyển
+  into xcode now 🍀 sang xcode ngay bây giờ
+  so I have a xcode project opened up here 🍀 để tôi có một  dự án xcode đã mở ở đây,
+  guys you should do the same and it's the 🍀 các bạn cũng nên làm như vậy và đó là
+  xcode project from the state versus 🍀 dự án xcode từ video trạng thái so với video
+  binding video you're not going to need 🍀 ràng buộc, bạn sẽ không cần
+  any code from that video you can start 🍀 bất kỳ mã nào từ video đó, bạn có thể bắt đầu làm
+  fresh with a new project if you like but 🍀 mới với một dự án mới nếu bạn thích nhưng
+  this stuff is very closely related so 🍀 nội dung này rất  có liên quan chặt chẽ với nhau vì vậy
+  I'm putting it all together in one 🍀 tôi sẽ kết hợp tất cả lại với nhau trong một
+  project so really quickly we're just 🍀 dự án để thực sự nhanh chóng, chúng tôi
+  going to implement a simple counter and 🍀 sẽ triển khai một bộ đếm đơn giản và
+  we are going to just be able to 🍀 chúng tôi sẽ chỉ có thể
+  increment the counter by one when we 🍀 tăng bộ đếm lên một khi chúng tôi
+  press a button so let's go ahead and do 🍀 nhấn một nút, vì vậy hãy tiếp tục và  làm
+  that and also make sure we implement the 🍀 điều đó và cũng đảm bảo rằng chúng tôi triển khai việc
+  use of a view model to help us out so 🍀 sử dụng mô hình chế độ xem để trợ giúp chúng tôi, vì vậy
+  we're going to say we want a v-stack 🍀 chúng tôi sẽ nói rằng chúng tôi muốn
+  text count 🍀 số lượng văn bản trong ngăn xếp v
+  and it's just going to be zero for now 🍀 và hiện tại nó sẽ bằng 0
+  and then we are going to create a button 🍀 và sau đó chúng tôi sẽ tạo một
+  and it's going to say increase 🍀 và nó sẽ nói
+  count and we'll leave the action blank 🍀 số lượng tăng lên và bây giờ chúng ta sẽ để trống hành động,
+  for now let's go ahead and just create a 🍀 hãy tiếp tục và chỉ cần tạo một
+  view model really quickly so we're going 🍀 mô hình chế độ xem thật nhanh chóng vì vậy chúng ta sẽ
+  to say class 🍀 nói
+  counter view model 🍀 mô hình chế độ xem bộ đếm lớp
+  it's going to conform to this observable 🍀 nó sẽ tuân theo anh chàng đối tượng có thể quan sát này
+  object 🍀
+  guy and then we are going to make a 🍀 và  sau đó chúng tôi sẽ tạo một
+  published property 🍀 thuộc tính đã xuất bản
+  for our counts set it equal to zero and 🍀 cho số đếm của chúng tôi, đặt nó bằng 0 và
+  we're going to write a function here 🍀 chúng tôi sẽ viết một hàm ở đây
+  called increase 🍀 có tên là tăng
+  count 🍀 số đếm
+  and say count plus equals one and then 🍀 và nói rằng đếm cộng bằng một và sau đó
+  down here guys in our struct we are 🍀 ở đây, các bạn trong cấu trúc của chúng tôi, chúng tôi
+  going to uh Implement an observed object 🍀 sẽ thực hiện  một đối tượng được quan sát
+  that essentially observes the observable 🍀 về cơ bản quan sát đối tượng có thể quan sát được
+  object of our view model so I'm going to 🍀 của mô hình chế độ xem của chúng tôi, vì vậy tôi sẽ
+  say at observed object bar view model 🍀 nói ở đối tượng được quan sát, mô hình chế độ xem thanh
+  equals counter view model 🍀 bằng với mô hình chế độ xem đối lập
+  and then here I will replace the count 🍀 và sau đó ở đây tôi sẽ thay thế
+  guy with my view model 🍀 anh chàng đếm bằng chế độ xem của tôi,
+  let's see was my auto complete not 🍀 hãy xem ô tô của tôi đã hoàn thành chưa
+  working there we go dot count and then 🍀 làm việc ở đó, chúng tôi đi đếm dấu chấm và sau đó
+  here I will say viewmodel dot increase 🍀 ở đây tôi sẽ nói số lượng dấu chấm của viewmodel tăng lên
+  count so super super simple right we 🍀 siêu siêu đơn giản, chúng ta
+  just press this button now and it's 🍀 chỉ cần nhấn nút này ngay bây giờ và nó
+  going to increase our count right 🍀 sẽ tăng số lượng của chúng ta ngay
+  so this fully covers the relationship 🍀 để điều này bao hàm đầy đủ mối quan hệ
+  between observable and observed objects 🍀 giữa các đối tượng có thể quan sát và được quan sát
+  so we can see here that we are observing 🍀 để chúng ta có thể thấy  ở đây chúng tôi đang quan sát
+  this view model and we are paying 🍀 mô hình chế độ xem này và chúng tôi đang
+  attention to this count guy and it's a 🍀 chú ý đến anh chàng đếm này và đó là
+  published property so that every time I 🍀 thuộc tính đã xuất bản để mỗi khi tôi
+  hit this button it calls this increase 🍀 nhấn nút này, nó gọi
+  count function it increases the count by 🍀 chức năng đếm tăng này, nó sẽ tăng số đếm lên
+  one and then it re-updates my view with 🍀 một và sau đó nó cập nhật lại chế độ xem của tôi  với
+  the updated count variable so that's the 🍀 biến đếm được cập nhật, đó là
+  relationship between views and view 🍀 mối quan hệ giữa chế độ xem và
+  models and how we use observed and 🍀 mô hình chế độ xem và cách chúng tôi sử dụng các đối tượng được quan sát và có
+  observable objects so now let's talk 🍀 thể quan sát được, vì vậy bây giờ hãy nói
+  about when you would want to use a state 🍀 về thời điểm bạn muốn sử dụng
+  object versus an observed object and 🍀 đối tượng trạng thái so với đối tượng được quan sát và
+  what the difference is between the two 🍀 sự khác biệt giữa hai
+  things so you guys will notice that if I 🍀 điều là gì  các bạn sẽ nhận thấy rằng nếu tôi
+  change my observed object to a state 🍀 thay đổi đối tượng được quan sát của mình thành
+  object that absolutely nothing changes 🍀 đối tượng trạng thái thì hoàn toàn không có gì thay đổi,
+  right so 🍀 vì vậy
+  this really begs the question of what 🍀 điều này thực sự đặt ra câu hỏi về sự
+  the heck is the difference between a 🍀 khác biệt giữa
+  state object and an observed object and 🍀 đối tượng trạng thái và đối tượng được quan sát là cái quái gì và
+  when do I want to use one versus the 🍀 khi nào thì tôi muốn sử dụng đối tượng này so với đối tượng đó?  cái
+  other so we're going to do another 🍀 khác, vì vậy chúng tôi sẽ làm một
+  example here to Showcase clearly what 🍀 ví dụ khác ở đây để giới thiệu rõ ràng sự
+  the difference is between the two things 🍀 khác biệt giữa hai thứ
+  and when you would want to use one 🍀 và khi nào bạn muốn sử dụng cái này
+  versus when you would want to use the 🍀 so với khi nào bạn muốn sử dụng cái
+  other so what we are going to do is 🍀 kia, vì vậy những gì chúng ta sẽ làm là
+  create another view here and we're going 🍀 tạo ra cái khác  chế độ xem ở đây và chúng tôi sẽ
+  to make it pretty similar to this it's 🍀 làm cho nó khá giống với chế độ xem này, nó
+  just going to generate a random number 🍀 sẽ tạo ra một số ngẫu nhiên
+  for us and then we are going to place 🍀 cho chúng tôi và sau đó chúng tôi sẽ đặt
+  this view inside of that view so here's 🍀 chế độ xem này bên trong chế độ xem đó, vì vậy đây là
+  what I'm talking about we're going to 🍀 những gì tôi đang nói về chúng tôi sẽ
+  make a 🍀
+  let's actually just go ahead and copy 🍀 thực sự chúng ta hãy tiếp tục, sao chép
+  and paste this guy because it's so 🍀 và dán anh chàng này vì nó rất
+  similar 🍀 giống nhau
+  and we're going to call this random 🍀 và chúng ta sẽ gọi số ngẫu nhiên này là Chế độ
+  number View 🍀 xem
+  and we're going to replace this state 🍀 và chúng ta sẽ thay thế đối tượng trạng thái này
+  object with a state property 🍀 bằng thuộc tính trạng thái,
+  so I'm going to say State private VAR 🍀 vì vậy tôi sẽ nói Trạng thái  số ngẫu nhiên VAR riêng tư
+  random number 🍀
+  equals zero 🍀 bằng 0
+  and I'm going to replace this guy with 🍀 và tôi sẽ thay thế anh chàng này bằng
+  my random number 🍀 số ngẫu nhiên của tôi
+  and this is going to say random 🍀 và điều này sẽ nói ngẫu nhiên
+  and this will be generate 🍀 và điều này sẽ tạo ra
+  random number 🍀 số ngẫu nhiên
+  and for my action on this button we are 🍀 và đối với hành động của tôi trên nút này, chúng tôi
+  just going to say uh parentheses 0 up to 🍀 sẽ nói uh dấu ngoặc đơn 0 lên  đến
+  100 🍀 100
+  uh dot random element 🍀 uh phần tử ngẫu nhiên chấm
+  and force unwrap it so this will just 🍀 và buộc mở khóa nó, vì vậy điều này sẽ chỉ
+  generate a random number for US between 🍀 tạo ra một số ngẫu nhiên cho Hoa Kỳ trong khoảng từ
+  1 and 100 guys so 🍀 1 đến 100 người, vì vậy,
+  oh we have to say random number 🍀 chúng ta phải nói số ngẫu nhiên
+  equals 0 to 100. random element so that 🍀 bằng 0 đến 100. phần tử ngẫu nhiên
+  will just update the state property and 🍀 sẽ chỉ cập nhật thuộc tính trạng thái và
+  then ultimately change it down here so 🍀 sau đó  cuối cùng thay đổi nó ở đây, vì vậy
+  now really quickly we need to just 🍀 bây giờ chúng ta cần
+  update our previews so whatever you call 🍀 cập nhật các bản xem trước của mình thật nhanh chóng, vì vậy bất cứ điều gì bạn gọi là chế độ
+  this view just go ahead and place it 🍀 xem này, hãy tiếp tục và đặt nó
+  inside of the preview struct and you 🍀 bên trong cấu trúc xem trước và
+  guys will notice that if I resume my 🍀 các bạn sẽ nhận thấy rằng nếu tôi tiếp tục
+  preview I will now have this random 🍀 bản xem trước của mình thì bây giờ tôi sẽ có cái này ngẫu nhiên
+  number of you in there and it will 🍀 số lượng bạn trong đó và nó sẽ
+  generate a random number for me right so 🍀 tạo ra một số ngẫu nhiên cho tôi,
+  pretty similar to what we have here 🍀 rất giống với những gì chúng tôi có ở đây
+  except here we're using a view model 🍀 ngoại trừ ở đây chúng tôi đang sử dụng một mô hình chế độ xem
+  right to showcase the difference between 🍀 để hiển thị sự khác biệt giữa
+  State and observed objects which we are 🍀 Trạng thái và các đối tượng được quan sát mà chúng tôi
+  about to see very very clearly so 🍀 sắp thấy rất rất  rõ ràng là
+  really quickly I want us to replace the 🍀 rất nhanh, tôi muốn chúng ta thay thế
+  state object guy with an observed object 🍀 đối tượng trạng thái bằng một đối tượng được quan sát,
+  so this is going to showcase the 🍀 vì vậy điều này sẽ thể hiện sự
+  difference between the two things guys 🍀 khác biệt giữa hai thứ, mọi người
+  get ready so now what I want us to do is 🍀 hãy sẵn sàng vì vậy bây giờ điều tôi muốn chúng ta làm là
+  inside of this v-stack 🍀 bên trong v-stack này,
+  I want to just embed it in another 🍀 tôi muốn  chỉ cần nhúng nó vào một
+  v-stack 🍀 ngăn xếp v khác
+  and place my original view in there 🍀 và đặt chế độ xem ban đầu của tôi vào đó
+  State versus Observer that guy the 🍀 Trạng thái so với Người quan sát mà anh chàng đó
+  padding just to get some spacing between 🍀 đệm chỉ để có khoảng cách giữa
+  the two things cool so here is the 🍀 hai thứ thật tuyệt, vì vậy đây là
+  difference guys so let's increase the 🍀 sự khác biệt, vì vậy hãy tăng
+  count by a couple things and then let's 🍀 số lượng lên một vài thứ và sau đó hãy
+  generate a random number and pay 🍀 tạo một số ngẫu nhiên và
+  attention to what happens to the count 🍀 chú ý đến những gì xảy ra với số đếm
+  here as soon as I generate a random 🍀 ở đây ngay khi tôi tạo một số ngẫu nhiên,
+  number it resets the count variable so 🍀 nó đặt lại biến đếm, vì vậy,
+  let's try to figure out why that's 🍀 hãy thử tìm hiểu tại sao điều đó lại
+  happening so in our random number view 🍀 xảy ra vì vậy trong chế độ xem số ngẫu nhiên của chúng ta,
+  this random number guy is a state 🍀 anh chàng số ngẫu nhiên này là một
+  property so every time this changes it 🍀 thuộc tính của trạng thái  vì vậy, mỗi khi điều này thay đổi, nó sẽ
+  redraws the view you guys should 🍀 vẽ lại chế độ xem, các bạn nên
+  remember that from the state versus 🍀 nhớ rằng từ trạng thái so với
+  binding video so what happens is because 🍀 video ràng buộc, vì vậy điều gì xảy ra là do chế độ
+  this view this guy right here is 🍀 xem này, anh chàng này ngay tại đây được
+  contained within the body every time 🍀 chứa trong nội dung mỗi khi thuộc tính
+  this state property changes it 🍀 trạng thái này thay đổi,
+  completely throws it all out including 🍀 nó sẽ loại bỏ hoàn toàn tất cả, bao gồm
+  the view model and recreates the view 🍀 cả  xem mô hình và tạo lại
+  model and resets everything right so for 🍀 mô hình xem và đặt lại mọi thứ cho đúng, vì vậy,
+  example guys if I want to change this 🍀 ví dụ: nếu tôi muốn thay đổi
+  count variable to 5 🍀 biến đếm này thành 5,
+  we'll notice that my count will say five 🍀 chúng tôi sẽ nhận thấy rằng số đếm của tôi sẽ là năm
+  and I can increment it a couple times 🍀 và tôi có thể tăng nó lên một vài lần
+  and then if I generate a random number 🍀 và sau đó nếu tôi tạo ngẫu nhiên  số
+  it resets to the original value right so 🍀 nó đặt lại về giá trị ban đầu, vì vậy đó
+  that's probably not how you want that to 🍀
+  function there might be certain 🍀 có thể không phải là cách bạn muốn nó hoạt động.
+  situations where that's what you want 🍀
+  um but the difference between observed 🍀
+  objects and state objects is that state 🍀
+  objects will remain persistent and the 🍀
+  view model will not get thrown away and 🍀 không bị vứt bỏ và
+  recreate itself so for example if I go 🍀 tự tạo lại, ví dụ như nếu tôi tiếp
+  ahead and replace this with State object 🍀 tục và thay thế đối tượng này bằng đối tượng Trạng thái
+  and let our preview refresh itself 🍀 và để bản xem trước của chúng tôi tự
+  it's working it's working it's working 🍀 làm mới thì nó đang hoạt động.
+  and I increment my counts a couple times 🍀
+  and then generate a random number you 🍀
+  guys notice that it holds on to that 🍀 nó giữ
+  count variable so the difference between 🍀 biến đếm đó, vì vậy sự khác biệt giữa
+  State objects and observed objects is 🍀 các đối tượng Trạng thái và các đối tượng được quan sát là
+  this observed objects get thrown away 🍀 các đối tượng được quan
+  with the view and they get recreated 🍀 sát này bị loại bỏ cùng với chế độ xem và chúng được tạo lại
+  along with the view itself every time 🍀 cùng với chính chế độ xem mỗi khi thuộc
+  this state property changes it throws 🍀 tính trạng thái này thay đổi, nó sẽ ném
+  all this stuff away and recreates it 🍀 tất cả những thứ này đi và tạo lại nó
+  with the updated state but with the 🍀 với trạng thái được cập nhật nhưng với
+  state object it has persistence so it 🍀 đối tượng trạng thái, nó vẫn tồn tại lâu dài nên nó
+  remembers the original view model and 🍀 nhớ mô hình chế độ xem ban đầu và
+  all of the things about it the current 🍀 tất cả mọi thứ về nó, các
+  values that it had whatever it may be 🍀 giá trị hiện tại mà nó có bất kể nó có thể là gì
+  and it holds on to that stuff so it 🍀 và nó giữ nguyên những thứ đó để nó
+  remains persistent so that anytime a 🍀 luôn tồn tại bất cứ lúc nào  một thuộc tính trạng thái
+  state property changes it does not 🍀 thay đổi, nó không
+  modify or or recreate our view model so 🍀 sửa đổi hoặc hoặc tạo lại mô hình chế độ xem của chúng tôi
+  to Showcase that more clearly guys I'm 🍀 để Thể hiện rõ ràng hơn các bạn, tôi
+  going to go ahead and add an init method 🍀 sẽ tiếp tục và thêm một phương thức init
+  here and just say print 🍀 ở đây và chỉ cần nói rằng lỗi in
+  debug 🍀
+  didn't it and let's go ahead and just 🍀 đã không xảy ra và hãy tiếp tục và chỉ cần
+  run our application really quickly so 🍀 chạy  ứng dụng của chúng tôi rất nhanh, vì vậy
+  just hit command R to run your project 🍀 chỉ cần nhấn lệnh R để chạy dự án của bạn
+  and make sure that you guys have the 🍀 và đảm bảo rằng các bạn có chế
+  correct root view of your application so 🍀 độ xem gốc chính xác cho ứng dụng của mình, vì vậy hãy
+  make sure it's not this original view 🍀 đảm bảo rằng đó không phải là chế độ xem gốc
+  that you have here you can just go to 🍀 mà bạn có ở đây, bạn chỉ cần truy cập
+  your app file and replace it with random 🍀 tệp ứng dụng của mình và thay thế nó  với chế
+  number view right there so let me bring 🍀 độ xem số ngẫu nhiên ngay tại đó, vì vậy hãy để tôi mang
+  the simulator over here and pay 🍀 trình giả lập đến đây và
+  attention to 🍀 chú ý đến
+  the console here guys so you see did 🍀 bảng điều khiển ở đây để các bạn thấy
+  init so we notice that our view model 🍀 init, vì vậy chúng tôi nhận thấy rằng mô hình chế độ xem của chúng tôi
+  has initialized and every time I want to 🍀 đã được khởi tạo và mỗi khi tôi muốn
+  increment my random number 🍀 tăng số ngẫu nhiên của mình thì
+  my view model does not re-initialize 🍀 chế độ xem của tôi cũng vậy  không tự khởi tạo lại
+  itself okay so that's working nicely now 🍀 được, vì vậy nó hoạt động tốt bây giờ,
+  let's change this back to an observed 🍀 hãy thay đổi nó trở lại đối tượng được quan sát
+  object and I bet you guys are smart 🍀 và tôi cá là các bạn đủ thông minh
+  enough to guess what's going to happen 🍀 để đoán điều gì sẽ xảy ra, điều
+  what we should see is that every time we 🍀 chúng ta sẽ thấy là mỗi khi chúng ta
+  change the random number it's going to 🍀 thay đổi số ngẫu nhiên, nó sẽ
+  give us back this print statement 🍀 cho  chúng tôi quay lại câu lệnh in này
+  indicating to us that the view model has 🍀 cho chúng tôi biết rằng mô hình chế độ xem đã được
+  reinitialized so I'm going to go ahead 🍀 khởi tạo lại, vì vậy tôi sẽ tiếp tục
+  and run my code here and let's just pay 🍀 và chạy mã của mình ở đây và chúng ta hãy
+  attention to the console guys so 🍀 chú ý đến những người điều khiển để
+  increment my count everything is good my 🍀 tăng số lượng của tôi, mọi thứ đều tốt,
+  view model is only initialized once but 🍀 mô hình chế độ xem của tôi chỉ được khởi tạo một lần  nhưng
+  if I generate a random number it 🍀 nếu tôi tạo một số ngẫu nhiên, nó sẽ
+  initializes again and again and again 🍀 khởi tạo lặp đi lặp lại nhiều
+  and again so we can see here the 🍀 lần để chúng ta có thể thấy ở đây
+  fundamental difference between State and 🍀 sự khác biệt cơ bản giữa Trạng thái và
+  observed objects State objects have 🍀
+  persistence observed objects do not 🍀 các đối tượng được quan sát.
+  meaning that when the view redraws 🍀
+  itself a state object will remain 🍀
+  persistent throughout the life cycle of 🍀 trong suốt vòng đời của
+  the view The observed object will not it 🍀 chế độ xem Đối tượng được quan sát sẽ không
+  will get thrown away and recreated as 🍀 bị loại bỏ và được tạo lại giống như
+  the view does as we saw in our example 🍀 chế độ xem như chúng ta đã thấy trong ví dụ của mình
+  here so the next question is well can 🍀 ở đây, vì vậy câu hỏi tiếp theo là bạn có thể
+  you give me an example of when I would 🍀 cho tôi ví dụ về thời điểm tôi
+  want to use one versus the other you 🍀 muốn sử dụng không  so với cái khác, các
+  guys might be able to think of some on 🍀 bạn có thể tự nghĩ ra một số
+  your own but I'm going to give you 🍀 nhưng tôi sẽ cung cấp cho bạn một
+  another example to make this really 🍀 ví dụ khác để làm rõ điều này
+  clear of how you utilize State and 🍀 về cách bạn sử dụng Trạng thái và
+  observed objects together so we are 🍀 các đối tượng được quan sát cùng nhau, vì vậy chúng tôi
+  going to create another view and we're 🍀 sẽ tạo một chế độ xem khác và chúng tôi'  Tôi
+  going to add it to our original view 🍀 sẽ thêm nó vào chế độ xem ban đầu của chúng ta
+  here it's going to act as sort of a 🍀 ở đây, nó sẽ hoạt động như một loại
+  child view of the original View and I'm 🍀 chế độ xem con của Chế độ xem ban đầu và tôi
+  going to give you guys a full breakdown 🍀 sẽ cung cấp cho các bạn bảng phân tích đầy đủ
+  of the view structure and hierarchy that 🍀 về cấu trúc chế độ xem và phân cấp mà
+  we have here in just a little bit to 🍀 chúng tôi có ở đây chỉ sau một chút  một chút để
+  make this more clear for now let's just 🍀 làm cho điều này rõ ràng hơn, bây giờ chúng ta hãy
+  go ahead and copy and paste this guy and 🍀 tiếp tục, sao chép và dán anh chàng này và
+  create something called like child view 🍀 tạo một thứ gọi là chế độ xem con,
+  it doesn't matter what we call it and we 🍀 không quan trọng chúng ta gọi nó là gì và chúng ta
+  are going to delete this button okay and 🍀 sẽ xóa nút này, được rồi
+  we're just going to have this guy 🍀 chúng ta sẽ làm  để anh chàng này
+  display the count times two or something 🍀 hiển thị số lần hai hoặc đại loại
+  like that so we can just go ahead and go 🍀 như vậy để chúng ta có thể tiếp tục và đi
+  times two right there so what we're 🍀 lần hai ngay tại đó, vì vậy những gì chúng ta
+  going to do here guys is pass along our 🍀 sẽ làm ở đây các bạn sẽ chuyển
+  view model so I'm not going to 🍀 mô hình chế độ xem của chúng ta nên tôi sẽ không
+  initialize our view model here I'm going 🍀 khởi tạo chế độ xem của chúng ta  mô hình ở đây, tôi sẽ
+  to Simply pass it along 🍀 chỉ đơn giản chuyển nó dọc theo
+  counter view model and then in my guy up 🍀 mô hình chế độ xem ngược và sau đó trong anh chàng của tôi ở
+  here I'm going to embed this inside of 🍀 đây, tôi sẽ nhúng cái này vào trong
+  another v-stack 🍀 một v-stack khác
+  and go ahead and pass in my child view 🍀 và tiếp tục và chuyển vào chế độ xem con của tôi
+  and it's going to be our G model that we 🍀 và nó sẽ là G của chúng ta  mô hình mà chúng tôi
+  have up at the top so we're initializing 🍀 có ở trên cùng, vì vậy chúng tôi đang khởi tạo
+  our view model here and we are passing 🍀 mô hình chế độ xem của mình ở đây và chúng tôi đang chuyển
+  it along to the child view so let's go 🍀 nó sang chế độ xem con, vì vậy hãy tiếp tục
+  ahead and just refresh our preview 🍀 và chỉ cần làm mới bản xem trước của chúng tôi
+  really quickly and we just we should see 🍀 thật nhanh và chúng tôi sẽ thấy
+  this showing up down here 🍀 điều này hiển thị ở đây
+  um and we can maybe make this say like 🍀 um  và chúng ta có thể nói điều này giống như
+  2x count 🍀 đếm gấp 2 lần
+  okay and then if I increase the count 🍀 được rồi và sau đó nếu tôi tăng số đếm lên thì
+  you guys will notice that this is always 🍀 các bạn sẽ nhận thấy rằng đây luôn
+  just the count times two so in the 🍀 chỉ là số đếm nhân với hai vì vậy ở
+  current state you guys might be able to 🍀 trạng thái hiện tại các bạn có thể
+  guess what's going to happen right so if 🍀 đoán được điều gì sẽ xảy ra.
+  I generate a random number it will reset 🍀 Tôi tạo một số ngẫu nhiên, nó sẽ đặt lại
+  both of those things because it's 🍀 cả hai thứ đó vì nó đang
+  recreating the view model every time a 🍀 tạo lại mô hình chế độ xem mỗi khi một
+  random number generates so here's where 🍀 số ngẫu nhiên được tạo, vì vậy đây là nơi
+  it gets really cool if I make this a 🍀 thực sự tuyệt vời nếu tôi đặt đối tượng này thành một
+  state object and this is an observed 🍀 đối tượng trạng thái và đây là một đối tượng được quan sát
+  object well you might think okay 🍀 tốt, bạn có thể nghĩ là
+  well because this is an observed object 🍀 ổn  bởi vì đây là một đối tượng được quan sát,
+  the 2x count guy will reset but this 🍀 anh chàng đếm 2x sẽ đặt lại nhưng điều này
+  won't but that's actually not how it 🍀 sẽ không xảy ra nhưng đó thực sự không phải là cách nó
+  works if I make it a state object and I 🍀 hoạt động nếu tôi biến nó thành một đối tượng trạng thái và
+  then generate a random number because 🍀 sau đó tôi tạo một số ngẫu nhiên vì
+  one of these things is a state object it 🍀 một trong những thứ này là một đối tượng trạng thái mà nó
+  will hold on to both of those things 🍀 sẽ giữ  trên cả hai thứ đó,
+  so that is the core of how to use State 🍀 vì vậy đó là cốt lõi của cách sử dụng Trạng thái
+  and observed objects together when you 🍀 và các đối tượng được quan sát cùng nhau khi bạn
+  have this sort of parent-child view 🍀 có loại mối quan hệ dạng xem cha-con này,
+  relationship right this could be 🍀 đây có thể được
+  considered our parent view and this is 🍀 coi là dạng xem gốc của chúng tôi và đây là
+  our child view you make the original 🍀 dạng xem con của chúng tôi, bạn tạo ra
+  instance of the view model a state 🍀 ví dụ ban đầu  của mô hình khung nhìn thành một
+  object and every time you want to pass 🍀 đối tượng trạng thái và mỗi khi bạn muốn chuyển
+  an instance of that view model along to 🍀 một thể hiện của mô hình khung nhìn đó sang
+  your child views you can make those 🍀 các khung nhìn con của mình, bạn có thể đặt
+  observed objects in this state you would 🍀 các đối tượng được quan sát đó ở trạng thái này, bạn sẽ
+  not want to make this a state object 🍀 không muốn đặt đối tượng này thành một đối tượng trạng thái
+  because that is unnecessary you don't 🍀 vì điều đó là không cần thiết.  'không
+  want to pass or have state objects exist 🍀 muốn vượt qua hoặc có các đối tượng trạng thái tồn tại
+  in child views you could end up with 🍀 trong các chế độ xem con, bạn có thể kết thúc với
+  retain Cycles so you can make these 🍀 các Chu kỳ giữ lại để bạn có thể tạo
+  observed objects and the original 🍀 các đối tượng được quan sát này và
+  instance of the view model is 🍀 phiên bản gốc của mô hình chế độ xem được
+  initialized as a state object and 🍀 khởi tạo dưới dạng một đối tượng trạng thái và
+  everything that is passed along to a 🍀 mọi thứ được truyền cho một chế độ xem
+  child view can be initialized as an 🍀 con  chế độ xem có thể được khởi tạo dưới dạng
+  observed object and it won't get thrown 🍀 đối tượng được quan sát và nó sẽ không bị loại
+  away what you don't want to do is 🍀 bỏ, điều bạn không muốn làm là
+  initialize the original object of the 🍀 khởi tạo đối tượng ban đầu của
+  view model as an observed object you 🍀 mô hình chế độ xem dưới dạng đối tượng được quan sát mà bạn
+  want the original one to be a state 🍀 muốn đối tượng ban đầu là
+  object and and every time you pass it 🍀 đối tượng trạng thái và mọi  khi bạn chuyển nó
+  along to a child view you make those 🍀 sang chế độ xem con, bạn tạo các đối tượng quan sát
+  child view view model instances observed 🍀 mô hình chế độ xem chế độ xem con đó
+  objects so that's a really good example 🍀 để đó là một ví dụ thực sự tốt
+  to showcase the differences in 🍀 để thể hiện sự khác biệt về
+  functionality between State and observed 🍀 chức năng giữa Trạng thái và
+  objects and when you would want to use 🍀 các đối tượng được quan sát và khi nào bạn muốn sử dụng
+  one versus the other now to really 🍀 cái này so với cái kia bây giờ để thực sự
+  clarify these Concepts I have a diagram 🍀 làm rõ những Khái niệm này. Tôi có một sơ đồ
+  breakdown of how exactly this stuff 🍀 phân tích về cách chính xác công cụ này
+  works in the example we just did so 🍀 hoạt động như thế nào trong ví dụ mà chúng ta vừa làm. Vì vậy,
+  let's go ahead and check this out 🍀 hãy tiếp tục và kiểm tra điều này
+  so we have a mock-up of the app that we 🍀 để chúng ta có một mô hình ứng dụng mà chúng ta
+  just built to showcase the difference 🍀 vừa xây dựng để thể hiện sự khác biệt
+  between these two things right so we 🍀 giữa hai điều này  đúng vậy chúng ta
+  could consider this our main view right 🍀 có thể coi đây là chế độ xem chính của chúng ta ngay
+  here this would be like the random 🍀 tại đây, đây sẽ giống như Chế độ
+  number View and it's connected to some 🍀 xem số ngẫu nhiên và nó được kết nối với một số
+  State Property so every time this state 🍀 Thuộc tính trạng thái nên mỗi khi thuộc tính trạng thái này
+  property changes it redraws everything 🍀 thay đổi, nó sẽ vẽ lại mọi thứ bên
+  inside of this main view so our child 🍀 trong chế độ xem chính này để chế độ xem con của chúng tôi
+  view one was the counter view right 🍀 là chế độ xem đối lập  ngay
+  where we initialized our state object 🍀 tại nơi chúng tôi đã khởi tạo mô hình chế độ xem đối tượng trạng thái của mình
+  view model 🍀
+  and then we had another child view which 🍀 và sau đó chúng tôi có một chế độ xem con khác, đó
+  was the times two view the 2x View and 🍀 là lần thứ hai chế độ xem Chế độ xem 2x và
+  we passed that along as an observed 🍀 chúng tôi chuyển nó thành một đối tượng được quan sát,
+  object so this is the relationship that 🍀 vì vậy đây là mối quan hệ mà
+  you want to have between your state and 🍀 bạn muốn có giữa trạng thái của mình và
+  observed objects guys just to cement 🍀 các đối tượng được quan sát  các bạn chỉ cần ghi nhớ
+  this in your head one more time State 🍀 điều này một lần nữa trong đầu
+  objects remain persistent throughout the 🍀 các đối tượng Trạng thái vẫn tồn tại trong suốt
+  life cycle overview and observed objects 🍀 vòng đời tổng quan còn các đối tượng được quan sát thì
+  do not so that is going to wrap it up 🍀 không. Vì vậy, chúng tôi sẽ kết thúc
+  for this video on State versus observed 🍀 video này về Trạng thái so với
+  object guys I hope you enjoyed it and 🍀 các đối tượng được quan sát. Tôi hy vọng các bạn thích nó và
+  please make sure you like And subscribe 🍀 vui lòng thực hiện  chắc chắn bạn thích Và đăng ký
+  to the channel to see more content like 🍀 kênh để xem thêm nội dung như
+  this and check out my website at 🍀 thế này và xem trang web của tôi tại
+  stefancodes.com for more exclusive and 🍀 stefancodes.com để biết thêm
+  advanced material link is in the 🍀 liên kết tài liệu độc quyền và nâng cao nằm trong
+  description thanks for watching this one 🍀 phần mô tả, cảm ơn vì đã xem phần này,
+  guys we'll catch you in the next one 🍀 các bạn, chúng tôi sẽ gặp các bạn trong phần tiếp theo.
+  peace out 🍀 ra
+  [Music] 🍀 [Âm nhạc]
+  

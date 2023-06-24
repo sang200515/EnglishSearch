@@ -1,378 +1,379 @@
-Hello, Anne.
-
-Hello, Tom.
-
-Good morning, Anne.
-
-Good morning, Tom.
-
-Good afternoon, Anne.
-
-Good afternoon, Tom.
-
-Good evening, Anne.
-
-Good evening, Tom.
-
-Good night, Mom.
-
-Good night, Anne.
-
-Hello.
-
-Hello.
-
-Are you a student?
-
-Yes, I am.
-
-Are you a student?
-
-Yes, I am.
-
-How are you?
-
-I'm fine.
-
-How are you?
-
-I'm fine, too.
-
-Is it a banana?
-
-Yes, it is.
-
-Is it an orange?
-
-Yes, it is.
-
-Is it an apple?
-
-No, it isn't.
-
-It's a cherry.
-
-Is it a melon?
-
-No, it isn't.
-
-It's a pineapple.
-
-What is it?
-
-It's a pencil.
-
-What is it?
-
-It's a book.
-
-What is it?
-
-It's a ball.
-
-What is it?
-
-It's a cup.
-
-What is this?
-
-This is a dog.
-
-What is this?
-
-This is a cat.
-
-What is that?
-
-That is a cow.
-
-What is that?
-
-That is a duck.
-
-What color is it?
-
-It's red.
-
-What color is it?
-
-It's black.
-
-What color is it?
-
-It's blue.
-
-Is it white?
-
-Yes, it is.
-
-Is it yellow?
-
-No, it isn't.
-
-It's orange.
-
-What number is it?
-
-It's three.
-
-What number is this?
-
-This is seven.
-
-What number is it?
-
-It's ten.
-
-Is this two?
-
-Yes, it is.
-
-Is it nine?
-
-No, it isn't.
-
-It's six.
-
-Is he a teacher?
-
-Yes, he is.
-
-Is she a teacher?
-
-Yes, she is.
-
-Is he a doctor?
-
-Yes, he is.
-
-Is she a nurse?
-
-No, she isn't.
-
-She is a doctor.
-
-Who is he?
-
-He is my dad.
-
-Who is she?
-
-She is my mom.
-
-Who is he?
-
-He is my grandfather.
-
-Who is she?
-
-She is my grandmother.
-
-Who is she?
-
-She is my sister.
-
-My name is Tom.
-
-What is your name?
-
-My name is Ben.
-
-Nice to meet you, Ben.
-
-Nice to meet you, too.
-
-How old are you?
-
-I am six years old.
-
-What about you?
-
-I am six years old, too.
-
-She's cute.
-
-Yes, she is.
-
-What is her name?
-
-Her name is Vicky.
-
-How old is she?
-
-She is 4 years old.
-
-Is she tall?
-
-No, she isn't tall.
-
-I have a dog.
-
-Is it a boy or a girl?
-
-It's a boy.
-
-What's his name?
-
-His name is happy.
-
-What color is he?
-
-He's white.
-
-Is he big?
-
-No, he's small.
-
-I have cousins.
-
-They are twins.
-
-Are they boys?
-
-No, they're not.
-
-They are girls.
-
-Are they tall?
-
-No, they're not tall.
-
-They are short.
-
-How old are they?
-
-They're one year old.
-
-What are their names?
-
-Erin and Ruby.
-
-Do you like apples?
-
-Yes, I do.
-
-Do you like oranges?
-
-Yes.
-
-Do you like strawberries?
-
-No, I don't.
-
-Do you like strawberries?
-
-Yes.
-
-Do you like bananas?
-
-Yes, I like bananas.
-
-Happy birthday, Anne.
-
-Thank you.
-
-Here's your birthday gift.
-
-What is it?
-
-It's a crayon set.
-
-It has 24 colors.
-
-Thank you.
-
-My gift is a story book.
-
-Thank you.
-
-My gift is a toy car.
-
-Thank you.
-
-It's so nice.
-
-When do you get up?
-
-I get up at 7 o'clock.
-
-When do you eat breakfast?
-
-I eat breakfast at 8 o'clock
-
-When do you go to school?
-
-I go to school at 9 o'clock.
-
-When do you go to bed?
-
-I go to bed at 10 o'clock.
-
-When do you get up?
-
-I get up at 7 o'clock.
-
-What do you do after that?
-
-I wash my face.
-
-What do you do then?
-
-I eat my breakfast.
-
-What do you do after that?
-
-I brush my teeth.
-
-Where is the board?
-
-It's on the wall.
-
-What's on the board?
-
-A marker is on the board.
-
-Where are the books?
-
-They are on the shelf.
-
-Where is the clock?
-
-It's on the wall.
-
-Where's the monkey?
-
-It's in the tree.
-
-What does the monkey have?
-
-It has a banana.
-
-Where is the rabbit?
-
-It's in the grass.
-
-What does the rabbit have?
-
-It has a carrot.
-
-Can you swim?
-
-No, I can't.
-
-Can you?
-
-Yes, I can.
-
-Where do you swim?
-
-In a swimming pool.
-
-Can you dive?
-
-No, I can't.
-
-But I can jump in the pool.
-
-I can jump in the pool too.
-
+  Hello, Anne.
+  
+  Hello, Tom.
+  
+  Good morning, Anne.
+  
+  Good morning, Tom.
+  
+  Good afternoon, Anne.
+  
+  Good afternoon, Tom.
+  
+  Good evening, Anne.
+  
+  Good evening, Tom.
+  
+  Good night, Mom.
+  
+  Good night, Anne.
+  
+  Hello.
+  
+  Hello.
+  
+  Are you a student?
+  
+  Yes, I am.
+  
+  Are you a student?
+  
+  Yes, I am.
+  
+  How are you?
+  
+  I'm fine.
+  
+  How are you?
+  
+  I'm fine, too.
+  
+  Is it a banana?
+  
+  Yes, it is.
+  
+  Is it an orange?
+  
+  Yes, it is.
+  
+  Is it an apple?
+  
+  No, it isn't.
+  
+  It's a cherry.
+  
+  Is it a melon?
+  
+  No, it isn't.
+  
+  It's a pineapple.
+  
+  What is it?
+  
+  It's a pencil.
+  
+  What is it?
+  
+  It's a book.
+  
+  What is it?
+  
+  It's a ball.
+  
+  What is it?
+  
+  It's a cup.
+  
+  What is this?
+  
+  This is a dog.
+  
+  What is this?
+  
+  This is a cat.
+  
+  What is that?
+  
+  That is a cow.
+  
+  What is that?
+  
+  That is a duck.
+  
+  What color is it?
+  
+  It's red.
+  
+  What color is it?
+  
+  It's black.
+  
+  What color is it?
+  
+  It's blue.
+  
+  Is it white?
+  
+  Yes, it is.
+  
+  Is it yellow?
+  
+  No, it isn't.
+  
+  It's orange.
+  
+  What number is it?
+  
+  It's three.
+  
+  What number is this?
+  
+  This is seven.
+  
+  What number is it?
+  
+  It's ten.
+  
+  Is this two?
+  
+  Yes, it is.
+  
+  Is it nine?
+  
+  No, it isn't.
+  
+  It's six.
+  
+  Is he a teacher?
+  
+  Yes, he is.
+  
+  Is she a teacher?
+  
+  Yes, she is.
+  
+  Is he a doctor?
+  
+  Yes, he is.
+  
+  Is she a nurse?
+  
+  No, she isn't.
+  
+  She is a doctor.
+  
+  Who is he?
+  
+  He is my dad.
+  
+  Who is she?
+  
+  She is my mom.
+  
+  Who is he?
+  
+  He is my grandfather.
+  
+  Who is she?
+  
+  She is my grandmother.
+  
+  Who is she?
+  
+  She is my sister.
+  
+  My name is Tom.
+  
+  What is your name?
+  
+  My name is Ben.
+  
+  Nice to meet you, Ben.
+  
+  Nice to meet you, too.
+  
+  How old are you?
+  
+  I am six years old.
+  
+  What about you?
+  
+  I am six years old, too.
+  
+  She's cute.
+  
+  Yes, she is.
+  
+  What is her name?
+  
+  Her name is Vicky.
+  
+  How old is she?
+  
+  She is 4 years old.
+  
+  Is she tall?
+  
+  No, she isn't tall.
+  
+  I have a dog.
+  
+  Is it a boy or a girl?
+  
+  It's a boy.
+  
+  What's his name?
+  
+  His name is happy.
+  
+  What color is he?
+  
+  He's white.
+  
+  Is he big?
+  
+  No, he's small.
+  
+  I have cousins.
+  
+  They are twins.
+  
+  Are they boys?
+  
+  No, they're not.
+  
+  They are girls.
+  
+  Are they tall?
+  
+  No, they're not tall.
+  
+  They are short.
+  
+  How old are they?
+  
+  They're one year old.
+  
+  What are their names?
+  
+  Erin and Ruby.
+  
+  Do you like apples?
+  
+  Yes, I do.
+  
+  Do you like oranges?
+  
+  Yes.
+  
+  Do you like strawberries?
+  
+  No, I don't.
+  
+  Do you like strawberries?
+  
+  Yes.
+  
+  Do you like bananas?
+  
+  Yes, I like bananas.
+  
+  Happy birthday, Anne.
+  
+  Thank you.
+  
+  Here's your birthday gift.
+  
+  What is it?
+  
+  It's a crayon set.
+  
+  It has 24 colors.
+  
+  Thank you.
+  
+  My gift is a story book.
+  
+  Thank you.
+  
+  My gift is a toy car.
+  
+  Thank you.
+  
+  It's so nice.
+  
+  When do you get up?
+  
+  I get up at 7 o'clock.
+  
+  When do you eat breakfast?
+  
+  I eat breakfast at 8 o'clock
+  
+  When do you go to school?
+  
+  I go to school at 9 o'clock.
+  
+  When do you go to bed?
+  
+  I go to bed at 10 o'clock.
+  
+  When do you get up?
+  
+  I get up at 7 o'clock.
+  
+  What do you do after that?
+  
+  I wash my face.
+  
+  What do you do then?
+  
+  I eat my breakfast.
+  
+  What do you do after that?
+  
+  I brush my teeth.
+  
+  Where is the board?
+  
+  It's on the wall.
+  
+  What's on the board?
+  
+  A marker is on the board.
+  
+  Where are the books?
+  
+  They are on the shelf.
+  
+  Where is the clock?
+  
+  It's on the wall.
+  
+  Where's the monkey?
+  
+  It's in the tree.
+  
+  What does the monkey have?
+  
+  It has a banana.
+  
+  Where is the rabbit?
+  
+  It's in the grass.
+  
+  What does the rabbit have?
+  
+  It has a carrot.
+  
+  Can you swim?
+  
+  No, I can't.
+  
+  Can you?
+  
+  Yes, I can.
+  
+  Where do you swim?
+  
+  In a swimming pool.
+  
+  Can you dive?
+  
+  No, I can't.
+  
+  But I can jump in the pool.
+  
+  I can jump in the pool too.
+  
+  
