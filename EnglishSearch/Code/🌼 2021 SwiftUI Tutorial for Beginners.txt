@@ -79,7 +79,7 @@
   apple's platforms 🍀 nền tảng của apple
   including ios ipad os tv os 🍀 bao gồm ios ipad os tv os
   watch os and mac os and in some cases 🍀 xem os và mac os và trong một số trường hợp
-  your app will be able to work on 🍀 ứng dụng của bạn sẽ có thể hoạt động trên
+  your app will be able to work on 🍀 ứng dụng của bạn sẽ có thể hoạt động trên 1
   multiple platforms without much 🍀 nhiều nền tảng mà không cần nhiều
   changes at all now once your app is 🍀 bây giờ hoàn toàn thay đổi sau khi ứng dụng của bạn được
   built you can distribute it with apple's 🍀 được xây dựng, bạn có thể phân phối nó với apple
@@ -155,7 +155,7 @@
   through if you continue on with this app 🍀 thông qua nếu bạn tiếp tục với ứng dụng này
   journey 🍀 hành trình
   now by the end of this learning path 🍀 bây giờ khi kết thúc con đường học tập này
-  you'll be building your own apps using 🍀 bạn sẽ xây dựng các ứng dụng của riêng mình bằng cách sử dụng
+  you'll be building your own apps using 🍀 bạn sẽ xây dựng các ứng dụng của riêng mình bằng cách sử dụng.
   all of these tools that we've covered 🍀 tất cả những công cụ này mà chúng tôi đã đề cập
   even if you don't have any coding 🍀 ngay cả khi bạn không có bất kỳ mã hóa nào
   experience right now 🍀 trải nghiệm ngay bây giờ
@@ -239,7 +239,7 @@
   this size however over time when you 🍀 kích thước này tuy nhiên theo thời gian khi bạn
   download 🍀 Tải xuống
   additional developer components and 🍀 các thành phần nhà phát triển bổ sung và
-  additional ios simulators 🍀 trình giả lập ios bổ sung
+  additional ios simulators 🍀 trình giả lập ios bổ sung11
   this can actually get even higher so 🍀 điều này thực sự có thể cao hơn nữa vì vậy
   make sure you have sufficient hard drive 🍀 đảm bảo bạn có đủ ổ cứng
   space 🍀 không gian
@@ -357,7 +357,7 @@
   and for these options just leave them 🍀 và đối với các tùy chọn này, chỉ cần để chúng
   all unchecked 🍀 tất cả không được kiểm tra
   or if they are checked just uncheck them 🍀 hoặc nếu chúng được chọn, chỉ cần bỏ chọn chúng
-  now a brief note on these drop downs 🍀 bây giờ là một ghi chú ngắn gọn về các trình đơn thả xuống này
+  now a brief note on these drop downs 🍀 bây giờ là một ghi chú ngắn gọn về các trình đơn thả xuống này 111
   right here over time 🍀 ngay tại đây theo thời gian
   as app development for ios has evolved 🍀 khi phát triển ứng dụng cho ios đã phát triển
   there have been a couple of programming 🍀 đã có một vài chương trình
@@ -415,7 +415,7 @@
   is on the very right hand side and this 🍀 nằm ở phía bên tay phải và cái này
   is called the inspector area 🍀 được gọi là khu vực thanh tra
   and it either shows me additional 🍀 và nó cho tôi thấy bổ sung
-  supplemental information 🍀 thông tin bổ sung
+  supplemental information 🍀 thông tin bổ sung //TODO: here
   on what i select in the editor area or 🍀 về những gì tôi chọn trong khu vực biên tập hoặc
   it allows me to configure or edit 🍀 nó cho phép tôi cấu hình hoặc chỉnh sửa
   the thing that i select in the editor 🍀 thứ mà tôi chọn trong trình chỉnh sửa

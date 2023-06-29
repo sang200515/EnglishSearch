@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E94786D2A4DC3F800210FAF /* BostonEnglishCommin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E94786C2A4DC3F800210FAF /* BostonEnglishCommin.txt */; };
+		8E94786F2A4DC41500210FAF /* Academic American English - Listening and Reading.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E94786E2A4DC41500210FAF /* Academic American English - Listening and Reading.txt */; };
+		8E9478712A4DC48100210FAF /* English Conversations in Hotels and Restaurants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E9478702A4DC48100210FAF /* English Conversations in Hotels and Restaurants.txt */; };
+		8E9478732A4DC5AD00210FAF /* 50 Topics for Everyday Life Conversations.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E9478722A4DC5AD00210FAF /* 50 Topics for Everyday Life Conversations.txt */; };
+		8E9478752A4DC5DE00210FAF /* 47 Practical English Lessons for Communication.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E9478742A4DC5DE00210FAF /* 47 Practical English Lessons for Communication.txt */; };
+		8E9478772A4DC64200210FAF /* 82 English Conversations for Business and Trade.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E9478762A4DC64200210FAF /* 82 English Conversations for Business and Trade.txt */; };
+		8E9478792A4DC6AF00210FAF /* 160 English Dialogues for Travelling and Tourism.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E9478782A4DC6AF00210FAF /* 160 English Dialogues for Travelling and Tourism.txt */; };
+		8E94787B2A4DC6E700210FAF /* 104 Daily Life English Dialogues.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E94787A2A4DC6E700210FAF /* 104 Daily Life English Dialogues.txt */; };
+		8E94787D2A4DC73400210FAF /* 15 English Lessons for Conversational English.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E94787C2A4DC73400210FAF /* 15 English Lessons for Conversational English.txt */; };
+		8E94787F2A4DC78000210FAF /* 57 English Conversations for Everyday Life.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E94787E2A4DC78000210FAF /* 57 English Conversations for Everyday Life.txt */; };
+		8E9478812A4DC7C800210FAF /* Beginner English Listening Lessons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E9478802A4DC7C800210FAF /* Beginner English Listening Lessons.txt */; };
+		8E9478832A4DC7FE00210FAF /* 45 English Situations of the Social Communication.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E9478822A4DC7FE00210FAF /* 45 English Situations of the Social Communication.txt */; };
+		8E9478852A4DC85B00210FAF /* Everyday English Conversations.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E9478842A4DC85B00210FAF /* Everyday English Conversations.txt */; };
+		8EBF81942A49ED6B00695114 /* Common.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF81932A49ED6B00695114 /* Common.txt */; };
 		941A7DD22A436A750078ACF2 /* 🌺 How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DD12A436A750078ACF2 /* 🌺 How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt */; };
 		941A7DD42A436EA80078ACF2 /* 🌺 Barbara Corcoran Turning $1,000 to $1Billion  E204.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DD32A436EA80078ACF2 /* 🌺 Barbara Corcoran Turning $1,000 to $1Billion  E204.txt */; };
 		941A7DD62A43718C0078ACF2 /* 🌺 The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt in Resources */ = {isa = PBXBuildFile; fileRef = 941A7DD52A4371880078ACF2 /* 🌺 The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt */; };
@@ -101,6 +115,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E94786C2A4DC3F800210FAF /* BostonEnglishCommin.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BostonEnglishCommin.txt; sourceTree = "<group>"; };
+		8E94786E2A4DC41500210FAF /* Academic American English - Listening and Reading.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Academic American English - Listening and Reading.txt"; sourceTree = "<group>"; };
+		8E9478702A4DC48100210FAF /* English Conversations in Hotels and Restaurants.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "English Conversations in Hotels and Restaurants.txt"; sourceTree = "<group>"; };
+		8E9478722A4DC5AD00210FAF /* 50 Topics for Everyday Life Conversations.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "50 Topics for Everyday Life Conversations.txt"; sourceTree = "<group>"; };
+		8E9478742A4DC5DE00210FAF /* 47 Practical English Lessons for Communication.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "47 Practical English Lessons for Communication.txt"; sourceTree = "<group>"; };
+		8E9478762A4DC64200210FAF /* 82 English Conversations for Business and Trade.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "82 English Conversations for Business and Trade.txt"; sourceTree = "<group>"; };
+		8E9478782A4DC6AF00210FAF /* 160 English Dialogues for Travelling and Tourism.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "160 English Dialogues for Travelling and Tourism.txt"; sourceTree = "<group>"; };
+		8E94787A2A4DC6E700210FAF /* 104 Daily Life English Dialogues.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "104 Daily Life English Dialogues.txt"; sourceTree = "<group>"; };
+		8E94787C2A4DC73400210FAF /* 15 English Lessons for Conversational English.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "15 English Lessons for Conversational English.txt"; sourceTree = "<group>"; };
+		8E94787E2A4DC78000210FAF /* 57 English Conversations for Everyday Life.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "57 English Conversations for Everyday Life.txt"; sourceTree = "<group>"; };
+		8E9478802A4DC7C800210FAF /* Beginner English Listening Lessons.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Beginner English Listening Lessons.txt"; sourceTree = "<group>"; };
+		8E9478822A4DC7FE00210FAF /* 45 English Situations of the Social Communication.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "45 English Situations of the Social Communication.txt"; sourceTree = "<group>"; };
+		8E9478842A4DC85B00210FAF /* Everyday English Conversations.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Everyday English Conversations.txt"; sourceTree = "<group>"; };
+		8EBF81932A49ED6B00695114 /* Common.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Common.txt; sourceTree = "<group>"; };
 		941A7DD12A436A750078ACF2 /* 🌺 How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "🌺 How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt"; sourceTree = "<group>"; };
 		941A7DD32A436EA80078ACF2 /* 🌺 Barbara Corcoran Turning $1,000 to $1Billion  E204.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌺 Barbara Corcoran Turning $1,000 to $1Billion  E204.txt"; sourceTree = "<group>"; };
 		941A7DD52A4371880078ACF2 /* 🌺 The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌺 The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt"; sourceTree = "<group>"; };
@@ -206,6 +234,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E94786B2A4DC3D400210FAF /* BostonEnglishCenter */ = {
+			isa = PBXGroup;
+			children = (
+				8E94786C2A4DC3F800210FAF /* BostonEnglishCommin.txt */,
+				8E94786E2A4DC41500210FAF /* Academic American English - Listening and Reading.txt */,
+				8E9478702A4DC48100210FAF /* English Conversations in Hotels and Restaurants.txt */,
+				8E9478722A4DC5AD00210FAF /* 50 Topics for Everyday Life Conversations.txt */,
+				8E9478742A4DC5DE00210FAF /* 47 Practical English Lessons for Communication.txt */,
+				8E9478762A4DC64200210FAF /* 82 English Conversations for Business and Trade.txt */,
+				8E9478782A4DC6AF00210FAF /* 160 English Dialogues for Travelling and Tourism.txt */,
+				8E94787A2A4DC6E700210FAF /* 104 Daily Life English Dialogues.txt */,
+				8E94787C2A4DC73400210FAF /* 15 English Lessons for Conversational English.txt */,
+				8E94787E2A4DC78000210FAF /* 57 English Conversations for Everyday Life.txt */,
+				8E9478802A4DC7C800210FAF /* Beginner English Listening Lessons.txt */,
+				8E9478822A4DC7FE00210FAF /* 45 English Situations of the Social Communication.txt */,
+				8E9478842A4DC85B00210FAF /* Everyday English Conversations.txt */,
+			);
+			path = BostonEnglishCenter;
+			sourceTree = "<group>";
+		};
+		8EBF81952A49ED9400695114 /* English101 */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF81932A49ED6B00695114 /* Common.txt */,
+			);
+			path = English101;
+			sourceTree = "<group>";
+		};
 		941A7DE02A4379870078ACF2 /* chapter1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -358,6 +414,7 @@
 		94E751832A407A7100F20840 /* Conversation */ = {
 			isa = PBXGroup;
 			children = (
+				8EBF81952A49ED9400695114 /* English101 */,
 				94C396332A46CFEE004B5936 /* DownSub */,
 				944AEE412A46CB8500B9A31C /* Daily Conversation */,
 				942F0A262A40AEA000E50FDE /* 🌸 Basic English Conversation Practice for Kids _ Chapter 21 to 35.txt */,
@@ -399,6 +456,7 @@
 			isa = PBXGroup;
 			children = (
 				94B04ADD2A41195C007FAB49 /* docs.md */,
+				8E94786B2A4DC3D400210FAF /* BostonEnglishCenter */,
 				94D8CD512A42000E004BE080 /* Podcast */,
 				94E751832A407A7100F20840 /* Conversation */,
 				94779E842A3DD6EE001DEFEA /* Code */,
@@ -456,7 +514,7 @@
 				TargetAttributes = {
 					94EBDF4E2A3D73A70095C776 = {
 						CreatedOnToolsVersion = 14.3.1;
-						LastSwiftMigration = 1430;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -483,8 +541,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9478852A4DC85B00210FAF /* Everyday English Conversations.txt in Resources */,
 				941A7DDA2A43776B0078ACF2 /* 🌺 Opens Up About His Struggle With Loneliness, Love & Dating! | E230.txt in Resources */,
 				941A7DD22A436A750078ACF2 /* 🌺 How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt in Resources */,
+				8E9478772A4DC64200210FAF /* 82 English Conversations for Business and Trade.txt in Resources */,
 				941A7DE92A437BFE0078ACF2 /* 🌺 Ex-Google Officer Finally Speaks Out On The Dangers Of AI! - Mo Gawdat | E252.txt in Resources */,
 				941A7DF52A447C6B0078ACF2 /* 🌺 Billion Dollar NIGHTMARE! The Tragedy Of A Billion $$ Beauty Business - Nicola Kilner, The Ordinary.txt in Resources */,
 				94D8CD442A41EDCB004BE080 /* 🌼 Stacks __ Build Spotify UI __ SwiftUI Bootcamp #6.txt in Resources */,
@@ -493,6 +553,7 @@
 				94D8CD572A420121004BE080 /* 🌺 S03E02 Grit & Growth _ Executive Coaching_ From Self-Doubt to Self-Awareness.txt in Resources */,
 				942F0A032A4090FF00E50FDE /* 🌸 Learn English Conversation - Oxford English Daily Conversation Part 2.txt in Resources */,
 				94D8CD732A4205D1004BE080 /* 🌺 The Inside Scoop on the SEC with Former Commissioner Allison Herren Lee.txt in Resources */,
+				8E9478832A4DC7FE00210FAF /* 45 English Situations of the Social Communication.txt in Resources */,
 				94D8CD4E2A41F882004BE080 /* 🌼 Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5.txt in Resources */,
 				941A7DDC2A43781A0078ACF2 /* 🌺 The Number One Reason Why You’re Not Succeeding .txt in Resources */,
 				941A7E962A46BF5C0078ACF2 /* 🌸 Daily Life English Conversation - English Speaking Practice for Everyone.txt in Resources */,
@@ -505,6 +566,7 @@
 				94C396322A46CF30004B5936 /* 🌸 Speak American English in 100 Minutes Learn English Speaking Easily Quickly.txt in Resources */,
 				942F0A272A40AEA000E50FDE /* 🌸 Basic English Conversation Practice for Kids _ Chapter 21 to 35.txt in Resources */,
 				941A7DDD2A43784E0078ACF2 /* docs.md in Resources */,
+				8E9478792A4DC6AF00210FAF /* 160 English Dialogues for Travelling and Tourism.txt in Resources */,
 				94C396302A46CEDC004B5936 /* 🌸 Improve English Listening and Speaking Skills Everyday Everyday English Conversations.txt in Resources */,
 				94B04ADF2A41E81B007FAB49 /* 🌼 Free iOS Development Course _ Building a CryptoCurrency App with SwiftUI.txt in Resources */,
 				941A7DD42A436EA80078ACF2 /* 🌺 Barbara Corcoran Turning $1,000 to $1Billion  E204.txt in Resources */,
@@ -512,6 +574,7 @@
 				94EBDF752A3D8CB20095C776 /* transcript2.pdf in Resources */,
 				941A7DFE2A447FB60078ACF2 /* 🌺 The Shocking New Research On Why Men And Women Are No Longer Compatible.txt in Resources */,
 				948178952A421F5200FF2130 /* 🌺 The Talk Show Live From WWDC 2022.txt in Resources */,
+				8E94786F2A4DC41500210FAF /* Academic American English - Listening and Reading.txt in Resources */,
 				941A7DD82A43764D0078ACF2 /* 🌺 Tom Bilyeu From Broke & Sleeping On The Floor To A $1 Billion Business | E146.txt in Resources */,
 				942F0A452A40B8D700E50FDE /* 🌸  ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 .txt in Resources */,
 				942F0A2B2A40B1D900E50FDE /* 🌸 Lisas real Sister! - Conversation in English - English Communication Lesson .txt in Resources */,
@@ -519,6 +582,7 @@
 				941A7DED2A437D880078ACF2 /* 🌺 The World’s No.1 Sleep Expert The 6 Sleep Hacks You NEED! - Matthew Walker | E228.txt in Resources */,
 				94D8CD5B2A4201BA004BE080 /* 🌺 Jacqueline Novogratz, Founder and CEO of Acumen_ Balancing Humility with Audacity.txt in Resources */,
 				94D8CD6F2A420539004BE080 /* 🌺 Cynt Marshall, CEO of the Dallas Mavericks.txt in Resources */,
+				8E9478812A4DC7C800210FAF /* Beginner English Listening Lessons.txt in Resources */,
 				9481787C2A42185200FF2130 /* 🌺 Sundar Pichai, CEO of Google and Alphabet.txt in Resources */,
 				94EBDF712A3D8A3C0095C776 /* transcript.pdf in Resources */,
 				941A7E8E2A46BB540078ACF2 /* 🌼 2021 SwiftUI Tutorial for Beginners.txt in Resources */,
@@ -529,11 +593,14 @@
 				942F0A3F2A40B72B00E50FDE /* 🌸 1000 Basic English Question and Answers and more for daily conversation.txt in Resources */,
 				948178902A421E2900FF2130 /* 🌺 The Talk Show Live From WWDC 2023.txt in Resources */,
 				941A7DF12A447AFC0078ACF2 /* 🌺 The Secrets Of Your Mind, Boost Productivity & Reduce Stress.txt in Resources */,
+				8E9478712A4DC48100210FAF /* English Conversations in Hotels and Restaurants.txt in Resources */,
 				94EBDF6F2A3D88CD0095C776 /* 🌼  transcript2.txt in Resources */,
 				948178982A42247C00FF2130 /* 🌺 Learn English with Taylor Swift Talk Show - English Subtitles.txt in Resources */,
+				8E94787D2A4DC73400210FAF /* 15 English Lessons for Conversational English.txt in Resources */,
 				94779E912A3FD02B001DEFEA /* 🌼 NEVER Confuse @State vs @Binding Again __ SwiftUI Property Wrappers.txt in Resources */,
 				941A7DD62A43718C0078ACF2 /* 🌺 The Man That Makes Millionaires How To Turn $1,000 Into $100 Million! Alex Hormozi | E235.txt in Resources */,
 				94BFF3FF2A46D26E009DFB05 /* 🌸 English Listening Practice - Learn English Listening Comprehension.txt in Resources */,
+				8E9478752A4DC5DE00210FAF /* 47 Practical English Lessons for Communication.txt in Resources */,
 				94D8CD8C2A420B12004BE080 /* 🌺 Dara Treseder, SVP, Global Head of Marketing, Communications & Membership of Peloton.txt in Resources */,
 				94C396352A46CFFE004B5936 /* 🌸 English Listening Practice for Beginners Funny English Conversation for Daily Life.txt in Resources */,
 				94D8CD7B2A420751004BE080 /* 🌺 Stanford Doerr School of Sustainability Chat with  John Doerr, Jon Levin, and Arun Majumdar.txt in Resources */,
@@ -551,10 +618,13 @@
 				942F0A292A40B13600E50FDE /* 🌸  2 HOURS of English Conversation Dialogues Listening Practice .txt in Resources */,
 				94B04AE32A41E965007FAB49 /* 🌼 Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14.txt in Resources */,
 				94BFF4052A470D49009DFB05 /* 🌺 CommPodcast2.txt in Resources */,
+				8E94786D2A4DC3F800210FAF /* BostonEnglishCommin.txt in Resources */,
 				941A7E922A46BDBF0078ACF2 /* 🌺 American English Conversations to Improve Listening & Speaking Fluency.txt in Resources */,
+				8E94787B2A4DC6E700210FAF /* 104 Daily Life English Dialogues.txt in Resources */,
 				942F0A392A40B5D500E50FDE /* 🌸 200 English Questions and Answers and more for Everyday Conversation by Topic .txt in Resources */,
 				948178812A4219E800FF2130 /* 🌺 S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship.txt in Resources */,
 				941A7DEB2A437D110078ACF2 /* 🌺 Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt in Resources */,
+				8E9478732A4DC5AD00210FAF /* 50 Topics for Everyday Life Conversations.txt in Resources */,
 				94D8CD8F2A420BD9004BE080 /* 🌺 Tony Elumelu, founder of The Tony Elumelu Foundation.txt in Resources */,
 				94D8CD672A4203E1004BE080 /* 🌺 Whitney Wolfe, Founder and CEO of Bumble and Co-Founder of Tinder.txt in Resources */,
 				94BFF4012A46D31F009DFB05 /* 🌸 Common.txt in Resources */,
@@ -574,6 +644,8 @@
 				942F0A1D2A40AB5300E50FDE /* 🌸  Advanced English Conversation_ Vocabulary, Phrasal Verb, Pronunciation [DownSub.com].txt in Resources */,
 				94BFF3FB2A46D130009DFB05 /* 🌸 English Conversation Practice - Improve English Listening and Speaking Skills Everyday.txt in Resources */,
 				942F0A312A40B2E500E50FDE /* 🌸  1.5 HOUR English Conversation Lesson .txt in Resources */,
+				8EBF81942A49ED6B00695114 /* Common.txt in Resources */,
+				8E94787F2A4DC78000210FAF /* 57 English Conversations for Everyday Life.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
