@@ -1,9 +1,57 @@
   20 mẫu câu được sử dụng nhiều nhất 
-  What is your
-  where did you
-  Do you have
-  what do you do
-  have you 
+  Who
+  What
+  When i
+  Where do you
+  Why
+  How
+  Is
+  Are
+  Can i
+  Could
+  Do
+  Does
+  Did
+  Have
+  Has
+  Will
+  Would you
+  Should
+  May I
+  Might
+  Which
+  Whose
+  Whom
+  What time
+  What kind
+  How many
+  How much
+  How often
+  How long
+  How far
+  How old
+  How do
+  How does
+  How did
+  How can
+  How do
+  How can
+  How does it
+  Have you
+  Has he
+  Can you
+  Could they
+  Is there
+  Are there
+  Can I
+  Could you
+  Should we
+  What is
+  What are
+  Where is
+  Where are
+  Why did
+  
   
   
   
