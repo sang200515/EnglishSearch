@@ -1,18 +1,18 @@
   20 mẫu câu được sử dụng nhiều nhất 
-  Who
-  What
+  Who do
+  What đi
   When i
   Where do you
-  Why
-  How
+  Why do
+  How do
   Is
-  Are
+  Are you
   Can i
-  Could
-  Do
+  Could you
+  Do you
   Does
-  Did
-  Have
+  Did you
+  Have you
   Has
   Will
   Would you
