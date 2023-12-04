@@ -1,4 +1,28 @@
-  20 mẫu câu được sử dụng nhiều nhất 
+  20 mẫu câu được sử dụng nhiều nhất
+  
+  how
+  what
+  where
+  when
+  who
+  whom
+  can
+  could
+  do 
+  does 
+  did
+  am
+  is
+  are
+  was
+  were
+  will
+  so 
+  have
+  has
+  may
+  so 
+  
   Who do
   What đi
   When i
@@ -52,6 +76,7 @@
   Where are
   Why did
   
+  how was your 
   
   
   
