@@ -65,6 +65,13 @@
 		942F0A3F2A40B72B00E50FDE /* 🌸 1000 Basic English Question and Answers and more for daily conversation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A3E2A40B72B00E50FDE /* 🌸 1000 Basic English Question and Answers and more for daily conversation.txt */; };
 		942F0A412A40B79400E50FDE /* 🌸  Daily English Conversation Practice by Topic - Questions and Answers in English Conversation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A402A40B79400E50FDE /* 🌸  Daily English Conversation Practice by Topic - Questions and Answers in English Conversation.txt */; };
 		942F0A452A40B8D700E50FDE /* 🌸  ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 942F0A442A40B8D700E50FDE /* 🌸  ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 .txt */; };
+		9446D2552B29F2E9001D66FA /* LinkingVerd.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9446D2542B29F2E9001D66FA /* LinkingVerd.txt */; };
+		9446D2592B2DB80A001D66FA /* PharselVerb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9446D2582B2DB80A001D66FA /* PharselVerb.txt */; };
+		944A5AFE2B2607EC0044C013 /* PresentSimple.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944A5AFD2B2607EC0044C013 /* PresentSimple.txt */; };
+		944A5B002B2609DA0044C013 /* HTHT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944A5AFF2B2609DA0044C013 /* HTHT.txt */; };
+		944A5B022B2609E50044C013 /* HTTD.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944A5B012B2609E50044C013 /* HTTD.txt */; };
+		944A5B042B2680DE0044C013 /* QKD.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944A5B032B2680DE0044C013 /* QKD.txt */; };
+		944A5B062B2681990044C013 /* QKTD.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944A5B052B2681990044C013 /* QKTD.txt */; };
 		944AEE402A46CB5700B9A31C /* 🌸 Basic English Speaking Practice - Easy way to Speak like a Native Speaker.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944AEE3F2A46CB5700B9A31C /* 🌸 Basic English Speaking Practice - Easy way to Speak like a Native Speaker.txt */; };
 		944AEE452A46CC6800B9A31C /* 🌸 90 minutes to Improve your Speaking Skills - Learn English Conversation for Everyday Life.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944AEE442A46CC6800B9A31C /* 🌸 90 minutes to Improve your Speaking Skills - Learn English Conversation for Everyday Life.txt */; };
 		944AEE492A46CD5000B9A31C /* 🌸 Easy Learning English Conversation Practice - Listening English Lessons with Native English Speakers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944AEE482A46CD5000B9A31C /* 🌸 Easy Learning English Conversation Practice - Listening English Lessons with Native English Speakers.txt */; };
@@ -172,6 +179,13 @@
 		942F0A3E2A40B72B00E50FDE /* 🌸 1000 Basic English Question and Answers and more for daily conversation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "🌸 1000 Basic English Question and Answers and more for daily conversation.txt"; sourceTree = "<group>"; };
 		942F0A402A40B79400E50FDE /* 🌸  Daily English Conversation Practice by Topic - Questions and Answers in English Conversation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "🌸  Daily English Conversation Practice by Topic - Questions and Answers in English Conversation.txt"; sourceTree = "<group>"; };
 		942F0A442A40B8D700E50FDE /* 🌸  ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "🌸  ★ Sleep Learning English ★ Listening Practice, With Subtitles #03 .txt"; sourceTree = "<group>"; };
+		9446D2542B29F2E9001D66FA /* LinkingVerd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LinkingVerd.txt; sourceTree = "<group>"; };
+		9446D2582B2DB80A001D66FA /* PharselVerb.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PharselVerb.txt; sourceTree = "<group>"; };
+		944A5AFD2B2607EC0044C013 /* PresentSimple.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PresentSimple.txt; sourceTree = "<group>"; };
+		944A5AFF2B2609DA0044C013 /* HTHT.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HTHT.txt; sourceTree = "<group>"; };
+		944A5B012B2609E50044C013 /* HTTD.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HTTD.txt; sourceTree = "<group>"; };
+		944A5B032B2680DE0044C013 /* QKD.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = QKD.txt; sourceTree = "<group>"; };
+		944A5B052B2681990044C013 /* QKTD.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = QKTD.txt; sourceTree = "<group>"; };
 		944AEE3F2A46CB5700B9A31C /* 🌸 Basic English Speaking Practice - Easy way to Speak like a Native Speaker.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌸 Basic English Speaking Practice - Easy way to Speak like a Native Speaker.txt"; sourceTree = "<group>"; };
 		944AEE442A46CC6800B9A31C /* 🌸 90 minutes to Improve your Speaking Skills - Learn English Conversation for Everyday Life.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌸 90 minutes to Improve your Speaking Skills - Learn English Conversation for Everyday Life.txt"; sourceTree = "<group>"; };
 		944AEE482A46CD5000B9A31C /* 🌸 Easy Learning English Conversation Practice - Listening English Lessons with Native English Speakers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌸 Easy Learning English Conversation Practice - Listening English Lessons with Native English Speakers.txt"; sourceTree = "<group>"; };
@@ -343,6 +357,18 @@
 			path = chapter5;
 			sourceTree = "<group>";
 		};
+		944A5AFB2B2607D40044C013 /* TensExample */ = {
+			isa = PBXGroup;
+			children = (
+				944A5AFD2B2607EC0044C013 /* PresentSimple.txt */,
+				944A5B032B2680DE0044C013 /* QKD.txt */,
+				944A5B052B2681990044C013 /* QKTD.txt */,
+				944A5AFF2B2609DA0044C013 /* HTHT.txt */,
+				944A5B012B2609E50044C013 /* HTTD.txt */,
+			);
+			path = TensExample;
+			sourceTree = "<group>";
+		};
 		944AEE412A46CB8500B9A31C /* Daily Conversation */ = {
 			isa = PBXGroup;
 			children = (
@@ -456,6 +482,9 @@
 			isa = PBXGroup;
 			children = (
 				94B04ADD2A41195C007FAB49 /* docs.md */,
+				9446D2542B29F2E9001D66FA /* LinkingVerd.txt */,
+				9446D2582B2DB80A001D66FA /* PharselVerb.txt */,
+				944A5AFB2B2607D40044C013 /* TensExample */,
 				8E94786B2A4DC3D400210FAF /* BostonEnglishCenter */,
 				94D8CD512A42000E004BE080 /* Podcast */,
 				94E751832A407A7100F20840 /* Conversation */,
@@ -514,7 +543,7 @@
 				TargetAttributes = {
 					94EBDF4E2A3D73A70095C776 = {
 						CreatedOnToolsVersion = 14.3.1;
-						LastSwiftMigration = 1400;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -541,6 +570,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9446D2552B29F2E9001D66FA /* LinkingVerd.txt in Resources */,
 				8E9478852A4DC85B00210FAF /* Everyday English Conversations.txt in Resources */,
 				941A7DDA2A43776B0078ACF2 /* 🌺 Opens Up About His Struggle With Loneliness, Love & Dating! | E230.txt in Resources */,
 				941A7DD22A436A750078ACF2 /* 🌺 How She Built Her Confidence, and Then an Empire with Krissy Cela | E57.txt in Resources */,
@@ -551,8 +581,10 @@
 				941A7E042A4486420078ACF2 /* 🌺 he Secret Man Behind The World's Top Performers.txt in Resources */,
 				944AEE492A46CD5000B9A31C /* 🌸 Easy Learning English Conversation Practice - Listening English Lessons with Native English Speakers.txt in Resources */,
 				94D8CD572A420121004BE080 /* 🌺 S03E02 Grit & Growth _ Executive Coaching_ From Self-Doubt to Self-Awareness.txt in Resources */,
+				9446D2592B2DB80A001D66FA /* PharselVerb.txt in Resources */,
 				942F0A032A4090FF00E50FDE /* 🌸 Learn English Conversation - Oxford English Daily Conversation Part 2.txt in Resources */,
 				94D8CD732A4205D1004BE080 /* 🌺 The Inside Scoop on the SEC with Former Commissioner Allison Herren Lee.txt in Resources */,
+				944A5B002B2609DA0044C013 /* HTHT.txt in Resources */,
 				8E9478832A4DC7FE00210FAF /* 45 English Situations of the Social Communication.txt in Resources */,
 				94D8CD4E2A41F882004BE080 /* 🌼 Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5.txt in Resources */,
 				941A7DDC2A43781A0078ACF2 /* 🌺 The Number One Reason Why You’re Not Succeeding .txt in Resources */,
@@ -562,6 +594,7 @@
 				94D8CD482A41EED6004BE080 /* 🌼 LIVE Job Interview For Senior Software Engineering Position!!.txt in Resources */,
 				94779E952A3FD201001DEFEA /* 🌼 DON'T Make this MISTAKE __ StateObject vs ObservedObject _ What's the Difference_.txt in Resources */,
 				94BFF3FD2A46D1B4009DFB05 /* 🌸 Improve English Listening and Speaking Skills Everyday | English Conversation for Daily Life.txt in Resources */,
+				944A5B042B2680DE0044C013 /* QKD.txt in Resources */,
 				94779E8D2A3FCB7A001DEFEA /* 🌼  How to Network Like A Pro _ Async_Await _ Pagination _ Error Handling _ From A Meta Engineer.txt in Resources */,
 				94C396322A46CF30004B5936 /* 🌸 Speak American English in 100 Minutes Learn English Speaking Easily Quickly.txt in Resources */,
 				942F0A272A40AEA000E50FDE /* 🌸 Basic English Conversation Practice for Kids _ Chapter 21 to 35.txt in Resources */,
@@ -589,6 +622,8 @@
 				94D8CD6B2A420489004BE080 /* 🌺 Brian Chesky, Co-Founder and CEO of Airbnb_ Designing a 10-star Experience.txt in Resources */,
 				941A7E902A46BBFB0078ACF2 /* 🌼 Learn Swift Fast (2020.txt in Resources */,
 				94D8CD872A420A3D004BE080 /* 🌺 Dean Jon Levin and Professor Neil Malhotra_ Social Innovation at the Stanford GSB.txt in Resources */,
+				944A5AFE2B2607EC0044C013 /* PresentSimple.txt in Resources */,
+				944A5B022B2609E50044C013 /* HTTD.txt in Resources */,
 				94EBDF772A3D8E1F0095C776 /* 🌼 transcript.txt in Resources */,
 				942F0A3F2A40B72B00E50FDE /* 🌸 1000 Basic English Question and Answers and more for daily conversation.txt in Resources */,
 				948178902A421E2900FF2130 /* 🌺 The Talk Show Live From WWDC 2023.txt in Resources */,
@@ -617,6 +652,7 @@
 				94D8CD5F2A42025A004BE080 /* 🌺 “Power” Fireside Chat_ Professor Jeff Pfeffer and Dean Jon Levin.txt in Resources */,
 				942F0A292A40B13600E50FDE /* 🌸  2 HOURS of English Conversation Dialogues Listening Practice .txt in Resources */,
 				94B04AE32A41E965007FAB49 /* 🌼 Let's Build UBER with SwiftUI _ iOS 16 & Xcode 14.txt in Resources */,
+				944A5B062B2681990044C013 /* QKTD.txt in Resources */,
 				94BFF4052A470D49009DFB05 /* 🌺 CommPodcast2.txt in Resources */,
 				8E94786D2A4DC3F800210FAF /* BostonEnglishCommin.txt in Resources */,
 				941A7E922A46BDBF0078ACF2 /* 🌺 American English Conversations to Improve Listening & Speaking Fluency.txt in Resources */,
@@ -803,6 +839,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sangtruong.text.EnglishSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EnglishSearch/TensExample/EnglishSearch-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -836,6 +873,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sangtruong.text.EnglishSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EnglishSearch/TensExample/EnglishSearch-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

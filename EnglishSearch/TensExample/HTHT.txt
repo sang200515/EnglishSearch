@@ -1,0 +1,957 @@
+# Hiện tại hoàn thành
+
+- How long have you lived in this city?
+- I have lived in this city for five years.
+
+- What countries have you visited?
+- I have visited France, Italy, and Japan.
+
+- Who have you met at the conference?
+- I have met several influential speakers and industry experts at the conference.
+
+- How many books have you read this year?
+- I have read twelve books so far this year.
+
+- Why have you decided to learn a new language?
+- I have decided to learn a new language because I want to broaden my cultural understanding.
+
+- Have you ever been to a live concert?
+- Yes, I have been to several live concerts.
+
+- How often have you been exercising lately?
+- I have been exercising three times a week.
+
+- Have you tried any new recipes recently?
+- Yes, I have tried a few new recipes and they turned out delicious.
+
+- What new skills have you acquired in your current job?
+- I have acquired skills in project management and data analysis in my current job.
+
+- How has your perspective changed after traveling to different countries?
+- Traveling to different countries has broadened my perspective and made me more open-minded.
+
+- Have you ever volunteered for a charity organization?
+- Yes, I have volunteered for a local charity organization.
+
+- How many languages have you learned so far?
+- I have learned three languages: English, Spanish, and French.
+
+- What achievements have you accomplished in your career?
+- I have achieved several promotions and received awards for my outstanding performance in my career.
+
+- Have you ever participated in a marathon?
+- No, I have never participated in a marathon.
+
+- What countries have you traveled to in the past year?
+- In the past year, I have traveled to Thailand, Australia, and Canada.
+
+- How many concerts have you attended in your life?
+- I have attended around twenty concerts in my life.
+
+- Have you ever won a competition or award?
+- Yes, I have won a singing competition and received an award for my performance.
+
+- How many books have you borrowed from the library this month?
+- I have borrowed five books from the library this month.
+
+- Have you ever taken a cooking class?
+- Yes, I have taken a cooking class to improve my culinary skills.
+
+- How many countries have you lived in?
+- I have lived in two countries so far.
+
+- Have you ever tried bungee jumping?
+- No, I have never tried bungee jumping.
+
+- What new hobbies have you explored recently?
+- I have recently started painting and gardening as new hobbies.
+
+- How many concerts have you attended this year?
+- I have attended four concerts this year.
+
+- Have you ever been scuba diving?
+- Yes, I have been scuba diving in the Great Barrier Reef.
+
+- What new skills have you developed in your free time?
+- I have developed skills in photography and graphic design in my free time.
+
+- How many times have you been to the gym this week?
+- I have been to the gym three times this week.
+
+- Have you ever tried rock climbing?
+- Yes, I have tried rock climbing and it was an exhilarating experience.
+
+- What kinds of concerts have you attended in the past?
+- I have attended concerts of various genres, including pop, rock, and classical.
+
+- How many cups of coffee have you had today?
+- I have had two cups of coffee so far today.
+
+- Have you ever volunteered for a community service project?
+- Yes, I have volunteered for several community service projects in my local area.
+
+- How many times have you traveled abroad?
+- I have traveled abroad five times in my life.
+
+- Have you ever run a marathon?
+- No, I have never run a marathon, but I have participated in shorter races.
+
+- What new dishes have you tried cooking recently?
+- I have tried cooking dishes like sushi, pad thai, and homemade pizza recently.
+
+- How many times have you seen your favorite band live?
+- I have seen my favorite band live three times.
+
+- Have you ever learned to play a musical instrument?
+- Yes, I have learned to play the piano and the guitar.
+
+- How many countries have you visited in total?
+- I have visited ten countries in total.
+
+- Have you ever won a scholarship or grant?
+- Yes, I have won a scholarship for my academic achievements.
+
+- What new languages have you been studying recently?
+- I have been studying Spanish and Mandarin Chinese recently.
+
+- How many art exhibitions have you been to this year?
+- I have been to three art exhibitions this year.
+
+- Have you ever participated in a dance competition?
+- Yes, I have participated in several dance competitions.
+
+- What new technology gadgets have you purchased recently?
+- I have purchased a new smartphone and a smartwatch recently.
+
+- How many times have you gone hiking in the mountains?
+- I have gone hiking in the mountains ten times.
+
+- Have you ever attended a professional sports game?
+- Yes, I have attended a professional basketball game.
+
+- What new skills have you learned through online courses?
+- I have learned coding, digital marketing, and graphic design through online courses.
+
+- How many times have you visited your favorite museum?
+- I have visited my favorite museum twice.
+
+- Have you ever been on a cruise ship?
+- Yes, I have been on a cruise ship for a vacation.
+
+- What new hobbies have you taken up recently?
+- I have taken up photography and pottery as new hobbies recently.
+
+- How many times have you gone camping in the past year?
+- I have gone camping three times in the past year.
+
+- Have you ever tried meditation or yoga?
+- Yes, I have tried both meditation and yoga for relaxation.
+
+- What new places have you explored in your city recently?
+- I have explored new parks, cafes, and art galleries in my city recently.
+
+- How many times have you attended a live theater performance?
+- I have attended live theater performances five times.
+
+- Have you ever taken a road trip across the country?
+- Yes, I have taken a road trip across the country with friends.
+
+- What new musical instruments have you learned to play?
+- I have learned to play the ukulele and the drums.
+
+- How many times have you gone skiing or snowboarding?
+- I have gone skiing or snowboarding ten times.
+
+- Have you ever won a raffle or a lottery?
+- Yes, I have won a raffle prize before.
+
+- What new cuisines have you tried cooking at home?
+- I have tried cooking Thai, Indian, and Mexican cuisines at home.
+
+- How many times have you attended a music festival?
+- I have attended three music festivals.
+
+- Have you ever taken a cross-country road trip?
+- Yes, I have taken a cross-country road trip with my family.
+
+- What new dance styles have you learned?
+- I have learned salsa and hip-hop dance styles.
+
+- How many times have you gone snorkeling or diving?
+- I have gone snorkeling or diving five times.
+
+- Have you ever won an award for your artwork?
+- Yes,I have won an award for my artwork in a local art competition.
+
+- How many times have you attended a professional conference?
+- I have attended four professional conferences.
+
+- Have you ever participated in a charity run or walk?
+- Yes, I have participated in a charity run to raise funds for a cause.
+
+- What new crafts or DIY projects have you tried recently?
+- I have tried making jewelry and knitting as new crafts recently.
+
+- How many times have you gone fishing?
+- I have gone fishing three times.
+
+- Have you ever taken a cooking class abroad?
+- No, I have not taken a cooking class abroad, but I have taken one locally.
+
+- What new sports have you tried playing?
+- I have tried playing tennis and badminton as new sports.
+
+- How many times have you attended a stand-up comedy show?
+- I have attended two stand-up comedy shows.
+
+- Have you ever won a prize in a photography contest?
+- Yes, I have won a prize in a photography contest for my landscape photo.
+
+- What new software programs have you learned to use?
+- I have learned to use Photoshop and Excel for graphic design and data analysis.
+
+- How many times have you gone skydiving?
+- I have gone skydiving once.
+
+- Have you ever taken a wine tasting course?
+- Yes, I have taken a wine tasting course to learn about different varieties.
+
+- What new genres of books have you been reading?
+- I have been reading science fiction and historical fiction books recently.
+
+- How many times have you attended a professional networking event?
+- I have attended five professional networking events.
+
+- Have you ever won a sports competition?
+- Yes, I have won a swimming competition in my school.
+
+- What new coding languages have you learned?
+- I have learned Python and JavaScript as new coding languages.
+
+- How many times have you gone horseback riding?
+- I have gone horseback riding twice.
+
+- Have you ever taken a dance class?
+- Yes, I have taken ballet and salsa dance classes.
+
+- What new cuisines have you tried at restaurants?
+- I have tried Ethiopian and Korean cuisines at restaurants recently.
+
+- How many times have you attended a film festival?
+- I have attended three film festivals.
+
+- Have you ever won a trivia contest?
+- Yes, I have won a trivia contest at a local pub.
+
+- What new musical genres have you been listening to?
+- I have been listening to jazz and reggae as new musical genres.
+
+- How many times have you gone canoeing or kayaking?
+- I have gone canoeing or kayaking four times.
+
+- Have you ever taken a language immersion program?
+- Yes, I have taken a language immersion program to learn Spanish.
+
+- What new painting techniques have you learned?
+- I have learned techniques like acrylic pouring and palette knife painting.
+
+- How many times have you attended a TED talk?
+- I have attended two TED talks.
+
+- Have you ever won a chess tournament?
+- No, I have never won a chess tournament, but I enjoy playing the game.
+
+- What new gardening techniques have you tried?
+- I have tried container gardening and vertical gardening techniques.
+
+- How many times have you gone surfing?
+- I have gone surfing three times.
+
+- Have you ever taken a photography workshop?
+- Yes, I have taken a photography workshop to improve my skills.
+
+- What new musical instruments have you started learning?
+- I have started learning the violin and the harmonica.
+
+- How many times have you attended a fashion show?
+- I have attended two fashion shows.
+
+- Have you ever won a writing competition?
+- Yes, I have won a writing competition for my short story.
+
+- What new software tools have you mastered?
+- I have mastered Adobe Illustrator and Final Cut Pro for graphic design and video editing.
+
+- How many times have you gone mountain biking?
+- I have gone mountain biking five times.
+
+- Have you ever taken a pottery class?
+- Yes, I have taken a pottery class to learn how to make ceramics.
+
+- What new desserts have you learned to bake?
+- I have learned to bake macarons and cheesecake as new desserts.
+
+
+1. - Have you ever been to Paris?
+    
+    - Yes, I have been to Paris.
+    
+2. - Have you finished your homework?
+    
+    - No, I haven't finished my homework yet.
+    
+3. - Have you seen that movie?
+    
+    - Yes, I have seen that movie.
+    
+4. - Have you ever tried sushi?
+    
+    - No, I have never tried sushi.
+    
+5. - Have you read any good books lately?
+    
+    - Yes, I have read a few good books recently.
+    
+6. - Have you ever ridden a horse?
+    
+    - No, I have never ridden a horse.
+    
+7. - Have you visited any foreign countries?
+    
+    - Yes, I have visited several foreign countries.
+    
+8. - Have you met any famous people?
+    
+    - No, I haven't met any famous people.
+    
+9. - Have you ever been skydiving?
+    
+    - Yes, I have been skydiving once.
+    
+10. - Have you finished your dinner?
+    
+    - Yes, I have finished my dinner.
+    
+11. - Have you ever won a competition?
+    
+    - No, I have never won a competition.
+    
+12. - Have you seen the latest episode of your favorite TV show?
+    
+    - Yes, I have seen the latest episode.
+    
+13. - Have you ever traveled alone?
+    
+    - Yes, I have traveled alone before.
+    
+14. - Have you tried any new restaurants recently?
+    
+    - No, I haven't tried any new restaurants lately.
+    
+15. - Have you ever lost your keys?
+    
+    - Yes, I have lost my keys a few times.
+    
+16. - Have you finished reading that book?
+    
+    - No, I haven't finished reading it yet.
+    
+17. - Have you ever been scuba diving?
+    
+    - Yes, I have been scuba diving once.
+    
+18. - Have you seen any good movies lately?
+    
+    - Yes, I have seen a few good movies recently.
+    
+19. - Have you ever run a marathon?
+    
+    - No, I have never run a marathon.
+    
+20. - Have you completed your work assignments?
+    
+    - Yes, I have completed all my work assignments.
+    
+21. - Have you ever tried bungee jumping?
+    
+    - No, I have never tried bungee jumping.
+    
+22. - Have you visited any famous landmarks?
+    
+    - Yes, I have visited a few famous landmarks.
+    
+23. - Have you eaten at that new restaurant?
+    
+    - No, I have yet to eat there.
+    
+24. - Have you ever won a prize in a contest?
+    
+    - Yes, I have won a prize in a contest before.
+    
+25. - Have you finished watching the series?
+    
+    - Yes, I have finished watching the entire series.
+    
+26. - Have you ever lived in another country?
+    
+    - No, I have never lived in another country.
+    
+27. - Have you tried any exotic foods?
+    
+    - Yes, I have tried some exotic foods.
+    
+28. - Have you ever been on a cruise?
+    
+    - No, I have never been on a cruise.
+    
+29. - Have you visited any art museums?
+    
+    - Yes, I have visited several art museums.
+    
+30. - Have you completed your household chores?
+    
+    - Yes, I have completed all my household chores.
+    
+31. - Have you ever climbed a mountain?
+    
+    - No, I have never climbed a mountain.
+    
+32. - Have you seen any live concerts?
+    
+    - Yes, I have seen a few live concerts.
+    
+33. - Have you ever won a lottery?
+    
+    - No, I have never won a lottery.
+    
+34. - Have you tried any new hobbies recently?
+    
+    - Yes, I have tried a few new hobbies.
+    
+35. - Have you visited any historical sites?
+    
+    - Yes, I have visited several historical sites.
+    
+36. - Have you ever gone surfing?
+    
+    - No, I have never gone surfing.
+    
+37. - Have you learned any new languages?
+    
+    - Yes, I have learned a few new languages.
+    
+38. - Have you ever been on a road trip?
+    
+    - Yes, I have been on a few road trips.
+    
+39. - Have you tasted any exotic fruits?
+    
+    - No, I haven't tasted any exotic fruits.
+    
+40. - Have you completed your fitness goals?
+    
+    - Yes, I have completed my fitness goals.
+    
+41. - Have you ever ridden a roller coaster?
+    
+    - Yes, I have riddenSure! Here are 100 questions and answers about the present perfect tense in English:
+    
+42. - Have you ever traveled abroad?
+    
+    - Yes, I have traveled abroad.
+    
+43. - Have you finished your homework?
+    
+    - No, I haven't finished my homework yet.
+    
+44. - Have you seen that movie?
+    
+    - Yes, I have seen that movie.
+    
+45. - Have you ever tried sushi?
+    
+    - No, I have never tried sushi.
+    
+46. - Have you read any good books lately?
+    
+    - Yes, I have read a few good books recently.
+    
+47. - Have you ever ridden a horse?
+    
+    - No, I have never ridden a horse.
+    
+48. - Have you visited any famous landmarks?
+    
+    - Yes, I have visited some famous landmarks.
+    
+49. - Have you met any celebrities?
+    
+    - No, I haven't met any celebrities.
+    
+50. - Have you ever been skydiving?
+    
+    - Yes, I have been skydiving once.
+    
+51. - Have you finished your dinner?
+    
+    - Yes, I have finished my dinner.
+    
+52. - Have you ever won a competition?
+    
+    - No, I have never won a competition.
+    
+53. - Have you seen the latest episode of your favorite TV show?
+    
+    - Yes, I have seen the latest episode.
+    
+54. - Have you ever traveled alone?
+    
+    - Yes, I have traveled alone before.
+    
+55. - Have you tried any new restaurants recently?
+    
+    - No, I haven't tried any new restaurants lately.
+    
+56. - Have you ever lost your keys?
+    
+    - Yes, I have lost my keys a few times.
+    
+57. - Have you finished reading that book?
+    
+    - No, I haven't finished reading it yet.
+    
+58. - Have you ever been scuba diving?
+    
+    - Yes, I have been scuba diving once.
+    
+59. - Have you seen any good movies lately?
+    
+    - Yes, I have seen some good movies recently.
+    
+60. - Have you ever run a marathon?
+    
+    - No, I have never run a marathon.
+    
+61. - Have you completed your work assignments?
+    
+    - Yes, I have completed all my work assignments.
+    
+62. - Have you ever tried bungee jumping?
+    
+    - No, I have never tried bungee jumping.
+    
+63. - Have you visited any art galleries?
+    
+    - Yes, I have visited some art galleries.
+    
+64. - Have you eaten at that new restaurant?
+    
+    - No, I haven't eaten there yet.
+    
+65. - Have you ever won a prize in a contest?
+    
+    - Yes, I have won a prize in a contest before.
+    
+66. - Have you finished watching the series?
+    
+    - Yes, I have finished watching the entire series.
+    
+67. - Have you ever lived in another country?
+    
+    - No, I have never lived in another country.
+    
+68. - Have you tried any exotic foods?
+    
+    - Yes, I have tried some exotic foods.
+    
+69. - Have you ever been on a cruise?
+    
+    - No, I have never been on a cruise.
+    
+70. - Have you visited any historical sites?
+    
+    - Yes, I have visited some historical sites.
+    
+71. - Have you completed your household chores?
+    
+    - Yes, I have completed all my household chores.
+    
+72. - Have you ever climbed a mountain?
+    
+    - No, I have never climbed a mountain.
+    
+73. - Have you seen any live concerts?
+    
+    - Yes, I have seen a few live concerts.
+    
+74. - Have you ever won the lottery?
+    
+    - No, I have never won the lottery.
+    
+75. - Have you tried any new hobbies recently?
+    
+    - Yes, I have tried a few new hobbies.
+    
+76. - Have you visited any national parks?
+    
+    - Yes, I have visited some national parks.
+    
+77. - Have you ever gone surfing?
+    
+    - No, I have never gone surfing.
+    
+78. - Have you learned any new languages?
+    
+    - Yes, I have learned a few new languages.
+    
+79. - Have you ever been on a road trip?
+    
+    - Yes, I have been on a few road trips.
+    
+80. - Have you tasted any exotic fruits?
+    
+    - No, I haven't tasted any exotic fruits.
+    
+81. - Have you completed your fitness goals?
+    
+    - Yes, I have completed my fitness goals.
+    
+82. - Have you ever ridden a roller coaster?
+    
+    - Yes, I have ridden a roller coaster.
+    
+83. - Have you visited any famous museums?
+    
+    - Yes, I have visited some famous museums.
+
+1. - Have you ever been to Paris?
+    
+    - Yes, I have been to Paris.
+    
+2. - Have you finished your homework?
+    
+    - No, I haven't finished my homework yet.
+    
+3. - Have you seen that movie?
+    
+    - Yes, I have seen that movie.
+    
+4. - Have you ever tried sushi?
+    
+    - No, I have never tried sushi.
+    
+5. - Have you read any good books lately?
+    
+    - Yes, I have read a few good books recently.
+    
+6. - Have you ever ridden a horse?
+    
+    - No, I have never ridden a horse.
+    
+7. - Have you visited any foreign countries?
+    
+    - Yes, I have visited several foreign countries.
+    
+8. - Have you met any famous people?
+    
+    - No, I haven't met any famous people.
+    
+9. - Have you ever been skydiving?
+    
+    - Yes, I have been skydiving once.
+    
+10. - Have you finished your dinner?
+    
+    - Yes, I have finished my dinner.
+    
+11. - Have you ever won a competition?
+    
+    - No, I have never won a competition.
+    
+12. - Have you seen the latest episode of your favorite TV show?
+    
+    - Yes, I have seen the latest episode.
+    
+13. - Have you ever traveled alone?
+    
+    - Yes, I have traveled alone before.
+    
+14. - Have you tried any new restaurants recently?
+    
+    - No, I haven't tried any new restaurants lately.
+    
+15. - Have you ever lost your keys?
+    
+    - Yes, I have lost my keys a few times.
+    
+16. - Have you finished reading that book?
+    
+    - No, I haven't finished reading it yet.
+    
+17. - Have you ever been scuba diving?
+    
+    - Yes, I have been scuba diving once.
+    
+18. - Have you seen any good movies lately?
+    
+    - Yes, I have seen a few good movies recently.
+    
+19. - Have you ever run a marathon?
+    
+    - No, I have never run a marathon.
+    
+20. - Have you completed your work assignments?
+    
+    - Yes, I have completed all my work assignments.
+    
+21. - Have you ever tried bungee jumping?
+    
+    - No, I have never tried bungee jumping.
+    
+22. - Have you visited any famous landmarks?
+    
+    - Yes, I have visited a few famous landmarks.
+    
+23. - Have you eaten at that new restaurant?
+    
+    - No, I have yet to eat there.
+    
+24. - Have you ever won a prize in a contest?
+    
+    - Yes, I have won a prize in a contest before.
+    
+25. - Have you finished watching the series?
+    
+    - Yes, I have finished watching the entire series.
+    
+26. - Have you ever lived in another country?
+    
+    - No, I have never lived in another country.
+    
+27. - Have you tried any exotic foods?
+    
+    - Yes, I have tried some exotic foods.
+    
+28. - Have you ever been on a cruise?
+    
+    - No, I have never been on a cruise.
+    
+29. - Have you visited any art museums?
+    
+    - Yes, I have visited several art museums.
+    
+30. - Have you completed your household chores?
+    
+    - Yes, I have completed all my household chores.
+    
+31. - Have you ever climbed a mountain?
+    
+    - No, I have never climbed a mountain.
+    
+32. - Have you seen any live concerts?
+    
+    - Yes, I have seen a few live concerts.
+    
+33. - Have you ever won a lottery?
+    
+    - No, I have never won a lottery.
+    
+34. - Have you tried any new hobbies recently?
+    
+    - Yes, I have tried a few new hobbies.
+    
+35. - Have you visited any historical sites?
+    
+    - Yes, I have visited several historical sites.
+    
+36. - Have you ever gone surfing?
+    
+    - No, I have never gone surfing.
+    
+37. - Have you learned any new languages?
+    
+    - Yes, I have learned a few new languages.
+    
+38. - Have you ever been on a road trip?
+    
+    - Yes, I have been on a few road trips.
+    
+39. - Have you tasted any exotic fruits?
+    
+    - No, I haven't tasted any exotic fruits.
+    
+40. - Have you completed your fitness goals?
+    
+    - Yes, I have completed my fitness goals.
+    
+41. - Have you ever ridden a roller coaster?
+    
+    - Yes, I have riddenSure! Here are 100 questions and answers about the present perfect tense in English:
+    
+42. - Have you ever traveled abroad?
+    
+    - Yes, I have traveled abroad.
+    
+43. - Have you finished your homework?
+    
+    - No, I haven't finished my homework yet.
+    
+44. - Have you seen that movie?
+    
+    - Yes, I have seen that movie.
+    
+45. - Have you ever tried sushi?
+    
+    - No, I have never tried sushi.
+    
+46. - Have you read any good books lately?
+    
+    - Yes, I have read a few good books recently.
+    
+47. - Have you ever ridden a horse?
+    
+    - No, I have never ridden a horse.
+    
+48. - Have you visited any famous landmarks?
+    
+    - Yes, I have visited some famous landmarks.
+    
+49. - Have you met any celebrities?
+    
+    - No, I haven't met any celebrities.
+    
+50. - Have you ever been skydiving?
+    
+    - Yes, I have been skydiving once.
+    
+51. - Have you finished your dinner?
+    
+    - Yes, I have finished my dinner.
+    
+52. - Have you ever won a competition?
+    
+    - No, I have never won a competition.
+    
+53. - Have you seen the latest episode of your favorite TV show?
+    
+    - Yes, I have seen the latest episode.
+    
+54. - Have you ever traveled alone?
+    
+    - Yes, I have traveled alone before.
+    
+55. - Have you tried any new restaurants recently?
+    
+    - No, I haven't tried any new restaurants lately.
+    
+56. - Have you ever lost your keys?
+    
+    - Yes, I have lost my keys a few times.
+    
+57. - Have you finished reading that book?
+    
+    - No, I haven't finished reading it yet.
+    
+58. - Have you ever been scuba diving?
+    
+    - Yes, I have been scuba diving once.
+    
+59. - Have you seen any good movies lately?
+    
+    - Yes, I have seen some good movies recently.
+    
+60. - Have you ever run a marathon?
+    
+    - No, I have never run a marathon.
+    
+61. - Have you completed your work assignments?
+    
+    - Yes, I have completed all my work assignments.
+    
+62. - Have you ever tried bungee jumping?
+    
+    - No, I have never tried bungee jumping.
+    
+63. - Have you visited any art galleries?
+    
+    - Yes, I have visited some art galleries.
+    
+64. - Have you eaten at that new restaurant?
+    
+    - No, I haven't eaten there yet.
+    
+65. - Have you ever won a prize in a contest?
+    
+    - Yes, I have won a prize in a contest before.
+    
+66. - Have you finished watching the series?
+    
+    - Yes, I have finished watching the entire series.
+    
+67. - Have you ever lived in another country?
+    
+    - No, I have never lived in another country.
+    
+68. - Have you tried any exotic foods?
+    
+    - Yes, I have tried some exotic foods.
+    
+69. - Have you ever been on a cruise?
+    
+    - No, I have never been on a cruise.
+    
+70. - Have you visited any historical sites?
+    
+    - Yes, I have visited some historical sites.
+    
+71. - Have you completed your household chores?
+    
+    - Yes, I have completed all my household chores.
+    
+72. - Have you ever climbed a mountain?
+    
+    - No, I have never climbed a mountain.
+    
+73. - Have you seen any live concerts?
+    
+    - Yes, I have seen a few live concerts.
+    
+74. - Have you ever won the lottery?
+    
+    - No, I have never won the lottery.
+    
+75. - Have you tried any new hobbies recently?
+    
+    - Yes, I have tried a few new hobbies.
+    
+76. - Have you visited any national parks?
+    
+    - Yes, I have visited some national parks.
+    
+77. - Have you ever gone surfing?
+    
+    - No, I have never gone surfing.
+    
+78. - Have you learned any new languages?
+    
+    - Yes, I have learned a few new languages.
+    
+79. - Have you ever been on a road trip?
+    
+    - Yes, I have been on a few road trips.
+    
+80. - Have you tasted any exotic fruits?
+    
+    - No, I haven't tasted any exotic fruits.
+    
+81. - Have you completed your fitness goals?
+    
+    - Yes, I have completed my fitness goals.
+    
+82. - Have you ever ridden a roller coaster?
+    
+    - Yes, I have ridden a roller coaster.
+    
+83. - Have you visited any famous museums?
+    
+    - Yes, I have visited some famous museums.

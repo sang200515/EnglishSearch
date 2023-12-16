@@ -1,0 +1,520 @@
+-
+# quá khứ đơn
+- What time did you wake up this morning?
+- I woke up at 7 AM this morning.
+
+- How did you spend your weekend?
+- I spent my weekend relaxing at home.
+
+- Where did you go for your last vacation?
+- I went to Hawaii for my last vacation.
+
+- Who did you meet for lunch yesterday?
+- I met my friend for lunch yesterday.
+
+- Why did you leave the party early?
+- I left the party early because I wasn't feeling well.
+
+- How long did you stay at the museum?
+- I stayed at the museum for about two hours.
+
+- What did you eat for dinner last night?
+- I had spaghetti for dinner last night.
+
+- When did you start learning to play the guitar?
+- I started learning to play the guitar when I was 12 years old.
+
+- Did you have any interesting conversations at the conference?
+- Yes, I had some interesting conversations at the conference.
+
+- Where did you buy that new dress?
+- I bought the new dress at a boutique downtown.
+
+- How did you celebrate your birthday last year?
+- I celebrated my birthday by throwing a small party at home.
+
+- Who did you go to the movies with last week?
+- I went to the movies with my sister last week.
+
+- What did you do after work yesterday?
+- After work, I went to the gym to exercise.
+
+- How did you solve the math problem?
+- I solved the math problem by using a formula.
+
+- Where did you meet your best friend for the first time?
+- I met my best friend for the first time at school.
+
+- What did you study in college?
+- I studied economics in college.
+
+- When did you realize you had made a mistake?
+- I realized I had made a mistake after submitting the report.
+
+- How did you improve your English speaking skills?
+- I improved my English speaking skills by taking conversational classes.
+
+- Who did you go shopping with yesterday?
+- I went shopping with my mom yesterday.
+
+- What did you do to relax after a long day?
+- I watched a movie to relax after a long day.
+
+- When did you start working at your current job?
+- I started working at my current job two years ago.
+
+- How did you meet your significant other?
+- I met my significant other through a mutual friend.
+
+- Where did you go for your last business trip?
+- I went to New York for my last business trip.
+
+- What did you have for breakfast yesterday?
+- I had cereal and a cup of coffee for breakfast yesterday.
+
+- When did you realize you had forgotten your keys?
+- I realized I had forgotten my keys when I reached the front door.
+
+- How did you handle the difficult situation?
+- I handled the difficult situation by staying calm and finding a solution.
+
+- Who did you invite to your graduation party?
+- I invited my family and close friends to my graduation party.
+
+- What did you learn from your last job?
+- From my last job, I learned the importance of teamwork.
+
+- When did you start playing tennis?
+- I started playing tennis when I was in high school.
+
+- How did you spend your last summer vacation?
+- I spent my last summer vacation traveling to different countries.
+
+- Where did you go for your last date?
+- I went to a fancy restaurant for my last date.
+
+- What did you do to overcome your fear of public speaking?
+- I joined a public speaking club to overcome my fear.
+
+- When did you realize you had made a wrong decision?
+- I realized I had made a wrong decision after seeing the consequences.
+
+- How did you handle the disagreement with your friend?
+- I handled the disagreement by having an open and honest conversation.
+
+- Who did you ask for help when you needed it?
+- I asked my colleague for help when I neededit.
+
+- What did you wear to the party last night?
+- I wore a black dress to the party last night.
+
+- When did you first discover your passion for photography?
+- I first discovered my passion for photography in high school.
+
+- How did you manage your time during a busy week?
+- I managed my time by creating a schedule and prioritizing tasks.
+
+- Who did you go hiking with last weekend?
+- I went hiking with a group of friends last weekend.
+
+- What did you do to prepare for the exam?
+- I studied for hours and made flashcards to prepare for the exam.
+
+- When did you realize you had lost your wallet?
+- I realized I had lost my wallet when I was at the grocery store.
+
+- How did you handle the criticism from your boss?
+- I took the criticism constructively and worked on improving.
+
+- Where did you meet your favorite author?
+- I met my favorite author at a book signing event.
+
+- What did you eat for lunch yesterday?
+- I had a salad and a sandwich for lunch yesterday.
+
+- When did you start practicing yoga?
+- I started practicing yoga three years ago.
+
+- How did you find a solution to the problem?
+- I brainstormed ideas and consulted with my colleagues.
+
+- Who did you invite to your graduation ceremony?
+- I invited my parents and close friends to my graduation ceremony.
+
+- What did you learn from your last relationship?
+- From my last relationship, I learned the importance of communication.
+
+- When did you realize you had missed the train?
+- I realized I had missed the train when I saw it leaving the station.
+
+- How did you cope with the loss of a loved one?
+- I sought support from family and friends and attended therapy sessions.
+
+- Where did you go for your last shopping spree?
+- I went to the mall for my last shopping spree.
+
+- What did you do to stay motivated during a challenging project?
+- I broke down the project into smaller tasks and rewarded myself after completing each one.
+
+- When did you start learning a musical instrument?
+- I started learning the piano when I was a child.
+
+- How did you handle a difficult customer at work?
+- I listened to their concerns and tried to find a solution to their problem.
+
+- Who did you ask for advice when you were making an important decision?
+- I asked my mentor for advice when making an important decision.
+
+- What did you wear to the job interview?
+- I wore a suit and tie to the job interview.
+
+- When did you realize you had a talent for painting?
+- I realized I had a talent for painting in high school art class.
+
+- How did you manage your finances during a tight budget?
+- I created a budget and cut down on unnecessary expenses.
+
+- Where did you go for your last family gathering?
+- We went to my grandparents' house for our last family gathering.
+
+- What did you do to overcome a fear of heights?
+- I gradually exposed myself to heights and practiced relaxation techniques.
+
+- When did you start volunteering at the local shelter?
+- I started volunteering at the local shelter last year.
+
+- How did you handle a disagreement with your sibling?
+- We had a calm discussion and found a compromise.
+
+- Who did you meet at the networking event?
+- I met several professionals from different industries at the networking event.
+
+- What did you eat for dinner on your birthday?
+- I had a delicious steak dinner on my birthday.
+
+- When did you realize you had a passion for cooking?
+- I realized I had a passion for cooking when I was in college.
+
+- How did you manage your stress during a busy period at work?
+- I practiced mindfulness and took short breaks to relax.
+
+- Where did you go for your last weekend getaway?
+- I went to a cozy cabin in the mountains for my last weekend getaway.
+
+- What did you do to prepare for a job interview?
+- I researched the company, practiced common interview questions, and dressed professionally.
+
+- When did you realize you had forgotten your friend's birthday?
+- I realized I had forgotten my friend's birthday when I saw their birthday post on social media.
+
+- How did you handle a difficult customer service situation?
+- I listened attentively,
+
+- How did you handle a difficult customer service situation?
+- I listened attentively, empathized with their concerns, and offered a solution to resolve the issue.
+
+- Where did you go for your last weekend brunch?
+- I went to a trendy café downtown for my last weekend brunch.
+
+- What did you do to stay fit during the lockdown?
+- I followed online workout classes and went for regular walks in my neighborhood.
+
+- When did you realize you had a talent for singing?
+- I realized I had a talent for singing when I participated in a school talent show.
+
+- How did you manage your time while juggling multiple projects?
+- I prioritized tasks, created a schedule, and delegated some responsibilities to team members.
+
+- Who did you interview for your research project?
+- I interviewed experts in the field and conducted surveys among the target audience.
+
+- What did you wear to the wedding ceremony?
+- I wore a formal dress and matching accessories to the wedding ceremony.
+
+- When did you start pursuing your hobby of photography?
+- I started pursuing my hobby of photography during my college years.
+
+- How did you handle a setback in your career?
+- I analyzed the situation, sought guidance from mentors, and formulated a plan to bounce back.
+
+- Where did you go for your last hiking adventure?
+- I went to the national park and explored the scenic trails for my last hiking adventure.
+
+- What did you do to improve your public speaking skills?
+- I attended workshops, joined a Toastmasters club, and practiced speaking in front of a mirror.
+
+- When did you realize you had a knack for writing?
+- I realized I had a knack for writing when my English teacher praised my essays in high school.
+
+- How did you handle a disagreement with a colleague at work?
+- I scheduled a meeting to discuss our perspectives, actively listened, and found a common ground.
+
+- Who did you consult for advice before making a major purchase?
+- I consulted my family members and researched online reviews before making a major purchase.
+
+- What did you wear to the music concert last weekend?
+- I wore a band t-shirt and jeans to the music concert last weekend.
+
+- When did you start learning a foreign language?
+- I started learning a foreign language when I enrolled in language classes at university.
+
+- How did you manage your workload during a busy period at school?
+- I created a study schedule, broke down tasks into manageable chunks, and sought help from classmates.
+
+- Where did you go for your last family vacation?
+- We went to a beach resort for our last family vacation.
+
+- What did you do to overcome stage fright?
+- I joined a drama club, practiced performing in front of an audience, and gradually built my confidence.
+
+- When did you realize you had a passion for graphic design?
+- I realized I had a passion for graphic design when I started experimenting with digital art in high school.
+
+- How did you handle a difficult client in your business?
+- I actively listened to their concerns, proposed alternative solutions, and ensured open communication throughout the process.
+
+- Who did you collaborate with for your group project?
+- I collaborated with my classmates and divided tasks based on our individual strengths.
+
+- What did you eat for lunch during your vacation in Italy?
+- I indulged in authentic Italian pizza and pasta for lunch during my vacation in Italy.
+
+- When did you start learning to play a musical instrument?
+- I started learning to play the guitar when I was in middle school.
+
+- How did you manage your finances while saving for a big purchase?
+- I created a budget, cut down on unnecessary expenses, and set aside a portion of my income each month.
+
+- Where did you go for your last solo adventure?
+- I went backpacking through Southeast Asia for my last solo adventure.
+
+- What did you do to overcome writer's block?
+- I took breaks, sought inspiration from books and nature, and brainstormed ideas before writing.
+
+- When did you realize you had a talent for dancing?
+- I realized I had a talent for dancing when I joined a dance class and received positive feedback from the instructor.
+
+- How did you handle a difficult roommate situation?
+- I initiated an open conversation, established boundaries, and found compromises to ensure a harmonious living environment.
+
+- Who did you reach out to for support during a challenging time?
+- I reached out to my closefriends and family for support during a challenging time.
+
+- What did you do to prepare for a job interview?
+- I researched the company, practiced answering common interview questions, and prepared examples to showcase my skills and experiences.
+
+- When did you start volunteering for a charitable organization?
+- I started volunteering for a charitable organization during my college years.
+
+- How did you handle a difficult deadline at work?
+- I prioritized tasks, communicated with my team about the deadline, and organized my workflow to ensure timely completion.
+
+- Where did you go for your last weekend getaway?
+- I went to a cozy cabin in the mountains for my last weekend getaway.
+
+- What did you do to overcome a fear of public speaking?
+- I practiced speaking in front of small groups, gradually increasing the audience size, and sought feedback from trusted individuals.
+
+- When did you realize you had a talent for cooking?
+- I realized I had a talent for cooking when I started experimenting with recipes and received compliments from friends and family.
+
+- How did you handle a difficult customer during a sales transaction?
+- I remained calm, actively listened to their concerns, and offered suitable alternatives or solutions to address their needs.
+
+- Who did you consult for advice before making a major life decision?
+- I consulted with a mentor or trusted friend who had experience in the area related to the decision I needed to make.
+
+- What did you wear to the art exhibition opening?
+- I wore a stylish dress and accessorized with statement jewelry to the art exhibition opening.
+
+- When did you start practicing meditation for stress relief?
+- I started practicing meditation for stress relief during a particularly challenging period in my life.
+
+- How did you handle a disagreement with a family member?
+- I chose a calm and respectful approach, actively listened to their perspective, and aimed to find a compromise or resolution.
+
+- Where did you go for your last road trip?
+- I went on a road trip along the scenic coastline, making stops at various picturesque towns and landmarks.
+
+- What did you do to improve your time management skills?
+- I utilized productivity tools, created to-do lists, and practiced prioritization techniques to improve my time management skills.
+
+- When did you realize you had a talent for problem-solving?
+- I realized I had a talent for problem-solving during my academic years when I excelled in math and science subjects.
+
+- How did you handle a difficult situation with a coworker?
+- I initiated a private conversation, expressed my concerns neutrally, and worked together to find a mutually beneficial solution.
+
+- Who did you seek guidance from when considering a career change?
+- I sought guidance from career coaches, professionals in the desired field, and individuals who had made successful career transitions.
+
+- What did you wear to the charity gala event?
+- I wore a formal evening gown and paired it with elegant accessories for the charity gala event.
+
+- When did you start learning to code?
+- I started learning to code during my university studies, where I took computer science courses.
+
+- How did you manage your stress during a demanding project?
+- I practiced stress-management techniques such as exercise, mindfulness, and taking regular breaks to maintain a healthy work-life balance.
+
+- Where did you go for your last weekend retreat?
+- I went to a peaceful countryside cottage for my last weekend retreat.
+
+- What did you do to overcome a fear of flying?
+- I educated myself about airplane safety, practiced relaxation techniques during flights, and gradually exposed myself to flying experiences to overcome the fear.
+
+- How did you handle a difficult situation with a friend?
+- I approached the friend with empathy, listened to their perspective, and worked towards finding a resolution together.
+
+- Who did you turn to for support during a personal crisis?
+- I turned to my closest friends and family members for emotional support during a personal crisis.
+
+- What did you wear to the job interview?
+- I wore a professional suit and accessories to the job interview.
+
+- When did you start pursuing your hobby of painting?
+- I started pursuing my hobby of painting during my teenage years.
+
+- How did you manage your finances while paying off debt?
+- I created a budget, prioritized debt payments, and minimized discretionary spending to manage my finances effectively.
+
+- Where did you go for your last weekend getaway with friends?
+- We rented a cabin in the mountains for our last weekend getaway with friends.
+
+- What did you do to improve your leadership skills?
+- I enrolled in leadership development programs, sought out mentorship, and actively took on leadership roles in various settings.
+
+- When did you realize you had a talent for playing a specific sport?
+- I realized I had a talent for playing basketball when I joined a team and excelled in the sport.
+
+- How did you handle a difficult situation with a client?
+- I remained professional, actively listened to their concerns, and worked collaboratively to find a satisfactory solution.
+
+- Who did you consult for advice before starting your own business?
+- I consulted with entrepreneurs and business experts in my industry, seeking their advice and insights.
+
+- What did you wear to the formal dinner event?
+- I wore a tailored suit or an elegant evening gown to the formal dinner event.
+
+- When did you start learning to play a musical instrument?
+- I started learning to play the piano at a young age and continued to develop my skills over the years.
+
+- How did you manage your time while studying for exams?
+- I created a study schedule, broke down the material into manageable chunks, and utilized effective study techniques.
+
+- Where did you go for your last international vacation?
+- I traveled to Bali, Indonesia for my last international vacation.
+
+- What did you do to overcome a fear of public speaking?
+- I enrolled in a public speaking course, practiced regularly in front of a supportive audience, and gradually built my confidence.
+
+- When did you realize you had a talent for photography?
+- I realized I had a talent for photography when I received positive feedback on my photographs and started capturing moments creatively.
+
+- How did you handle a difficult situation with a team member at work?
+- I initiated a conversation, actively listened to their concerns, and worked towards finding a solution that benefited the team.
+
+- Who did you seek advice from before making a major life decision?
+- I sought advice from trusted family members, friends, and mentors who had experience in the relevant areas.
+
+- What did you wear to the black-tie event?
+- I wore a formal evening gown or a tuxedo to the black-tie event.
+
+- When did you start learning a new dance style?
+- I started learning a new dance style when I joined a dance class or workshop dedicated to that style.
+
+- How did you manage your stress during a busy period at work?
+- I practiced stress-management techniques such as meditation, exercise, and taking breaks to maintain my well-being.
+
+- Where did you go for your last weekend trip with your partner?
+- We went to a quaint bed and breakfast in a picturesque town for our last weekend trip together.
+
+- What did you do to improve your communication skills?
+- I took communication courses, participated in public speaking engagements, and actively sought feedback to improve my communication skills.
+
+- When did you realize you had a talent for writing poetry?
+- I realized I had a talent for writing poetry when I started receiving positive feedback and recognition for my work.
+
+- How did you handle a difficult situation with a customer at your business?
+- I listened to their concerns, showed understanding, and offered a suitable solution to resolve the issue.
+
+- Who did you collaborate with for a creative project?
+- I collaborated with fellow artists, designers, or professionals in the field for a creative project.
+
+- What did you wear to the music festival last summer?
+- I wore a comfortable outfit, such as shorts or a flowy dress, paired with stylish accessories to the music festival.
+
+- When did you start learning a martial art?
+- I started learning a martial art when I was in high school and continued to practice it for several years.
+
+- How did you manage your workload during a busy period at school?
+- I prioritized tasks, created a schedule, and sought help when needed to manage my workload effectively.
+
+- Where did you go for your last family vacation?
+- We went to a beach resort in Mexico for our last family vacation.
+
+- What did you do to overcome a creative block?
+- I took a break, sought inspiration from different sources, and tried new techniques or approaches to overcome a creative block.
+
+- When did you realize you had a talent for cooking?
+- I realized I had a talent for cooking when I started experimenting with recipes and received positive feedback from friends and family.
+
+- How did you handle a disagreement with a coworker?
+- I approached the coworker respectfully, expressed my perspective, and worked towards finding a compromise or common ground.
+
+- Who did you turn to for advice before making a career change?
+- I sought advice from career counselors, professionals in the desired field, and trusted mentors before making a career change.
+
+- What did you wear to the art exhibition opening?
+- I wore a stylish and artistic outfit that reflected my personal style to the art exhibition opening.
+
+- When did you start learning a foreign language?
+- I started learning a foreign language in high school and continued studying it throughout college and beyond.
+
+- How did you manage your time while juggling multiple responsibilities?
+- I used time management techniques such as prioritization, creating to-do lists, and delegating tasks to effectively manage multiple responsibilities.
+
+- Where did you go for your last solo trip?
+- I went backpacking through Europe for my last solo trip, visiting various countries and immersing myself in different cultures.
+
+- What did you do to improve your problem-solving skills?
+- I engaged in activities that required critical thinking, sought challenging puzzles or problems to solve, and actively sought feedback to improve my problem-solving skills.
+
+- When did you realize you had a talent for public speaking?
+- I realized I had a talent for public speaking when I received positive feedback after delivering a speech or presentation.
+
+- How did you handle a difficult situation with a roommate?
+- I initiated an open and honest conversation, actively listened to their concerns, and worked together to find a mutually beneficial solution.
+
+- Who did you consult before making a major financial investment?
+- I consulted with financial advisors, researched investment options, and sought advice from individuals with experience in the financial industry.
+
+- What did you wear to the charity gala?
+- I wore a formal evening gown or a tailored suit to the charity gala.
+
+- When did you start learning to play chess?
+- I started learning to play chess when I was young, and I continued to develop my skills through practice and studying different strategies.
+
+- How did you manage your stress during a challenging project?
+- I practiced stress-relief techniques such as exercise, mindfulness, and taking breaks to manage my stress during a challenging project.
+
+- Where did you go for your last adventure trip?
+- I went on a hiking and camping trip to the Rocky Mountains for my last adventure trip.
+
+- What did you do to improve your teamwork skills?
+- I actively participated in group projects, sought opportunities for collaboration, and worked on enhancing my communication and cooperation skills to improve my teamwork abilities.
+
+- When did you realize you had a talent for graphic design?
+- I realized I had a talent for graphic design when I started receiving positive feedback on my designs and was able to create visually appealing and engaging content.
+
+- How did you handle a difficult situation with a client who was dissatisfied with your work?
+- I listened to their concerns, acknowledged their dissatisfaction, and offered solutions or revisions to address their issues and ensure their satisfaction.
+
+- Who did you seek guidance from when planning a major life change?
+- I sought guidance from life coaches, mentors, or individuals who had experience with similar life changes to gain insights and advice.
+
+- What did you wear to the wedding reception?
+- I wore a formal attire appropriate for a wedding reception, such as a suit or a cocktail dress.
+
+- When did you start learning to play a musical instrument?
+- I started learning to play a musical instrument during my childhood or teenage years, and I continued to develop my skills through practice and lessons.
