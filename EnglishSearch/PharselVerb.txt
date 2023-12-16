@@ -1,5 +1,8 @@
 # Cụm động từ - pharesal verd
 
+kind of 
+
+
 https://mshoagiaotiep.com/basic-grammar/cau-truc-suggest-cong-thuc-cach-dung-va-bai-tap-nd498817.html
 
 Có một lỗ hổng rất lớn khiến cho bạn không thể **giao tiếp tiếng Anh** một cách tự nhiên, đó chính là **phrasal verbs** (hay còn gọi là cụm động từ).
@@ -438,7 +441,7 @@ Dưới đây, Ms Hoa sẽ giới thiệu tới các bạn một số phrasal ve
     | 25 | to do over | lặp lại, làm lại |
     | 26 | to draw up | thảo, soạn (văn kiện) |
     | 27 | to dream of | mơ tới, mơ về |
-    | 28 | to dress up | trang điểm, chải chuốt |
+    | 28 | to dress up | trang điểm, chải chuốt, hóa trang | my sister is going to dress up as a princess
     | 29 | to drink to s.th | uống mừng về điều gì |
     | 30 | to drink up | uống hết |
     | 31 | to drive up to | lại tới |
@@ -451,7 +454,7 @@ Dưới đây, Ms Hoa sẽ giới thiệu tới các bạn một số phrasal ve
     
     | STT | Phrasal Verb | Ý nghĩa |
     | --- | --- | --- |
-    | 1 | End up | Kết thúc |
+    | 1 | End up | Kết thúc, cuối cùng  |
     | 2 | Eat up | Ăn hết |
     | 3 | Eat out | Ăn ngoài |
     | 4 | to ear one’s living by doing s.th | làm gì đó để kiếm sống |
@@ -469,7 +472,7 @@ Dưới đây, Ms Hoa sẽ giới thiệu tới các bạn một số phrasal ve
     | 3 | Fill up with | Đổ đầy |
     | 4 | Fill out | Điền hết, điền sạch |
     | 5 | Fill in for | Đại diện, thay thế |
-    | 6 | Find out | Tìm ra |
+    | 6 | Find out | Tìm ra, phát hiện ra, tìm hiểu |
     | 7 | Feel pity for | thương xót |
     | 8 | Feel regret for | ân hận |
     | 9 | Feel sympathy for | thông cảm |
@@ -503,11 +506,10 @@ Dưới đây, Ms Hoa sẽ giới thiệu tới các bạn một số phrasal ve
     | STT | Phrasal Verb | Ý nghĩa |
     | --- | --- | --- |
     | 1 | Get through to sb | Liên lac với ai |
-    | 2 | Get through = accomplish | Hoàn tất |
     | 3 | Get through = get over | Vượt qua |
-    | 4 | Get into | Đi vào, lên (xe) |
+    | 4 | Get into | Đi vào, lên (xe), vướng vào, gặp |
     | 5 | Get in | Đến, trúng cử |
-    | 6 | Get off | Cởi bỏ, xuống xe, khỏi hành |
+    | 6 | Get off | Cởi bỏ, xuống xe, khỏi hành, thoát khỏi, nghỉ làm (get off work )
     | 7 | Get out of = avoid | Ra khỏi, tránh |
     | 8 | Get down | Đi xuống, ghi lại |
     | 9 | Get sb down | Làm ai thất vọng |
