@@ -69,7 +69,9 @@
 		9446D2592B2DB80A001D66FA /* PharselVerb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9446D2582B2DB80A001D66FA /* PharselVerb.txt */; };
 		9446D25D2B2DF0E2001D66FA /* 🌺 CommPodcast3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9446D25C2B2DF0E2001D66FA /* 🌺 CommPodcast3.txt */; };
 		9446D25F2B2DF4FD001D66FA /* 🌺 CommPodcast4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9446D25E2B2DF4FD001D66FA /* 🌺 CommPodcast4.txt */; };
-		9446D2612B2DFBF0001D66FA /* CommonPodCase5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9446D2602B2DFBF0001D66FA /* CommonPodCase5.txt */; };
+		9446D2612B2DFBF0001D66FA /* 🌺 CommPodcast5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9446D2602B2DFBF0001D66FA /* 🌺 CommPodcast5.txt */; };
+		9446D2632B2E0071001D66FA /* 🌺 CommPodcast6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9446D2622B2E0071001D66FA /* 🌺 CommPodcast6.txt */; };
+		9446D2652B2E0079001D66FA /* 🌺 CommPodcast7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9446D2642B2E0079001D66FA /* 🌺 CommPodcast7.txt */; };
 		944A5AFE2B2607EC0044C013 /* PresentSimple.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944A5AFD2B2607EC0044C013 /* PresentSimple.txt */; };
 		944A5B002B2609DA0044C013 /* HTHT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944A5AFF2B2609DA0044C013 /* HTHT.txt */; };
 		944A5B022B2609E50044C013 /* HTTD.txt in Resources */ = {isa = PBXBuildFile; fileRef = 944A5B012B2609E50044C013 /* HTTD.txt */; };
@@ -186,7 +188,9 @@
 		9446D2582B2DB80A001D66FA /* PharselVerb.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PharselVerb.txt; sourceTree = "<group>"; };
 		9446D25C2B2DF0E2001D66FA /* 🌺 CommPodcast3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌺 CommPodcast3.txt"; sourceTree = "<group>"; };
 		9446D25E2B2DF4FD001D66FA /* 🌺 CommPodcast4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌺 CommPodcast4.txt"; sourceTree = "<group>"; };
-		9446D2602B2DFBF0001D66FA /* CommonPodCase5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CommonPodCase5.txt; sourceTree = "<group>"; };
+		9446D2602B2DFBF0001D66FA /* 🌺 CommPodcast5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌺 CommPodcast5.txt"; sourceTree = "<group>"; };
+		9446D2622B2E0071001D66FA /* 🌺 CommPodcast6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌺 CommPodcast6.txt"; sourceTree = "<group>"; };
+		9446D2642B2E0079001D66FA /* 🌺 CommPodcast7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "🌺 CommPodcast7.txt"; sourceTree = "<group>"; };
 		944A5AFD2B2607EC0044C013 /* PresentSimple.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PresentSimple.txt; sourceTree = "<group>"; };
 		944A5AFF2B2609DA0044C013 /* HTHT.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HTHT.txt; sourceTree = "<group>"; };
 		944A5B012B2609E50044C013 /* HTTD.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HTTD.txt; sourceTree = "<group>"; };
@@ -436,7 +440,9 @@
 				94BFF4022A470C14009DFB05 /* 🌺 CommonPodcast.txt */,
 				9446D25C2B2DF0E2001D66FA /* 🌺 CommPodcast3.txt */,
 				9446D25E2B2DF4FD001D66FA /* 🌺 CommPodcast4.txt */,
-				9446D2602B2DFBF0001D66FA /* CommonPodCase5.txt */,
+				9446D2602B2DFBF0001D66FA /* 🌺 CommPodcast5.txt */,
+				9446D2622B2E0071001D66FA /* 🌺 CommPodcast6.txt */,
+				9446D2642B2E0079001D66FA /* 🌺 CommPodcast7.txt */,
 				941A7DE02A4379870078ACF2 /* chapter1 */,
 				941A7DE12A4379990078ACF2 /* chapter2 */,
 				941A7DE22A4379AC0078ACF2 /* chapter3 */,
@@ -598,6 +604,7 @@
 				94D8CD4E2A41F882004BE080 /* 🌼 Build A Pokedex With SwiftUI 2.0 _ MVVM _ Network Layer _ iOS 14 _ Swift 5.txt in Resources */,
 				941A7DDC2A43781A0078ACF2 /* 🌺 The Number One Reason Why You’re Not Succeeding .txt in Resources */,
 				941A7E962A46BF5C0078ACF2 /* 🌸 Daily Life English Conversation - English Speaking Practice for Everyone.txt in Resources */,
+				9446D2632B2E0071001D66FA /* 🌺 CommPodcast6.txt in Resources */,
 				941A7DE72A437B000078ACF2 /* 🌺 The Man Who Coached Michael Jordan AND Kobe Bryant To WIN!.txt in Resources */,
 				942F0A2F2A40B29A00E50FDE /* 🌸 Advanced English Conversation_ Talking Jobs and Time Off (British & American English with subtitles) [DownSub.com].txt in Resources */,
 				9446D25D2B2DF0E2001D66FA /* 🌺 CommPodcast3.txt in Resources */,
@@ -657,6 +664,7 @@
 				941A7DF82A447D2F0078ACF2 /* 🌺 How To Have Great Sex EVERY Time! (And Fix Bad Sex) .txt in Resources */,
 				941A7DEF2A447A120078ACF2 /* 🌺 From $0 to Millions In 2 Years Without Any Hard Work!.txt in Resources */,
 				941A7DE52A437A460078ACF2 /* 🌺 The Marketing Secrets Apple & Tesla Always Use.txt in Resources */,
+				9446D2652B2E0079001D66FA /* 🌺 CommPodcast7.txt in Resources */,
 				941A7E022A44811E0078ACF2 /* 🌺 The One Food (WE ALL EAT) That's Killing Us Slowly Max Lugavere | E223.txt in Resources */,
 				942F0A3D2A40B6F500E50FDE /* 🌸  English Conversation_ Learn while you Sleep - Fast Vocabulary Increase with Jessica .txt in Resources */,
 				941A7E0A2A4488010078ACF2 /* 🌺 The Advice Young People NEED To Hear.txt in Resources */,
@@ -668,7 +676,7 @@
 				8E94786D2A4DC3F800210FAF /* BostonEnglishCommin.txt in Resources */,
 				941A7E922A46BDBF0078ACF2 /* 🌺 American English Conversations to Improve Listening & Speaking Fluency.txt in Resources */,
 				8E94787B2A4DC6E700210FAF /* 104 Daily Life English Dialogues.txt in Resources */,
-				9446D2612B2DFBF0001D66FA /* CommonPodCase5.txt in Resources */,
+				9446D2612B2DFBF0001D66FA /* 🌺 CommPodcast5.txt in Resources */,
 				942F0A392A40B5D500E50FDE /* 🌸 200 English Questions and Answers and more for Everyday Conversation by Topic .txt in Resources */,
 				948178812A4219E800FF2130 /* 🌺 S02E01 Grit & Growth | The Big Picture_ Hakeem Belo-Osagie on African Entrepreneurship.txt in Resources */,
 				941A7DEB2A437D110078ACF2 /* 🌺 Get Your Sex Life Back, Melt Belly Fat & Heal Your Injury! Dr. Mindy Pelz | E256.txt in Resources */,
